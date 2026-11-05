@@ -7,8 +7,8 @@
    "weekday": "四",
    "items": [
     {"id": 63, "lesson": "L16", "topic": "熱量", "q": "Q8", "diff": "E", "done": true, "doneAt": "2026-11-05"},
-    {"id": 75, "lesson": "L16", "topic": "熱力過程", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
-    {"id": 76, "lesson": "L16", "topic": "熱力過程", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
+    {"id": 75, "lesson": "L16", "topic": "熱力過程", "q": "Q6", "diff": "E", "done": true, "doneAt": "2026-11-05"},
+    {"id": 76, "lesson": "L16", "topic": "熱力過程", "q": "Q7", "diff": "E", "done": true, "doneAt": "2026-11-05"},
     {"id": 77, "lesson": "L16", "topic": "熱力過程", "q": "Q8", "diff": "E", "done": true, "doneAt": "2026-11-05"},
     {"id": 78, "lesson": "L16", "topic": "熱力過程", "q": "Q10", "diff": "M", "done": false, "doneAt": null}
    ]
