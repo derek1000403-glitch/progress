@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>物奧進度</title>
+<style>
+:root{
+  --bg:#f6f5f1; --card:#ffffff; --text:#1d1d1b; --muted:#76746d; --line:#e4e2db;
+  --accent:#2f6f5e; --accent-soft:#dcebe5; --warn:#b4542d; --warn-soft:#f6e3da;
+  --e:#3b7a57; --m:#b07d1e; --h:#b0402d;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#151614; --card:#1e201d; --text:#ebeae4; --muted:#9a988f; --line:#30322e;
+    --accent:#6cc0a3; --accent-soft:#223a32; --warn:#e8866a; --warn-soft:#3d2620;
+    --e:#7cc59a; --m:#e0b45a; --h:#ec8a76;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+  line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:880px;margin:0 auto;padding:28px 16px 64px}
+header h1{margin:0;font-size:28px;letter-spacing:.02em}
+header .sub{color:var(--muted);font-size:14px;margin-top:4px}
+.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:22px 0 10px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.stat .k{font-size:12px;color:var(--muted)}
+.stat .v{font-size:24px;font-weight:650;font-variant-numeric:tabular-nums}
+.stat .v small{font-size:13px;color:var(--muted);font-weight:500}
+.bar{height:10px;background:var(--line);border-radius:99px;overflow:hidden;margin:6px 0 4px}
+.bar>i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .4s}
+.bar.thin{height:5px;margin:0}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 12px;align-items:center}
+.toolbar button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--card);color:var(--text);
+  padding:6px 12px;border-radius:99px;cursor:pointer}
+.toolbar button.on{background:var(--text);color:var(--bg);border-color:var(--text)}
+.toolbar .sp{flex:1}
+h2{font-size:15px;margin:30px 0 10px;color:var(--muted);font-weight:600}
+.lessons{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.lesson{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:13px}
+.lesson .row{display:flex;justify-content:space-between;margin-bottom:5px}
+.lesson .row b{font-weight:650}
+.lesson .row span{color:var(--muted);font-variant-numeric:tabular-nums}
+.day{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:12px;overflow:hidden}
+.day.today{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.day.late{border-color:var(--warn)}
+.dhead{display:flex;align-items:center;gap:10px;padding:10px 14px;border-bottom:1px solid var(--line)}
+.dhead .date{font-weight:650;font-size:16px;font-variant-numeric:tabular-nums}
+.dhead .wd{color:var(--muted);font-size:13px}
+.tag{font-size:11px;padding:2px 8px;border-radius:99px;font-weight:600}
+.tag.today{background:var(--accent-soft);color:var(--accent)}
+.tag.late{background:var(--warn-soft);color:var(--warn)}
+.tag.full{background:var(--accent-soft);color:var(--accent)}
+.dhead .cnt{margin-left:auto;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+ul{list-style:none;margin:0;padding:0}
+li{display:grid;grid-template-columns:22px 44px 46px 1fr auto auto;gap:8px;align-items:center;
+  padding:8px 14px;border-bottom:1px solid var(--line);font-size:14px}
+li:last-child{border-bottom:0}
+.chk{width:18px;height:18px;border-radius:5px;border:1.5px solid var(--muted);display:grid;place-items:center}
+li.done .chk{background:var(--accent);border-color:var(--accent)}
+li.done .chk::after{content:"";width:5px;height:9px;border:solid var(--card);border-width:0 2px 2px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.num{color:var(--muted);font-variant-numeric:tabular-nums;font-size:13px}
+.les{font-weight:600;font-size:13px}
+.topic{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.topic .q{color:var(--muted);margin-left:6px}
+li.done .topic{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--line)}
+.diff{font-size:11px;font-weight:700;width:22px;text-align:center;border-radius:5px;padding:1px 0}
+.diff.E{color:var(--e);border:1px solid var(--e)}
+.diff.M{color:var(--m);border:1px solid var(--m)}
+.diff.H{color:var(--h);border:1px solid var(--h)}
+.diff.none{color:var(--muted);border:1px dashed var(--line)}
+.at{font-size:12px;color:var(--muted);min-width:38px;text-align:right;font-variant-numeric:tabular-nums}
+.empty,.err{color:var(--muted);text-align:center;padding:40px 0}
+footer{margin-top:36px;color:var(--muted);font-size:12px;text-align:center}
+@media (max-width:560px){
+  .summary{grid-template-columns:repeat(2,1fr)}
+  li{grid-template-columns:20px 34px 1fr auto;padding:8px 12px}
+  li .les{display:none}
+  li .at{display:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="title">物奧進度</h1>
+    <div class="sub" id="sub">載入中…</div>
+  </header>
+
+  <section class="summary" id="summary"></section>
+  <div class="bar"><i id="totalbar" style="width:0"></i></div>
+
+  <div class="toolbar" id="filters">
+    <button data-f="all" class="on">全部</button>
+    <button data-f="todo">未完成</button>
+    <button data-f="done">已完成</button>
+    <span class="sp"></span>
+    <button id="jump">跳到今天</button>
+  </div>
+
+  <div id="days"></div>
+
+  <h2>各單元進度</h2>
+  <div class="lessons" id="lessons"></div>
+
+  <footer>難度：<b style="color:var(--e)">E</b> 簡單 · <b style="color:var(--m)">M</b> 中等 · <b style="color:var(--h)">H</b> 困難</footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+let DATA = null, filter = "all";
+
+function todayStr(){
+  // 台灣時間
+  const d = new Date(Date.now() + 8*3600e3);
+  return d.toISOString().slice(0,10);
+}
+const md = s => { const [,m,d] = s.split("-"); return `${+m}/${+d}`; };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function render(){
+  const today = todayStr();
+  const all = DATA.days.flatMap(d => d.items);
+  const done = all.filter(i => i.done).length;
+  const dueItems = DATA.days.filter(d => d.date <= today).flatMap(d => d.items);
+  const dueDone = dueItems.filter(i => i.done).length;
+  const behind = DATA.days.filter(d => d.date < today).flatMap(d => d.items).filter(i => !i.done).length;
+  const pct = all.length ? Math.round(done/all.length*100) : 0;
+  const daysLeft = DATA.days.filter(d => d.date >= today).length;
+
+  $("#title").textContent = DATA.title || "物奧進度";
+  $("#sub").textContent = `${md(DATA.days[0].date)} – ${md(DATA.days.at(-1).date)} · 共 ${all.length} 題 · 最後更新 ${DATA.updated || "—"}`;
+  $("#summary").innerHTML = `
+    <div class="stat"><div class="k">總完成</div><div class="v">${done}<small> / ${all.length}</small></div></div>
+    <div class="stat"><div class="k">完成率</div><div class="v">${pct}<small>%</small></div></div>
+    <div class="stat"><div class="k">應完成（到今天）</div><div class="v">${dueDone}<small> / ${dueItems.length}</small></div></div>
+    <div class="stat"><div class="k">${behind > 0 ? "落後（前幾天未完成）" : "剩餘天數"}</div><div class="v" style="${behind>0?"color:var(--warn)":""}">${behind > 0 ? behind + "<small> 題</small>" : daysLeft + "<small> 天</small>"}</div></div>`;
+  $("#totalbar").style.width = pct + "%";
+
+  // days
+  const html = DATA.days.map(d => {
+    const items = d.items.filter(i => filter === "all" || (filter === "done") === i.done);
+    if (!items.length) return "";
+    const n = d.items.filter(i => i.done).length;
+    const isToday = d.date === today, late = d.date < today && n < d.items.length, full = n === d.items.length;
+    const tag = isToday ? '<span class="tag today">今天</span>'
+      : full ? '<span class="tag full">完成</span>'
+      : late ? '<span class="tag late">未完成</span>' : "";
+    return `<section class="day ${isToday?"today":""} ${late?"late":""}" id="d-${d.date}">
+      <div class="dhead"><span class="date">${md(d.date)}</span><span class="wd">週${esc(d.weekday)}</span>${tag}
+        <span class="cnt">${n} / ${d.items.length}</span></div>
+      <ul>${items.map(i => `<li class="${i.done?"done":""}">
+        <span class="chk"></span><span class="num">#${i.id}</span><span class="les">${esc(i.lesson)}</span>
+        <span class="topic">${esc(i.topic)}<span class="q">${esc(i.q)}</span></span>
+        <span class="diff ${i.diff||"none"}">${esc(i.diff||"–")}</span>
+        <span class="at">${i.done && i.doneAt ? md(i.doneAt) : ""}</span></li>`).join("")}</ul>
+    </section>`;
+  }).join("");
+  $("#days").innerHTML = html || '<div class="empty">沒有符合的題目</div>';
+
+  // lessons
+  const by = {};
+  all.forEach(i => { (by[i.lesson] ||= {n:0,d:0}); by[i.lesson].n++; if (i.done) by[i.lesson].d++; });
+  $("#lessons").innerHTML = Object.keys(by).sort().map(k => {
+    const {n,d} = by[k];
+    return `<div class="lesson"><div class="row"><b>${esc(k)}</b><span>${d}/${n}</span></div>
+      <div class="bar thin"><i style="width:${d/n*100}%"></i></div></div>`;
+  }).join("");
+}
+
+$("#filters").addEventListener("click", e => {
+  const b = e.target.closest("button[data-f]"); if (!b) return;
+  filter = b.dataset.f;
+  document.querySelectorAll("#filters button[data-f]").forEach(x => x.classList.toggle("on", x === b));
+  render();
+});
+$("#jump").addEventListener("click", () => {
+  const t = todayStr();
+  const d = DATA.days.find(x => x.date >= t) || DATA.days.at(-1);
+  document.getElementById("d-" + d.date)?.scrollIntoView({behavior:"smooth", block:"start"});
+});
+
+fetch("data.json?t=" + Date.now(), {cache:"no-store"})
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(j => { DATA = j; render(); })
+  .catch(e => { $("#sub").textContent = ""; $("#days").innerHTML = `<div class="err">讀取 data.json 失敗（${esc(e.message)}）</div>`; });
+</script>
+</body>
+</html>

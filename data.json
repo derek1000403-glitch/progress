@@ -1,0 +1,313 @@
+{
+ "title": "物奧進度",
+ "updated": "2026-11-05",
+ "days": [
+  {
+   "date": "2026-11-05",
+   "weekday": "四",
+   "items": [
+    {"id": 63, "lesson": "L16", "topic": "熱量", "q": "Q8", "diff": "E", "done": false, "doneAt": null},
+    {"id": 75, "lesson": "L16", "topic": "熱力過程", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
+    {"id": 76, "lesson": "L16", "topic": "熱力過程", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
+    {"id": 77, "lesson": "L16", "topic": "熱力過程", "q": "Q8", "diff": "E", "done": false, "doneAt": null},
+    {"id": 78, "lesson": "L16", "topic": "熱力過程", "q": "Q10", "diff": "M", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "weekday": "五",
+   "items": [
+    {"id": 79, "lesson": "L16", "topic": "熱力過程", "q": "Q11", "diff": "M", "done": false, "doneAt": null},
+    {"id": 80, "lesson": "L16", "topic": "熱力過程", "q": "Q12", "diff": "E", "done": false, "doneAt": null},
+    {"id": 99, "lesson": "L17", "topic": "熱效率", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 100, "lesson": "L17", "topic": "熱效率", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
+    {"id": 101, "lesson": "L17", "topic": "熱機", "q": "Q1", "diff": "E", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "weekday": "六",
+   "items": [
+    {"id": 102, "lesson": "L17", "topic": "熱機", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 103, "lesson": "L17", "topic": "熱機", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
+    {"id": 104, "lesson": "L17", "topic": "熱機", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
+    {"id": 105, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 106, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q3", "diff": "E", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-08",
+   "weekday": "日",
+   "items": [
+    {"id": 107, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
+    {"id": 108, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
+    {"id": 109, "lesson": "L18", "topic": "熵", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 110, "lesson": "L18", "topic": "熵", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
+    {"id": 111, "lesson": "L18", "topic": "熵", "q": "Q4", "diff": "M", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "weekday": "一",
+   "items": [
+    {"id": 112, "lesson": "L18", "topic": "熵", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
+    {"id": 113, "lesson": "L18", "topic": "熵", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
+    {"id": 114, "lesson": "L18", "topic": "熵", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
+    {"id": 115, "lesson": "L18", "topic": "熵", "q": "Q8", "diff": "M", "done": false, "doneAt": null},
+    {"id": 116, "lesson": "L18", "topic": "綜合問題", "q": "Q1", "diff": "M", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "weekday": "二",
+   "items": [
+    {"id": 1, "lesson": "L05", "topic": "拋體運動", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
+    {"id": 2, "lesson": "L05", "topic": "拋體運動", "q": "Q8", "diff": "E", "done": false, "doneAt": null},
+    {"id": 3, "lesson": "L05", "topic": "拋體運動", "q": "Q10", "diff": "E", "done": false, "doneAt": null},
+    {"id": 4, "lesson": "L06", "topic": "質心", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 5, "lesson": "L06", "topic": "質心", "q": "Q2", "diff": "E", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "weekday": "三",
+   "items": [
+    {"id": 6, "lesson": "L06", "topic": "質心", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
+    {"id": 7, "lesson": "L06", "topic": "衝動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 8, "lesson": "L06", "topic": "衝動量", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
+    {"id": 9, "lesson": "L06", "topic": "衝動量", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
+    {"id": 10, "lesson": "L06", "topic": "衝動量", "q": "Q8", "diff": "M", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "weekday": "四",
+   "items": [
+    {"id": 11, "lesson": "L06", "topic": "力的分解與合成", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 12, "lesson": "L06", "topic": "終端速度", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 13, "lesson": "L06", "topic": "空氣阻力", "q": "Q1", "diff": "H", "done": false, "doneAt": null},
+    {"id": 14, "lesson": "L06", "topic": "空氣阻力", "q": "Q2", "diff": "H", "done": false, "doneAt": null},
+    {"id": 15, "lesson": "L06", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "weekday": "五",
+   "items": [
+    {"id": 16, "lesson": "L06", "topic": "摩擦力", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
+    {"id": 17, "lesson": "L06", "topic": "摩擦力", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
+    {"id": 18, "lesson": "L06", "topic": "摩擦力", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
+    {"id": 19, "lesson": "L07", "topic": "相對運動", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
+    {"id": 20, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "weekday": "六",
+   "items": [
+    {"id": 21, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 22, "lesson": "L07", "topic": "向心力", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 23, "lesson": "L07", "topic": "摩擦力範圍", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
+    {"id": 24, "lesson": "L07", "topic": "靜力平衡", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 25, "lesson": "L07", "topic": "靜力平衡", "q": "Q6", "diff": "", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-15",
+   "weekday": "日",
+   "items": [
+    {"id": 26, "lesson": "L07", "topic": "靜力平衡", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
+    {"id": 27, "lesson": "L07", "topic": "靜力平衡", "q": "Q9", "diff": "E", "done": false, "doneAt": null},
+    {"id": 28, "lesson": "L07", "topic": "靜力平衡", "q": "Q10", "diff": "E", "done": false, "doneAt": null},
+    {"id": 29, "lesson": "L07", "topic": "靜力平衡", "q": "Q11", "diff": "E", "done": false, "doneAt": null},
+    {"id": 30, "lesson": "L10", "topic": "能量基礎", "q": "Q1", "diff": "E", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "weekday": "一",
+   "items": [
+    {"id": 31, "lesson": "L10", "topic": "能量基礎", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
+    {"id": 32, "lesson": "L10", "topic": "能量基礎", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
+    {"id": 33, "lesson": "L10", "topic": "能量基礎", "q": "Q8", "diff": "E", "done": false, "doneAt": null},
+    {"id": 34, "lesson": "L10", "topic": "功率", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
+    {"id": 35, "lesson": "L10", "topic": "功率", "q": "Q4", "diff": "E", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "weekday": "二",
+   "items": [
+    {"id": 36, "lesson": "L10", "topic": "功率", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
+    {"id": 37, "lesson": "L10", "topic": "功率", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
+    {"id": 38, "lesson": "L10", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 39, "lesson": "L10", "topic": "擺跟釘子", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
+    {"id": 40, "lesson": "L10", "topic": "擺跟釘子", "q": "Q3", "diff": "M", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "weekday": "三",
+   "items": [
+    {"id": 41, "lesson": "L11", "topic": "Rope", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
+    {"id": 42, "lesson": "L11", "topic": "正向力", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 43, "lesson": "L11", "topic": "正向力", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 44, "lesson": "L11", "topic": "正向力", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
+    {"id": 45, "lesson": "L11", "topic": "穩定性", "q": "Q2", "diff": "E", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "weekday": "四",
+   "items": [
+    {"id": 46, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 47, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
+    {"id": 48, "lesson": "L11", "topic": "彈性體", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
+    {"id": 49, "lesson": "L11", "topic": "彈簧", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 50, "lesson": "L12", "topic": "正向力做功嗎", "q": "Q1", "diff": "E", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "weekday": "五",
+   "items": [
+    {"id": 51, "lesson": "L12", "topic": "相對滑動", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 52, "lesson": "L12", "topic": "子彈問題", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
+    {"id": 53, "lesson": "L12", "topic": "碰撞", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
+    {"id": 54, "lesson": "L12", "topic": "碰撞", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
+    {"id": 55, "lesson": "L12", "topic": "碰撞", "q": "Q7", "diff": "M", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "weekday": "六",
+   "items": [
+    {"id": 56, "lesson": "L12", "topic": "碰撞", "q": "Q8", "diff": "E", "done": false, "doneAt": null},
+    {"id": 57, "lesson": "L12", "topic": "多體碰撞", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 58, "lesson": "L12", "topic": "多體碰撞", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 59, "lesson": "L12", "topic": "多體碰撞", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
+    {"id": 60, "lesson": "L12", "topic": "多體碰撞", "q": "Q4", "diff": "M", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "weekday": "日",
+   "items": [
+    {"id": 61, "lesson": "L12", "topic": "恢復係數", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 62, "lesson": "L12", "topic": "恢復係數", "q": "Q2", "diff": "H", "done": false, "doneAt": null},
+    {"id": 117, "lesson": "L19", "topic": "角動量", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 118, "lesson": "L19", "topic": "角動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 119, "lesson": "L19", "topic": "滑輪", "q": "Q1", "diff": "E", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "weekday": "一",
+   "items": [
+    {"id": 120, "lesson": "L19", "topic": "滑輪", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 121, "lesson": "L19", "topic": "滑輪", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
+    {"id": 122, "lesson": "L19", "topic": "滑輪", "q": "Q9", "diff": "M", "done": false, "doneAt": null},
+    {"id": 123, "lesson": "L19", "topic": "滑輪", "q": "Q10", "diff": "M", "done": false, "doneAt": null},
+    {"id": 124, "lesson": "L19", "topic": "Capstan equation", "q": "Q1", "diff": "E", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "weekday": "二",
+   "items": [
+    {"id": 125, "lesson": "L19", "topic": "Capstan equation", "q": "Q3", "diff": "H", "done": false, "doneAt": null},
+    {"id": 126, "lesson": "L20", "topic": "SHM 基礎", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
+    {"id": 127, "lesson": "L20", "topic": "SHM 基礎", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
+    {"id": 128, "lesson": "L20", "topic": "SHM 基礎", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
+    {"id": 129, "lesson": "L20", "topic": "鉛直SHM", "q": "Q3", "diff": "M", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "weekday": "三",
+   "items": [
+    {"id": 130, "lesson": "L20", "topic": "鉛直SHM", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
+    {"id": 131, "lesson": "L20", "topic": "拉格朗日", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 132, "lesson": "L20", "topic": "拉格朗日", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 133, "lesson": "L20", "topic": "熱力+SHM", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 134, "lesson": "L20", "topic": "熱力+SHM", "q": "Q2", "diff": "E", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "weekday": "四",
+   "items": [
+    {"id": 135, "lesson": "L20", "topic": "熱力+SHM", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
+    {"id": 136, "lesson": "L20", "topic": "熱力+SHM", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
+    {"id": 137, "lesson": "L20", "topic": "液體震動", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
+    {"id": 138, "lesson": "L20", "topic": "綜合問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 139, "lesson": "L20", "topic": "綜合問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "weekday": "五",
+   "items": [
+    {"id": 140, "lesson": "L20", "topic": "綜合問題", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
+    {"id": 141, "lesson": "L20", "topic": "綜合問題", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
+    {"id": 142, "lesson": "L20", "topic": "綜合問題", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
+    {"id": 143, "lesson": "L20", "topic": "綜合問題", "q": "Q7", "diff": "M", "done": false, "doneAt": null},
+    {"id": 144, "lesson": "L21", "topic": "平移非慣性系", "q": "Q1", "diff": "M", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-28",
+   "weekday": "六",
+   "items": [
+    {"id": 145, "lesson": "L21", "topic": "平移非慣性系", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
+    {"id": 146, "lesson": "L21", "topic": "平移非慣性系", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
+    {"id": 147, "lesson": "L21", "topic": "平移非慣性系", "q": "Q6", "diff": "M", "done": false, "doneAt": null},
+    {"id": 148, "lesson": "L21", "topic": "平移非慣性系", "q": "Q7", "diff": "M", "done": false, "doneAt": null},
+    {"id": 149, "lesson": "L21", "topic": "雙振子", "q": "Q5", "diff": "M", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-29",
+   "weekday": "日",
+   "items": [
+    {"id": 150, "lesson": "L21", "topic": "雙振子", "q": "Q6", "diff": "M", "done": false, "doneAt": null},
+    {"id": 151, "lesson": "L21", "topic": "雙振子", "q": "Q7", "diff": "M", "done": false, "doneAt": null},
+    {"id": 152, "lesson": "L21", "topic": "雙振子", "q": "Q8", "diff": "M", "done": false, "doneAt": null},
+    {"id": 153, "lesson": "L21", "topic": "雙振子", "q": "Q9", "diff": "M", "done": false, "doneAt": null},
+    {"id": 154, "lesson": "L21", "topic": "雙振子", "q": "Q10", "diff": "M", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-30",
+   "weekday": "一",
+   "items": [
+    {"id": 155, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 156, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 157, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
+    {"id": 158, "lesson": "L22", "topic": "相對滑動", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
+    {"id": 159, "lesson": "L22", "topic": "相對滑動", "q": "Q3", "diff": "H", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-12-01",
+   "weekday": "二",
+   "items": [
+    {"id": 160, "lesson": "L22", "topic": "相對滑動", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
+    {"id": 161, "lesson": "L22", "topic": "妙用慣性系", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 162, "lesson": "L22", "topic": "妙用慣性系", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
+    {"id": 163, "lesson": "L22", "topic": "妙用慣性系", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
+    {"id": 164, "lesson": "L22", "topic": "妙用慣性系", "q": "Q5", "diff": "H", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-12-02",
+   "weekday": "三",
+   "items": [
+    {"id": 165, "lesson": "L22", "topic": "離心力", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 166, "lesson": "L22", "topic": "科氏力", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
+    {"id": 167, "lesson": "L22", "topic": "離心位能", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 168, "lesson": "L23", "topic": "強迫振盪", "q": "Q2", "diff": "M", "done": false, "doneAt": null}
+   ]
+  }
+ ]
+}
