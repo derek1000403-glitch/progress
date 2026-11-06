@@ -35,7 +35,7 @@
    "date": "2026-11-06",
    "weekday": "五",
    "items": [
-    {"id": 79, "lesson": "L16", "topic": "熱力過程", "q": "Q11", "diff": "M", "done": false, "doneAt": null},
+    {"id": 79, "lesson": "L16", "topic": "熱力過程", "q": "Q11", "diff": "M", "done": false, "doneAt": null, "note": "(c) T_B′ 未完成", "redo": true, "redoAt": "2026-11-06"},
     {"id": 80, "lesson": "L16", "topic": "熱力過程", "q": "Q12", "diff": "E", "done": true, "doneAt": "2026-11-06"},
     {"id": 99, "lesson": "L17", "topic": "熱效率", "q": "Q1", "diff": "E", "done": true, "doneAt": "2026-11-06"},
     {"id": 100, "lesson": "L17", "topic": "熱效率", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
