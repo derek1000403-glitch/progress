@@ -7,17 +7,17 @@
    "dateEnd": "2026-11-04",
    "weekday": "一–三",
    "items": [
-    {"id": 64, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q8", "diff": "", "done": true, "doneAt": null},
-    {"id": 65, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q9", "diff": "", "done": true, "doneAt": null},
-    {"id": 66, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q10", "diff": "", "done": true, "doneAt": null},
-    {"id": 67, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q11", "diff": "", "done": true, "doneAt": null},
-    {"id": 68, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q12", "diff": "", "done": true, "doneAt": null},
-    {"id": 69, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q13", "diff": "", "done": false, "doneAt": null, "redo": true, "redoAt": "2026-11-06", "note": "推導感覺不連貫，排在 12/3–12/9 緩衝期"},
-    {"id": 70, "lesson": "L16", "topic": "熱一", "q": "Q1", "diff": "", "done": true, "doneAt": null},
-    {"id": 71, "lesson": "L16", "topic": "熱一", "q": "Q2", "diff": "", "done": true, "doneAt": null},
-    {"id": 72, "lesson": "L16", "topic": "熱力過程", "q": "Q1", "diff": "", "done": true, "doneAt": null},
-    {"id": 73, "lesson": "L16", "topic": "熱力過程", "q": "Q2", "diff": "", "done": true, "doneAt": null},
-    {"id": 74, "lesson": "L16", "topic": "熱力過程", "q": "Q5", "diff": "", "done": true, "doneAt": null}
+    {"id": 64, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q8", "diff": "E", "done": true, "doneAt": null},
+    {"id": 65, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q9", "diff": "E", "done": true, "doneAt": null},
+    {"id": 66, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q10", "diff": "E", "done": true, "doneAt": null},
+    {"id": 67, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q11", "diff": "E", "done": true, "doneAt": null},
+    {"id": 68, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q12", "diff": "E", "done": true, "doneAt": null},
+    {"id": 69, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q13", "diff": "E", "done": false, "doneAt": null, "redo": true, "redoAt": "2026-11-06", "note": "推導感覺不連貫，排在 12/3–12/9 緩衝期"},
+    {"id": 70, "lesson": "L16", "topic": "熱一", "q": "Q1", "diff": "E", "done": true, "doneAt": null},
+    {"id": 71, "lesson": "L16", "topic": "熱一", "q": "Q2", "diff": "E", "done": true, "doneAt": null},
+    {"id": 72, "lesson": "L16", "topic": "熱力過程", "q": "Q1", "diff": "E", "done": true, "doneAt": null},
+    {"id": 73, "lesson": "L16", "topic": "熱力過程", "q": "Q2", "diff": "E", "done": true, "doneAt": null},
+    {"id": 74, "lesson": "L16", "topic": "熱力過程", "q": "Q5", "diff": "E", "done": true, "doneAt": null}
    ]
   },
   {
