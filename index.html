@@ -73,6 +73,8 @@ li.redo .chk::after{content:"↻";color:#fff;font-size:13px;font-weight:700;line
 li.redo .at{color:var(--redo-text);font-weight:600}
 .tag.redo{background:var(--redo-soft);color:var(--redo-text)}
 .toolbar button.on[data-f="redo"]{background:var(--redo);border-color:var(--redo);color:#1d1d1b}
+.topic .note{display:block;white-space:normal;font-size:12px;color:var(--muted);margin-top:1px}
+li.redo .topic .note{color:var(--redo-text)}
 li.done .topic{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--line)}
 .diff{font-size:11px;font-weight:700;width:22px;text-align:center;border-radius:5px;padding:1px 0}
 .diff.E{color:var(--e);border:1px solid var(--e)}
@@ -136,7 +138,7 @@ function render(){
   const done = all.filter(i => i.done).length;
   const dueItems = DATA.days.filter(d => d.date <= today).flatMap(d => d.items);
   const dueDone = dueItems.filter(i => i.done).length;
-  const behind = DATA.days.filter(d => d.date < today).flatMap(d => d.items).filter(i => !i.done).length;
+  const behind = DATA.days.filter(d => (d.dateEnd || d.date) < today).flatMap(d => d.items).filter(i => !i.done && !i.redo).length;
   const pct = all.length ? Math.round(done/all.length*100) : 0;
   const redo = all.filter(i => i.redo).length;
   const daysLeft = DATA.days.filter(d => d.date >= today).length;
@@ -158,16 +160,17 @@ function render(){
     if (!items.length) return "";
     const n = d.items.filter(i => i.done).length;
     const nr = d.items.filter(i => i.redo).length;
-    const isToday = d.date === today, late = d.date < today && n < d.items.length, full = n === d.items.length;
+    const end = d.dateEnd || d.date;
+    const isToday = d.date <= today && today <= end, late = end < today && n + nr < d.items.length, full = n === d.items.length;
     const tag = isToday ? '<span class="tag today">今天</span>'
       : full ? '<span class="tag full">完成</span>'
       : late ? '<span class="tag late">未完成</span>' : "";
     return `<section class="day ${isToday?"today":""} ${late?"late":""}" id="d-${d.date}">
-      <div class="dhead"><span class="date">${md(d.date)}</span><span class="wd">週${esc(d.weekday)}</span>${tag}${nr ? `<span class="tag redo">重做 ${nr}</span>` : ""}
+      <div class="dhead"><span class="date">${md(d.date)}${d.dateEnd ? "–" + md(d.dateEnd) : ""}</span><span class="wd">週${esc(d.weekday)}</span>${tag}${nr ? `<span class="tag redo">重做 ${nr}</span>` : ""}
         <span class="cnt">${n} / ${d.items.length}</span></div>
       <ul>${items.map(i => `<li class="${st(i)}">
         <span class="chk"></span><span class="num">#${i.id}</span><span class="les">${esc(i.lesson)}</span>
-        <span class="topic">${esc(i.topic)}<span class="q">${esc(i.q)}</span></span>
+        <span class="topic">${esc(i.topic)}<span class="q">${esc(i.q)}</span>${i.note ? `<span class="note">${esc(i.note)}</span>` : ""}</span>
         <span class="diff ${i.diff||"none"}">${esc(i.diff||"–")}</span>
         <span class="at">${i.done && i.doneAt ? md(i.doneAt) : i.redo ? "重做" : ""}</span></li>`).join("")}</ul>
     </section>`;
@@ -192,7 +195,7 @@ $("#filters").addEventListener("click", e => {
 });
 $("#jump").addEventListener("click", () => {
   const t = todayStr();
-  const d = DATA.days.find(x => x.date >= t) || DATA.days.at(-1);
+  const d = DATA.days.find(x => (x.dateEnd || x.date) >= t) || DATA.days.at(-1);
   document.getElementById("d-" + d.date)?.scrollIntoView({behavior:"smooth", block:"start"});
 });
 

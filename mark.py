@@ -5,6 +5,7 @@
   python3 mark.py 63 75-78          # 把編號 63、75~78 標成完成（完成日期=今天）
   python3 mark.py 63 --date 2026-11-04   # 指定完成日期
   python3 mark.py 63 --redo         # 標成「重做」（黃色，不算完成）
+  python3 mark.py 63 --redo --note "推導不連貫"   # 重做並附註（網站上顯示）
   python3 mark.py 63 --undo         # 取消完成 / 取消重做，回到未做
   python3 mark.py --status          # 顯示目前進度
 """
@@ -47,6 +48,7 @@ def main():
     g.add_argument("--undo", action="store_true")
     g.add_argument("--redo", action="store_true")
     ap.add_argument("--date")
+    ap.add_argument("--note", help="附註；空字串則清除")
     ap.add_argument("--status", action="store_true")
     a = ap.parse_args()
     data = load()
@@ -67,6 +69,12 @@ def main():
                 else:
                     it.pop("redo", None)
                     it.pop("redoAt", None)
+                    if a.note is None:
+                        it.pop("note", None)
+                if a.note:
+                    it["note"] = a.note
+                elif a.note == "":
+                    it.pop("note", None)
         missing = sorted(want - found)
         if missing:
             print("找不到編號：", missing, file=sys.stderr)

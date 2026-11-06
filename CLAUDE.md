@@ -22,4 +22,5 @@
 ## 新增 / 調整題目
 直接編輯 `data.json` 的 `days` 陣列，每題格式：
 `{"id": 編號, "lesson": "L16", "topic": "熱量", "q": "Q8", "diff": "E|M|H|空字串", "done": false, "doneAt": null}`
+可選欄位：`"note": "附註"`（顯示在題目下方，可用 `mark.py --note` 設定）；日期區間用 day 的 `"dateEnd"`。
 （標成重做的題目另有 `"redo": true, "redoAt": "日期"`，由 mark.py 管理）
