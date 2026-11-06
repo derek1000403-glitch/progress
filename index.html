@@ -9,12 +9,14 @@
   --bg:#f6f5f1; --card:#ffffff; --text:#1d1d1b; --muted:#76746d; --line:#e4e2db;
   --accent:#2f6f5e; --accent-soft:#dcebe5; --warn:#b4542d; --warn-soft:#f6e3da;
   --e:#3b7a57; --m:#b07d1e; --h:#b0402d;
+  --redo:#d9a400; --redo-soft:#fbf1cc; --redo-text:#8a6a00;
 }
 @media (prefers-color-scheme: dark){
   :root{
     --bg:#151614; --card:#1e201d; --text:#ebeae4; --muted:#9a988f; --line:#30322e;
     --accent:#6cc0a3; --accent-soft:#223a32; --warn:#e8866a; --warn-soft:#3d2620;
     --e:#7cc59a; --m:#e0b45a; --h:#ec8a76;
+    --redo:#f0c43c; --redo-soft:#3a3214; --redo-text:#f0c43c;
   }
 }
 *{box-sizing:border-box}
@@ -24,7 +26,7 @@ body{margin:0;background:var(--bg);color:var(--text);
 .wrap{max-width:880px;margin:0 auto;padding:28px 16px 64px}
 header h1{margin:0;font-size:28px;letter-spacing:.02em}
 header .sub{color:var(--muted);font-size:14px;margin-top:4px}
-.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:22px 0 10px}
+.summary{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:22px 0 10px}
 .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
 .stat .k{font-size:12px;color:var(--muted)}
 .stat .v{font-size:24px;font-weight:650;font-variant-numeric:tabular-nums}
@@ -65,6 +67,12 @@ li.done .chk::after{content:"";width:5px;height:9px;border:solid var(--card);bor
 .les{font-weight:600;font-size:13px}
 .topic{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .topic .q{color:var(--muted);margin-left:6px}
+li.redo{background:var(--redo-soft)}
+li.redo .chk{background:var(--redo);border-color:var(--redo)}
+li.redo .chk::after{content:"↻";color:#fff;font-size:13px;font-weight:700;line-height:1}
+li.redo .at{color:var(--redo-text);font-weight:600}
+.tag.redo{background:var(--redo-soft);color:var(--redo-text)}
+.toolbar button.on[data-f="redo"]{background:var(--redo);border-color:var(--redo);color:#1d1d1b}
 li.done .topic{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--line)}
 .diff{font-size:11px;font-weight:700;width:22px;text-align:center;border-radius:5px;padding:1px 0}
 .diff.E{color:var(--e);border:1px solid var(--e)}
@@ -76,6 +84,7 @@ li.done .topic{color:var(--muted);text-decoration:line-through;text-decoration-c
 footer{margin-top:36px;color:var(--muted);font-size:12px;text-align:center}
 @media (max-width:560px){
   .summary{grid-template-columns:repeat(2,1fr)}
+  .summary .stat:last-child{grid-column:span 2}
   li{grid-template-columns:20px 34px 1fr auto;padding:8px 12px}
   li .les{display:none}
   li .at{display:none}
@@ -96,6 +105,7 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;text-align:center}
     <button data-f="all" class="on">全部</button>
     <button data-f="todo">未完成</button>
     <button data-f="done">已完成</button>
+    <button data-f="redo">重做</button>
     <span class="sp"></span>
     <button id="jump">跳到今天</button>
   </div>
@@ -105,7 +115,7 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;text-align:center}
   <h2>各單元進度</h2>
   <div class="lessons" id="lessons"></div>
 
-  <footer>難度：<b style="color:var(--e)">E</b> 簡單 · <b style="color:var(--m)">M</b> 中等 · <b style="color:var(--h)">H</b> 困難</footer>
+  <footer><span style="color:var(--redo-text);font-weight:600">↻ 黃色</span> = 要重做（不算完成）<br>難度：<b style="color:var(--e)">E</b> 簡單 · <b style="color:var(--m)">M</b> 中等 · <b style="color:var(--h)">H</b> 困難</footer>
 </div>
 
 <script>
@@ -128,6 +138,7 @@ function render(){
   const dueDone = dueItems.filter(i => i.done).length;
   const behind = DATA.days.filter(d => d.date < today).flatMap(d => d.items).filter(i => !i.done).length;
   const pct = all.length ? Math.round(done/all.length*100) : 0;
+  const redo = all.filter(i => i.redo).length;
   const daysLeft = DATA.days.filter(d => d.date >= today).length;
 
   $("#title").textContent = DATA.title || "物奧進度";
@@ -136,26 +147,29 @@ function render(){
     <div class="stat"><div class="k">總完成</div><div class="v">${done}<small> / ${all.length}</small></div></div>
     <div class="stat"><div class="k">完成率</div><div class="v">${pct}<small>%</small></div></div>
     <div class="stat"><div class="k">應完成（到今天）</div><div class="v">${dueDone}<small> / ${dueItems.length}</small></div></div>
+    <div class="stat"><div class="k">待重做</div><div class="v" style="${redo?"color:var(--redo-text)":""}">${redo}<small> 題</small></div></div>
     <div class="stat"><div class="k">${behind > 0 ? "落後（前幾天未完成）" : "剩餘天數"}</div><div class="v" style="${behind>0?"color:var(--warn)":""}">${behind > 0 ? behind + "<small> 題</small>" : daysLeft + "<small> 天</small>"}</div></div>`;
   $("#totalbar").style.width = pct + "%";
 
   // days
   const html = DATA.days.map(d => {
-    const items = d.items.filter(i => filter === "all" || (filter === "done") === i.done);
+    const st = i => i.done ? "done" : i.redo ? "redo" : "todo";
+    const items = d.items.filter(i => filter === "all" || st(i) === filter);
     if (!items.length) return "";
     const n = d.items.filter(i => i.done).length;
+    const nr = d.items.filter(i => i.redo).length;
     const isToday = d.date === today, late = d.date < today && n < d.items.length, full = n === d.items.length;
     const tag = isToday ? '<span class="tag today">今天</span>'
       : full ? '<span class="tag full">完成</span>'
       : late ? '<span class="tag late">未完成</span>' : "";
     return `<section class="day ${isToday?"today":""} ${late?"late":""}" id="d-${d.date}">
-      <div class="dhead"><span class="date">${md(d.date)}</span><span class="wd">週${esc(d.weekday)}</span>${tag}
+      <div class="dhead"><span class="date">${md(d.date)}</span><span class="wd">週${esc(d.weekday)}</span>${tag}${nr ? `<span class="tag redo">重做 ${nr}</span>` : ""}
         <span class="cnt">${n} / ${d.items.length}</span></div>
-      <ul>${items.map(i => `<li class="${i.done?"done":""}">
+      <ul>${items.map(i => `<li class="${st(i)}">
         <span class="chk"></span><span class="num">#${i.id}</span><span class="les">${esc(i.lesson)}</span>
         <span class="topic">${esc(i.topic)}<span class="q">${esc(i.q)}</span></span>
         <span class="diff ${i.diff||"none"}">${esc(i.diff||"–")}</span>
-        <span class="at">${i.done && i.doneAt ? md(i.doneAt) : ""}</span></li>`).join("")}</ul>
+        <span class="at">${i.done && i.doneAt ? md(i.doneAt) : i.redo ? "重做" : ""}</span></li>`).join("")}</ul>
     </section>`;
   }).join("");
   $("#days").innerHTML = html || '<div class="empty">沒有符合的題目</div>';

@@ -4,7 +4,8 @@
 用法：
   python3 mark.py 63 75-78          # 把編號 63、75~78 標成完成（完成日期=今天）
   python3 mark.py 63 --date 2026-11-04   # 指定完成日期
-  python3 mark.py 63 --undo         # 取消完成
+  python3 mark.py 63 --redo         # 標成「重做」（黃色，不算完成）
+  python3 mark.py 63 --undo         # 取消完成 / 取消重做，回到未做
   python3 mark.py --status          # 顯示目前進度
 """
 import argparse, datetime, json, pathlib, re, sys
@@ -42,7 +43,9 @@ def parse_ids(tokens):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("ids", nargs="*")
-    ap.add_argument("--undo", action="store_true")
+    g = ap.add_mutually_exclusive_group()
+    g.add_argument("--undo", action="store_true")
+    g.add_argument("--redo", action="store_true")
     ap.add_argument("--date")
     ap.add_argument("--status", action="store_true")
     a = ap.parse_args()
@@ -56,20 +59,28 @@ def main():
         for it in items:
             if it["id"] in want:
                 found.add(it["id"])
-                it["done"] = not a.undo
-                it["doneAt"] = None if a.undo else (a.date or today)
+                it["done"] = not (a.undo or a.redo)
+                it["doneAt"] = None if (a.undo or a.redo) else (a.date or today)
+                if a.redo:
+                    it["redo"] = True
+                    it["redoAt"] = a.date or today
+                else:
+                    it.pop("redo", None)
+                    it.pop("redoAt", None)
         missing = sorted(want - found)
         if missing:
             print("找不到編號：", missing, file=sys.stderr)
         data["updated"] = today
         save(data)
-        print(("取消完成：" if a.undo else "已完成：") + ", ".join(map(str, sorted(found))))
+        label = "取消：" if a.undo else "標成重做：" if a.redo else "已完成："
+        print(label + ", ".join(map(str, sorted(found))))
 
     done = sum(it["done"] for it in items)
-    print(f"總進度 {done}/{len(items)}")
+    redo = [it["id"] for it in items if it.get("redo")]
+    print(f"總進度 {done}/{len(items)}" + (f"，待重做 {len(redo)} 題：{redo}" if redo else ""))
     if a.status:
         for d in data["days"]:
-            marks = " ".join(("✓" if it["done"] else "·") + str(it["id"]) for it in d["items"])
+            marks = " ".join(("✓" if it["done"] else "↻" if it.get("redo") else "·") + str(it["id"]) for it in d["items"])
             print(d["date"], d["weekday"], marks)
 
 
