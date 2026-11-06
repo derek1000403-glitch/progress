@@ -10,7 +10,7 @@
 1. 用 `mark.py` 修改，不要手動編輯 JSON：
    - `python3 mark.py 63 75-78` → 標成完成（完成日期預設今天，台灣時間）
    - `python3 mark.py 63 --date 2026-11-04` → 指定完成日期
-   - `python3 mark.py 63 --redo` → 標成「重做」（網站上黃色 ↻，不算完成；之後標完成會自動清掉重做）
+   - `python3 mark.py 63 --redo` → 標成「重做」（網站上黃色 ↻，先算進完成數；之後標完成會自動清掉重做）
    - `python3 mark.py 63 --undo` → 取消完成 / 取消重做
    - `python3 mark.py --status` → 查看進度
    - 使用者說「今天的都完成了」→ 先 `--status` 找出今天那天的編號再標記。

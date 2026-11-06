@@ -117,11 +117,12 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;text-align:center}
   <h2>各單元進度</h2>
   <div class="lessons" id="lessons"></div>
 
-  <footer><span style="color:var(--redo-text);font-weight:600">↻ 黃色</span> = 要重做（不算完成）<br>難度：<b style="color:var(--e)">E</b> 簡單 · <b style="color:var(--m)">M</b> 中等 · <b style="color:var(--h)">H</b> 困難</footer>
+  <footer><span style="color:var(--redo-text);font-weight:600">↻ 黃色</span> = 要重做（先算完成）<br>難度：<b style="color:var(--e)">E</b> 簡單 · <b style="color:var(--m)">M</b> 中等 · <b style="color:var(--h)">H</b> 困難</footer>
 </div>
 
 <script>
 const $ = s => document.querySelector(s);
+const ok = i => i.done || i.redo; // 重做也算完成
 let DATA = null, filter = "all";
 
 function todayStr(){
@@ -135,10 +136,10 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":
 function render(){
   const today = todayStr();
   const all = DATA.days.flatMap(d => d.items);
-  const done = all.filter(i => i.done).length;
+  const done = all.filter(ok).length;
   const dueItems = DATA.days.filter(d => d.date <= today).flatMap(d => d.items);
-  const dueDone = dueItems.filter(i => i.done).length;
-  const behind = DATA.days.filter(d => (d.dateEnd || d.date) < today).flatMap(d => d.items).filter(i => !i.done && !i.redo).length;
+  const dueDone = dueItems.filter(ok).length;
+  const behind = DATA.days.filter(d => (d.dateEnd || d.date) < today).flatMap(d => d.items).filter(i => !ok(i)).length;
   const pct = all.length ? Math.round(done/all.length*100) : 0;
   const redo = all.filter(i => i.redo).length;
   const daysLeft = DATA.days.filter(d => d.date >= today).length;
@@ -158,10 +159,10 @@ function render(){
     const st = i => i.done ? "done" : i.redo ? "redo" : "todo";
     const items = d.items.filter(i => filter === "all" || st(i) === filter);
     if (!items.length) return "";
-    const n = d.items.filter(i => i.done).length;
+    const n = d.items.filter(ok).length;
     const nr = d.items.filter(i => i.redo).length;
     const end = d.dateEnd || d.date;
-    const isToday = d.date <= today && today <= end, late = end < today && n + nr < d.items.length, full = n === d.items.length;
+    const isToday = d.date <= today && today <= end, late = end < today && n < d.items.length, full = n === d.items.length;
     const tag = isToday ? '<span class="tag today">今天</span>'
       : full ? '<span class="tag full">完成</span>'
       : late ? '<span class="tag late">未完成</span>' : "";
@@ -179,7 +180,7 @@ function render(){
 
   // lessons
   const by = {};
-  all.forEach(i => { (by[i.lesson] ||= {n:0,d:0}); by[i.lesson].n++; if (i.done) by[i.lesson].d++; });
+  all.forEach(i => { (by[i.lesson] ||= {n:0,d:0}); by[i.lesson].n++; if (ok(i)) by[i.lesson].d++; });
   $("#lessons").innerHTML = Object.keys(by).sort().map(k => {
     const {n,d} = by[k];
     return `<div class="lesson"><div class="row"><b>${esc(k)}</b><span>${d}/${n}</span></div>

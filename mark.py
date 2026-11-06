@@ -4,7 +4,7 @@
 用法：
   python3 mark.py 63 75-78          # 把編號 63、75~78 標成完成（完成日期=今天）
   python3 mark.py 63 --date 2026-11-04   # 指定完成日期
-  python3 mark.py 63 --redo         # 標成「重做」（黃色，不算完成）
+  python3 mark.py 63 --redo         # 標成「重做」（黃色，先算完成）
   python3 mark.py 63 --redo --note "推導不連貫"   # 重做並附註（網站上顯示）
   python3 mark.py 63 --undo         # 取消完成 / 取消重做，回到未做
   python3 mark.py --status          # 顯示目前進度
@@ -83,9 +83,9 @@ def main():
         label = "取消：" if a.undo else "標成重做：" if a.redo else "已完成："
         print(label + ", ".join(map(str, sorted(found))))
 
-    done = sum(it["done"] for it in items)
+    done = sum(bool(it["done"] or it.get("redo")) for it in items)  # 重做先算完成
     redo = [it["id"] for it in items if it.get("redo")]
-    print(f"總進度 {done}/{len(items)}" + (f"，待重做 {len(redo)} 題：{redo}" if redo else ""))
+    print(f"總進度 {done}/{len(items)}" + (f"（含待重做 {len(redo)} 題：{redo}）" if redo else ""))
     if a.status:
         for d in data["days"]:
             marks = " ".join(("✓" if it["done"] else "↻" if it.get("redo") else "·") + str(it["id"]) for it in d["items"])
