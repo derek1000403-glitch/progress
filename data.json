@@ -127,7 +127,7 @@
     {"id": 22, "lesson": "L07", "topic": "向心力", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 23, "lesson": "L07", "topic": "摩擦力範圍", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
     {"id": 24, "lesson": "L07", "topic": "靜力平衡", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 25, "lesson": "L07", "topic": "靜力平衡", "q": "Q6", "diff": "", "done": false, "doneAt": null}
+    {"id": 25, "lesson": "L07", "topic": "靜力平衡", "q": "Q6", "diff": "E", "done": false, "doneAt": null}
    ]
   },
   {
