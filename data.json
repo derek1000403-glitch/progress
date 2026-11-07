@@ -12,7 +12,7 @@
     {"id": 66, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q10", "diff": "E", "done": true, "doneAt": null},
     {"id": 67, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q11", "diff": "E", "done": true, "doneAt": null},
     {"id": 68, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q12", "diff": "E", "done": true, "doneAt": null},
-    {"id": 69, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q13", "diff": "E", "done": false, "doneAt": null, "redo": true, "redoAt": "2026-11-06", "note": "推導感覺不連貫，排在 12/3–12/9 緩衝期"},
+    {"id": 69, "lesson": "L16", "topic": "理想氣體方程式", "q": "Q13", "diff": "E", "done": true, "doneAt": "2026-11-07"},
     {"id": 70, "lesson": "L16", "topic": "熱一", "q": "Q1", "diff": "E", "done": true, "doneAt": null},
     {"id": 71, "lesson": "L16", "topic": "熱一", "q": "Q2", "diff": "E", "done": true, "doneAt": null},
     {"id": 72, "lesson": "L16", "topic": "熱力過程", "q": "Q1", "diff": "E", "done": true, "doneAt": null},
