@@ -46,7 +46,7 @@
    "date": "2026-11-07",
    "weekday": "六",
    "items": [
-    {"id": 102, "lesson": "L17", "topic": "熱機", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 102, "lesson": "L17", "topic": "熱機", "q": "Q2", "diff": "E", "done": true, "doneAt": "2026-11-07"},
     {"id": 103, "lesson": "L17", "topic": "熱機", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
     {"id": 104, "lesson": "L17", "topic": "熱機", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
     {"id": 105, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
