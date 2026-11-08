@@ -15,6 +15,7 @@
    - `python3 mark.py --status` → 查看進度
    - 使用者說「今天的都完成了」→ 先 `--status` 找出今天那天的編號再標記。
    - 數字指的是每行最前面的「編號」（例如 63、75），不是 Q 幾。
+   - 第二期影片編號 901–924（901 = LEC24、902 = LEC25 … 912 = LEC35-1、913 = LEC35-2 … 924 = LEC46）。使用者說「看完 LEC27」→ 標 904。
 2. commit 並直接 push 到 `main`（網站從 main 發佈，使用者已同意直接推 main）：
    `git add data.json && git commit -m "進度：完成 #63 #75" && git push origin main`
 3. 回報目前總進度。網站約 1 分鐘後更新。
