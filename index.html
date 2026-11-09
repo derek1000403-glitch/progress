@@ -91,6 +91,23 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;text-align:center}
   li .les{display:none}
   li .at{display:none}
 }
+.vids{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(150px,180px);gap:10px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x proximity}
+.vid{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;cursor:pointer;scroll-snap-align:start;padding:0;font:inherit;color:inherit;text-align:left}
+.vid .th{aspect-ratio:16/9;background:#2a2c28 center/cover no-repeat;display:grid;place-items:center;position:relative}
+.vid .th::after{content:"";width:38px;height:38px;border-radius:50%;background:rgba(0,0,0,.55) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 7l9 5-9 5z' fill='white'/%3E%3C/svg%3E") center/22px no-repeat}
+.vid .cap{padding:7px 10px;font-size:13px}
+.vid .cap b{font-variant-numeric:tabular-nums}
+.vid .cap span{display:block;color:var(--muted);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.vids-empty{color:var(--muted);font-size:13px;background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:16px;text-align:center}
+.vbtn{font:inherit;font-size:12px;font-weight:600;border:1px solid var(--accent);color:var(--accent);background:transparent;border-radius:99px;padding:1px 9px;cursor:pointer}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.75);display:none;align-items:center;justify-content:center;padding:16px;z-index:10}
+.modal.open{display:flex}
+.modal .box{width:min(960px,100%);background:var(--card);border-radius:14px;overflow:hidden}
+.modal .mh{display:flex;align-items:center;gap:10px;padding:10px 14px}
+.modal .mh b{flex:1}
+.modal .mh a{font-size:13px;color:var(--accent)}
+.modal .mh button{font:inherit;border:0;background:none;color:var(--text);font-size:22px;line-height:1;cursor:pointer}
+.modal iframe{display:block;width:100%;aspect-ratio:16/9;max-height:80vh;border:0;background:#000}
 </style>
 </head>
 <body>
@@ -102,6 +119,9 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;text-align:center}
 
   <section class="summary" id="summary"></section>
   <div class="bar"><i id="totalbar" style="width:0"></i></div>
+
+  <h2>🎬 每日學習縮時</h2>
+  <div class="vids" id="vids"></div>
 
   <div class="toolbar" id="filters">
     <button data-f="all" class="on">全部</button>
@@ -117,12 +137,47 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;text-align:center}
   <h2>各單元進度</h2>
   <div class="lessons" id="lessons"></div>
 
+  <div class="modal" id="modal"><div class="box">
+    <div class="mh"><b id="mtitle"></b><a id="mlink" target="_blank" rel="noopener">在新分頁開啟</a><button id="mclose" aria-label="關閉">×</button></div>
+    <iframe id="mframe" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div></div>
+
   <footer><span style="color:var(--redo-text);font-weight:600">↻ 黃色</span> = 要重做（先算完成）<br>難度：<b style="color:var(--e)">E</b> 簡單 · <b style="color:var(--m)">M</b> 中等 · <b style="color:var(--h)">H</b> 困難</footer>
 </div>
 
 <script>
 const $ = s => document.querySelector(s);
 const ok = i => i.done || i.redo; // 重做也算完成
+
+// ---- 影片：支援 Google Drive 檔案連結 / ID、YouTube 連結 ----
+function driveId(u){ const m = String(u).match(/(?:\/d\/|[?&]id=)([\w-]{20,})/) || String(u).match(/^([\w-]{25,})$/); return m && m[1]; }
+function ytId(u){ const m = String(u).match(/(?:youtu\.be\/|v=|\/shorts\/|\/embed\/)([\w-]{11})/); return m && m[1]; }
+function vInfo(v){
+  const src = v.url || v.fileId || "";
+  const y = ytId(src); if (y) return {embed:`https://www.youtube.com/embed/${y}?autoplay=1`, open:`https://youtu.be/${y}`, thumb:`https://i.ytimg.com/vi/${y}/mqdefault.jpg`};
+  const g = driveId(src); if (g) return {embed:`https://drive.google.com/file/d/${g}/preview`, open:`https://drive.google.com/file/d/${g}/view`, thumb:`https://drive.google.com/thumbnail?id=${g}&sz=w480`};
+  return {embed:src, open:src, thumb:""};
+}
+const vidsOn = d => (DATA.videos || []).filter(v => v.date >= d.date && v.date <= (d.dateEnd || d.date));
+function openVid(date){
+  const v = (DATA.videos || []).find(x => x.date === date); if (!v) return;
+  const i = vInfo(v);
+  $("#mtitle").textContent = `${md(v.date)} 學習縮時` + (v.title ? ` · ${v.title}` : "");
+  $("#mlink").href = i.open; $("#mframe").src = i.embed; $("#modal").classList.add("open");
+}
+function closeVid(){ $("#modal").classList.remove("open"); $("#mframe").src = "about:blank"; }
+function renderVids(){
+  const vs = [...(DATA.videos || [])].sort((a,b) => b.date.localeCompare(a.date));
+  $("#vids").className = vs.length ? "vids" : "";
+  $("#vids").innerHTML = vs.length ? vs.map(v => { const i = vInfo(v); return `<button class="vid" data-v="${esc(v.date)}">
+      <div class="th" style="${i.thumb ? `background-image:url('${esc(i.thumb)}')` : ""}"></div>
+      <div class="cap"><b>${md(v.date)}</b>${v.title ? `<span>${esc(v.title)}</span>` : ""}</div></button>`; }).join("")
+    : '<div class="vids-empty">還沒有影片，今天開始每天一部 ⏱</div>';
+}
+document.addEventListener("click", e => { const b = e.target.closest("[data-v]"); if (b) openVid(b.dataset.v); });
+$("#mclose").addEventListener("click", closeVid);
+$("#modal").addEventListener("click", e => { if (e.target.id === "modal") closeVid(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeVid(); });
 let DATA = null, filter = "all";
 
 function todayStr(){
@@ -168,6 +223,7 @@ function render(){
       : late ? '<span class="tag late">未完成</span>' : "";
     return `<section class="day ${isToday?"today":""} ${late?"late":""}" id="d-${d.date}">
       <div class="dhead"><span class="date">${md(d.date)}${d.dateEnd ? "–" + md(d.dateEnd) : ""}</span><span class="wd">週${esc(d.weekday)}</span>${tag}${nr ? `<span class="tag redo">重做 ${nr}</span>` : ""}
+        ${vidsOn(d).map(v => `<button class="vbtn" data-v="${esc(v.date)}">▶ 影片</button>`).join("")}
         <span class="cnt">${n} / ${d.items.length}</span></div>
       <ul>${items.map(i => `<li class="${st(i)}">
         <span class="chk"></span><span class="num">#${i.id}</span><span class="les">${esc(i.lesson)}</span>
@@ -202,7 +258,7 @@ $("#jump").addEventListener("click", () => {
 
 fetch("data.json?t=" + Date.now(), {cache:"no-store"})
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(j => { DATA = j; render(); })
+  .then(j => { DATA = j; render(); renderVids(); })
   .catch(e => { $("#sub").textContent = ""; $("#days").innerHTML = `<div class="err">讀取 data.json 失敗（${esc(e.message)}）</div>`; });
 </script>
 </body>

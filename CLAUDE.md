@@ -25,3 +25,12 @@
 `{"id": 編號, "lesson": "L16", "topic": "熱量", "q": "Q8", "diff": "E|M|H|空字串", "done": false, "doneAt": null}`
 可選欄位：`"note": "附註"`（顯示在題目下方，可用 `mark.py --note` 設定）；日期區間用 day 的 `"dateEnd"`。
 （標成重做的題目另有 `"redo": true, "redoAt": "日期"`，由 mark.py 管理）
+
+## 每日學習縮時影片
+- 影片存在使用者 Google Drive 資料夾「物奧縮時錄影」（ID `1HTqCFjg44NhjZvueX2JFfL5FUU-eajJE`，https://drive.google.com/drive/folders/1HTqCFjg44NhjZvueX2JFfL5FUU-eajJE ），資料夾設為「知道連結的任何人可檢視」。
+- 使用者說「今天的影片傳好了」時：
+  1. 用 Google Drive 工具搜尋 `parentId = '1HTqCFjg44NhjZvueX2JFfL5FUU-eajJE' and mimeType contains 'video/'`（依 modifiedTime 排序），找到當天的檔案 ID。
+  2. `python3 video.py today <檔案ID或連結> [--title "今天內容"]`（指定日期就把 today 換成 2026-11-09）
+  3. commit + push 到 main。
+- 也支援 YouTube 連結。`python3 video.py --list` 列出、`--remove 日期` 刪除。
+- 網站：上方「每日學習縮時」橫列 + 每天卡片上的「▶ 影片」按鈕，點開彈窗播放。
