@@ -607,5 +607,12 @@
     {"id": 1099, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P30", "diff": "H", "done": false, "doneAt": null, "note": "必做"}
    ]
   }
+ ],
+ "videos": [
+  {
+   "date": "2026-11-09",
+   "url": "1H-qjj3vHIRx0urnqpdKQxlPA-klQQNYI",
+   "title": "大量粒子系統與剛體力學"
+  }
  ]
 }
