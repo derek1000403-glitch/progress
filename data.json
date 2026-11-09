@@ -1,6 +1,6 @@
 {
  "title": "物奧進度",
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "days": [
   {
    "date": "2026-11-02",
@@ -53,7 +53,7 @@
    "date": "2026-11-09",
    "weekday": "一",
    "items": [
-    {"id": 901, "lesson": "二期影片", "topic": "大量粒子系統", "q": "LEC24", "diff": "", "done": false, "doneAt": null},
+    {"id": 901, "lesson": "二期影片", "topic": "大量粒子系統", "q": "LEC24", "diff": "", "done": true, "doneAt": "2026-11-09"},
     {"id": 902, "lesson": "二期影片", "topic": "剛體「力學」", "q": "LEC25", "diff": "", "done": false, "doneAt": null}
    ]
   },
