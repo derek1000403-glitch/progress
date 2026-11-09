@@ -29,10 +29,15 @@
 （標成重做的題目另有 `"redo": true, "redoAt": "日期"`，由 mark.py 管理）
 
 ## 每日學習縮時影片
-- 影片存在使用者 Google Drive 資料夾「物奧縮時錄影」（ID `1HTqCFjg44NhjZvueX2JFfL5FUU-eajJE`，https://drive.google.com/drive/folders/1HTqCFjg44NhjZvueX2JFfL5FUU-eajJE ），資料夾設為「知道連結的任何人可檢視」。
-- 使用者說「今天的影片傳好了」時：
-  1. 用 Google Drive 工具搜尋 `parentId = '1HTqCFjg44NhjZvueX2JFfL5FUU-eajJE' and mimeType contains 'video/'`（依 modifiedTime 排序），找到當天的檔案 ID。
-  2. `python3 video.py today <檔案ID或連結> [--title "今天內容"]`（指定日期就把 today 換成 2026-11-09）
-  3. commit + push 到 main。
-- 也支援 YouTube 連結。`python3 video.py --list` 列出、`--remove 日期` 刪除。
-- 網站是月曆版面：影片縮圖顯示在當天的日期格裡（一天一部，video.py 同一天會取代舊的），點格子開彈窗看題目並播放。
+- **主要方式：影片放在網站裡（`videos/日期.mp4` + `videos/日期.jpg` 封面）**，用網站自己的 `<video>` 播放器（進度條在下面、iPhone 可全螢幕）。Google Drive 的嵌入播放器在 iPhone 上進度條跑到上面、畫面偏低，使用者不要那種。
+- 使用者在對話裡直接傳影片檔時：
+  1. `ffprobe` 看大小。GitHub 單檔上限 100 MB，目標 ≤ 40 MB：
+     - 已經夠小（例如 720p、~25 MB）→ 只重新封裝：`ffmpeg -i 原檔 -c copy -movflags +faststart videos/2026-11-10.mp4`
+     - 太大 → 壓縮：`ffmpeg -i 原檔 -vf scale=-2:720 -c:v libx264 -preset veryfast -crf 26 -c:a aac -b:a 96k -movflags +faststart videos/日期.mp4`
+  2. 封面：`ffmpeg -ss 20 -i videos/日期.mp4 -frames:v 1 -vf scale=960:-2 -q:v 4 videos/日期.jpg`
+  3. `python3 video.py 日期 videos/日期.mp4 --title "今天內容"`（舊影片的標題沿用）
+  4. `git add videos data.json && git commit && git push origin main`
+- 這個工作環境的網路下載不到 Google Drive 檔案，所以要請使用者直接把檔案傳到對話。
+- 原檔仍在使用者 Google Drive 資料夾「物奧縮時錄影」（ID `1HTqCFjg44NhjZvueX2JFfL5FUU-eajJE`）。若只給 Drive 連結/ID 或 YouTube 連結，`video.py` 也接受，網站會改用嵌入播放器。
+- `python3 video.py --list` 列出、`--remove 日期` 刪除。
+- 網站是月曆版面：影片縮圖顯示在當天的日期格裡（一天一部，video.py 同一天會取代舊的），點縮圖開大播放器。

@@ -148,7 +148,7 @@ h1{font-family:var(--serif);font-size:34px;margin:2px 0 0;letter-spacing:.04em;f
 .theater .th #tfull{font-size:17px}
 .theater .th button{border:0;background:rgba(255,255,255,.14);color:#fff;width:34px;height:34px;border-radius:50%;font-size:22px;line-height:1;cursor:pointer;flex:none}
 .theater .stage{width:var(--vw);aspect-ratio:16/9;background:#000;border-radius:10px;overflow:hidden}
-.theater iframe{display:block;width:100%;height:100%;border:0}
+.theater iframe,.theater video{display:block;width:100%;height:100%;border:0;background:#000}
 .mnov{margin:0 20px;border:1.5px dashed var(--line);border-radius:12px;padding:18px;text-align:center;color:var(--muted);font-size:13px}
 .mlist{list-style:none;margin:14px 0 0;padding:0 0 10px}
 .mlist li{display:grid;grid-template-columns:20px 48px 1fr auto auto;gap:10px;align-items:center;padding:9px 20px;border-top:1px solid var(--line2);font-size:14px}
@@ -274,6 +274,7 @@ function driveId(u){ const m = String(u).match(/(?:\/d\/|[?&]id=)([\w-]{20,})/) 
 function ytId(u){ const m = String(u).match(/(?:youtu\.be\/|v=|\/shorts\/|\/embed\/)([\w-]{11})/); return m && m[1]; }
 function vInfo(v){
   const src = v.url || v.fileId || "";
+  if (/\.(mp4|m4v|webm|mov)(\?|$)/i.test(src)) return {file:src, open:src, thumb: v.poster || src.replace(/\.\w+(\?.*)?$/, ".jpg")};
   const y = ytId(src); if (y) return {embed:`https://www.youtube.com/embed/${y}?autoplay=1&rel=0`, open:`https://youtu.be/${y}`, thumb:`https://i.ytimg.com/vi/${y}/mqdefault.jpg`};
   const g = driveId(src); if (g) return {embed:`https://drive.google.com/file/d/${g}/preview`, open:`https://drive.google.com/file/d/${g}/view`, thumb:`https://drive.google.com/thumbnail?id=${g}&sz=w640`};
   return {embed:src, open:src, thumb:""};
@@ -400,7 +401,9 @@ function playVideo(date){
   const i = vInfo(v);
   $("#ttitle").textContent = `${md(v.date)} 學習縮時` + (v.title ? ` · ${v.title}` : "");
   $("#tlink").href = i.open;
-  $("#stage").innerHTML = `<iframe src="${esc(i.embed)}" allow="autoplay; fullscreen" allowfullscreen></iframe>`;
+  $("#stage").innerHTML = i.file
+    ? `<video src="${esc(i.file)}" poster="${esc(i.thumb)}" controls playsinline autoplay preload="auto"></video>`
+    : `<iframe src="${esc(i.embed)}" allow="autoplay; fullscreen" allowfullscreen></iframe>`;
   $("#theater").classList.add("open");
   document.body.style.overflow = "hidden";
 }
@@ -417,7 +420,8 @@ document.addEventListener("click", e => {
     return;
   }
   if (e.target.id === "tclose" || e.target.id === "theater") return closeTheater();
-  if (e.target.id === "tfull") { const el = $("#stage");
+  if (e.target.id === "tfull") { const vid = $("#stage video"), el = vid || $("#stage");
+    if (vid && !el.requestFullscreen && vid.webkitEnterFullscreen) { vid.webkitEnterFullscreen(); return; }  // iPhone
     (el.requestFullscreen || el.webkitRequestFullscreen || (() => window.open($("#tlink").href, "_blank"))).call(el); return; }
   if (e.target.id === "mclose" || e.target.id === "modal") return closeModal();
   const c = e.target.closest("[data-day]");
