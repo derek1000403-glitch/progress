@@ -4,262 +4,411 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>物奧進度</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#f6f5f1; --card:#ffffff; --text:#1d1d1b; --muted:#76746d; --line:#e4e2db;
-  --accent:#2f6f5e; --accent-soft:#dcebe5; --warn:#b4542d; --warn-soft:#f6e3da;
-  --e:#3b7a57; --m:#b07d1e; --h:#b0402d;
+  --bg:#f4f1ea; --paper:#fffdf8; --text:#1f1e1b; --muted:#857f72; --faint:#b9b2a3; --line:#e6e0d3; --line2:#efeae0;
+  --accent:#2c6a57; --accent-soft:#e1eee8; --warn:#b5532f; --warn-soft:#f7e4da;
   --redo:#d9a400; --redo-soft:#fbf1cc; --redo-text:#8a6a00;
+  --e:#3b7a57; --m:#b07d1e; --h:#b0402d;
+  --weekend:#faf6ee; --shadow:0 1px 2px rgba(60,50,30,.05),0 8px 24px rgba(60,50,30,.06);
+  --serif:"Noto Serif TC","Songti TC",serif;
 }
 @media (prefers-color-scheme: dark){
   :root{
-    --bg:#151614; --card:#1e201d; --text:#ebeae4; --muted:#9a988f; --line:#30322e;
-    --accent:#6cc0a3; --accent-soft:#223a32; --warn:#e8866a; --warn-soft:#3d2620;
-    --e:#7cc59a; --m:#e0b45a; --h:#ec8a76;
+    --bg:#141513; --paper:#1d1f1c; --text:#ece9e1; --muted:#9c978b; --faint:#5f5c55; --line:#2f312d; --line2:#262825;
+    --accent:#6cc0a3; --accent-soft:#1f362e; --warn:#e8866a; --warn-soft:#3b231d;
     --redo:#f0c43c; --redo-soft:#3a3214; --redo-text:#f0c43c;
+    --e:#7cc59a; --m:#e0b45a; --h:#ec8a76;
+    --weekend:#1a1c19; --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
   }
 }
 *{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--text);
   font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
   line-height:1.5;-webkit-font-smoothing:antialiased}
-.wrap{max-width:880px;margin:0 auto;padding:28px 16px 64px}
-header h1{margin:0;font-size:28px;letter-spacing:.02em}
-header .sub{color:var(--muted);font-size:14px;margin-top:4px}
-.summary{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:22px 0 10px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+button{font:inherit;color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:32px 20px 64px}
+
+/* header */
+header{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.eyebrow{font-size:12px;letter-spacing:.18em;color:var(--muted);text-transform:uppercase}
+h1{font-family:var(--serif);font-size:34px;margin:2px 0 0;letter-spacing:.04em;font-weight:700}
+.sub{color:var(--muted);font-size:14px}
+.ring-big{display:flex;align-items:center;gap:14px}
+.ring-big .pct{font-family:var(--serif);font-size:30px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.ring-big .pct small{font-size:15px;color:var(--muted)}
+.ring-big .lbl{font-size:12px;color:var(--muted)}
+
+.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:22px 0 26px}
+.stat{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
 .stat .k{font-size:12px;color:var(--muted)}
-.stat .v{font-size:24px;font-weight:650;font-variant-numeric:tabular-nums}
+.stat .v{font-size:22px;font-weight:650;font-variant-numeric:tabular-nums}
 .stat .v small{font-size:13px;color:var(--muted);font-weight:500}
-.bar{height:10px;background:var(--line);border-radius:99px;overflow:hidden;margin:6px 0 4px}
-.bar>i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .4s}
-.bar.thin{height:5px;margin:0}
-.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 12px;align-items:center}
-.toolbar button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--card);color:var(--text);
-  padding:6px 12px;border-radius:99px;cursor:pointer}
-.toolbar button.on{background:var(--text);color:var(--bg);border-color:var(--text)}
-.toolbar .sp{flex:1}
-h2{font-size:15px;margin:30px 0 10px;color:var(--muted);font-weight:600}
-.lessons{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
-.lesson{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:13px}
-.lesson .row{display:flex;justify-content:space-between;margin-bottom:5px}
-.lesson .row b{font-weight:650}
+
+/* calendar */
+.cal{background:var(--paper);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);overflow:hidden}
+.calbar{display:flex;align-items:center;gap:12px;padding:16px 20px;border-bottom:1px solid var(--line)}
+.calbar h2{font-family:var(--serif);margin:0;font-size:22px;font-weight:700;letter-spacing:.04em}
+.calbar h2 span{color:var(--muted);font-size:15px;margin-left:6px;font-weight:600}
+.calbar .sp{flex:1}
+.calbar button{border:1px solid var(--line);background:var(--paper);border-radius:99px;padding:5px 13px;font-size:13px;cursor:pointer}
+.calbar button:hover{border-color:var(--muted)}
+.dow,.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}
+.dow div{font-size:12px;color:var(--muted);text-align:center;padding:8px 0;border-bottom:1px solid var(--line);letter-spacing:.1em}
+.dow div:nth-child(n+6){color:var(--warn)}
+.cell{position:relative;min-height:150px;border-right:1px solid var(--line2);border-bottom:1px solid var(--line2);padding:8px 8px 10px;
+  display:flex;flex-direction:column;gap:6px;cursor:pointer;text-align:left;background:transparent;transition:background .15s}
+.cell.we{background:var(--weekend)}
+.cell:hover{background:var(--line2)}
+.cell.off{cursor:default;background:repeating-linear-gradient(135deg,transparent 0 6px,var(--line2) 6px 7px)}
+.cell.off .dn{color:var(--faint)}
+.cell.full{background:linear-gradient(var(--accent),var(--accent)) top/100% 3px no-repeat}
+.cell.full.we{background:linear-gradient(var(--accent),var(--accent)) top/100% 3px no-repeat,var(--weekend)}
+.cell.today{box-shadow:inset 0 0 0 2px var(--accent);z-index:1}
+.chead{display:flex;align-items:center;gap:6px;min-height:30px}
+.dn{font-family:var(--serif);font-size:19px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.dn .mo{font-size:12px;color:var(--muted);margin-right:2px;font-family:inherit}
+.cell.today .dn{color:var(--paper);background:var(--accent);border-radius:99px;padding:4px 8px}
+.cell.today .dn .mo{color:inherit}
+.pill{font-size:10.5px;font-weight:700;padding:1px 7px;border-radius:99px;white-space:nowrap}
+.pill.late{background:var(--warn-soft);color:var(--warn)}
+.pill.range{background:var(--line2);color:var(--muted)}
+.chead .sp{flex:1}
+.ring{flex:none}
+.ring circle{fill:none;stroke-width:3.2}
+.ring .bg{stroke:var(--line)}
+.ring .fg{stroke:var(--accent);stroke-linecap:round;transform:rotate(-90deg);transform-origin:50% 50%}
+.ring text{font-size:9px;font-weight:700;fill:var(--muted);font-family:-apple-system,sans-serif}
+.ring.big circle{stroke-width:6}
+.ring.complete text{fill:var(--accent)}
+
+.thumb{position:relative;width:100%;aspect-ratio:16/9;border-radius:9px;overflow:hidden;background:#2b2d29 center/cover no-repeat;
+  border:0;padding:0;cursor:pointer;display:block;flex:none}
+.thumb::before{content:"";position:absolute;inset:0;background:linear-gradient(transparent 50%,rgba(0,0,0,.45))}
+.thumb::after{content:"";position:absolute;left:50%;top:50%;width:30px;height:30px;margin:-15px 0 0 -15px;border-radius:50%;
+  background:rgba(255,255,255,.92) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9.5 7.5l8 4.5-8 4.5z' fill='%23222'/%3E%3C/svg%3E") center/18px no-repeat;transition:transform .15s}
+.thumb:hover::after{transform:scale(1.1)}
+.thumb .t{position:absolute;left:7px;bottom:4px;color:#fff;font-size:10.5px;font-weight:600;z-index:1;letter-spacing:.05em}
+.novid{flex:none;width:100%;aspect-ratio:16/9;border-radius:9px;border:1.5px dashed var(--line);display:grid;place-items:center;
+  color:var(--faint);font-size:11px}
+.items{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.items li{display:flex;align-items:center;gap:5px;font-size:11.5px;line-height:1.35;min-width:0}
+.items li span{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.items li.done span{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--faint)}
+.items li.more{color:var(--muted)}
+.items.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:14px}
+.dot{flex:none;width:7px;height:7px;border-radius:50%;border:1.5px solid var(--faint)}
+.done .dot{background:var(--accent);border-color:var(--accent)}
+.redo .dot{background:var(--redo);border-color:var(--redo)}
+
+/* lessons + legend */
+.below{display:grid;grid-template-columns:1fr 280px;gap:20px;margin-top:26px;align-items:start}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.panel h3{margin:0 0 12px;font-family:var(--serif);font-size:16px;letter-spacing:.04em}
+.lessons{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px 16px}
+.lesson .row{display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px}
 .lesson .row span{color:var(--muted);font-variant-numeric:tabular-nums}
-.day{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:12px;overflow:hidden}
-.day.today{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
-.day.late{border-color:var(--warn)}
-.dhead{display:flex;align-items:center;gap:10px;padding:10px 14px;border-bottom:1px solid var(--line)}
-.dhead .date{font-weight:650;font-size:16px;font-variant-numeric:tabular-nums}
-.dhead .wd{color:var(--muted);font-size:13px}
-.tag{font-size:11px;padding:2px 8px;border-radius:99px;font-weight:600}
-.tag.today{background:var(--accent-soft);color:var(--accent)}
-.tag.late{background:var(--warn-soft);color:var(--warn)}
-.tag.full{background:var(--accent-soft);color:var(--accent)}
-.dhead .cnt{margin-left:auto;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
-ul{list-style:none;margin:0;padding:0}
-li{display:grid;grid-template-columns:22px 44px 46px 1fr auto auto;gap:8px;align-items:center;
-  padding:8px 14px;border-bottom:1px solid var(--line);font-size:14px}
-li:last-child{border-bottom:0}
-.chk{width:18px;height:18px;border-radius:5px;border:1.5px solid var(--muted);display:grid;place-items:center}
-li.done .chk{background:var(--accent);border-color:var(--accent)}
-li.done .chk::after{content:"";width:5px;height:9px;border:solid var(--card);border-width:0 2px 2px 0;transform:rotate(45deg) translate(-1px,-1px)}
-.num{color:var(--muted);font-variant-numeric:tabular-nums;font-size:13px}
-.les{font-weight:600;font-size:13px}
-.topic{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.topic .q{color:var(--muted);margin-left:6px}
-li.redo{background:var(--redo-soft)}
-li.redo .chk{background:var(--redo);border-color:var(--redo)}
-li.redo .chk::after{content:"↻";color:#fff;font-size:13px;font-weight:700;line-height:1}
-li.redo .at{color:var(--redo-text);font-weight:600}
-.tag.redo{background:var(--redo-soft);color:var(--redo-text)}
-.toolbar button.on[data-f="redo"]{background:var(--redo);border-color:var(--redo);color:#1d1d1b}
-.topic .note{display:block;white-space:normal;font-size:12px;color:var(--muted);margin-top:1px}
-li.redo .topic .note{color:var(--redo-text)}
-li.done .topic{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--line)}
-.diff{font-size:11px;font-weight:700;width:22px;text-align:center;border-radius:5px;padding:1px 0}
+.bar{height:5px;background:var(--line);border-radius:99px;overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--accent);border-radius:99px}
+.legend{display:flex;flex-direction:column;gap:8px;font-size:13px}
+.legend div{display:flex;align-items:center;gap:8px}
+.legend .dot{width:9px;height:9px}
+.diff{display:inline-block;font-size:11px;font-weight:700;width:22px;text-align:center;border-radius:5px;padding:0;flex:none}
 .diff.E{color:var(--e);border:1px solid var(--e)}
 .diff.M{color:var(--m);border:1px solid var(--m)}
 .diff.H{color:var(--h);border:1px solid var(--h)}
-.diff.none{color:var(--muted);border:1px dashed var(--line)}
-.at{font-size:12px;color:var(--muted);min-width:38px;text-align:right;font-variant-numeric:tabular-nums}
-.empty,.err{color:var(--muted);text-align:center;padding:40px 0}
-footer{margin-top:36px;color:var(--muted);font-size:12px;text-align:center}
-@media (max-width:560px){
-  .summary{grid-template-columns:repeat(2,1fr)}
-  .summary .stat:last-child{grid-column:span 2}
-  li{grid-template-columns:20px 34px 1fr auto;padding:8px 12px}
-  li .les{display:none}
-  li .at{display:none}
-}
-.vids{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(150px,180px);gap:10px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x proximity}
-.vid{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;cursor:pointer;scroll-snap-align:start;padding:0;font:inherit;color:inherit;text-align:left}
-.vid .th{aspect-ratio:16/9;background:#2a2c28 center/cover no-repeat;display:grid;place-items:center;position:relative}
-.vid .th::after{content:"";width:38px;height:38px;border-radius:50%;background:rgba(0,0,0,.55) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 7l9 5-9 5z' fill='white'/%3E%3C/svg%3E") center/22px no-repeat}
-.vid .cap{padding:7px 10px;font-size:13px}
-.vid .cap b{font-variant-numeric:tabular-nums}
-.vid .cap span{display:block;color:var(--muted);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.vids-empty{color:var(--muted);font-size:13px;background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:16px;text-align:center}
-.vbtn{font:inherit;font-size:12px;font-weight:600;border:1px solid var(--accent);color:var(--accent);background:transparent;border-radius:99px;padding:1px 9px;cursor:pointer}
-.modal{position:fixed;inset:0;background:rgba(0,0,0,.75);display:none;align-items:center;justify-content:center;padding:16px;z-index:10}
+.diff.none{color:var(--faint);border:1px dashed var(--line)}
+
+/* modal */
+.modal{position:fixed;inset:0;background:rgba(20,18,14,.6);backdrop-filter:blur(3px);display:none;align-items:center;justify-content:center;padding:16px;z-index:10}
 .modal.open{display:flex}
-.modal .box{width:min(960px,100%);background:var(--card);border-radius:14px;overflow:hidden}
-.modal .mh{display:flex;align-items:center;gap:10px;padding:10px 14px}
-.modal .mh b{flex:1}
-.modal .mh a{font-size:13px;color:var(--accent)}
-.modal .mh button{font:inherit;border:0;background:none;color:var(--text);font-size:22px;line-height:1;cursor:pointer}
-.modal iframe{display:block;width:100%;aspect-ratio:16/9;max-height:80vh;border:0;background:#000}
+.box{width:min(720px,100%);max-height:calc(100vh - 32px);overflow:auto;background:var(--paper);border-radius:18px;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+.mh{display:flex;align-items:center;gap:10px;padding:16px 20px 12px;position:sticky;top:0;background:var(--paper);z-index:1}
+.mh .d{font-family:var(--serif);font-size:24px;font-weight:700}
+.mh .w{color:var(--muted);font-size:14px}
+.mh .sp{flex:1}
+.mh .x{border:0;background:none;font-size:26px;line-height:1;cursor:pointer;color:var(--muted);padding:0 4px}
+.player{margin:0 20px;border-radius:12px;overflow:hidden;background:#000}
+.player iframe{display:block;width:100%;aspect-ratio:16/9;max-height:70vh;border:0}
+.player .thumb{border-radius:0}
+.player .thumb::after{width:56px;height:56px;margin:-28px 0 0 -28px;background-size:30px}
+.vmeta{display:flex;justify-content:space-between;gap:10px;margin:6px 20px 0;font-size:12.5px;color:var(--muted)}
+.vmeta a{color:var(--accent);white-space:nowrap}
+.mnov{margin:0 20px;border:1.5px dashed var(--line);border-radius:12px;padding:18px;text-align:center;color:var(--muted);font-size:13px}
+.mlist{list-style:none;margin:14px 0 0;padding:0 0 10px}
+.mlist li{display:grid;grid-template-columns:20px 48px 1fr auto auto;gap:10px;align-items:center;padding:9px 20px;border-top:1px solid var(--line2);font-size:14px}
+.chk{width:18px;height:18px;border-radius:5px;border:1.5px solid var(--faint);display:grid;place-items:center}
+.mlist li.done .chk{background:var(--accent);border-color:var(--accent)}
+.mlist li.done .chk::after{content:"";width:5px;height:9px;border:solid var(--paper);border-width:0 2px 2px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.mlist li.redo{background:var(--redo-soft)}
+.mlist li.redo .chk{background:var(--redo);border-color:var(--redo)}
+.mlist li.redo .chk::after{content:"↻";color:#fff;font-size:13px;font-weight:700;line-height:1}
+.mlist .num{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+.mlist .tp{min-width:0}
+.mlist .tp small{color:var(--muted);margin-left:6px}
+.mlist .tp .les{display:block;font-size:11.5px;color:var(--muted)}
+.mlist .tp .note{display:block;font-size:12px;color:var(--muted)}
+.mlist li.redo .note{color:var(--redo-text)}
+.mlist .tp>b{font-weight:500}
+.mlist li.done .tp>b{font-weight:400;color:var(--muted);text-decoration:line-through;text-decoration-color:var(--faint)}
+.mlist .at{font-size:12px;color:var(--muted);min-width:34px;text-align:right;font-variant-numeric:tabular-nums}
+.mempty{padding:16px 20px 22px;color:var(--muted);font-size:14px}
+footer{margin-top:28px;text-align:center;color:var(--faint);font-size:12px}
+.err{padding:60px 0;text-align:center;color:var(--muted)}
+
+/* tablet */
+@media (max-width:980px){
+  .stats{grid-template-columns:repeat(3,1fr)}
+  .below{grid-template-columns:1fr}
+  .cell{min-height:130px;padding:6px}
+  .items li{font-size:11px}
+}
+/* phone: compact cells, tap for details */
+@media (max-width:640px){
+  .wrap{padding:22px 12px 48px}
+  h1{font-size:28px}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .stats .stat:last-child{grid-column:span 2}
+  .calbar{padding:12px 14px}
+  .calbar h2{font-size:19px}
+  .cell{min-height:76px;padding:6px 2px;align-items:center;gap:4px}
+  .chead{flex-direction:column;gap:4px;min-height:0}
+  .chead .sp,.cell .pill,.cell .items,.cell .items.two,.novid{display:none}
+  .cell .thumb{border-radius:5px;width:100%}
+  .cell .thumb::before,.cell .thumb .t{display:none}
+  .cell .thumb::after{width:16px;height:16px;margin:-8px 0 0 -8px;background-size:11px}
+  .dn{font-size:15px;text-align:center}
+  .dn .mo{display:block;font-size:9px;margin:0}
+  .cell.today .dn{padding:3px 6px}
+  .cell.late::after{content:"";position:absolute;top:5px;right:5px;width:6px;height:6px;border-radius:50%;background:var(--warn)}
+  .mlist li{grid-template-columns:20px 40px 1fr auto;padding:9px 14px}
+  .mlist .at{display:none}
+  .mh{padding:14px 14px 10px}
+  .player,.vmeta,.mnov{margin-left:14px;margin-right:14px}
+}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1 id="title">物奧進度</h1>
-    <div class="sub" id="sub">載入中…</div>
+    <div>
+      <div class="eyebrow">Physics Olympiad · Study Log</div>
+      <h1 id="title">物奧進度</h1>
+      <div class="sub" id="sub">載入中…</div>
+    </div>
+    <div class="ring-big" id="bigring"></div>
   </header>
 
-  <section class="summary" id="summary"></section>
-  <div class="bar"><i id="totalbar" style="width:0"></i></div>
+  <section class="stats" id="stats"></section>
 
-  <h2>🎬 每日學習縮時</h2>
-  <div class="vids" id="vids"></div>
+  <section class="cal">
+    <div class="calbar">
+      <h2 id="calTitle"></h2>
+      <span class="sp"></span>
+      <button id="jump">今天</button>
+    </div>
+    <div class="dow"><div>一</div><div>二</div><div>三</div><div>四</div><div>五</div><div>六</div><div>日</div></div>
+    <div class="grid" id="grid"></div>
+  </section>
 
-  <div class="toolbar" id="filters">
-    <button data-f="all" class="on">全部</button>
-    <button data-f="todo">未完成</button>
-    <button data-f="done">已完成</button>
-    <button data-f="redo">重做</button>
-    <span class="sp"></span>
-    <button id="jump">跳到今天</button>
+  <div class="below">
+    <section class="panel">
+      <h3>各單元進度</h3>
+      <div class="lessons" id="lessons"></div>
+    </section>
+    <section class="panel">
+      <h3>圖例</h3>
+      <div class="legend">
+        <div><i class="dot" style="background:var(--accent);border-color:var(--accent)"></i>已完成</div>
+        <div><i class="dot" style="background:var(--redo);border-color:var(--redo)"></i>要重做（先算完成）</div>
+        <div><i class="dot"></i>未完成</div>
+        <div><span class="pill late">未完成</span>過去還沒做完的日子</div>
+        <div>難度 <span class="diff E">E</span><span class="diff M">M</span><span class="diff H">H</span></div>
+        <div style="color:var(--muted)">點日期格看當天題目與縮時影片</div>
+      </div>
+    </section>
   </div>
 
-  <div id="days"></div>
-
-  <h2>各單元進度</h2>
-  <div class="lessons" id="lessons"></div>
-
-  <div class="modal" id="modal"><div class="box">
-    <div class="mh"><b id="mtitle"></b><a id="mlink" target="_blank" rel="noopener">在新分頁開啟</a><button id="mclose" aria-label="關閉">×</button></div>
-    <iframe id="mframe" allow="autoplay; fullscreen" allowfullscreen></iframe>
-  </div></div>
-
-  <footer><span style="color:var(--redo-text);font-weight:600">↻ 黃色</span> = 要重做（先算完成）<br>難度：<b style="color:var(--e)">E</b> 簡單 · <b style="color:var(--m)">M</b> 中等 · <b style="color:var(--h)">H</b> 困難</footer>
+  <footer id="foot"></footer>
 </div>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true"><div class="box" id="box"></div></div>
 
 <script>
 const $ = s => document.querySelector(s);
-const ok = i => i.done || i.redo; // 重做也算完成
+const ok = i => i.done || i.redo; // 重做先算完成
+const st = i => i.done ? "done" : i.redo ? "redo" : "todo";
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const WD = ["日","一","二","三","四","五","六"];
+const VIDEO_START = "2026-11-09";   // 從這天開始每天一部縮時
+let DATA = null;
 
-// ---- 影片：支援 Google Drive 檔案連結 / ID、YouTube 連結 ----
+// ---- 日期工具（YYYY-MM-DD 字串，台灣時間）----
+const todayStr = () => new Date(Date.now() + 8*3600e3).toISOString().slice(0,10);
+const toD = s => new Date(s + "T00:00:00Z");
+const addDays = (s, n) => { const d = toD(s); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0,10); };
+const dow = s => toD(s).getUTCDay();             // 0=日
+const md = s => { const [,m,d] = s.split("-"); return `${+m}/${+d}`; };
+
+// ---- 影片：Google Drive 檔案連結 / ID、YouTube ----
 function driveId(u){ const m = String(u).match(/(?:\/d\/|[?&]id=)([\w-]{20,})/) || String(u).match(/^([\w-]{25,})$/); return m && m[1]; }
 function ytId(u){ const m = String(u).match(/(?:youtu\.be\/|v=|\/shorts\/|\/embed\/)([\w-]{11})/); return m && m[1]; }
 function vInfo(v){
   const src = v.url || v.fileId || "";
-  const y = ytId(src); if (y) return {embed:`https://www.youtube.com/embed/${y}?autoplay=1`, open:`https://youtu.be/${y}`, thumb:`https://i.ytimg.com/vi/${y}/mqdefault.jpg`};
-  const g = driveId(src); if (g) return {embed:`https://drive.google.com/file/d/${g}/preview`, open:`https://drive.google.com/file/d/${g}/view`, thumb:`https://drive.google.com/thumbnail?id=${g}&sz=w480`};
+  const y = ytId(src); if (y) return {embed:`https://www.youtube.com/embed/${y}?autoplay=1&rel=0`, open:`https://youtu.be/${y}`, thumb:`https://i.ytimg.com/vi/${y}/mqdefault.jpg`};
+  const g = driveId(src); if (g) return {embed:`https://drive.google.com/file/d/${g}/preview`, open:`https://drive.google.com/file/d/${g}/view`, thumb:`https://drive.google.com/thumbnail?id=${g}&sz=w640`};
   return {embed:src, open:src, thumb:""};
 }
-const vidsOn = d => (DATA.videos || []).filter(v => v.date >= d.date && v.date <= (d.dateEnd || d.date));
-function openVid(date){
-  const v = (DATA.videos || []).find(x => x.date === date); if (!v) return;
-  const i = vInfo(v);
-  $("#mtitle").textContent = `${md(v.date)} 學習縮時` + (v.title ? ` · ${v.title}` : "");
-  $("#mlink").href = i.open; $("#mframe").src = i.embed; $("#modal").classList.add("open");
-}
-function closeVid(){ $("#modal").classList.remove("open"); $("#mframe").src = "about:blank"; }
-function renderVids(){
-  const vs = [...(DATA.videos || [])].sort((a,b) => b.date.localeCompare(a.date));
-  $("#vids").className = vs.length ? "vids" : "";
-  $("#vids").innerHTML = vs.length ? vs.map(v => { const i = vInfo(v); return `<button class="vid" data-v="${esc(v.date)}">
-      <div class="th" style="${i.thumb ? `background-image:url('${esc(i.thumb)}')` : ""}"></div>
-      <div class="cap"><b>${md(v.date)}</b>${v.title ? `<span>${esc(v.title)}</span>` : ""}</div></button>`; }).join("")
-    : '<div class="vids-empty">還沒有影片，今天開始每天一部 ⏱</div>';
-}
-document.addEventListener("click", e => { const b = e.target.closest("[data-v]"); if (b) openVid(b.dataset.v); });
-$("#mclose").addEventListener("click", closeVid);
-$("#modal").addEventListener("click", e => { if (e.target.id === "modal") closeVid(); });
-document.addEventListener("keydown", e => { if (e.key === "Escape") closeVid(); });
-let DATA = null, filter = "all";
+const videoOf = date => (DATA.videos || []).find(v => v.date === date);
+const thumbHTML = (v, label) => { const i = vInfo(v);
+  return `<button class="thumb" data-play="${esc(v.date)}" style="${i.thumb ? `background-image:url('${esc(i.thumb)}')` : ""}" aria-label="播放 ${md(v.date)} 縮時">${label ? `<span class="t">${esc(label)}</span>` : ""}</button>`; };
 
-function todayStr(){
-  // 台灣時間
-  const d = new Date(Date.now() + 8*3600e3);
-  return d.toISOString().slice(0,10);
+function ringSVG(n, total, size, extra=""){
+  const sw = size > 50 ? 6 : 3.2, r = size/2 - sw, c = 2*Math.PI*r, p = total ? n/total : 0;
+  return `<svg class="ring ${extra} ${n===total&&total?"complete":""}" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+    <circle class="bg" cx="${size/2}" cy="${size/2}" r="${r}"/>
+    <circle class="fg" cx="${size/2}" cy="${size/2}" r="${r}" stroke-dasharray="${c*p} ${c}"/>
+    ${size >= 28 && size <= 50 ? `<text x="50%" y="50%" text-anchor="middle" dominant-baseline="central">${n}/${total}</text>` : ""}</svg>`;
 }
-const md = s => { const [,m,d] = s.split("-"); return `${+m}/${+d}`; };
-const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function layout(){
+  const days = DATA.days, byDate = {}, covered = new Set();
+  days.forEach(d => {
+    byDate[d.date] = d;
+    if (d.dateEnd) for (let s = addDays(d.date,1); s <= d.dateEnd; s = addDays(s,1)) covered.add(s);
+  });
+  const first = days[0].date;
+  const lastPlan = days.at(-1).dateEnd || days.at(-1).date;
+  const last = (DATA.videos || []).reduce((m,v) => v.date > m ? v.date : m, lastPlan);
+  const start = addDays(first, -((dow(first)+6)%7));     // 該週星期一
+  const end = addDays(last, (7 - dow(last)) % 7);        // 該週星期日
+  return {byDate, covered, start, end, first, last, lastPlan};
+}
 
 function render(){
   const today = todayStr();
   const all = DATA.days.flatMap(d => d.items);
   const done = all.filter(ok).length;
-  const dueItems = DATA.days.filter(d => d.date <= today).flatMap(d => d.items);
-  const dueDone = dueItems.filter(ok).length;
+  const due = DATA.days.filter(d => d.date <= today).flatMap(d => d.items);
   const behind = DATA.days.filter(d => (d.dateEnd || d.date) < today).flatMap(d => d.items).filter(i => !ok(i)).length;
-  const pct = all.length ? Math.round(done/all.length*100) : 0;
   const redo = all.filter(i => i.redo).length;
-  const daysLeft = DATA.days.filter(d => d.date >= today).length;
+  const pct = all.length ? Math.round(done/all.length*100) : 0;
+  const nVid = (DATA.videos || []).length;
+  const {byDate, covered, start, end, first, last, lastPlan} = layout();
 
   $("#title").textContent = DATA.title || "物奧進度";
-  $("#sub").textContent = `${md(DATA.days[0].date)} – ${md(DATA.days.at(-1).date)} · 共 ${all.length} 題 · 最後更新 ${DATA.updated || "—"}`;
-  $("#summary").innerHTML = `
-    <div class="stat"><div class="k">總完成</div><div class="v">${done}<small> / ${all.length}</small></div></div>
-    <div class="stat"><div class="k">完成率</div><div class="v">${pct}<small>%</small></div></div>
-    <div class="stat"><div class="k">應完成（到今天）</div><div class="v">${dueDone}<small> / ${dueItems.length}</small></div></div>
+  $("#sub").textContent = `${md(first)} – ${md(lastPlan)} · 共 ${all.length} 題 · 更新於 ${DATA.updated || "—"}`;
+  $("#bigring").innerHTML = `${ringSVG(done, all.length, 64, "big")}<div><div class="pct">${pct}<small>%</small></div><div class="lbl">總完成 ${done} / ${all.length}</div></div>`;
+  $("#stats").innerHTML = `
+    <div class="stat"><div class="k">應完成（到今天）</div><div class="v">${due.filter(ok).length}<small> / ${due.length}</small></div></div>
+    <div class="stat"><div class="k">落後</div><div class="v" style="${behind?"color:var(--warn)":""}">${behind}<small> 題</small></div></div>
     <div class="stat"><div class="k">待重做</div><div class="v" style="${redo?"color:var(--redo-text)":""}">${redo}<small> 題</small></div></div>
-    <div class="stat"><div class="k">${behind > 0 ? "落後（前幾天未完成）" : "剩餘天數"}</div><div class="v" style="${behind>0?"color:var(--warn)":""}">${behind > 0 ? behind + "<small> 題</small>" : daysLeft + "<small> 天</small>"}</div></div>`;
-  $("#totalbar").style.width = pct + "%";
+    <div class="stat"><div class="k">縮時影片</div><div class="v">${nVid}<small> 部</small></div></div>
+    <div class="stat"><div class="k">剩餘天數</div><div class="v">${DATA.days.filter(d => (d.dateEnd||d.date) >= today).length}<small> 天</small></div></div>`;
 
-  // days
-  const html = DATA.days.map(d => {
-    const st = i => i.done ? "done" : i.redo ? "redo" : "todo";
-    const items = d.items.filter(i => filter === "all" || st(i) === filter);
-    if (!items.length) return "";
-    const n = d.items.filter(ok).length;
-    const nr = d.items.filter(i => i.redo).length;
-    const end = d.dateEnd || d.date;
-    const isToday = d.date <= today && today <= end, late = end < today && n < d.items.length, full = n === d.items.length;
-    const tag = isToday ? '<span class="tag today">今天</span>'
-      : full ? '<span class="tag full">完成</span>'
-      : late ? '<span class="tag late">未完成</span>' : "";
-    return `<section class="day ${isToday?"today":""} ${late?"late":""}" id="d-${d.date}">
-      <div class="dhead"><span class="date">${md(d.date)}${d.dateEnd ? "–" + md(d.dateEnd) : ""}</span><span class="wd">週${esc(d.weekday)}</span>${tag}${nr ? `<span class="tag redo">重做 ${nr}</span>` : ""}
-        ${vidsOn(d).map(v => `<button class="vbtn" data-v="${esc(v.date)}">▶ 影片</button>`).join("")}
-        <span class="cnt">${n} / ${d.items.length}</span></div>
-      <ul>${items.map(i => `<li class="${st(i)}">
-        <span class="chk"></span><span class="num">#${i.id}</span><span class="les">${esc(i.lesson)}</span>
-        <span class="topic">${esc(i.topic)}<span class="q">${esc(i.q)}</span>${i.note ? `<span class="note">${esc(i.note)}</span>` : ""}</span>
-        <span class="diff ${i.diff||"none"}">${esc(i.diff||"–")}</span>
-        <span class="at">${i.done && i.doneAt ? md(i.doneAt) : i.redo ? "重做" : ""}</span></li>`).join("")}</ul>
-    </section>`;
-  }).join("");
-  $("#days").innerHTML = html || '<div class="empty">沒有符合的題目</div>';
+  const [, sm] = start.split("-"), [ey, em] = end.split("-");
+  $("#calTitle").innerHTML = sm === em ? `${+sm} 月<span>${ey}</span>` : `${+sm} 月 – ${+em} 月<span>${ey}</span>`;
 
-  // lessons
+  let html = "";
+  for (let s = start; s <= end; s = addDays(s,1)) {
+    if (covered.has(s)) continue;                                    // 被合併格蓋掉的日子
+    const d = byDate[s];
+    const endS = d && d.dateEnd ? d.dateEnd : s;
+    const span = d && d.dateEnd ? Math.min(Math.round((toD(endS) - toD(s))/864e5) + 1, 7 - (dow(s)+6)%7) : 1;
+    const items = d ? d.items : [];
+    const n = items.filter(ok).length;
+    const v = videoOf(s);
+    const isToday = s <= today && today <= endS;
+    const late = items.length && endS < today && n < items.length;
+    const full = items.length && n === items.length;
+    const inPlan = s >= first && s <= last;
+    const we = dow(s) === 0 || dow(s) === 6;
+    const day = +s.split("-")[2];
+    const monthLabel = day === 1 || s === start ? `<span class="mo">${+s.split("-")[1]}月</span>` : "";
+    const cls = ["cell", we&&"we", !inPlan&&"off", isToday&&"today", late&&"late", full&&"full"].filter(Boolean).join(" ");
+    const showNoVid = !v && inPlan && s >= VIDEO_START && s <= today;
+    const max = span > 1 ? 12 : 6;
+    html += `<div class="${cls}" ${span>1?`style="grid-column:span ${span}"`:""} ${inPlan?`data-day="${s}" role="button" tabindex="0"`:""}>
+      <div class="chead">
+        <span class="dn">${monthLabel}${day}${span>1?`–${+endS.split("-")[2]}`:""}</span>
+        ${late?'<span class="pill late">未完成</span>':""}
+        <span class="sp"></span>
+        ${items.length ? ringSVG(n, items.length, 30) : ""}
+      </div>
+      ${v ? thumbHTML(v, v.title || "縮時") : showNoVid ? '<div class="novid">尚未上傳縮時</div>' : ""}
+      ${items.length ? `<ul class="items ${span>1?"two":""}">${items.slice(0,max).map(i =>
+        `<li class="${st(i)}"><i class="dot"></i><span>${esc(i.topic)} ${esc(i.q)}</span></li>`).join("")}
+        ${items.length>max?`<li class="more">＋${items.length-max} 題</li>`:""}</ul>` : ""}
+    </div>`;
+  }
+  $("#grid").innerHTML = html;
+
   const by = {};
   all.forEach(i => { (by[i.lesson] ||= {n:0,d:0}); by[i.lesson].n++; if (ok(i)) by[i.lesson].d++; });
-  $("#lessons").innerHTML = Object.keys(by).sort().map(k => {
-    const {n,d} = by[k];
-    return `<div class="lesson"><div class="row"><b>${esc(k)}</b><span>${d}/${n}</span></div>
-      <div class="bar thin"><i style="width:${d/n*100}%"></i></div></div>`;
-  }).join("");
+  $("#lessons").innerHTML = Object.keys(by).sort().map(k => { const {n,d} = by[k];
+    return `<div class="lesson"><div class="row"><b>${esc(k)}</b><span>${d}/${n}</span></div><div class="bar"><i style="width:${d/n*100}%"></i></div></div>`; }).join("");
+  $("#foot").textContent = "每天一部學習縮時 · 點格子看細節";
 }
 
-$("#filters").addEventListener("click", e => {
-  const b = e.target.closest("button[data-f]"); if (!b) return;
-  filter = b.dataset.f;
-  document.querySelectorAll("#filters button[data-f]").forEach(x => x.classList.toggle("on", x === b));
-  render();
+// ---- 彈窗：當天細節 + 影片 ----
+function openDay(s, autoplay){
+  const {byDate} = layout();
+  const d = byDate[s];
+  const endS = d && d.dateEnd ? d.dateEnd : s;
+  const items = d ? d.items : [];
+  const n = items.filter(ok).length;
+  const v = videoOf(s), vi = v && vInfo(v);
+  const today = todayStr();
+  $("#box").innerHTML = `
+    <div class="mh"><span class="d">${md(s)}${d && d.dateEnd ? "–" + md(endS) : ""}</span>
+      <span class="w">週${d ? esc(d.weekday) : WD[dow(s)]}</span><span class="sp"></span>
+      ${items.length ? ringSVG(n, items.length, 34) : ""}
+      <button class="x" id="mclose" aria-label="關閉">×</button></div>
+    ${v ? `<div class="player" id="player">${autoplay ? `<iframe src="${esc(vi.embed)}" allow="autoplay; fullscreen" allowfullscreen></iframe>` : thumbHTML(v, "")}</div>
+      <div class="vmeta"><span>🎬 學習縮時${v.title ? " · " + esc(v.title) : ""}</span><a href="${esc(vi.open)}" target="_blank" rel="noopener">在新分頁開啟 ↗</a></div>`
+      : s >= VIDEO_START && s <= today ? `<div class="mnov">這天還沒有縮時影片</div>` : ""}
+    ${items.length ? `<ul class="mlist">${items.map(i => `<li class="${st(i)}">
+        <span class="chk"></span><span class="num">#${i.id}</span>
+        <span class="tp"><span class="les">${esc(i.lesson)}</span><b>${esc(i.topic)}</b><small>${esc(i.q)}</small>${i.note ? `<span class="note">${esc(i.note)}</span>` : ""}</span>
+        <span class="diff ${i.diff||"none"}">${esc(i.diff||"–")}</span>
+        <span class="at">${i.done && i.doneAt ? md(i.doneAt) : i.redo ? "重做" : ""}</span></li>`).join("")}</ul>`
+      : `<div class="mempty">這天沒有排題目。</div>`}`;
+  $("#modal").classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+function closeModal(){ $("#modal").classList.remove("open"); $("#box").innerHTML = ""; document.body.style.overflow = ""; }
+
+document.addEventListener("click", e => {
+  const p = e.target.closest("[data-play]");
+  if (p) {
+    if (p.closest("#player")) { const i = vInfo(videoOf(p.dataset.play));
+      $("#player").innerHTML = `<iframe src="${esc(i.embed)}" allow="autoplay; fullscreen" allowfullscreen></iframe>`; }
+    else openDay(p.dataset.play, true);
+    return;
+  }
+  if (e.target.id === "mclose" || e.target.id === "modal") return closeModal();
+  const c = e.target.closest("[data-day]");
+  if (c) openDay(c.dataset.day, false);
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") closeModal();
+  if ((e.key === "Enter" || e.key === " ") && e.target.matches("[data-day]")) { e.preventDefault(); openDay(e.target.dataset.day, false); }
 });
 $("#jump").addEventListener("click", () => {
-  const t = todayStr();
-  const d = DATA.days.find(x => (x.dateEnd || x.date) >= t) || DATA.days.at(-1);
-  document.getElementById("d-" + d.date)?.scrollIntoView({behavior:"smooth", block:"start"});
+  const c = document.querySelector(".cell.today") || [...document.querySelectorAll("[data-day]")].find(x => x.dataset.day >= todayStr());
+  if (!c) return;
+  c.scrollIntoView({behavior:"smooth", block:"center"});
+  c.animate([{background:"var(--accent-soft)"},{background:"transparent"}], {duration:1400});
 });
 
 fetch("data.json?t=" + Date.now(), {cache:"no-store"})
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(j => { DATA = j; render(); renderVids(); })
-  .catch(e => { $("#sub").textContent = ""; $("#days").innerHTML = `<div class="err">讀取 data.json 失敗（${esc(e.message)}）</div>`; });
+  .then(j => { DATA = j; render(); })
+  .catch(e => { $("#sub").textContent = ""; $("#grid").innerHTML = `<div class="err" style="grid-column:1/-1">讀取 data.json 失敗（${esc(e.message)}）</div>`; });
 </script>
 </body>
 </html>

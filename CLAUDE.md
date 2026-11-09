@@ -33,4 +33,4 @@
   2. `python3 video.py today <檔案ID或連結> [--title "今天內容"]`（指定日期就把 today 換成 2026-11-09）
   3. commit + push 到 main。
 - 也支援 YouTube 連結。`python3 video.py --list` 列出、`--remove 日期` 刪除。
-- 網站：上方「每日學習縮時」橫列 + 每天卡片上的「▶ 影片」按鈕，點開彈窗播放。
+- 網站是月曆版面：影片縮圖顯示在當天的日期格裡（一天一部，video.py 同一天會取代舊的），點格子開彈窗看題目並播放。
