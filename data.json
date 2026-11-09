@@ -2078,6 +2078,16 @@
      "note": "必做"
     },
     {
+     "id": 1100,
+     "lesson": "二期LEC26",
+     "topic": "純滾動",
+     "q": "P09",
+     "diff": "M",
+     "done": false,
+     "doneAt": null,
+     "note": "建議（放在「剛體問題」節）"
+    },
+    {
      "id": 1026,
      "lesson": "二期LEC27",
      "topic": "籃球落地往哪裡跑",
