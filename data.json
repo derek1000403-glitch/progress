@@ -62,22 +62,28 @@
    "weekday": "三",
    "items": [
     {"id": 903, "lesson": "二期影片", "topic": "固定軸問題", "q": "LEC26", "diff": "", "done": false, "doneAt": null},
-    {"id": 904, "lesson": "二期影片", "topic": "純滾動", "q": "LEC27", "diff": "", "done": false, "doneAt": null},
-    {"id": 905, "lesson": "二期影片", "topic": "衝擊問題", "q": "LEC28", "diff": "", "done": false, "doneAt": null}
+    {"id": 904, "lesson": "二期影片", "topic": "純滾動", "q": "LEC27", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
    "date": "2026-11-12",
    "weekday": "四",
    "items": [
-    {"id": 906, "lesson": "二期影片", "topic": "進動", "q": "LEC29", "diff": "", "done": false, "doneAt": null},
-    {"id": 907, "lesson": "二期影片", "topic": "複雜的彈性問題", "q": "LEC30", "diff": "", "done": false, "doneAt": null},
-    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": false, "doneAt": null}
+    {"id": 905, "lesson": "二期影片", "topic": "衝擊問題", "q": "LEC28", "diff": "", "done": false, "doneAt": null},
+    {"id": 906, "lesson": "二期影片", "topic": "進動", "q": "LEC29", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
    "date": "2026-11-13",
    "weekday": "五",
+   "items": [
+    {"id": 907, "lesson": "二期影片", "topic": "複雜的彈性問題", "q": "LEC30", "diff": "", "done": false, "doneAt": null},
+    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "weekday": "六",
    "items": [
     {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null},
     {"id": 910, "lesson": "二期影片", "topic": "水星軌道進動", "q": "LEC33", "diff": "", "done": false, "doneAt": null},
@@ -85,8 +91,8 @@
    ]
   },
   {
-   "date": "2026-11-14",
-   "weekday": "六",
+   "date": "2026-11-15",
+   "weekday": "日",
    "items": [
     {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null},
     {"id": 913, "lesson": "二期影片", "topic": "大氣相關問題", "q": "LEC35-2", "diff": "", "done": false, "doneAt": null},
@@ -94,42 +100,42 @@
    ]
   },
   {
-   "date": "2026-11-15",
-   "weekday": "日",
-   "items": [
-    {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null},
-    {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null},
-    {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null}
-   ]
-  },
-  {
    "date": "2026-11-16",
    "weekday": "一",
    "items": [
-    {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null},
-    {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null}
+    {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null},
+    {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
    "date": "2026-11-17",
    "weekday": "二",
    "items": [
-    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null},
-    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null}
+    {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null},
+    {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
    "date": "2026-11-18",
    "weekday": "三",
    "items": [
-    {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null},
-    {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null}
+    {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null},
+    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
    "date": "2026-11-19",
    "weekday": "四",
    "items": [
+    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null},
+    {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "weekday": "五",
+   "items": [
+    {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null},
     {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null}
    ]
   },
