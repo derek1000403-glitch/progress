@@ -61,8 +61,7 @@
    "date": "2026-11-11",
    "weekday": "三",
    "items": [
-    {"id": 903, "lesson": "二期影片", "topic": "固定軸問題", "q": "LEC26", "diff": "", "done": true, "doneAt": "2026-11-11"},
-    {"id": 904, "lesson": "二期影片", "topic": "純滾動", "q": "LEC27", "diff": "", "done": false, "doneAt": null}
+    {"id": 903, "lesson": "二期影片", "topic": "固定軸問題", "q": "LEC26", "diff": "", "done": true, "doneAt": "2026-11-11"}
    ]
   },
   {
@@ -143,6 +142,7 @@
    "date": "2026-11-21",
    "weekday": "六",
    "items": [
+    {"id": 904, "lesson": "二期影片", "topic": "純滾動", "q": "LEC27", "diff": "", "done": false, "doneAt": null, "note": "等錄音：整理秘笈並做完小練習才算完成"},
     {"id": 103, "lesson": "L17", "topic": "熱機", "q": "Q4", "diff": "M", "done": true, "doneAt": "2026-11-08", "note": "(A)(B)(C) 已完成，從 (D) 接續"},
     {"id": 104, "lesson": "L17", "topic": "熱機", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
     {"id": 105, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q1", "diff": "E", "done": true, "doneAt": "2026-11-08", "note": "停在兩式相除"},
