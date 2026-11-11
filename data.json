@@ -1,6 +1,6 @@
 {
  "title": "物奧進度",
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "days": [
   {
    "date": "2026-11-02",
@@ -61,7 +61,7 @@
    "date": "2026-11-11",
    "weekday": "三",
    "items": [
-    {"id": 903, "lesson": "二期影片", "topic": "固定軸問題", "q": "LEC26", "diff": "", "done": false, "doneAt": null},
+    {"id": 903, "lesson": "二期影片", "topic": "固定軸問題", "q": "LEC26", "diff": "", "done": true, "doneAt": "2026-11-11"},
     {"id": 904, "lesson": "二期影片", "topic": "純滾動", "q": "LEC27", "diff": "", "done": false, "doneAt": null}
    ]
   },
