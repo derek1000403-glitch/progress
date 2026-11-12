@@ -7,6 +7,7 @@
   python3 mark.py 63 --redo         # 標成「重做」（黃色，先算完成）
   python3 mark.py 63 --redo --note "推導不連貫"   # 重做並附註（網站上顯示）
   python3 mark.py 63 --undo         # 取消完成 / 取消重做，回到未做
+  python3 mark.py --summary "今天專注 3 小時" [--date 2026-11-12]   # 每日小結
   python3 mark.py --status          # 顯示目前進度
 """
 import argparse, datetime, json, pathlib, re, sys
@@ -50,10 +51,26 @@ def main():
     ap.add_argument("--date")
     ap.add_argument("--note", help="附註；空字串則清除")
     ap.add_argument("--status", action="store_true")
+    ap.add_argument("--summary", help="寫每日小結（配合 --date，預設今天）；空字串則清除")
     a = ap.parse_args()
     data = load()
     items = [it for d in data["days"] for it in d["items"]]
     today = datetime.datetime.now(TZ).date().isoformat()
+
+    if a.summary is not None:
+        d = a.date or today
+        day = next((x for x in data["days"] if x["date"] <= d <= x.get("dateEnd", x["date"])), None)
+        if day is None:
+            day = {"date": d, "weekday": "日一二三四五六"[(datetime.date.fromisoformat(d).weekday() + 1) % 7], "items": []}
+            data["days"].append(day)
+            data["days"].sort(key=lambda x: x["date"])
+        if a.summary:
+            day["summary"] = a.summary
+        else:
+            day.pop("summary", None)
+        data["updated"] = today
+        save(data)
+        print("每日小結", d, "：", a.summary or "（已清除）")
 
     if a.ids:
         want = parse_ids(a.ids)

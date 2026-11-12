@@ -41,3 +41,8 @@
 - 原檔仍在使用者 Google Drive 資料夾「物奧縮時錄影」（ID `1HTqCFjg44NhjZvueX2JFfL5FUU-eajJE`）。若只給 Drive 連結/ID 或 YouTube 連結，`video.py` 也接受，網站會改用嵌入播放器。
 - `python3 video.py --list` 列出、`--remove 日期` 刪除。
 - 網站是月曆版面：影片縮圖顯示在當天的日期格裡（一天一部，video.py 同一天會取代舊的），點縮圖開大播放器。
+
+## 網站樣式（手帳風）
+- 首頁是「月頁」：月份標題 + PLAN/DATE 追蹤表（縮時影片 / 一期習題 / 二期影片 / 二期習題，每天塗色）+ 週一開始的月曆（右側 Weekly Notes）。每格固定高度，顯示農曆、影片縮圖、題目、右下角打勾格。
+- 點日期進「每日頁」：大日期、星期、農曆、影片、橫線上的題目、底部「每日小結 DAILY SUMMARY」。可左右切換前後天。
+- 使用者說「今天小結：…」→ `python3 mark.py --summary "…"`（別天加 `--date`），會顯示在每日小結框裡。
