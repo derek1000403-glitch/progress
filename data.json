@@ -68,81 +68,105 @@
    "date": "2026-11-12",
    "weekday": "四",
    "items": [
-    {"id": 904, "lesson": "二期影片", "topic": "純滾動", "q": "LEC27", "diff": "", "done": true, "doneAt": "2026-11-12", "note": "解題部分先跳過，之後一起解"},
-    {"id": 905, "lesson": "二期影片", "topic": "衝擊問題", "q": "LEC28", "diff": "", "done": false, "doneAt": null}
+    {"id": 904, "lesson": "二期影片", "topic": "純滾動", "q": "LEC27", "diff": "", "done": true, "doneAt": "2026-11-12", "note": "解題部分先跳過，之後一起解"}
    ]
   },
   {
    "date": "2026-11-13",
    "weekday": "五",
    "items": [
-    {"id": 906, "lesson": "二期影片", "topic": "進動", "q": "LEC29", "diff": "", "done": false, "doneAt": null},
-    {"id": 907, "lesson": "二期影片", "topic": "複雜的彈性問題", "q": "LEC30", "diff": "", "done": false, "doneAt": null}
+    {"id": 905, "lesson": "二期影片", "topic": "衝擊問題", "q": "LEC28", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
    "date": "2026-11-14",
    "weekday": "六",
    "items": [
-    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": false, "doneAt": null},
-    {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null},
-    {"id": 910, "lesson": "二期影片", "topic": "水星軌道進動", "q": "LEC33", "diff": "", "done": false, "doneAt": null}
+    {"id": 906, "lesson": "二期影片", "topic": "進動", "q": "LEC29", "diff": "", "done": false, "doneAt": null},
+    {"id": 907, "lesson": "二期影片", "topic": "複雜的彈性問題", "q": "LEC30", "diff": "", "done": false, "doneAt": null},
+    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
    "date": "2026-11-15",
    "weekday": "日",
    "items": [
-    {"id": 911, "lesson": "二期影片", "topic": "同步衛星", "q": "LEC34", "diff": "", "done": false, "doneAt": null},
-    {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null},
-    {"id": 913, "lesson": "二期影片", "topic": "大氣相關問題", "q": "LEC35-2", "diff": "", "done": false, "doneAt": null}
+    {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null},
+    {"id": 910, "lesson": "二期影片", "topic": "水星軌道進動", "q": "LEC33", "diff": "", "done": false, "doneAt": null},
+    {"id": 911, "lesson": "二期影片", "topic": "同步衛星", "q": "LEC34", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
    "date": "2026-11-16",
    "weekday": "一",
    "items": [
-    {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null},
-    {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null}
+    {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
    "date": "2026-11-17",
    "weekday": "二",
    "items": [
-    {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null},
-    {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null}
+    {"id": 913, "lesson": "二期影片", "topic": "大氣相關問題", "q": "LEC35-2", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
    "date": "2026-11-18",
    "weekday": "三",
    "items": [
-    {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null},
-    {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null}
+    {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
    "date": "2026-11-19",
    "weekday": "四",
    "items": [
-    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null},
-    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null}
+    {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
    "date": "2026-11-20",
    "weekday": "五",
    "items": [
-    {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null},
-    {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null}
+    {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
    "date": "2026-11-21",
    "weekday": "六",
    "items": [
-    {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null},
+    {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null},
+    {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null},
+    {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "weekday": "日",
+   "items": [
+    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null},
+    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null},
+    {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "weekday": "一",
+   "items": [
+    {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "weekday": "二",
+   "items": [
+    {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null}
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "weekday": "三",
+   "items": [
     {"id": 103, "lesson": "L17", "topic": "熱機", "q": "Q4", "diff": "M", "done": true, "doneAt": "2026-11-08", "note": "(A)(B)(C) 已完成，從 (D) 接續"},
     {"id": 104, "lesson": "L17", "topic": "熱機", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
     {"id": 105, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q1", "diff": "E", "done": true, "doneAt": "2026-11-08", "note": "停在兩式相除"},
@@ -152,8 +176,8 @@
    ]
   },
   {
-   "date": "2026-11-22",
-   "weekday": "日",
+   "date": "2026-11-26",
+   "weekday": "四",
    "items": [
     {"id": 109, "lesson": "L18", "topic": "熵", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
     {"id": 110, "lesson": "L18", "topic": "熵", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
@@ -164,8 +188,8 @@
    ]
   },
   {
-   "date": "2026-11-23",
-   "weekday": "一",
+   "date": "2026-11-27",
+   "weekday": "五",
    "items": [
     {"id": 115, "lesson": "L18", "topic": "熵", "q": "Q8", "diff": "M", "done": false, "doneAt": null},
     {"id": 116, "lesson": "L18", "topic": "綜合問題", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
@@ -176,8 +200,8 @@
    ]
   },
   {
-   "date": "2026-11-24",
-   "weekday": "二",
+   "date": "2026-11-28",
+   "weekday": "六",
    "items": [
     {"id": 5, "lesson": "L06", "topic": "質心", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
     {"id": 6, "lesson": "L06", "topic": "質心", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
@@ -188,8 +212,8 @@
    ]
   },
   {
-   "date": "2026-11-25",
-   "weekday": "三",
+   "date": "2026-11-29",
+   "weekday": "日",
    "items": [
     {"id": 11, "lesson": "L06", "topic": "力的分解與合成", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 12, "lesson": "L06", "topic": "終端速度", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
@@ -200,8 +224,8 @@
    ]
   },
   {
-   "date": "2026-11-26",
-   "weekday": "四",
+   "date": "2026-11-30",
+   "weekday": "一",
    "items": [
     {"id": 17, "lesson": "L06", "topic": "摩擦力", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
     {"id": 18, "lesson": "L06", "topic": "摩擦力", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
@@ -212,8 +236,8 @@
    ]
   },
   {
-   "date": "2026-11-27",
-   "weekday": "五",
+   "date": "2026-12-01",
+   "weekday": "二",
    "items": [
     {"id": 23, "lesson": "L07", "topic": "摩擦力範圍", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
     {"id": 24, "lesson": "L07", "topic": "靜力平衡", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
@@ -224,8 +248,8 @@
    ]
   },
   {
-   "date": "2026-11-28",
-   "weekday": "六",
+   "date": "2026-12-02",
+   "weekday": "三",
    "items": [
     {"id": 29, "lesson": "L07", "topic": "靜力平衡", "q": "Q11", "diff": "E", "done": false, "doneAt": null},
     {"id": 30, "lesson": "L10", "topic": "能量基礎", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
@@ -236,8 +260,8 @@
    ]
   },
   {
-   "date": "2026-11-29",
-   "weekday": "日",
+   "date": "2026-12-03",
+   "weekday": "四",
    "items": [
     {"id": 35, "lesson": "L10", "topic": "功率", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
     {"id": 36, "lesson": "L10", "topic": "功率", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
@@ -248,8 +272,8 @@
    ]
   },
   {
-   "date": "2026-11-30",
-   "weekday": "一",
+   "date": "2026-12-04",
+   "weekday": "五",
    "items": [
     {"id": 41, "lesson": "L11", "topic": "Rope", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
     {"id": 42, "lesson": "L11", "topic": "正向力", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
@@ -260,8 +284,8 @@
    ]
   },
   {
-   "date": "2026-12-01",
-   "weekday": "二",
+   "date": "2026-12-05",
+   "weekday": "六",
    "items": [
     {"id": 47, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
     {"id": 48, "lesson": "L11", "topic": "彈性體", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
@@ -272,8 +296,8 @@
    ]
   },
   {
-   "date": "2026-12-02",
-   "weekday": "三",
+   "date": "2026-12-06",
+   "weekday": "日",
    "items": [
     {"id": 53, "lesson": "L12", "topic": "碰撞", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
     {"id": 54, "lesson": "L12", "topic": "碰撞", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
@@ -284,8 +308,8 @@
    ]
   },
   {
-   "date": "2026-12-03",
-   "weekday": "四",
+   "date": "2026-12-07",
+   "weekday": "一",
    "items": [
     {"id": 59, "lesson": "L12", "topic": "多體碰撞", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
     {"id": 60, "lesson": "L12", "topic": "多體碰撞", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
@@ -296,8 +320,8 @@
    ]
   },
   {
-   "date": "2026-12-04",
-   "weekday": "五",
+   "date": "2026-12-08",
+   "weekday": "二",
    "items": [
     {"id": 119, "lesson": "L19", "topic": "滑輪", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 120, "lesson": "L19", "topic": "滑輪", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
@@ -308,8 +332,8 @@
    ]
   },
   {
-   "date": "2026-12-05",
-   "weekday": "六",
+   "date": "2026-12-09",
+   "weekday": "三",
    "items": [
     {"id": 125, "lesson": "L19", "topic": "Capstan equation", "q": "Q3", "diff": "H", "done": false, "doneAt": null},
     {"id": 126, "lesson": "L20", "topic": "SHM 基礎", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
@@ -320,8 +344,8 @@
    ]
   },
   {
-   "date": "2026-12-06",
-   "weekday": "日",
+   "date": "2026-12-10",
+   "weekday": "四",
    "items": [
     {"id": 131, "lesson": "L20", "topic": "拉格朗日", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 132, "lesson": "L20", "topic": "拉格朗日", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
@@ -332,8 +356,8 @@
    ]
   },
   {
-   "date": "2026-12-07",
-   "weekday": "一",
+   "date": "2026-12-11",
+   "weekday": "五",
    "items": [
     {"id": 137, "lesson": "L20", "topic": "液體震動", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
     {"id": 138, "lesson": "L20", "topic": "綜合問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
@@ -344,8 +368,8 @@
    ]
   },
   {
-   "date": "2026-12-08",
-   "weekday": "二",
+   "date": "2026-12-12",
+   "weekday": "六",
    "items": [
     {"id": 143, "lesson": "L20", "topic": "綜合問題", "q": "Q7", "diff": "M", "done": false, "doneAt": null},
     {"id": 144, "lesson": "L21", "topic": "平移非慣性系", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
@@ -356,8 +380,8 @@
    ]
   },
   {
-   "date": "2026-12-09",
-   "weekday": "三",
+   "date": "2026-12-13",
+   "weekday": "日",
    "items": [
     {"id": 149, "lesson": "L21", "topic": "雙振子", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
     {"id": 150, "lesson": "L21", "topic": "雙振子", "q": "Q6", "diff": "M", "done": false, "doneAt": null},
@@ -368,8 +392,8 @@
    ]
   },
   {
-   "date": "2026-12-10",
-   "weekday": "四",
+   "date": "2026-12-14",
+   "weekday": "一",
    "items": [
     {"id": 155, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 156, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
@@ -380,8 +404,8 @@
    ]
   },
   {
-   "date": "2026-12-11",
-   "weekday": "五",
+   "date": "2026-12-15",
+   "weekday": "二",
    "items": [
     {"id": 161, "lesson": "L22", "topic": "妙用慣性系", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 162, "lesson": "L22", "topic": "妙用慣性系", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
@@ -392,16 +416,16 @@
    ]
   },
   {
-   "date": "2026-12-12",
-   "weekday": "六",
+   "date": "2026-12-16",
+   "weekday": "三",
    "items": [
     {"id": 167, "lesson": "L22", "topic": "離心位能", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 168, "lesson": "L23", "topic": "強迫振盪", "q": "Q2", "diff": "M", "done": false, "doneAt": null}
    ]
   },
   {
-   "date": "2026-12-13",
-   "weekday": "日",
+   "date": "2026-12-17",
+   "weekday": "四",
    "items": [
     {"id": 1001, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1002, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
@@ -412,8 +436,8 @@
    ]
   },
   {
-   "date": "2026-12-14",
-   "weekday": "一",
+   "date": "2026-12-18",
+   "weekday": "五",
    "items": [
     {"id": 1007, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1008, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
@@ -424,8 +448,8 @@
    ]
   },
   {
-   "date": "2026-12-15",
-   "weekday": "二",
+   "date": "2026-12-19",
+   "weekday": "六",
    "items": [
     {"id": 1013, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1014, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
@@ -436,8 +460,8 @@
    ]
   },
   {
-   "date": "2026-12-16",
-   "weekday": "三",
+   "date": "2026-12-20",
+   "weekday": "日",
    "items": [
     {"id": 1019, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1020, "lesson": "二期LEC26", "topic": "純滾動", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
@@ -448,8 +472,8 @@
    ]
   },
   {
-   "date": "2026-12-17",
-   "weekday": "四",
+   "date": "2026-12-21",
+   "weekday": "一",
    "items": [
     {"id": 1025, "lesson": "二期LEC26", "topic": "純滾動", "q": "P10", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1100, "lesson": "二期LEC26", "topic": "純滾動", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "建議（放在「剛體問題」節）"},
@@ -461,8 +485,8 @@
    ]
   },
   {
-   "date": "2026-12-18",
-   "weekday": "五",
+   "date": "2026-12-22",
+   "weekday": "二",
    "items": [
     {"id": 1031, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
     {"id": 1032, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
@@ -473,8 +497,8 @@
    ]
   },
   {
-   "date": "2026-12-19",
-   "weekday": "六",
+   "date": "2026-12-23",
+   "weekday": "三",
    "items": [
     {"id": 1037, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P07", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1038, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
@@ -485,8 +509,8 @@
    ]
   },
   {
-   "date": "2026-12-20",
-   "weekday": "日",
+   "date": "2026-12-24",
+   "weekday": "四",
    "items": [
     {"id": 1043, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
     {"id": 1044, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P05", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
@@ -497,8 +521,8 @@
    ]
   },
   {
-   "date": "2026-12-21",
-   "weekday": "一",
+   "date": "2026-12-25",
+   "weekday": "五",
    "items": [
     {"id": 1049, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1050, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
@@ -509,8 +533,8 @@
    ]
   },
   {
-   "date": "2026-12-22",
-   "weekday": "二",
+   "date": "2026-12-26",
+   "weekday": "六",
    "items": [
     {"id": 1055, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1056, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
@@ -521,8 +545,8 @@
    ]
   },
   {
-   "date": "2026-12-23",
-   "weekday": "三",
+   "date": "2026-12-27",
+   "weekday": "日",
    "items": [
     {"id": 1061, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1062, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
@@ -533,8 +557,8 @@
    ]
   },
   {
-   "date": "2026-12-24",
-   "weekday": "四",
+   "date": "2026-12-28",
+   "weekday": "一",
    "items": [
     {"id": 1067, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P14", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1068, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
@@ -545,8 +569,8 @@
    ]
   },
   {
-   "date": "2026-12-25",
-   "weekday": "五",
+   "date": "2026-12-29",
+   "weekday": "二",
    "items": [
     {"id": 1073, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1074, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
@@ -557,8 +581,8 @@
    ]
   },
   {
-   "date": "2026-12-26",
-   "weekday": "六",
+   "date": "2026-12-30",
+   "weekday": "三",
    "items": [
     {"id": 1079, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P01", "diff": "H", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1080, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
@@ -569,8 +593,8 @@
    ]
   },
   {
-   "date": "2026-12-27",
-   "weekday": "日",
+   "date": "2026-12-31",
+   "weekday": "四",
    "items": [
     {"id": 1085, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1086, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
@@ -581,8 +605,8 @@
    ]
   },
   {
-   "date": "2026-12-28",
-   "weekday": "一",
+   "date": "2027-01-01",
+   "weekday": "五",
    "items": [
     {"id": 1091, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P15", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1092, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P16", "diff": "H", "done": false, "doneAt": null, "note": "必做"},
@@ -593,8 +617,8 @@
    ]
   },
   {
-   "date": "2026-12-29",
-   "weekday": "二",
+   "date": "2027-01-02",
+   "weekday": "六",
    "items": [
     {"id": 1097, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P26", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1098, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P28", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
