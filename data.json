@@ -1,6 +1,6 @@
 {
  "title": "物奧進度",
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "days": [
   {
    "date": "2026-11-02",
@@ -75,7 +75,7 @@
    "date": "2026-11-13",
    "weekday": "五",
    "items": [
-    {"id": 905, "lesson": "二期影片", "topic": "衝擊問題", "q": "LEC28", "diff": "", "done": false, "doneAt": null}
+    {"id": 905, "lesson": "二期影片", "topic": "衝擊問題", "q": "LEC28", "diff": "", "done": true, "doneAt": "2026-11-13", "note": "解題部分先跳過，之後一起解"}
    ]
   },
   {
