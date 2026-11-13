@@ -171,14 +171,7 @@
    "date": "2026-11-24",
    "weekday": "二",
    "items": [
-    {"id": 2011, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"}
-   ]
-  },
-  {
-   "date": "2026-11-25",
-   "weekday": "三",
-   "items": [
-    {"id": 2012, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2011, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 103, "lesson": "L17", "topic": "熱機", "q": "Q4", "diff": "M", "done": true, "doneAt": "2026-11-08", "note": "(A)(B)(C) 已完成，從 (D) 接續"},
     {"id": 104, "lesson": "L17", "topic": "熱機", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
     {"id": 105, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q1", "diff": "E", "done": true, "doneAt": "2026-11-08", "note": "停在兩式相除"},
@@ -188,10 +181,10 @@
    ]
   },
   {
-   "date": "2026-11-26",
-   "weekday": "四",
+   "date": "2026-11-25",
+   "weekday": "三",
    "items": [
-    {"id": 2013, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2012, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 109, "lesson": "L18", "topic": "熵", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
     {"id": 110, "lesson": "L18", "topic": "熵", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
     {"id": 111, "lesson": "L18", "topic": "熵", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
@@ -201,10 +194,10 @@
    ]
   },
   {
-   "date": "2026-11-27",
-   "weekday": "五",
+   "date": "2026-11-26",
+   "weekday": "四",
    "items": [
-    {"id": 2014, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2013, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 115, "lesson": "L18", "topic": "熵", "q": "Q8", "diff": "M", "done": false, "doneAt": null},
     {"id": 116, "lesson": "L18", "topic": "綜合問題", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
     {"id": 1, "lesson": "L05", "topic": "拋體運動", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
@@ -214,10 +207,10 @@
    ]
   },
   {
-   "date": "2026-11-28",
-   "weekday": "六",
+   "date": "2026-11-27",
+   "weekday": "五",
    "items": [
-    {"id": 2015, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2014, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 5, "lesson": "L06", "topic": "質心", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
     {"id": 6, "lesson": "L06", "topic": "質心", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
     {"id": 7, "lesson": "L06", "topic": "衝動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
@@ -227,10 +220,10 @@
    ]
   },
   {
-   "date": "2026-11-29",
-   "weekday": "日",
+   "date": "2026-11-28",
+   "weekday": "六",
    "items": [
-    {"id": 2016, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2015, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 11, "lesson": "L06", "topic": "力的分解與合成", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 12, "lesson": "L06", "topic": "終端速度", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 13, "lesson": "L06", "topic": "空氣阻力", "q": "Q1", "diff": "H", "done": false, "doneAt": null},
@@ -240,10 +233,10 @@
    ]
   },
   {
-   "date": "2026-11-30",
-   "weekday": "一",
+   "date": "2026-11-29",
+   "weekday": "日",
    "items": [
-    {"id": 2017, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2016, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 17, "lesson": "L06", "topic": "摩擦力", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
     {"id": 18, "lesson": "L06", "topic": "摩擦力", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
     {"id": 19, "lesson": "L07", "topic": "相對運動", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
@@ -253,10 +246,10 @@
    ]
   },
   {
-   "date": "2026-12-01",
-   "weekday": "二",
+   "date": "2026-11-30",
+   "weekday": "一",
    "items": [
-    {"id": 2018, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2017, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 23, "lesson": "L07", "topic": "摩擦力範圍", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
     {"id": 24, "lesson": "L07", "topic": "靜力平衡", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 25, "lesson": "L07", "topic": "靜力平衡", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
@@ -266,10 +259,10 @@
    ]
   },
   {
-   "date": "2026-12-02",
-   "weekday": "三",
+   "date": "2026-12-01",
+   "weekday": "二",
    "items": [
-    {"id": 2019, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2018, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 29, "lesson": "L07", "topic": "靜力平衡", "q": "Q11", "diff": "E", "done": false, "doneAt": null},
     {"id": 30, "lesson": "L10", "topic": "能量基礎", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 31, "lesson": "L10", "topic": "能量基礎", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
@@ -279,10 +272,10 @@
    ]
   },
   {
-   "date": "2026-12-03",
-   "weekday": "四",
+   "date": "2026-12-02",
+   "weekday": "三",
    "items": [
-    {"id": 2020, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2019, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 35, "lesson": "L10", "topic": "功率", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
     {"id": 36, "lesson": "L10", "topic": "功率", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
     {"id": 37, "lesson": "L10", "topic": "功率", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
@@ -292,10 +285,10 @@
    ]
   },
   {
-   "date": "2026-12-04",
-   "weekday": "五",
+   "date": "2026-12-03",
+   "weekday": "四",
    "items": [
-    {"id": 2021, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2020, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 41, "lesson": "L11", "topic": "Rope", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
     {"id": 42, "lesson": "L11", "topic": "正向力", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 43, "lesson": "L11", "topic": "正向力", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
@@ -305,10 +298,10 @@
    ]
   },
   {
-   "date": "2026-12-05",
-   "weekday": "六",
+   "date": "2026-12-04",
+   "weekday": "五",
    "items": [
-    {"id": 2022, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2021, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 47, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
     {"id": 48, "lesson": "L11", "topic": "彈性體", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
     {"id": 49, "lesson": "L11", "topic": "彈簧", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
@@ -318,10 +311,10 @@
    ]
   },
   {
-   "date": "2026-12-06",
-   "weekday": "日",
+   "date": "2026-12-05",
+   "weekday": "六",
    "items": [
-    {"id": 2023, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2022, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 53, "lesson": "L12", "topic": "碰撞", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
     {"id": 54, "lesson": "L12", "topic": "碰撞", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
     {"id": 55, "lesson": "L12", "topic": "碰撞", "q": "Q7", "diff": "M", "done": false, "doneAt": null},
@@ -331,10 +324,10 @@
    ]
   },
   {
-   "date": "2026-12-07",
-   "weekday": "一",
+   "date": "2026-12-06",
+   "weekday": "日",
    "items": [
-    {"id": 2024, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2023, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 59, "lesson": "L12", "topic": "多體碰撞", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
     {"id": 60, "lesson": "L12", "topic": "多體碰撞", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
     {"id": 61, "lesson": "L12", "topic": "恢復係數", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
@@ -344,10 +337,10 @@
    ]
   },
   {
-   "date": "2026-12-08",
-   "weekday": "二",
+   "date": "2026-12-07",
+   "weekday": "一",
    "items": [
-    {"id": 2025, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2024, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 119, "lesson": "L19", "topic": "滑輪", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 120, "lesson": "L19", "topic": "滑輪", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
     {"id": 121, "lesson": "L19", "topic": "滑輪", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
@@ -357,10 +350,10 @@
    ]
   },
   {
-   "date": "2026-12-09",
-   "weekday": "三",
+   "date": "2026-12-08",
+   "weekday": "二",
    "items": [
-    {"id": 2026, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2025, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 125, "lesson": "L19", "topic": "Capstan equation", "q": "Q3", "diff": "H", "done": false, "doneAt": null},
     {"id": 126, "lesson": "L20", "topic": "SHM 基礎", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
     {"id": 127, "lesson": "L20", "topic": "SHM 基礎", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
@@ -370,10 +363,10 @@
    ]
   },
   {
-   "date": "2026-12-10",
-   "weekday": "四",
+   "date": "2026-12-09",
+   "weekday": "三",
    "items": [
-    {"id": 2027, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2026, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 131, "lesson": "L20", "topic": "拉格朗日", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 132, "lesson": "L20", "topic": "拉格朗日", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
     {"id": 133, "lesson": "L20", "topic": "熱力+SHM", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
@@ -383,10 +376,10 @@
    ]
   },
   {
-   "date": "2026-12-11",
-   "weekday": "五",
+   "date": "2026-12-10",
+   "weekday": "四",
    "items": [
-    {"id": 2028, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2027, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 137, "lesson": "L20", "topic": "液體震動", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
     {"id": 138, "lesson": "L20", "topic": "綜合問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 139, "lesson": "L20", "topic": "綜合問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
@@ -396,10 +389,10 @@
    ]
   },
   {
-   "date": "2026-12-12",
-   "weekday": "六",
+   "date": "2026-12-11",
+   "weekday": "五",
    "items": [
-    {"id": 2029, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2028, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 143, "lesson": "L20", "topic": "綜合問題", "q": "Q7", "diff": "M", "done": false, "doneAt": null},
     {"id": 144, "lesson": "L21", "topic": "平移非慣性系", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
     {"id": 145, "lesson": "L21", "topic": "平移非慣性系", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
@@ -409,10 +402,10 @@
    ]
   },
   {
-   "date": "2026-12-13",
-   "weekday": "日",
+   "date": "2026-12-12",
+   "weekday": "六",
    "items": [
-    {"id": 2030, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2029, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 149, "lesson": "L21", "topic": "雙振子", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
     {"id": 150, "lesson": "L21", "topic": "雙振子", "q": "Q6", "diff": "M", "done": false, "doneAt": null},
     {"id": 151, "lesson": "L21", "topic": "雙振子", "q": "Q7", "diff": "M", "done": false, "doneAt": null},
@@ -422,10 +415,10 @@
    ]
   },
   {
-   "date": "2026-12-14",
-   "weekday": "一",
+   "date": "2026-12-13",
+   "weekday": "日",
    "items": [
-    {"id": 2031, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2030, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 155, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 156, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
     {"id": 157, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
@@ -435,10 +428,10 @@
    ]
   },
   {
-   "date": "2026-12-15",
-   "weekday": "二",
+   "date": "2026-12-14",
+   "weekday": "一",
    "items": [
-    {"id": 2032, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2031, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 161, "lesson": "L22", "topic": "妙用慣性系", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 162, "lesson": "L22", "topic": "妙用慣性系", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
     {"id": 163, "lesson": "L22", "topic": "妙用慣性系", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
@@ -448,19 +441,19 @@
    ]
   },
   {
-   "date": "2026-12-16",
-   "weekday": "三",
+   "date": "2026-12-15",
+   "weekday": "二",
    "items": [
-    {"id": 2033, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2032, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 167, "lesson": "L22", "topic": "離心位能", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 168, "lesson": "L23", "topic": "強迫振盪", "q": "Q2", "diff": "M", "done": false, "doneAt": null}
    ]
   },
   {
-   "date": "2026-12-17",
-   "weekday": "四",
+   "date": "2026-12-16",
+   "weekday": "三",
    "items": [
-    {"id": 2034, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2033, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1001, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1002, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1003, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
@@ -470,10 +463,10 @@
    ]
   },
   {
-   "date": "2026-12-18",
-   "weekday": "五",
+   "date": "2026-12-17",
+   "weekday": "四",
    "items": [
-    {"id": 2035, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2034, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1007, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1008, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
     {"id": 1009, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
@@ -483,10 +476,10 @@
    ]
   },
   {
-   "date": "2026-12-19",
-   "weekday": "六",
+   "date": "2026-12-18",
+   "weekday": "五",
    "items": [
-    {"id": 2036, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2035, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1013, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1014, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1015, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P04", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
@@ -496,10 +489,10 @@
    ]
   },
   {
-   "date": "2026-12-20",
-   "weekday": "日",
+   "date": "2026-12-19",
+   "weekday": "六",
    "items": [
-    {"id": 2037, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2036, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1019, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1020, "lesson": "二期LEC26", "topic": "純滾動", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
     {"id": 1021, "lesson": "二期LEC26", "topic": "純滾動", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
@@ -509,10 +502,10 @@
    ]
   },
   {
-   "date": "2026-12-21",
-   "weekday": "一",
+   "date": "2026-12-20",
+   "weekday": "日",
    "items": [
-    {"id": 2038, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2037, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1025, "lesson": "二期LEC26", "topic": "純滾動", "q": "P10", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1100, "lesson": "二期LEC26", "topic": "純滾動", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "建議（放在「剛體問題」節）"},
     {"id": 1026, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
@@ -523,10 +516,10 @@
    ]
   },
   {
-   "date": "2026-12-22",
-   "weekday": "二",
+   "date": "2026-12-21",
+   "weekday": "一",
    "items": [
-    {"id": 2039, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2038, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1031, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
     {"id": 1032, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
     {"id": 1033, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
@@ -536,10 +529,10 @@
    ]
   },
   {
-   "date": "2026-12-23",
-   "weekday": "三",
+   "date": "2026-12-22",
+   "weekday": "二",
    "items": [
-    {"id": 2040, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2039, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1037, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P07", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1038, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1039, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
@@ -549,10 +542,10 @@
    ]
   },
   {
-   "date": "2026-12-24",
-   "weekday": "四",
+   "date": "2026-12-23",
+   "weekday": "三",
    "items": [
-    {"id": 2041, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2040, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1043, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
     {"id": 1044, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P05", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1045, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P07", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
@@ -562,10 +555,10 @@
    ]
   },
   {
-   "date": "2026-12-25",
-   "weekday": "五",
+   "date": "2026-12-24",
+   "weekday": "四",
    "items": [
-    {"id": 2042, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2041, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1049, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1050, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1051, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
@@ -575,10 +568,10 @@
    ]
   },
   {
-   "date": "2026-12-26",
-   "weekday": "六",
+   "date": "2026-12-25",
+   "weekday": "五",
    "items": [
-    {"id": 2043, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2042, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1055, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1056, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1057, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
@@ -588,10 +581,10 @@
    ]
   },
   {
-   "date": "2026-12-27",
-   "weekday": "日",
+   "date": "2026-12-26",
+   "weekday": "六",
    "items": [
-    {"id": 2044, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2043, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1061, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1062, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1063, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
@@ -601,10 +594,10 @@
    ]
   },
   {
-   "date": "2026-12-28",
-   "weekday": "一",
+   "date": "2026-12-27",
+   "weekday": "日",
    "items": [
-    {"id": 2045, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2044, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1067, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P14", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1068, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1069, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
@@ -614,10 +607,10 @@
    ]
   },
   {
-   "date": "2026-12-29",
-   "weekday": "二",
+   "date": "2026-12-28",
+   "weekday": "一",
    "items": [
-    {"id": 2046, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2045, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1073, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1074, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1075, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
@@ -627,10 +620,10 @@
    ]
   },
   {
-   "date": "2026-12-30",
-   "weekday": "三",
+   "date": "2026-12-29",
+   "weekday": "二",
    "items": [
-    {"id": 2047, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2046, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1079, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P01", "diff": "H", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1080, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1081, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
@@ -640,10 +633,10 @@
    ]
   },
   {
-   "date": "2026-12-31",
-   "weekday": "四",
+   "date": "2026-12-30",
+   "weekday": "三",
    "items": [
-    {"id": 2048, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2047, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1085, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1086, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
     {"id": 1087, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
@@ -653,10 +646,10 @@
    ]
   },
   {
-   "date": "2027-01-01",
-   "weekday": "五",
+   "date": "2026-12-31",
+   "weekday": "四",
    "items": [
-    {"id": 2049, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2048, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1091, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P15", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1092, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P16", "diff": "H", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1093, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P20", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
@@ -666,13 +659,20 @@
    ]
   },
   {
-   "date": "2027-01-02",
-   "weekday": "六",
+   "date": "2027-01-01",
+   "weekday": "五",
    "items": [
-    {"id": 2050, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 2049, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 1097, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P26", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1098, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P28", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1099, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P30", "diff": "H", "done": false, "doneAt": null, "note": "必做"}
+   ]
+  },
+  {
+   "date": "2027-01-02",
+   "weekday": "六",
+   "items": [
+    {"id": 2050, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"}
    ]
   }
  ],
