@@ -367,7 +367,8 @@ const CATS = [
   {k:"vid", name:"縮時影片"},
   {k:"p1",  name:"一期習題", test:i => i.id < 900},
   {k:"v2",  name:"二期影片", test:i => i.id >= 900 && i.id < 1000},
-  {k:"p2",  name:"二期習題", test:i => i.id >= 1000},
+  {k:"p2",  name:"二期習題", test:i => i.id >= 1000 && i.id < 2000},
+  {k:"mem", name:"記憶加強", test:i => i.id >= 2000},
 ];
 function index(){
   const byDate = {}, owner = {};
