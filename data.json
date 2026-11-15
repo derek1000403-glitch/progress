@@ -90,8 +90,7 @@
    "date": "2026-11-15",
    "weekday": "日",
    "items": [
-    {"id": 2002, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 907, "lesson": "二期影片", "topic": "複雜的彈性問題", "q": "LEC30", "diff": "", "done": false, "doneAt": null}
+    {"id": 2002, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"}
    ]
   },
   {
@@ -99,7 +98,7 @@
    "weekday": "一",
    "items": [
     {"id": 2003, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": false, "doneAt": null}
+    {"id": 907, "lesson": "二期影片", "topic": "複雜的彈性問題", "q": "LEC30", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
@@ -107,7 +106,7 @@
    "weekday": "二",
    "items": [
     {"id": 2004, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null}
+    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
@@ -115,7 +114,7 @@
    "weekday": "三",
    "items": [
     {"id": 2005, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 910, "lesson": "二期影片", "topic": "水星軌道進動", "q": "LEC33", "diff": "", "done": false, "doneAt": null}
+    {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
@@ -123,7 +122,7 @@
    "weekday": "四",
    "items": [
     {"id": 2006, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 911, "lesson": "二期影片", "topic": "同步衛星", "q": "LEC34", "diff": "", "done": false, "doneAt": null}
+    {"id": 910, "lesson": "二期影片", "topic": "水星軌道進動", "q": "LEC33", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
@@ -131,7 +130,7 @@
    "weekday": "五",
    "items": [
     {"id": 2007, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null}
+    {"id": 911, "lesson": "二期影片", "topic": "同步衛星", "q": "LEC34", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
@@ -139,9 +138,9 @@
    "weekday": "六",
    "items": [
     {"id": 2008, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null},
     {"id": 913, "lesson": "二期影片", "topic": "大氣相關問題", "q": "LEC35-2", "diff": "", "done": false, "doneAt": null},
-    {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null},
-    {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null}
+    {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
@@ -149,9 +148,9 @@
    "weekday": "日",
    "items": [
     {"id": 2009, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null},
     {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null},
-    {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null},
-    {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null}
+    {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
@@ -159,7 +158,7 @@
    "weekday": "一",
    "items": [
     {"id": 2010, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null}
+    {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
@@ -167,7 +166,7 @@
    "weekday": "二",
    "items": [
     {"id": 2011, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null}
+    {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
@@ -175,7 +174,7 @@
    "weekday": "三",
    "items": [
     {"id": 2012, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null}
+    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
@@ -183,7 +182,7 @@
    "weekday": "四",
    "items": [
     {"id": 2013, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null}
+    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
@@ -191,7 +190,7 @@
    "weekday": "五",
    "items": [
     {"id": 2014, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null}
+    {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null}
    ]
   },
   {
@@ -199,6 +198,7 @@
    "weekday": "六",
    "items": [
     {"id": 2015, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
+    {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null},
     {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null}
    ]
   },
