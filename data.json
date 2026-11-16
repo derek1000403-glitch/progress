@@ -98,7 +98,8 @@
    "weekday": "一",
    "items": [
     {"id": 2003, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 907, "lesson": "二期影片", "topic": "複雜的彈性問題", "q": "LEC30", "diff": "", "done": false, "doneAt": null}
+    {"id": 907, "lesson": "二期影片", "topic": "複雜的彈性問題", "q": "LEC30", "diff": "", "done": false, "doneAt": null},
+    {"id": 4009, "lesson": "LEC09", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -106,7 +107,8 @@
    "weekday": "二",
    "items": [
     {"id": 2004, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": false, "doneAt": null}
+    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": false, "doneAt": null},
+    {"id": 4010, "lesson": "LEC10", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -114,7 +116,8 @@
    "weekday": "三",
    "items": [
     {"id": 2005, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null}
+    {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null},
+    {"id": 4011, "lesson": "LEC11", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -122,7 +125,8 @@
    "weekday": "四",
    "items": [
     {"id": 2006, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 910, "lesson": "二期影片", "topic": "水星軌道進動", "q": "LEC33", "diff": "", "done": false, "doneAt": null}
+    {"id": 910, "lesson": "二期影片", "topic": "水星軌道進動", "q": "LEC33", "diff": "", "done": false, "doneAt": null},
+    {"id": 4012, "lesson": "LEC12", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -130,7 +134,8 @@
    "weekday": "五",
    "items": [
     {"id": 2007, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 911, "lesson": "二期影片", "topic": "同步衛星", "q": "LEC34", "diff": "", "done": false, "doneAt": null}
+    {"id": 911, "lesson": "二期影片", "topic": "同步衛星", "q": "LEC34", "diff": "", "done": false, "doneAt": null},
+    {"id": 4013, "lesson": "LEC13", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -140,7 +145,8 @@
     {"id": 2008, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null},
     {"id": 913, "lesson": "二期影片", "topic": "大氣相關問題", "q": "LEC35-2", "diff": "", "done": false, "doneAt": null},
-    {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null}
+    {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null},
+    {"id": 4014, "lesson": "LEC14", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -150,7 +156,8 @@
     {"id": 2009, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null},
     {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null},
-    {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null}
+    {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null},
+    {"id": 4015, "lesson": "LEC15", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -158,7 +165,8 @@
    "weekday": "一",
    "items": [
     {"id": 2010, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null}
+    {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null},
+    {"id": 4016, "lesson": "LEC16", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -166,7 +174,8 @@
    "weekday": "二",
    "items": [
     {"id": 2011, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null}
+    {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null},
+    {"id": 4017, "lesson": "LEC17", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -174,7 +183,8 @@
    "weekday": "三",
    "items": [
     {"id": 2012, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null}
+    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null},
+    {"id": 4018, "lesson": "LEC18", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -182,7 +192,8 @@
    "weekday": "四",
    "items": [
     {"id": 2013, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null}
+    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null},
+    {"id": 4019, "lesson": "LEC19", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -190,7 +201,8 @@
    "weekday": "五",
    "items": [
     {"id": 2014, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null}
+    {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null},
+    {"id": 4020, "lesson": "LEC20", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -199,7 +211,8 @@
    "items": [
     {"id": 2015, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null},
-    {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null}
+    {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null},
+    {"id": 4005, "lesson": "LEC05", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -212,7 +225,8 @@
     {"id": 105, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q1", "diff": "E", "done": true, "doneAt": "2026-11-08", "note": "停在兩式相除"},
     {"id": 106, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
     {"id": 107, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
-    {"id": 108, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q5", "diff": "M", "done": false, "doneAt": null}
+    {"id": 108, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
+    {"id": 4006, "lesson": "LEC06", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -225,7 +239,8 @@
     {"id": 111, "lesson": "L18", "topic": "熵", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
     {"id": 112, "lesson": "L18", "topic": "熵", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
     {"id": 113, "lesson": "L18", "topic": "熵", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
-    {"id": 114, "lesson": "L18", "topic": "熵", "q": "Q7", "diff": "E", "done": false, "doneAt": null}
+    {"id": 114, "lesson": "L18", "topic": "熵", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
+    {"id": 4007, "lesson": "LEC07", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -238,7 +253,8 @@
     {"id": 1, "lesson": "L05", "topic": "拋體運動", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
     {"id": 2, "lesson": "L05", "topic": "拋體運動", "q": "Q8", "diff": "E", "done": false, "doneAt": null},
     {"id": 3, "lesson": "L05", "topic": "拋體運動", "q": "Q10", "diff": "E", "done": false, "doneAt": null},
-    {"id": 4, "lesson": "L06", "topic": "質心", "q": "Q1", "diff": "E", "done": false, "doneAt": null}
+    {"id": 4, "lesson": "L06", "topic": "質心", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 4021, "lesson": "LEC21", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -251,7 +267,8 @@
     {"id": 7, "lesson": "L06", "topic": "衝動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
     {"id": 8, "lesson": "L06", "topic": "衝動量", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
     {"id": 9, "lesson": "L06", "topic": "衝動量", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
-    {"id": 10, "lesson": "L06", "topic": "衝動量", "q": "Q8", "diff": "M", "done": false, "doneAt": null}
+    {"id": 10, "lesson": "L06", "topic": "衝動量", "q": "Q8", "diff": "M", "done": false, "doneAt": null},
+    {"id": 4022, "lesson": "LEC22", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -264,7 +281,8 @@
     {"id": 13, "lesson": "L06", "topic": "空氣阻力", "q": "Q1", "diff": "H", "done": false, "doneAt": null},
     {"id": 14, "lesson": "L06", "topic": "空氣阻力", "q": "Q2", "diff": "H", "done": false, "doneAt": null},
     {"id": 15, "lesson": "L06", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 16, "lesson": "L06", "topic": "摩擦力", "q": "Q4", "diff": "E", "done": false, "doneAt": null}
+    {"id": 16, "lesson": "L06", "topic": "摩擦力", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
+    {"id": 4023, "lesson": "LEC23", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -277,7 +295,8 @@
     {"id": 19, "lesson": "L07", "topic": "相對運動", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
     {"id": 20, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 21, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 22, "lesson": "L07", "topic": "向心力", "q": "Q1", "diff": "E", "done": false, "doneAt": null}
+    {"id": 22, "lesson": "L07", "topic": "向心力", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 4024, "lesson": "LEC24", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -290,7 +309,8 @@
     {"id": 25, "lesson": "L07", "topic": "靜力平衡", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
     {"id": 26, "lesson": "L07", "topic": "靜力平衡", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
     {"id": 27, "lesson": "L07", "topic": "靜力平衡", "q": "Q9", "diff": "E", "done": false, "doneAt": null},
-    {"id": 28, "lesson": "L07", "topic": "靜力平衡", "q": "Q10", "diff": "E", "done": false, "doneAt": null}
+    {"id": 28, "lesson": "L07", "topic": "靜力平衡", "q": "Q10", "diff": "E", "done": false, "doneAt": null},
+    {"id": 4025, "lesson": "LEC25", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -303,7 +323,8 @@
     {"id": 31, "lesson": "L10", "topic": "能量基礎", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
     {"id": 32, "lesson": "L10", "topic": "能量基礎", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
     {"id": 33, "lesson": "L10", "topic": "能量基礎", "q": "Q8", "diff": "E", "done": false, "doneAt": null},
-    {"id": 34, "lesson": "L10", "topic": "功率", "q": "Q3", "diff": "E", "done": false, "doneAt": null}
+    {"id": 34, "lesson": "L10", "topic": "功率", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
+    {"id": 4026, "lesson": "LEC26", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -316,7 +337,8 @@
     {"id": 37, "lesson": "L10", "topic": "功率", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
     {"id": 38, "lesson": "L10", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 39, "lesson": "L10", "topic": "擺跟釘子", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
-    {"id": 40, "lesson": "L10", "topic": "擺跟釘子", "q": "Q3", "diff": "M", "done": false, "doneAt": null}
+    {"id": 40, "lesson": "L10", "topic": "擺跟釘子", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
+    {"id": 4027, "lesson": "LEC27", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -329,7 +351,8 @@
     {"id": 43, "lesson": "L11", "topic": "正向力", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
     {"id": 44, "lesson": "L11", "topic": "正向力", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
     {"id": 45, "lesson": "L11", "topic": "穩定性", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 46, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null}
+    {"id": 46, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 4028, "lesson": "LEC28", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -342,7 +365,8 @@
     {"id": 49, "lesson": "L11", "topic": "彈簧", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
     {"id": 50, "lesson": "L12", "topic": "正向力做功嗎", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 51, "lesson": "L12", "topic": "相對滑動", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 52, "lesson": "L12", "topic": "子彈問題", "q": "Q2", "diff": "M", "done": false, "doneAt": null}
+    {"id": 52, "lesson": "L12", "topic": "子彈問題", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
+    {"id": 4029, "lesson": "LEC29", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -355,7 +379,8 @@
     {"id": 55, "lesson": "L12", "topic": "碰撞", "q": "Q7", "diff": "M", "done": false, "doneAt": null},
     {"id": 56, "lesson": "L12", "topic": "碰撞", "q": "Q8", "diff": "E", "done": false, "doneAt": null},
     {"id": 57, "lesson": "L12", "topic": "多體碰撞", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 58, "lesson": "L12", "topic": "多體碰撞", "q": "Q2", "diff": "E", "done": false, "doneAt": null}
+    {"id": 58, "lesson": "L12", "topic": "多體碰撞", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 4030, "lesson": "LEC30", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -368,7 +393,8 @@
     {"id": 61, "lesson": "L12", "topic": "恢復係數", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 62, "lesson": "L12", "topic": "恢復係數", "q": "Q2", "diff": "H", "done": false, "doneAt": null},
     {"id": 117, "lesson": "L19", "topic": "角動量", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 118, "lesson": "L19", "topic": "角動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null}
+    {"id": 118, "lesson": "L19", "topic": "角動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
+    {"id": 4031, "lesson": "LEC31", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -381,7 +407,8 @@
     {"id": 121, "lesson": "L19", "topic": "滑輪", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
     {"id": 122, "lesson": "L19", "topic": "滑輪", "q": "Q9", "diff": "M", "done": false, "doneAt": null},
     {"id": 123, "lesson": "L19", "topic": "滑輪", "q": "Q10", "diff": "M", "done": false, "doneAt": null},
-    {"id": 124, "lesson": "L19", "topic": "Capstan equation", "q": "Q1", "diff": "E", "done": false, "doneAt": null}
+    {"id": 124, "lesson": "L19", "topic": "Capstan equation", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
+    {"id": 4032, "lesson": "LEC32", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -394,7 +421,8 @@
     {"id": 127, "lesson": "L20", "topic": "SHM 基礎", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
     {"id": 128, "lesson": "L20", "topic": "SHM 基礎", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
     {"id": 129, "lesson": "L20", "topic": "鉛直SHM", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
-    {"id": 130, "lesson": "L20", "topic": "鉛直SHM", "q": "Q5", "diff": "E", "done": false, "doneAt": null}
+    {"id": 130, "lesson": "L20", "topic": "鉛直SHM", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
+    {"id": 4033, "lesson": "LEC33", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -407,7 +435,8 @@
     {"id": 133, "lesson": "L20", "topic": "熱力+SHM", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
     {"id": 134, "lesson": "L20", "topic": "熱力+SHM", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
     {"id": 135, "lesson": "L20", "topic": "熱力+SHM", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
-    {"id": 136, "lesson": "L20", "topic": "熱力+SHM", "q": "Q5", "diff": "M", "done": false, "doneAt": null}
+    {"id": 136, "lesson": "L20", "topic": "熱力+SHM", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
+    {"id": 4034, "lesson": "LEC34", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -420,7 +449,8 @@
     {"id": 139, "lesson": "L20", "topic": "綜合問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
     {"id": 140, "lesson": "L20", "topic": "綜合問題", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
     {"id": 141, "lesson": "L20", "topic": "綜合問題", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
-    {"id": 142, "lesson": "L20", "topic": "綜合問題", "q": "Q5", "diff": "M", "done": false, "doneAt": null}
+    {"id": 142, "lesson": "L20", "topic": "綜合問題", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
+    {"id": 4035, "lesson": "LEC35", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -433,7 +463,8 @@
     {"id": 145, "lesson": "L21", "topic": "平移非慣性系", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
     {"id": 146, "lesson": "L21", "topic": "平移非慣性系", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
     {"id": 147, "lesson": "L21", "topic": "平移非慣性系", "q": "Q6", "diff": "M", "done": false, "doneAt": null},
-    {"id": 148, "lesson": "L21", "topic": "平移非慣性系", "q": "Q7", "diff": "M", "done": false, "doneAt": null}
+    {"id": 148, "lesson": "L21", "topic": "平移非慣性系", "q": "Q7", "diff": "M", "done": false, "doneAt": null},
+    {"id": 4036, "lesson": "LEC36", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -446,7 +477,8 @@
     {"id": 151, "lesson": "L21", "topic": "雙振子", "q": "Q7", "diff": "M", "done": false, "doneAt": null},
     {"id": 152, "lesson": "L21", "topic": "雙振子", "q": "Q8", "diff": "M", "done": false, "doneAt": null},
     {"id": 153, "lesson": "L21", "topic": "雙振子", "q": "Q9", "diff": "M", "done": false, "doneAt": null},
-    {"id": 154, "lesson": "L21", "topic": "雙振子", "q": "Q10", "diff": "M", "done": false, "doneAt": null}
+    {"id": 154, "lesson": "L21", "topic": "雙振子", "q": "Q10", "diff": "M", "done": false, "doneAt": null},
+    {"id": 4037, "lesson": "LEC37", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -459,7 +491,8 @@
     {"id": 157, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
     {"id": 158, "lesson": "L22", "topic": "相對滑動", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
     {"id": 159, "lesson": "L22", "topic": "相對滑動", "q": "Q3", "diff": "H", "done": false, "doneAt": null},
-    {"id": 160, "lesson": "L22", "topic": "相對滑動", "q": "Q4", "diff": "M", "done": false, "doneAt": null}
+    {"id": 160, "lesson": "L22", "topic": "相對滑動", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
+    {"id": 4038, "lesson": "LEC38", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -472,7 +505,8 @@
     {"id": 163, "lesson": "L22", "topic": "妙用慣性系", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
     {"id": 164, "lesson": "L22", "topic": "妙用慣性系", "q": "Q5", "diff": "H", "done": false, "doneAt": null},
     {"id": 165, "lesson": "L22", "topic": "離心力", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 166, "lesson": "L22", "topic": "科氏力", "q": "Q3", "diff": "M", "done": false, "doneAt": null}
+    {"id": 166, "lesson": "L22", "topic": "科氏力", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
+    {"id": 4000, "lesson": "LEC00", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -481,7 +515,8 @@
    "items": [
     {"id": 2037, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
     {"id": 167, "lesson": "L22", "topic": "離心位能", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 168, "lesson": "L23", "topic": "強迫振盪", "q": "Q2", "diff": "M", "done": false, "doneAt": null}
+    {"id": 168, "lesson": "L23", "topic": "強迫振盪", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
+    {"id": 4001, "lesson": "LEC01", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -494,7 +529,8 @@
     {"id": 1003, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1004, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1005, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1006, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做"}
+    {"id": 1006, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
+    {"id": 4002, "lesson": "LEC02", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -507,7 +543,8 @@
     {"id": 1009, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
     {"id": 1010, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1011, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1012, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做"}
+    {"id": 1012, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
+    {"id": 4003, "lesson": "LEC03", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -520,7 +557,8 @@
     {"id": 1015, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P04", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1016, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1017, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1018, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做"}
+    {"id": 1018, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
+    {"id": 4004, "lesson": "LEC04", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -533,7 +571,8 @@
     {"id": 1021, "lesson": "二期LEC26", "topic": "純滾動", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
     {"id": 1022, "lesson": "二期LEC26", "topic": "純滾動", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
     {"id": 1023, "lesson": "二期LEC26", "topic": "純滾動", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1024, "lesson": "二期LEC26", "topic": "純滾動", "q": "P05", "diff": "M", "done": false, "doneAt": null, "note": "必做"}
+    {"id": 1024, "lesson": "二期LEC26", "topic": "純滾動", "q": "P05", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
+    {"id": 4008, "lesson": "LEC08", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -547,7 +586,8 @@
     {"id": 1027, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1028, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1029, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1030, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"}
+    {"id": 1030, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
+    {"id": 4039, "lesson": "LEC39", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -560,7 +600,8 @@
     {"id": 1033, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
     {"id": 1034, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
     {"id": 1035, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1036, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P06", "diff": "M", "done": false, "doneAt": null, "note": "必做"}
+    {"id": 1036, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P06", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
+    {"id": 4040, "lesson": "LEC40", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -573,7 +614,8 @@
     {"id": 1039, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1040, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P01", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1041, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1042, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"}
+    {"id": 1042, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
+    {"id": 4041, "lesson": "LEC41", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -586,7 +628,8 @@
     {"id": 1045, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P07", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1046, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1047, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1048, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"}
+    {"id": 1048, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
+    {"id": 4042, "lesson": "LEC42", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -599,7 +642,8 @@
     {"id": 1051, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1052, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1053, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1054, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做"}
+    {"id": 1054, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
+    {"id": 4043, "lesson": "LEC43", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -612,7 +656,8 @@
     {"id": 1057, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1058, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1059, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1060, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做"}
+    {"id": 1060, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
+    {"id": 4044, "lesson": "LEC44", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -625,7 +670,8 @@
     {"id": 1063, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1064, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P10", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1065, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P11", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1066, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P12", "diff": "E", "done": false, "doneAt": null, "note": "必做"}
+    {"id": 1066, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P12", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
+    {"id": 4045, "lesson": "LEC45", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
@@ -638,7 +684,8 @@
     {"id": 1069, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1070, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
     {"id": 1071, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1072, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做"}
+    {"id": 1072, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
+    {"id": 4046, "lesson": "LEC46", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
    ]
   },
   {
