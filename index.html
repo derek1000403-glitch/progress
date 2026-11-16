@@ -373,7 +373,8 @@ const CATS = [
   {k:"p2",  name:"二期習題", test:i => i.id >= 1000 && i.id < 2000},
   {k:"mem", name:"記憶加強", test:i => i.id >= 2000 && i.id < 3000},
   {k:"etc", name:"整理筆記", test:i => i.id >= 3000 && i.id < 4000},
-  {k:"rev", name:"舊課複習", test:i => i.id >= 4000},
+  {k:"rev", name:"舊課秘笈", test:i => i.id >= 4000 && i.id < 5000},
+  {k:"sec", name:"新課秘笈", test:i => i.id >= 5000},
 ];
 function index(){
   const byDate = {}, owner = {};
