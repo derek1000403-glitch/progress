@@ -97,665 +97,983 @@
    "date": "2026-11-16",
    "weekday": "一",
    "items": [
-    {"id": 2003, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 907, "lesson": "二期影片", "topic": "複雜的彈性問題", "q": "LEC30", "diff": "", "done": false, "doneAt": null},
-    {"id": 4009, "lesson": "LEC09", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2003, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 907, "lesson": "二期影片", "topic": "複雜的彈性問題", "q": "LEC30", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4009, "lesson": "LEC09", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC09 全部故事線用文字接話",
+    "學校": "舊課複習 LEC09：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "二期影片＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "今天新課：翻秘笈把剛看的招式打勾；不熟的照時間點回看那一分鐘"
+   }
   },
   {
    "date": "2026-11-17",
    "weekday": "二",
    "items": [
-    {"id": 2004, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": false, "doneAt": null},
-    {"id": 4010, "lesson": "LEC10", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2004, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4010, "lesson": "LEC10", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC10 全部故事線用文字接話",
+    "學校": "舊課複習 LEC10：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "二期影片＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "今天新課：翻秘笈把剛看的招式打勾；不熟的照時間點回看那一分鐘"
+   }
   },
   {
    "date": "2026-11-18",
    "weekday": "三",
    "items": [
-    {"id": 2005, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null},
-    {"id": 4011, "lesson": "LEC11", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2005, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4011, "lesson": "LEC11", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC11 全部故事線用文字接話",
+    "學校": "舊課複習 LEC11：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "二期影片＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "今天新課：翻秘笈把剛看的招式打勾；不熟的照時間點回看那一分鐘"
+   }
   },
   {
    "date": "2026-11-19",
    "weekday": "四",
    "items": [
-    {"id": 2006, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 910, "lesson": "二期影片", "topic": "水星軌道進動", "q": "LEC33", "diff": "", "done": false, "doneAt": null},
-    {"id": 4012, "lesson": "LEC12", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2006, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 910, "lesson": "二期影片", "topic": "水星軌道進動", "q": "LEC33", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4012, "lesson": "LEC12", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC12 全部故事線用文字接話",
+    "學校": "舊課複習 LEC12：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "二期影片＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "今天新課：翻秘笈把剛看的招式打勾；不熟的照時間點回看那一分鐘"
+   }
   },
   {
    "date": "2026-11-20",
    "weekday": "五",
    "items": [
-    {"id": 2007, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 911, "lesson": "二期影片", "topic": "同步衛星", "q": "LEC34", "diff": "", "done": false, "doneAt": null},
-    {"id": 4013, "lesson": "LEC13", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2007, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 911, "lesson": "二期影片", "topic": "同步衛星", "q": "LEC34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4013, "lesson": "LEC13", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC13 全部故事線用文字接話",
+    "學校": "舊課複習 LEC13：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "二期影片＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "今天新課：翻秘笈把剛看的招式打勾；不熟的照時間點回看那一分鐘"
+   }
   },
   {
    "date": "2026-11-21",
    "weekday": "六",
    "items": [
-    {"id": 2008, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null},
-    {"id": 913, "lesson": "二期影片", "topic": "大氣相關問題", "q": "LEC35-2", "diff": "", "done": false, "doneAt": null},
-    {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null},
-    {"id": 4014, "lesson": "LEC14", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2008, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 913, "lesson": "二期影片", "topic": "大氣相關問題", "q": "LEC35-2", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4014, "lesson": "LEC14", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC14 全部故事線用文字接話",
+    "學校": "週末：這段併進圖書館",
+    "圖書館": "二期影片＋停點：說「開始上課」拿回來的時間；上午先做舊課複習 LEC14",
+    "晚通勤": "今天新課：翻秘笈把剛看的招式打勾；不熟的照時間點回看那一分鐘"
+   }
   },
   {
    "date": "2026-11-22",
    "weekday": "日",
    "items": [
-    {"id": 2009, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null},
-    {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null},
-    {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null},
-    {"id": 4015, "lesson": "LEC15", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2009, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4015, "lesson": "LEC15", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC15 全部故事線用文字接話",
+    "學校": "週末：這段併進圖書館",
+    "圖書館": "二期影片＋停點：說「開始上課」拿回來的時間；上午先做舊課複習 LEC15",
+    "晚通勤": "今天新課：翻秘笈把剛看的招式打勾；不熟的照時間點回看那一分鐘"
+   }
   },
   {
    "date": "2026-11-23",
    "weekday": "一",
    "items": [
-    {"id": 2010, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null},
-    {"id": 4016, "lesson": "LEC16", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2010, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4016, "lesson": "LEC16", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC16 全部故事線用文字接話",
+    "學校": "舊課複習 LEC16：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "二期影片＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "今天新課：翻秘笈把剛看的招式打勾；不熟的照時間點回看那一分鐘"
+   }
   },
   {
    "date": "2026-11-24",
    "weekday": "二",
    "items": [
-    {"id": 2011, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null},
-    {"id": 4017, "lesson": "LEC17", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2011, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4017, "lesson": "LEC17", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC17 全部故事線用文字接話",
+    "學校": "舊課複習 LEC17：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "二期影片＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "今天新課：翻秘笈把剛看的招式打勾；不熟的照時間點回看那一分鐘"
+   }
   },
   {
    "date": "2026-11-25",
    "weekday": "三",
    "items": [
-    {"id": 2012, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null},
-    {"id": 4018, "lesson": "LEC18", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2012, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4018, "lesson": "LEC18", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC18 全部故事線用文字接話",
+    "學校": "舊課複習 LEC18：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "二期影片＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "今天新課：翻秘笈把剛看的招式打勾；不熟的照時間點回看那一分鐘"
+   }
   },
   {
    "date": "2026-11-26",
    "weekday": "四",
    "items": [
-    {"id": 2013, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null},
-    {"id": 4019, "lesson": "LEC19", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2013, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4019, "lesson": "LEC19", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC19 全部故事線用文字接話",
+    "學校": "舊課複習 LEC19：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "二期影片＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "今天新課：翻秘笈把剛看的招式打勾；不熟的照時間點回看那一分鐘"
+   }
   },
   {
    "date": "2026-11-27",
    "weekday": "五",
    "items": [
-    {"id": 2014, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null},
-    {"id": 4020, "lesson": "LEC20", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2014, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4020, "lesson": "LEC20", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC20 全部故事線用文字接話",
+    "學校": "舊課複習 LEC20：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "二期影片＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "今天新課：翻秘笈把剛看的招式打勾；不熟的照時間點回看那一分鐘"
+   }
   },
   {
    "date": "2026-11-28",
    "weekday": "六",
    "items": [
-    {"id": 2015, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null},
-    {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null},
-    {"id": 4005, "lesson": "LEC05", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2015, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4005, "lesson": "LEC05", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC05 全部故事線用文字接話",
+    "學校": "週末：這段併進圖書館",
+    "圖書館": "二期影片＋停點：說「開始上課」拿回來的時間；上午先做舊課複習 LEC05",
+    "晚通勤": "今天新課：翻秘笈把剛看的招式打勾；不熟的照時間點回看那一分鐘"
+   }
   },
   {
    "date": "2026-11-29",
    "weekday": "日",
    "items": [
-    {"id": 2016, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 103, "lesson": "L17", "topic": "熱機", "q": "Q4", "diff": "M", "done": true, "doneAt": "2026-11-08", "note": "(A)(B)(C) 已完成，從 (D) 接續"},
-    {"id": 104, "lesson": "L17", "topic": "熱機", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
-    {"id": 105, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q1", "diff": "E", "done": true, "doneAt": "2026-11-08", "note": "停在兩式相除"},
-    {"id": 106, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
-    {"id": 107, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
-    {"id": 108, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
-    {"id": 4006, "lesson": "LEC06", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2016, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 103, "lesson": "L17", "topic": "熱機", "q": "Q4", "diff": "M", "done": true, "doneAt": "2026-11-08", "note": "(A)(B)(C) 已完成，從 (D) 接續", "slot": "圖書館"},
+    {"id": 104, "lesson": "L17", "topic": "熱機", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 105, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q1", "diff": "E", "done": true, "doneAt": "2026-11-08", "note": "停在兩式相除", "slot": "圖書館"},
+    {"id": 106, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 107, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 108, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4006, "lesson": "LEC06", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC06 全部故事線用文字接話",
+    "學校": "週末：這段併進圖書館",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude；上午先做舊課複習 LEC06",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-11-30",
    "weekday": "一",
    "items": [
-    {"id": 2017, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 109, "lesson": "L18", "topic": "熵", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 110, "lesson": "L18", "topic": "熵", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
-    {"id": 111, "lesson": "L18", "topic": "熵", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
-    {"id": 112, "lesson": "L18", "topic": "熵", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
-    {"id": 113, "lesson": "L18", "topic": "熵", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
-    {"id": 114, "lesson": "L18", "topic": "熵", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
-    {"id": 4007, "lesson": "LEC07", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2017, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 109, "lesson": "L18", "topic": "熵", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 110, "lesson": "L18", "topic": "熵", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 111, "lesson": "L18", "topic": "熵", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 112, "lesson": "L18", "topic": "熵", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 113, "lesson": "L18", "topic": "熵", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 114, "lesson": "L18", "topic": "熵", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4007, "lesson": "LEC07", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC07 全部故事線用文字接話",
+    "學校": "舊課複習 LEC07：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-01",
    "weekday": "二",
    "items": [
-    {"id": 2018, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 115, "lesson": "L18", "topic": "熵", "q": "Q8", "diff": "M", "done": false, "doneAt": null},
-    {"id": 116, "lesson": "L18", "topic": "綜合問題", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
-    {"id": 1, "lesson": "L05", "topic": "拋體運動", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
-    {"id": 2, "lesson": "L05", "topic": "拋體運動", "q": "Q8", "diff": "E", "done": false, "doneAt": null},
-    {"id": 3, "lesson": "L05", "topic": "拋體運動", "q": "Q10", "diff": "E", "done": false, "doneAt": null},
-    {"id": 4, "lesson": "L06", "topic": "質心", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 4021, "lesson": "LEC21", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2018, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 115, "lesson": "L18", "topic": "熵", "q": "Q8", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 116, "lesson": "L18", "topic": "綜合問題", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 1, "lesson": "L05", "topic": "拋體運動", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 2, "lesson": "L05", "topic": "拋體運動", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 3, "lesson": "L05", "topic": "拋體運動", "q": "Q10", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4, "lesson": "L06", "topic": "質心", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4021, "lesson": "LEC21", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC21 全部故事線用文字接話",
+    "學校": "舊課複習 LEC21：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-02",
    "weekday": "三",
    "items": [
-    {"id": 2019, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 5, "lesson": "L06", "topic": "質心", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 6, "lesson": "L06", "topic": "質心", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
-    {"id": 7, "lesson": "L06", "topic": "衝動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 8, "lesson": "L06", "topic": "衝動量", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
-    {"id": 9, "lesson": "L06", "topic": "衝動量", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
-    {"id": 10, "lesson": "L06", "topic": "衝動量", "q": "Q8", "diff": "M", "done": false, "doneAt": null},
-    {"id": 4022, "lesson": "LEC22", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2019, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 5, "lesson": "L06", "topic": "質心", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 6, "lesson": "L06", "topic": "質心", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7, "lesson": "L06", "topic": "衝動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 8, "lesson": "L06", "topic": "衝動量", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9, "lesson": "L06", "topic": "衝動量", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 10, "lesson": "L06", "topic": "衝動量", "q": "Q8", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4022, "lesson": "LEC22", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC22 全部故事線用文字接話",
+    "學校": "舊課複習 LEC22：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-03",
    "weekday": "四",
    "items": [
-    {"id": 2020, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 11, "lesson": "L06", "topic": "力的分解與合成", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 12, "lesson": "L06", "topic": "終端速度", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 13, "lesson": "L06", "topic": "空氣阻力", "q": "Q1", "diff": "H", "done": false, "doneAt": null},
-    {"id": 14, "lesson": "L06", "topic": "空氣阻力", "q": "Q2", "diff": "H", "done": false, "doneAt": null},
-    {"id": 15, "lesson": "L06", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 16, "lesson": "L06", "topic": "摩擦力", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
-    {"id": 4023, "lesson": "LEC23", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2020, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 11, "lesson": "L06", "topic": "力的分解與合成", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 12, "lesson": "L06", "topic": "終端速度", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 13, "lesson": "L06", "topic": "空氣阻力", "q": "Q1", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 14, "lesson": "L06", "topic": "空氣阻力", "q": "Q2", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 15, "lesson": "L06", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 16, "lesson": "L06", "topic": "摩擦力", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4023, "lesson": "LEC23", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC23 全部故事線用文字接話",
+    "學校": "舊課複習 LEC23：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-04",
    "weekday": "五",
    "items": [
-    {"id": 2021, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 17, "lesson": "L06", "topic": "摩擦力", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
-    {"id": 18, "lesson": "L06", "topic": "摩擦力", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
-    {"id": 19, "lesson": "L07", "topic": "相對運動", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
-    {"id": 20, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 21, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 22, "lesson": "L07", "topic": "向心力", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 4024, "lesson": "LEC24", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2021, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 17, "lesson": "L06", "topic": "摩擦力", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 18, "lesson": "L06", "topic": "摩擦力", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 19, "lesson": "L07", "topic": "相對運動", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 20, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 21, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 22, "lesson": "L07", "topic": "向心力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4024, "lesson": "LEC24", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC24 全部故事線用文字接話",
+    "學校": "舊課複習 LEC24：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-05",
    "weekday": "六",
    "items": [
-    {"id": 2022, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 23, "lesson": "L07", "topic": "摩擦力範圍", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
-    {"id": 24, "lesson": "L07", "topic": "靜力平衡", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 25, "lesson": "L07", "topic": "靜力平衡", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
-    {"id": 26, "lesson": "L07", "topic": "靜力平衡", "q": "Q7", "diff": "E", "done": false, "doneAt": null},
-    {"id": 27, "lesson": "L07", "topic": "靜力平衡", "q": "Q9", "diff": "E", "done": false, "doneAt": null},
-    {"id": 28, "lesson": "L07", "topic": "靜力平衡", "q": "Q10", "diff": "E", "done": false, "doneAt": null},
-    {"id": 4025, "lesson": "LEC25", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2022, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 23, "lesson": "L07", "topic": "摩擦力範圍", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 24, "lesson": "L07", "topic": "靜力平衡", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 25, "lesson": "L07", "topic": "靜力平衡", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 26, "lesson": "L07", "topic": "靜力平衡", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 27, "lesson": "L07", "topic": "靜力平衡", "q": "Q9", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 28, "lesson": "L07", "topic": "靜力平衡", "q": "Q10", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4025, "lesson": "LEC25", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC25 全部故事線用文字接話",
+    "學校": "週末：這段併進圖書館",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude；上午先做舊課複習 LEC25",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-06",
    "weekday": "日",
    "items": [
-    {"id": 2023, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 29, "lesson": "L07", "topic": "靜力平衡", "q": "Q11", "diff": "E", "done": false, "doneAt": null},
-    {"id": 30, "lesson": "L10", "topic": "能量基礎", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 31, "lesson": "L10", "topic": "能量基礎", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
-    {"id": 32, "lesson": "L10", "topic": "能量基礎", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
-    {"id": 33, "lesson": "L10", "topic": "能量基礎", "q": "Q8", "diff": "E", "done": false, "doneAt": null},
-    {"id": 34, "lesson": "L10", "topic": "功率", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
-    {"id": 4026, "lesson": "LEC26", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2023, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 29, "lesson": "L07", "topic": "靜力平衡", "q": "Q11", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 30, "lesson": "L10", "topic": "能量基礎", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 31, "lesson": "L10", "topic": "能量基礎", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 32, "lesson": "L10", "topic": "能量基礎", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 33, "lesson": "L10", "topic": "能量基礎", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 34, "lesson": "L10", "topic": "功率", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4026, "lesson": "LEC26", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC26 全部故事線用文字接話",
+    "學校": "週末：這段併進圖書館",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude；上午先做舊課複習 LEC26",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-07",
    "weekday": "一",
    "items": [
-    {"id": 2024, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 35, "lesson": "L10", "topic": "功率", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
-    {"id": 36, "lesson": "L10", "topic": "功率", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
-    {"id": 37, "lesson": "L10", "topic": "功率", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
-    {"id": 38, "lesson": "L10", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 39, "lesson": "L10", "topic": "擺跟釘子", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
-    {"id": 40, "lesson": "L10", "topic": "擺跟釘子", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
-    {"id": 4027, "lesson": "LEC27", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2024, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 35, "lesson": "L10", "topic": "功率", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 36, "lesson": "L10", "topic": "功率", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 37, "lesson": "L10", "topic": "功率", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 38, "lesson": "L10", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 39, "lesson": "L10", "topic": "擺跟釘子", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 40, "lesson": "L10", "topic": "擺跟釘子", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4027, "lesson": "LEC27", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC27 全部故事線用文字接話",
+    "學校": "舊課複習 LEC27：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-08",
    "weekday": "二",
    "items": [
-    {"id": 2025, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 41, "lesson": "L11", "topic": "Rope", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
-    {"id": 42, "lesson": "L11", "topic": "正向力", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 43, "lesson": "L11", "topic": "正向力", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 44, "lesson": "L11", "topic": "正向力", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
-    {"id": 45, "lesson": "L11", "topic": "穩定性", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 46, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 4028, "lesson": "LEC28", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2025, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 41, "lesson": "L11", "topic": "Rope", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 42, "lesson": "L11", "topic": "正向力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 43, "lesson": "L11", "topic": "正向力", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 44, "lesson": "L11", "topic": "正向力", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 45, "lesson": "L11", "topic": "穩定性", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 46, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4028, "lesson": "LEC28", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC28 全部故事線用文字接話",
+    "學校": "舊課複習 LEC28：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-09",
    "weekday": "三",
    "items": [
-    {"id": 2026, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 47, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
-    {"id": 48, "lesson": "L11", "topic": "彈性體", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
-    {"id": 49, "lesson": "L11", "topic": "彈簧", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 50, "lesson": "L12", "topic": "正向力做功嗎", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 51, "lesson": "L12", "topic": "相對滑動", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 52, "lesson": "L12", "topic": "子彈問題", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
-    {"id": 4029, "lesson": "LEC29", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2026, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 47, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 48, "lesson": "L11", "topic": "彈性體", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 49, "lesson": "L11", "topic": "彈簧", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 50, "lesson": "L12", "topic": "正向力做功嗎", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 51, "lesson": "L12", "topic": "相對滑動", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 52, "lesson": "L12", "topic": "子彈問題", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4029, "lesson": "LEC29", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC29 全部故事線用文字接話",
+    "學校": "舊課複習 LEC29：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-10",
    "weekday": "四",
    "items": [
-    {"id": 2027, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 53, "lesson": "L12", "topic": "碰撞", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
-    {"id": 54, "lesson": "L12", "topic": "碰撞", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
-    {"id": 55, "lesson": "L12", "topic": "碰撞", "q": "Q7", "diff": "M", "done": false, "doneAt": null},
-    {"id": 56, "lesson": "L12", "topic": "碰撞", "q": "Q8", "diff": "E", "done": false, "doneAt": null},
-    {"id": 57, "lesson": "L12", "topic": "多體碰撞", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 58, "lesson": "L12", "topic": "多體碰撞", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 4030, "lesson": "LEC30", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2027, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 53, "lesson": "L12", "topic": "碰撞", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 54, "lesson": "L12", "topic": "碰撞", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 55, "lesson": "L12", "topic": "碰撞", "q": "Q7", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 56, "lesson": "L12", "topic": "碰撞", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 57, "lesson": "L12", "topic": "多體碰撞", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 58, "lesson": "L12", "topic": "多體碰撞", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4030, "lesson": "LEC30", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC30 全部故事線用文字接話",
+    "學校": "舊課複習 LEC30：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-11",
    "weekday": "五",
    "items": [
-    {"id": 2028, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 59, "lesson": "L12", "topic": "多體碰撞", "q": "Q3", "diff": "E", "done": false, "doneAt": null},
-    {"id": 60, "lesson": "L12", "topic": "多體碰撞", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
-    {"id": 61, "lesson": "L12", "topic": "恢復係數", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 62, "lesson": "L12", "topic": "恢復係數", "q": "Q2", "diff": "H", "done": false, "doneAt": null},
-    {"id": 117, "lesson": "L19", "topic": "角動量", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 118, "lesson": "L19", "topic": "角動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 4031, "lesson": "LEC31", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2028, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 59, "lesson": "L12", "topic": "多體碰撞", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 60, "lesson": "L12", "topic": "多體碰撞", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 61, "lesson": "L12", "topic": "恢復係數", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 62, "lesson": "L12", "topic": "恢復係數", "q": "Q2", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 117, "lesson": "L19", "topic": "角動量", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 118, "lesson": "L19", "topic": "角動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4031, "lesson": "LEC31", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC31 全部故事線用文字接話",
+    "學校": "舊課複習 LEC31：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-12",
    "weekday": "六",
    "items": [
-    {"id": 2029, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 119, "lesson": "L19", "topic": "滑輪", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 120, "lesson": "L19", "topic": "滑輪", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 121, "lesson": "L19", "topic": "滑輪", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
-    {"id": 122, "lesson": "L19", "topic": "滑輪", "q": "Q9", "diff": "M", "done": false, "doneAt": null},
-    {"id": 123, "lesson": "L19", "topic": "滑輪", "q": "Q10", "diff": "M", "done": false, "doneAt": null},
-    {"id": 124, "lesson": "L19", "topic": "Capstan equation", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 4032, "lesson": "LEC32", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2029, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 119, "lesson": "L19", "topic": "滑輪", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 120, "lesson": "L19", "topic": "滑輪", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 121, "lesson": "L19", "topic": "滑輪", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 122, "lesson": "L19", "topic": "滑輪", "q": "Q9", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 123, "lesson": "L19", "topic": "滑輪", "q": "Q10", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 124, "lesson": "L19", "topic": "Capstan equation", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4032, "lesson": "LEC32", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC32 全部故事線用文字接話",
+    "學校": "週末：這段併進圖書館",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude；上午先做舊課複習 LEC32",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-13",
    "weekday": "日",
    "items": [
-    {"id": 2030, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 125, "lesson": "L19", "topic": "Capstan equation", "q": "Q3", "diff": "H", "done": false, "doneAt": null},
-    {"id": 126, "lesson": "L20", "topic": "SHM 基礎", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
-    {"id": 127, "lesson": "L20", "topic": "SHM 基礎", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
-    {"id": 128, "lesson": "L20", "topic": "SHM 基礎", "q": "Q6", "diff": "E", "done": false, "doneAt": null},
-    {"id": 129, "lesson": "L20", "topic": "鉛直SHM", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
-    {"id": 130, "lesson": "L20", "topic": "鉛直SHM", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
-    {"id": 4033, "lesson": "LEC33", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2030, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 125, "lesson": "L19", "topic": "Capstan equation", "q": "Q3", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 126, "lesson": "L20", "topic": "SHM 基礎", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 127, "lesson": "L20", "topic": "SHM 基礎", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 128, "lesson": "L20", "topic": "SHM 基礎", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 129, "lesson": "L20", "topic": "鉛直SHM", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 130, "lesson": "L20", "topic": "鉛直SHM", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4033, "lesson": "LEC33", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC33 全部故事線用文字接話",
+    "學校": "週末：這段併進圖書館",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude；上午先做舊課複習 LEC33",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-14",
    "weekday": "一",
    "items": [
-    {"id": 2031, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 131, "lesson": "L20", "topic": "拉格朗日", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 132, "lesson": "L20", "topic": "拉格朗日", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 133, "lesson": "L20", "topic": "熱力+SHM", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 134, "lesson": "L20", "topic": "熱力+SHM", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 135, "lesson": "L20", "topic": "熱力+SHM", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
-    {"id": 136, "lesson": "L20", "topic": "熱力+SHM", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
-    {"id": 4034, "lesson": "LEC34", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2031, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 131, "lesson": "L20", "topic": "拉格朗日", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 132, "lesson": "L20", "topic": "拉格朗日", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 133, "lesson": "L20", "topic": "熱力+SHM", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 134, "lesson": "L20", "topic": "熱力+SHM", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 135, "lesson": "L20", "topic": "熱力+SHM", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 136, "lesson": "L20", "topic": "熱力+SHM", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4034, "lesson": "LEC34", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC34 全部故事線用文字接話",
+    "學校": "舊課複習 LEC34：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-15",
    "weekday": "二",
    "items": [
-    {"id": 2032, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 137, "lesson": "L20", "topic": "液體震動", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
-    {"id": 138, "lesson": "L20", "topic": "綜合問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 139, "lesson": "L20", "topic": "綜合問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 140, "lesson": "L20", "topic": "綜合問題", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
-    {"id": 141, "lesson": "L20", "topic": "綜合問題", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
-    {"id": 142, "lesson": "L20", "topic": "綜合問題", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
-    {"id": 4035, "lesson": "LEC35", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2032, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 137, "lesson": "L20", "topic": "液體震動", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 138, "lesson": "L20", "topic": "綜合問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 139, "lesson": "L20", "topic": "綜合問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 140, "lesson": "L20", "topic": "綜合問題", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 141, "lesson": "L20", "topic": "綜合問題", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 142, "lesson": "L20", "topic": "綜合問題", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4035, "lesson": "LEC35", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC35 全部故事線用文字接話",
+    "學校": "舊課複習 LEC35：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-16",
    "weekday": "三",
    "items": [
-    {"id": 2033, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 143, "lesson": "L20", "topic": "綜合問題", "q": "Q7", "diff": "M", "done": false, "doneAt": null},
-    {"id": 144, "lesson": "L21", "topic": "平移非慣性系", "q": "Q1", "diff": "M", "done": false, "doneAt": null},
-    {"id": 145, "lesson": "L21", "topic": "平移非慣性系", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
-    {"id": 146, "lesson": "L21", "topic": "平移非慣性系", "q": "Q5", "diff": "E", "done": false, "doneAt": null},
-    {"id": 147, "lesson": "L21", "topic": "平移非慣性系", "q": "Q6", "diff": "M", "done": false, "doneAt": null},
-    {"id": 148, "lesson": "L21", "topic": "平移非慣性系", "q": "Q7", "diff": "M", "done": false, "doneAt": null},
-    {"id": 4036, "lesson": "LEC36", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2033, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 143, "lesson": "L20", "topic": "綜合問題", "q": "Q7", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 144, "lesson": "L21", "topic": "平移非慣性系", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 145, "lesson": "L21", "topic": "平移非慣性系", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 146, "lesson": "L21", "topic": "平移非慣性系", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 147, "lesson": "L21", "topic": "平移非慣性系", "q": "Q6", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 148, "lesson": "L21", "topic": "平移非慣性系", "q": "Q7", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4036, "lesson": "LEC36", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC36 全部故事線用文字接話",
+    "學校": "舊課複習 LEC36：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-17",
    "weekday": "四",
    "items": [
-    {"id": 2034, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 149, "lesson": "L21", "topic": "雙振子", "q": "Q5", "diff": "M", "done": false, "doneAt": null},
-    {"id": 150, "lesson": "L21", "topic": "雙振子", "q": "Q6", "diff": "M", "done": false, "doneAt": null},
-    {"id": 151, "lesson": "L21", "topic": "雙振子", "q": "Q7", "diff": "M", "done": false, "doneAt": null},
-    {"id": 152, "lesson": "L21", "topic": "雙振子", "q": "Q8", "diff": "M", "done": false, "doneAt": null},
-    {"id": 153, "lesson": "L21", "topic": "雙振子", "q": "Q9", "diff": "M", "done": false, "doneAt": null},
-    {"id": 154, "lesson": "L21", "topic": "雙振子", "q": "Q10", "diff": "M", "done": false, "doneAt": null},
-    {"id": 4037, "lesson": "LEC37", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2034, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 149, "lesson": "L21", "topic": "雙振子", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 150, "lesson": "L21", "topic": "雙振子", "q": "Q6", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 151, "lesson": "L21", "topic": "雙振子", "q": "Q7", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 152, "lesson": "L21", "topic": "雙振子", "q": "Q8", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 153, "lesson": "L21", "topic": "雙振子", "q": "Q9", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 154, "lesson": "L21", "topic": "雙振子", "q": "Q10", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4037, "lesson": "LEC37", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC37 全部故事線用文字接話",
+    "學校": "舊課複習 LEC37：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-18",
    "weekday": "五",
    "items": [
-    {"id": 2035, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 155, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 156, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 157, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
-    {"id": 158, "lesson": "L22", "topic": "相對滑動", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
-    {"id": 159, "lesson": "L22", "topic": "相對滑動", "q": "Q3", "diff": "H", "done": false, "doneAt": null},
-    {"id": 160, "lesson": "L22", "topic": "相對滑動", "q": "Q4", "diff": "M", "done": false, "doneAt": null},
-    {"id": 4038, "lesson": "LEC38", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2035, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 155, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 156, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 157, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 158, "lesson": "L22", "topic": "相對滑動", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 159, "lesson": "L22", "topic": "相對滑動", "q": "Q3", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 160, "lesson": "L22", "topic": "相對滑動", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4038, "lesson": "LEC38", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC38 全部故事線用文字接話",
+    "學校": "舊課複習 LEC38：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-19",
    "weekday": "六",
    "items": [
-    {"id": 2036, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 161, "lesson": "L22", "topic": "妙用慣性系", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 162, "lesson": "L22", "topic": "妙用慣性系", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
-    {"id": 163, "lesson": "L22", "topic": "妙用慣性系", "q": "Q4", "diff": "E", "done": false, "doneAt": null},
-    {"id": 164, "lesson": "L22", "topic": "妙用慣性系", "q": "Q5", "diff": "H", "done": false, "doneAt": null},
-    {"id": 165, "lesson": "L22", "topic": "離心力", "q": "Q2", "diff": "E", "done": false, "doneAt": null},
-    {"id": 166, "lesson": "L22", "topic": "科氏力", "q": "Q3", "diff": "M", "done": false, "doneAt": null},
-    {"id": 4000, "lesson": "LEC00", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2036, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 161, "lesson": "L22", "topic": "妙用慣性系", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 162, "lesson": "L22", "topic": "妙用慣性系", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 163, "lesson": "L22", "topic": "妙用慣性系", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 164, "lesson": "L22", "topic": "妙用慣性系", "q": "Q5", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 165, "lesson": "L22", "topic": "離心力", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 166, "lesson": "L22", "topic": "科氏力", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4000, "lesson": "LEC00", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC00 全部故事線用文字接話",
+    "學校": "週末：這段併進圖書館",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude；上午先做舊課複習 LEC00",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-20",
    "weekday": "日",
    "items": [
-    {"id": 2037, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 167, "lesson": "L22", "topic": "離心位能", "q": "Q1", "diff": "E", "done": false, "doneAt": null},
-    {"id": 168, "lesson": "L23", "topic": "強迫振盪", "q": "Q2", "diff": "M", "done": false, "doneAt": null},
-    {"id": 4001, "lesson": "LEC01", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2037, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 167, "lesson": "L22", "topic": "離心位能", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 168, "lesson": "L23", "topic": "強迫振盪", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4001, "lesson": "LEC01", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC01 全部故事線用文字接話",
+    "學校": "週末：這段併進圖書館",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude；上午先做舊課複習 LEC01",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-21",
    "weekday": "一",
    "items": [
-    {"id": 2038, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 1001, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1002, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1003, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1004, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1005, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1006, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 4002, "lesson": "LEC02", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2038, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 1001, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1002, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1003, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1004, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1005, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1006, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 4002, "lesson": "LEC02", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC02 全部故事線用文字接話",
+    "學校": "舊課複習 LEC02：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-22",
    "weekday": "二",
    "items": [
-    {"id": 2039, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 1007, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1008, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1009, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1010, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1011, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1012, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 4003, "lesson": "LEC03", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2039, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 1007, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1008, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1009, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1010, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1011, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1012, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 4003, "lesson": "LEC03", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC03 全部故事線用文字接話",
+    "學校": "舊課複習 LEC03：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-23",
    "weekday": "三",
    "items": [
-    {"id": 2040, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 1013, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1014, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1015, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P04", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1016, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1017, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1018, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 4004, "lesson": "LEC04", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2040, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 1013, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1014, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1015, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P04", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1016, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1017, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1018, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 4004, "lesson": "LEC04", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC04 全部故事線用文字接話",
+    "學校": "舊課複習 LEC04：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-24",
    "weekday": "四",
    "items": [
-    {"id": 2041, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 1019, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1020, "lesson": "二期LEC26", "topic": "純滾動", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1021, "lesson": "二期LEC26", "topic": "純滾動", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1022, "lesson": "二期LEC26", "topic": "純滾動", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1023, "lesson": "二期LEC26", "topic": "純滾動", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1024, "lesson": "二期LEC26", "topic": "純滾動", "q": "P05", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 4008, "lesson": "LEC08", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2041, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 1019, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1020, "lesson": "二期LEC26", "topic": "純滾動", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1021, "lesson": "二期LEC26", "topic": "純滾動", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1022, "lesson": "二期LEC26", "topic": "純滾動", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1023, "lesson": "二期LEC26", "topic": "純滾動", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1024, "lesson": "二期LEC26", "topic": "純滾動", "q": "P05", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 4008, "lesson": "LEC08", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC08 全部故事線用文字接話",
+    "學校": "舊課複習 LEC08：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-25",
    "weekday": "五",
    "items": [
-    {"id": 2042, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 1025, "lesson": "二期LEC26", "topic": "純滾動", "q": "P10", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1100, "lesson": "二期LEC26", "topic": "純滾動", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "建議（放在「剛體問題」節）"},
-    {"id": 1026, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1027, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1028, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1029, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1030, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 4039, "lesson": "LEC39", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2042, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 1025, "lesson": "二期LEC26", "topic": "純滾動", "q": "P10", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1100, "lesson": "二期LEC26", "topic": "純滾動", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "建議（放在「剛體問題」節）", "slot": "圖書館"},
+    {"id": 1026, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1027, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1028, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1029, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1030, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 4039, "lesson": "LEC39", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC39 全部故事線用文字接話",
+    "學校": "舊課複習 LEC39：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-26",
    "weekday": "六",
    "items": [
-    {"id": 2043, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 1031, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1032, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1033, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1034, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1035, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1036, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P06", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 4040, "lesson": "LEC40", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2043, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 1031, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1032, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1033, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1034, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1035, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1036, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P06", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 4040, "lesson": "LEC40", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC40 全部故事線用文字接話",
+    "學校": "週末：這段併進圖書館",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude；上午先做舊課複習 LEC40",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-27",
    "weekday": "日",
    "items": [
-    {"id": 2044, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 1037, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P07", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1038, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1039, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1040, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P01", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1041, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1042, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 4041, "lesson": "LEC41", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2044, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 1037, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P07", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1038, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1039, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1040, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P01", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1041, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1042, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 4041, "lesson": "LEC41", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC41 全部故事線用文字接話",
+    "學校": "週末：這段併進圖書館",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude；上午先做舊課複習 LEC41",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-28",
    "weekday": "一",
    "items": [
-    {"id": 2045, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 1043, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1044, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P05", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1045, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P07", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1046, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1047, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1048, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 4042, "lesson": "LEC42", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2045, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 1043, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1044, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P05", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1045, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P07", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1046, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1047, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1048, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 4042, "lesson": "LEC42", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC42 全部故事線用文字接話",
+    "學校": "舊課複習 LEC42：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-29",
    "weekday": "二",
    "items": [
-    {"id": 2046, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 1049, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1050, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1051, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1052, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1053, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1054, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 4043, "lesson": "LEC43", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2046, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 1049, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1050, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1051, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1052, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1053, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1054, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 4043, "lesson": "LEC43", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC43 全部故事線用文字接話",
+    "學校": "舊課複習 LEC43：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-30",
    "weekday": "三",
    "items": [
-    {"id": 2047, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 1055, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1056, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1057, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1058, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1059, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1060, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 4044, "lesson": "LEC44", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2047, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 1055, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1056, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1057, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1058, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1059, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1060, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 4044, "lesson": "LEC44", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC44 全部故事線用文字接話",
+    "學校": "舊課複習 LEC44：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2026-12-31",
    "weekday": "四",
    "items": [
-    {"id": 2048, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 1061, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1062, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1063, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1064, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P10", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1065, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P11", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1066, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P12", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 4045, "lesson": "LEC45", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2048, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 1061, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1062, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1063, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1064, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P10", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1065, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P11", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1066, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P12", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 4045, "lesson": "LEC45", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC45 全部故事線用文字接話",
+    "學校": "舊課複習 LEC45：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2027-01-01",
    "weekday": "五",
    "items": [
-    {"id": 2049, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 1067, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P14", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1068, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1069, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1070, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1071, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1072, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 4046, "lesson": "LEC46", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "接話＋讀秘笈這一堂（約 20–30 分）；在寫這單元題目之前完成"}
-   ]
+    {"id": 2049, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 1067, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P14", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1068, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1069, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1070, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1071, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1072, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 4046, "lesson": "LEC46", "topic": "舊課複習", "q": "", "diff": "", "done": false, "doneAt": null, "note": "早上通勤先接話；這裡讀秘笈每一招＋寫加練並對答案（約 40 分）；寫這單元題目前完成", "slot": "學校"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：LEC46 全部故事線用文字接話",
+    "學校": "舊課複習 LEC46：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2027-01-02",
    "weekday": "六",
    "items": [
-    {"id": 2050, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度"},
-    {"id": 1073, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1074, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1075, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1076, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P10", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1077, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P11", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1078, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P12", "diff": "E", "done": false, "doneAt": null, "note": "必做"}
-   ]
+    {"id": 2050, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
+    {"id": 1073, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1074, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1075, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1076, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P10", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1077, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P11", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1078, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P12", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：接話",
+    "學校": "週末：這段併進圖書館",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2027-01-03",
    "weekday": "日",
    "items": [
-    {"id": 2051, "lesson": "記憶加強", "topic": "通話接話訓練", "q": "", "diff": "", "done": false, "doneAt": null},
-    {"id": 1079, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P01", "diff": "H", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1080, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1081, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1082, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1083, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1084, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做"}
-   ]
+    {"id": 2051, "lesson": "記憶加強", "topic": "通話接話訓練", "q": "", "diff": "", "done": false, "doneAt": null, "slot": "早通勤"},
+    {"id": 1079, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P01", "diff": "H", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1080, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1081, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1082, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1083, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1084, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：接話",
+    "學校": "週末：這段併進圖書館",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2027-01-04",
    "weekday": "一",
    "items": [
-    {"id": 2052, "lesson": "記憶加強", "topic": "通話接話訓練", "q": "", "diff": "", "done": false, "doneAt": null},
-    {"id": 1085, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1086, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）"},
-    {"id": 1087, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1088, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P10", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1089, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P13", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1090, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P14", "diff": "M", "done": false, "doneAt": null, "note": "必做"}
-   ]
+    {"id": 2052, "lesson": "記憶加強", "topic": "通話接話訓練", "q": "", "diff": "", "done": false, "doneAt": null, "slot": "早通勤"},
+    {"id": 1085, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1086, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1087, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1088, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P10", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1089, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P13", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1090, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P14", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：接話",
+    "學校": "舊課複習 ：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2027-01-05",
    "weekday": "二",
    "items": [
-    {"id": 2053, "lesson": "記憶加強", "topic": "通話接話訓練", "q": "", "diff": "", "done": false, "doneAt": null},
-    {"id": 1091, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P15", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1092, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P16", "diff": "H", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1093, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P20", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1094, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P21", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1095, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P22", "diff": "E", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1096, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P23", "diff": "E", "done": false, "doneAt": null, "note": "必做"}
-   ]
+    {"id": 2053, "lesson": "記憶加強", "topic": "通話接話訓練", "q": "", "diff": "", "done": false, "doneAt": null, "slot": "早通勤"},
+    {"id": 1091, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P15", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1092, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P16", "diff": "H", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1093, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P20", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1094, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P21", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1095, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P22", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1096, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P23", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：接話",
+    "學校": "舊課複習 ：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2027-01-06",
    "weekday": "三",
    "items": [
-    {"id": 2054, "lesson": "記憶加強", "topic": "通話接話訓練", "q": "", "diff": "", "done": false, "doneAt": null},
-    {"id": 1097, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P26", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1098, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P28", "diff": "M", "done": false, "doneAt": null, "note": "必做"},
-    {"id": 1099, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P30", "diff": "H", "done": false, "doneAt": null, "note": "必做"}
-   ]
+    {"id": 2054, "lesson": "記憶加強", "topic": "通話接話訓練", "q": "", "diff": "", "done": false, "doneAt": null, "slot": "早通勤"},
+    {"id": 1097, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P26", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1098, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P28", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1099, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P30", "diff": "H", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：接話",
+    "學校": "舊課複習 ：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "刷題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
+    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+   }
   },
   {
    "date": "2027-01-07",
    "weekday": "四",
    "items": [
-    {"id": 2055, "lesson": "記憶加強", "topic": "通話接話訓練", "q": "", "diff": "", "done": false, "doneAt": null}
-   ]
+    {"id": 2055, "lesson": "記憶加強", "topic": "通話接話訓練", "q": "", "diff": "", "done": false, "doneAt": null, "slot": "早通勤"}
+   ],
+   "plan": {
+    "早通勤": "記憶加強：接話",
+    "學校": "舊課複習 ：讀秘笈每一招的「看到→反射」，寫完這堂的「加練」並對答案",
+    "圖書館": "自由：補進度或做錯題",
+    "晚通勤": "休息"
+   }
   }
  ],
  "videos": [
