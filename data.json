@@ -98,7 +98,7 @@
    "weekday": "一",
    "items": [
     {"id": 2003, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": true, "doneAt": "2026-11-16", "slot": "早通勤"},
-    {"id": 4000, "lesson": "LEC00", "topic": "舊課秘笈＋加練", "q": "秘笈 p.1–4", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"}
+    {"id": 4000, "lesson": "LEC00", "topic": "舊課秘笈＋加練", "q": "秘笈 p.1–4", "diff": "", "done": true, "doneAt": "2026-11-17", "slot": "學校", "note": "秘笈已讀完，加練還沒寫完"}
    ],
    "plan": {
     "早通勤": "記憶加強：LEC00 全部故事線用文字接話",
@@ -113,8 +113,8 @@
    "weekday": "二",
    "items": [
     {"id": 2004, "lesson": "記憶加強", "topic": "記憶加強（通話）", "q": "", "diff": "", "done": false, "doneAt": null, "note": "老師原話接話：從第一期第一部問到目前進度", "slot": "早通勤"},
-    {"id": 4001, "lesson": "LEC01", "topic": "舊課秘笈＋加練", "q": "秘笈 p.4–7", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
-    {"id": 4002, "lesson": "LEC02", "topic": "舊課秘笈＋加練", "q": "秘笈 p.7–10", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4001, "lesson": "LEC01", "topic": "舊課秘笈＋加練", "q": "秘笈 p.4–7", "diff": "", "done": true, "doneAt": "2026-11-17", "slot": "學校", "note": "秘笈已讀完，加練還沒寫完"},
+    {"id": 4002, "lesson": "LEC02", "topic": "舊課秘笈＋加練", "q": "秘笈 p.7–10", "diff": "", "done": true, "doneAt": "2026-11-17", "slot": "學校", "note": "秘笈已讀完，加練還沒寫完"},
     {"id": 907, "lesson": "二期影片", "topic": "複雜的彈性問題", "q": "LEC30", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 5030, "lesson": "LEC30", "topic": "新課秘笈", "q": "秘笈 p.93–96", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
