@@ -43,6 +43,7 @@
   2. 封面：`ffmpeg -ss 20 -i videos/日期.mp4 -frames:v 1 -vf scale=960:-2 -q:v 4 videos/日期.jpg`
   3. `python3 video.py 日期 videos/日期.mp4 --title "今天內容"`（舊影片的標題沿用）
   4. `git add videos data.json && git commit && git push origin main`
+- **每部影片都要有右上角時鐘面板**（類比時鐘、日期、時間、已奮鬥、「今日學習｜當天做的事」、進度條）。用 `tools/make_timelapse.sh 原檔 日期 開始秒數 每格秒數 "2026/11/18  週三" "今日學習｜LEC31 地球繞太陽"`，一次完成壓縮、時鐘、配樂、封面。開始秒數＝相機「檔案資訊」的拍攝時間；每格秒數通常 10（剪接過的影片就用 (結束−開始)／總格數，頭尾時間對到就好）。備註太長會被切掉，保持 15 字內。
 - **配樂**：一律用使用者指定的 `assets/bgm.m4a`（約 77 秒），從頭取影片長度、最後 2 秒淡出，取代原本的聲音（`-map 0:v -map 1:a -c:v copy -af afade=t=out:st=長度-2:d=2 -t 長度`）。影片比配樂長時，配樂結束後靜音即可。
 - 這個工作環境的網路下載不到 Google Drive 檔案，所以要請使用者直接把檔案傳到對話。
 - 原檔仍在使用者 Google Drive 資料夾「物奧縮時錄影」（ID `1HTqCFjg44NhjZvueX2JFfL5FUU-eajJE`）。若只給 Drive 連結/ID 或 YouTube 連結，`video.py` 也接受，網站會改用嵌入播放器。
