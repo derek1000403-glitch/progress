@@ -372,9 +372,15 @@ const CATS = [
   {k:"v2",  name:"二期影片", test:i => i.id >= 900 && i.id < 1000},
   {k:"p2",  name:"二期習題", test:i => i.id >= 1000 && i.id < 2000},
   {k:"mem", name:"記憶加強", test:i => i.id >= 2000 && i.id < 3000},
-  {k:"etc", name:"整理筆記", test:i => i.id >= 3000 && i.id < 4000},
+  {k:"etc", name:"整理／其他", test:i => i.id >= 3000 && i.id < 4000},
   {k:"rev", name:"舊課秘笈", test:i => i.id >= 4000 && i.id < 5000},
-  {k:"sec", name:"新課秘笈", test:i => i.id >= 5000},
+  {k:"sec", name:"新課秘笈", test:i => i.id >= 5000 && i.id < 6000},
+  {k:"v3",  name:"三期影片", test:i => i.id >= 6000 && i.id < 7000},
+  {k:"p3",  name:"三期習題", test:i => i.id >= 7000 && i.id < 8000},
+  {k:"v4",  name:"四期影片", test:i => i.id >= 8000 && i.id < 9000},
+  {k:"p4",  name:"四期習題", test:i => i.id >= 9000 && i.id < 10000},
+  {k:"past",name:"歷屆／模擬", test:i => i.id >= 10000 && i.id < 13000},
+  {k:"adv", name:"進階題", test:i => i.id >= 13000 && i.id < 14000},
 ];
 function index(){
   const byDate = {}, owner = {};
