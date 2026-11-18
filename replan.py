@@ -199,6 +199,9 @@ for day in days:
         if 6000<it['id']<7000 or 8000<it['id']<9000: watched.append(it['q'])
 assert mid<3000, mid
 
+# 2026-11-18：記憶加強不排進日程
+for day in days: day['items']=[i for i in day['items'] if not (2000<=i['id']<3000)]
+
 # ---------- 每日計畫文字 ----------
 def names(items):
     return '、'.join(i['q'] for i in items)
