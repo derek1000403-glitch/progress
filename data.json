@@ -2337,7 +2337,7 @@
    "date": "2027-04-10",
    "weekday": "六",
    "items": [
-    {"id": 10001, "lesson": "初選歷屆", "topic": "初選歷屆卷 #1", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10001, "lesson": "初選歷屆", "topic": "初選歷屆卷 2009", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -2349,7 +2349,7 @@
    "date": "2027-04-11",
    "weekday": "日",
    "items": [
-    {"id": 10101, "lesson": "初選歷屆", "topic": "初選歷屆卷 #1 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10101, "lesson": "初選歷屆", "topic": "初選歷屆卷 2009 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13002, "lesson": "進階題", "topic": "進階題組", "q": "#2（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -2422,7 +2422,7 @@
    "date": "2027-04-17",
    "weekday": "六",
    "items": [
-    {"id": 10002, "lesson": "初選歷屆", "topic": "初選歷屆卷 #2", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10002, "lesson": "初選歷屆", "topic": "初選歷屆卷 2010", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -2434,7 +2434,7 @@
    "date": "2027-04-18",
    "weekday": "日",
    "items": [
-    {"id": 10102, "lesson": "初選歷屆", "topic": "初選歷屆卷 #2 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10102, "lesson": "初選歷屆", "topic": "初選歷屆卷 2010 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13008, "lesson": "進階題", "topic": "進階題組", "q": "#8（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -2507,7 +2507,7 @@
    "date": "2027-04-24",
    "weekday": "六",
    "items": [
-    {"id": 10003, "lesson": "初選歷屆", "topic": "初選歷屆卷 #3", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10003, "lesson": "初選歷屆", "topic": "初選歷屆卷 2011", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -2519,7 +2519,7 @@
    "date": "2027-04-25",
    "weekday": "日",
    "items": [
-    {"id": 10103, "lesson": "初選歷屆", "topic": "初選歷屆卷 #3 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10103, "lesson": "初選歷屆", "topic": "初選歷屆卷 2011 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13014, "lesson": "進階題", "topic": "進階題組", "q": "#14（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -2592,7 +2592,7 @@
    "date": "2027-05-01",
    "weekday": "六",
    "items": [
-    {"id": 10004, "lesson": "初選歷屆", "topic": "初選歷屆卷 #4", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10004, "lesson": "初選歷屆", "topic": "初選歷屆卷 2012", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -2604,7 +2604,7 @@
    "date": "2027-05-02",
    "weekday": "日",
    "items": [
-    {"id": 10104, "lesson": "初選歷屆", "topic": "初選歷屆卷 #4 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
+    {"id": 10104, "lesson": "初選歷屆", "topic": "初選歷屆卷 2012 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -2676,7 +2676,7 @@
    "date": "2027-05-08",
    "weekday": "六",
    "items": [
-    {"id": 10005, "lesson": "初選歷屆", "topic": "初選歷屆卷 #5", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10005, "lesson": "初選歷屆", "topic": "初選歷屆卷 2013", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -2688,7 +2688,7 @@
    "date": "2027-05-09",
    "weekday": "日",
    "items": [
-    {"id": 10105, "lesson": "初選歷屆", "topic": "初選歷屆卷 #5 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10105, "lesson": "初選歷屆", "topic": "初選歷屆卷 2013 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13025, "lesson": "進階題", "topic": "進階題組", "q": "#25（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -2761,7 +2761,7 @@
    "date": "2027-05-15",
    "weekday": "六",
    "items": [
-    {"id": 10006, "lesson": "初選歷屆", "topic": "初選歷屆卷 #6", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10006, "lesson": "初選歷屆", "topic": "初選歷屆卷 2014", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -2773,7 +2773,7 @@
    "date": "2027-05-16",
    "weekday": "日",
    "items": [
-    {"id": 10106, "lesson": "初選歷屆", "topic": "初選歷屆卷 #6 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10106, "lesson": "初選歷屆", "topic": "初選歷屆卷 2014 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13031, "lesson": "進階題", "topic": "進階題組", "q": "#31（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -2846,7 +2846,7 @@
    "date": "2027-05-22",
    "weekday": "六",
    "items": [
-    {"id": 10007, "lesson": "初選歷屆", "topic": "初選歷屆卷 #7", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10007, "lesson": "初選歷屆", "topic": "初選歷屆卷 2015", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -2858,7 +2858,7 @@
    "date": "2027-05-23",
    "weekday": "日",
    "items": [
-    {"id": 10107, "lesson": "初選歷屆", "topic": "初選歷屆卷 #7 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10107, "lesson": "初選歷屆", "topic": "初選歷屆卷 2015 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13037, "lesson": "進階題", "topic": "進階題組", "q": "#37（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -2931,7 +2931,7 @@
    "date": "2027-05-29",
    "weekday": "六",
    "items": [
-    {"id": 10008, "lesson": "初選歷屆", "topic": "初選歷屆卷 #8", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10008, "lesson": "初選歷屆", "topic": "初選歷屆卷 2016", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -2943,7 +2943,7 @@
    "date": "2027-05-30",
    "weekday": "日",
    "items": [
-    {"id": 10108, "lesson": "初選歷屆", "topic": "初選歷屆卷 #8 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10108, "lesson": "初選歷屆", "topic": "初選歷屆卷 2016 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13043, "lesson": "進階題", "topic": "進階題組", "q": "#43（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3016,7 +3016,7 @@
    "date": "2027-06-05",
    "weekday": "六",
    "items": [
-    {"id": 10009, "lesson": "初選歷屆", "topic": "初選歷屆卷 #9", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10009, "lesson": "初選歷屆", "topic": "初選歷屆卷 2017", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -3028,7 +3028,7 @@
    "date": "2027-06-06",
    "weekday": "日",
    "items": [
-    {"id": 10109, "lesson": "初選歷屆", "topic": "初選歷屆卷 #9 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
+    {"id": 10109, "lesson": "初選歷屆", "topic": "初選歷屆卷 2017 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -3101,7 +3101,7 @@
    "date": "2027-06-12",
    "weekday": "六",
    "items": [
-    {"id": 10010, "lesson": "初選歷屆", "topic": "初選歷屆卷 #10", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10010, "lesson": "初選歷屆", "topic": "初選歷屆卷 2018", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -3113,7 +3113,7 @@
    "date": "2027-06-13",
    "weekday": "日",
    "items": [
-    {"id": 10110, "lesson": "初選歷屆", "topic": "初選歷屆卷 #10 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10110, "lesson": "初選歷屆", "topic": "初選歷屆卷 2018 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13055, "lesson": "進階題", "topic": "進階題組", "q": "#55（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3186,7 +3186,7 @@
    "date": "2027-06-19",
    "weekday": "六",
    "items": [
-    {"id": 10011, "lesson": "初選歷屆", "topic": "初選歷屆卷 #11", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10011, "lesson": "初選歷屆", "topic": "初選歷屆卷 2019", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -3198,7 +3198,7 @@
    "date": "2027-06-20",
    "weekday": "日",
    "items": [
-    {"id": 10111, "lesson": "初選歷屆", "topic": "初選歷屆卷 #11 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10111, "lesson": "初選歷屆", "topic": "初選歷屆卷 2019 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13061, "lesson": "進階題", "topic": "進階題組", "q": "#61（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3271,7 +3271,7 @@
    "date": "2027-06-26",
    "weekday": "六",
    "items": [
-    {"id": 10012, "lesson": "初選歷屆", "topic": "初選歷屆卷 #12", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10012, "lesson": "初選歷屆", "topic": "初選歷屆卷 2020", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -3283,7 +3283,7 @@
    "date": "2027-06-27",
    "weekday": "日",
    "items": [
-    {"id": 10112, "lesson": "初選歷屆", "topic": "初選歷屆卷 #12 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10112, "lesson": "初選歷屆", "topic": "初選歷屆卷 2020 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13067, "lesson": "進階題", "topic": "進階題組", "q": "#67（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3332,7 +3332,7 @@
    "date": "2027-07-01",
    "weekday": "四",
    "items": [
-    {"id": 11001, "lesson": "複選歷屆", "topic": "複選歷屆卷 #1", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 11001, "lesson": "複選歷屆", "topic": "複選歷屆卷 2015", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3344,7 +3344,7 @@
    "date": "2027-07-02",
    "weekday": "五",
    "items": [
-    {"id": 11101, "lesson": "複選歷屆", "topic": "複選歷屆卷 #1 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 11101, "lesson": "複選歷屆", "topic": "複選歷屆卷 2015 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13071, "lesson": "進階題", "topic": "進階題組", "q": "#71（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3357,7 +3357,7 @@
    "date": "2027-07-03",
    "weekday": "六",
    "items": [
-    {"id": 10013, "lesson": "初選歷屆", "topic": "初選歷屆卷 #13", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10013, "lesson": "初選歷屆", "topic": "初選歷屆卷 2021", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3369,7 +3369,7 @@
    "date": "2027-07-04",
    "weekday": "日",
    "items": [
-    {"id": 10113, "lesson": "初選歷屆", "topic": "初選歷屆卷 #13 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
+    {"id": 10113, "lesson": "初選歷屆", "topic": "初選歷屆卷 2021 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3381,7 +3381,7 @@
    "date": "2027-07-05",
    "weekday": "一",
    "items": [
-    {"id": 11002, "lesson": "複選歷屆", "topic": "複選歷屆卷 #2", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 11002, "lesson": "複選歷屆", "topic": "複選歷屆卷 2016", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3393,7 +3393,7 @@
    "date": "2027-07-06",
    "weekday": "二",
    "items": [
-    {"id": 11102, "lesson": "複選歷屆", "topic": "複選歷屆卷 #2 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 11102, "lesson": "複選歷屆", "topic": "複選歷屆卷 2016 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13072, "lesson": "進階題", "topic": "進階題組", "q": "#72（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3419,7 +3419,7 @@
    "date": "2027-07-08",
    "weekday": "四",
    "items": [
-    {"id": 11003, "lesson": "複選歷屆", "topic": "複選歷屆卷 #3", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 11003, "lesson": "複選歷屆", "topic": "複選歷屆卷 2017", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3431,7 +3431,7 @@
    "date": "2027-07-09",
    "weekday": "五",
    "items": [
-    {"id": 11103, "lesson": "複選歷屆", "topic": "複選歷屆卷 #3 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 11103, "lesson": "複選歷屆", "topic": "複選歷屆卷 2017 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13075, "lesson": "進階題", "topic": "進階題組", "q": "#75（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3444,7 +3444,7 @@
    "date": "2027-07-10",
    "weekday": "六",
    "items": [
-    {"id": 10014, "lesson": "初選歷屆", "topic": "初選歷屆卷 #14", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10014, "lesson": "初選歷屆", "topic": "初選歷屆卷 2022", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3456,7 +3456,7 @@
    "date": "2027-07-11",
    "weekday": "日",
    "items": [
-    {"id": 10114, "lesson": "初選歷屆", "topic": "初選歷屆卷 #14 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10114, "lesson": "初選歷屆", "topic": "初選歷屆卷 2022 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13076, "lesson": "進階題", "topic": "進階題組", "q": "#76（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3469,7 +3469,7 @@
    "date": "2027-07-12",
    "weekday": "一",
    "items": [
-    {"id": 11004, "lesson": "複選歷屆", "topic": "複選歷屆卷 #4", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 11004, "lesson": "複選歷屆", "topic": "複選歷屆卷 2018", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3481,7 +3481,7 @@
    "date": "2027-07-13",
    "weekday": "二",
    "items": [
-    {"id": 11104, "lesson": "複選歷屆", "topic": "複選歷屆卷 #4 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 11104, "lesson": "複選歷屆", "topic": "複選歷屆卷 2018 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13077, "lesson": "進階題", "topic": "進階題組", "q": "#77（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3507,7 +3507,7 @@
    "date": "2027-07-15",
    "weekday": "四",
    "items": [
-    {"id": 11005, "lesson": "複選歷屆", "topic": "複選歷屆卷 #5", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 11005, "lesson": "複選歷屆", "topic": "複選歷屆卷 2019", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3519,7 +3519,7 @@
    "date": "2027-07-16",
    "weekday": "五",
    "items": [
-    {"id": 11105, "lesson": "複選歷屆", "topic": "複選歷屆卷 #5 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 11105, "lesson": "複選歷屆", "topic": "複選歷屆卷 2019 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13080, "lesson": "進階題", "topic": "進階題組", "q": "#80（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3532,7 +3532,7 @@
    "date": "2027-07-17",
    "weekday": "六",
    "items": [
-    {"id": 10015, "lesson": "初選歷屆", "topic": "初選歷屆卷 #15", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10015, "lesson": "初選歷屆", "topic": "初選歷屆卷 2023", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3544,7 +3544,7 @@
    "date": "2027-07-18",
    "weekday": "日",
    "items": [
-    {"id": 10115, "lesson": "初選歷屆", "topic": "初選歷屆卷 #15 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10115, "lesson": "初選歷屆", "topic": "初選歷屆卷 2023 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13081, "lesson": "進階題", "topic": "進階題組", "q": "#81（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3557,7 +3557,7 @@
    "date": "2027-07-19",
    "weekday": "一",
    "items": [
-    {"id": 11006, "lesson": "複選歷屆", "topic": "複選歷屆卷 #6", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 11006, "lesson": "複選歷屆", "topic": "複選歷屆卷 2020", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3569,7 +3569,7 @@
    "date": "2027-07-20",
    "weekday": "二",
    "items": [
-    {"id": 11106, "lesson": "複選歷屆", "topic": "複選歷屆卷 #6 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 11106, "lesson": "複選歷屆", "topic": "複選歷屆卷 2020 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13082, "lesson": "進階題", "topic": "進階題組", "q": "#82（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3595,7 +3595,7 @@
    "date": "2027-07-22",
    "weekday": "四",
    "items": [
-    {"id": 11007, "lesson": "複選歷屆", "topic": "複選歷屆卷 #7", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 11007, "lesson": "複選歷屆", "topic": "複選歷屆卷 2021", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3607,7 +3607,7 @@
    "date": "2027-07-23",
    "weekday": "五",
    "items": [
-    {"id": 11107, "lesson": "複選歷屆", "topic": "複選歷屆卷 #7 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 11107, "lesson": "複選歷屆", "topic": "複選歷屆卷 2021 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13085, "lesson": "進階題", "topic": "進階題組", "q": "#85（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3620,7 +3620,7 @@
    "date": "2027-07-24",
    "weekday": "六",
    "items": [
-    {"id": 10201, "lesson": "初選歷屆", "topic": "初選卷二刷 #1", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
+    {"id": 10201, "lesson": "初選歷屆", "topic": "初選 2011 二刷", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3632,7 +3632,7 @@
    "date": "2027-07-25",
    "weekday": "日",
    "items": [
-    {"id": 10251, "lesson": "初選歷屆", "topic": "初選卷二刷 #1 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10251, "lesson": "初選歷屆", "topic": "初選 2011 二刷 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13086, "lesson": "進階題", "topic": "進階題組", "q": "#86（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3645,7 +3645,7 @@
    "date": "2027-07-26",
    "weekday": "一",
    "items": [
-    {"id": 11008, "lesson": "複選歷屆", "topic": "複選歷屆卷 #8", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 11008, "lesson": "複選歷屆", "topic": "複選歷屆卷 2022", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3657,7 +3657,7 @@
    "date": "2027-07-27",
    "weekday": "二",
    "items": [
-    {"id": 11108, "lesson": "複選歷屆", "topic": "複選歷屆卷 #8 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 11108, "lesson": "複選歷屆", "topic": "複選歷屆卷 2022 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13087, "lesson": "進階題", "topic": "進階題組", "q": "#87（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3683,7 +3683,7 @@
    "date": "2027-07-29",
    "weekday": "四",
    "items": [
-    {"id": 11009, "lesson": "複選歷屆", "topic": "複選歷屆卷 #9", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 11009, "lesson": "複選歷屆", "topic": "複選歷屆卷 2023", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3695,7 +3695,7 @@
    "date": "2027-07-30",
    "weekday": "五",
    "items": [
-    {"id": 11109, "lesson": "複選歷屆", "topic": "複選歷屆卷 #9 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 11109, "lesson": "複選歷屆", "topic": "複選歷屆卷 2023 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13090, "lesson": "進階題", "topic": "進階題組", "q": "#90（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3708,7 +3708,7 @@
    "date": "2027-07-31",
    "weekday": "六",
    "items": [
-    {"id": 10202, "lesson": "初選歷屆", "topic": "初選卷二刷 #2", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
+    {"id": 10202, "lesson": "初選歷屆", "topic": "初選 2012 二刷", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3720,7 +3720,7 @@
    "date": "2027-08-01",
    "weekday": "日",
    "items": [
-    {"id": 10252, "lesson": "初選歷屆", "topic": "初選卷二刷 #2 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
+    {"id": 10252, "lesson": "初選歷屆", "topic": "初選 2012 二刷 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3732,7 +3732,7 @@
    "date": "2027-08-02",
    "weekday": "一",
    "items": [
-    {"id": 11010, "lesson": "複選歷屆", "topic": "複選歷屆卷 #10", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 11010, "lesson": "複選歷屆", "topic": "複選歷屆卷 2024", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3744,7 +3744,7 @@
    "date": "2027-08-03",
    "weekday": "二",
    "items": [
-    {"id": 11110, "lesson": "複選歷屆", "topic": "複選歷屆卷 #10 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 11110, "lesson": "複選歷屆", "topic": "複選歷屆卷 2024 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13091, "lesson": "進階題", "topic": "進階題組", "q": "#91（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3770,7 +3770,7 @@
    "date": "2027-08-05",
    "weekday": "四",
    "items": [
-    {"id": 11011, "lesson": "複選歷屆", "topic": "複選歷屆卷 #11", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 11011, "lesson": "複選歷屆", "topic": "複選歷屆卷 2025", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3782,7 +3782,7 @@
    "date": "2027-08-06",
    "weekday": "五",
    "items": [
-    {"id": 11111, "lesson": "複選歷屆", "topic": "複選歷屆卷 #11 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 11111, "lesson": "複選歷屆", "topic": "複選歷屆卷 2025 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13094, "lesson": "進階題", "topic": "進階題組", "q": "#94（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3795,7 +3795,7 @@
    "date": "2027-08-07",
    "weekday": "六",
    "items": [
-    {"id": 10203, "lesson": "初選歷屆", "topic": "初選卷二刷 #3", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
+    {"id": 10203, "lesson": "初選歷屆", "topic": "初選 2013 二刷", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3807,7 +3807,7 @@
    "date": "2027-08-08",
    "weekday": "日",
    "items": [
-    {"id": 10253, "lesson": "初選歷屆", "topic": "初選卷二刷 #3 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10253, "lesson": "初選歷屆", "topic": "初選 2013 二刷 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13095, "lesson": "進階題", "topic": "進階題組", "q": "#95（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3820,7 +3820,7 @@
    "date": "2027-08-09",
    "weekday": "一",
    "items": [
-    {"id": 11012, "lesson": "複選歷屆", "topic": "複選歷屆卷 #12", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 11012, "lesson": "複選歷屆", "topic": "複選歷屆卷 2026", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3832,7 +3832,7 @@
    "date": "2027-08-10",
    "weekday": "二",
    "items": [
-    {"id": 11112, "lesson": "複選歷屆", "topic": "複選歷屆卷 #12 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 11112, "lesson": "複選歷屆", "topic": "複選歷屆卷 2026 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13096, "lesson": "進階題", "topic": "進階題組", "q": "#96（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3884,7 +3884,7 @@
    "date": "2027-08-14",
    "weekday": "六",
    "items": [
-    {"id": 10204, "lesson": "初選歷屆", "topic": "初選卷二刷 #4", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
+    {"id": 10204, "lesson": "初選歷屆", "topic": "初選 2014 二刷", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3896,7 +3896,7 @@
    "date": "2027-08-15",
    "weekday": "日",
    "items": [
-    {"id": 10254, "lesson": "初選歷屆", "topic": "初選卷二刷 #4 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10254, "lesson": "初選歷屆", "topic": "初選 2014 二刷 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13103, "lesson": "進階題", "topic": "進階題組", "q": "#103（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -3974,7 +3974,7 @@
    "date": "2027-08-21",
    "weekday": "六",
    "items": [
-    {"id": 10205, "lesson": "初選歷屆", "topic": "初選卷二刷 #5", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
+    {"id": 10205, "lesson": "初選歷屆", "topic": "初選 2015 二刷", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -3986,7 +3986,7 @@
    "date": "2027-08-22",
    "weekday": "日",
    "items": [
-    {"id": 10255, "lesson": "初選歷屆", "topic": "初選卷二刷 #5 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10255, "lesson": "初選歷屆", "topic": "初選 2015 二刷 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13114, "lesson": "進階題", "topic": "進階題組", "q": "#114（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -4064,7 +4064,7 @@
    "date": "2027-08-28",
    "weekday": "六",
    "items": [
-    {"id": 10206, "lesson": "初選歷屆", "topic": "初選卷二刷 #6", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
+    {"id": 10206, "lesson": "初選歷屆", "topic": "初選 2016 二刷", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
@@ -4076,7 +4076,7 @@
    "date": "2027-08-29",
    "weekday": "日",
    "items": [
-    {"id": 10256, "lesson": "初選歷屆", "topic": "初選卷二刷 #6 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10256, "lesson": "初選歷屆", "topic": "初選 2016 二刷 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13125, "lesson": "進階題", "topic": "進階題組", "q": "#125（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -4149,7 +4149,7 @@
    "date": "2027-09-04",
    "weekday": "六",
    "items": [
-    {"id": 10207, "lesson": "初選歷屆", "topic": "初選卷二刷 #7", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
+    {"id": 10207, "lesson": "初選歷屆", "topic": "初選 2017 二刷", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -4161,7 +4161,7 @@
    "date": "2027-09-05",
    "weekday": "日",
    "items": [
-    {"id": 10257, "lesson": "初選歷屆", "topic": "初選卷二刷 #7 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
+    {"id": 10257, "lesson": "初選歷屆", "topic": "初選 2017 二刷 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -4233,7 +4233,7 @@
    "date": "2027-09-11",
    "weekday": "六",
    "items": [
-    {"id": 10208, "lesson": "初選歷屆", "topic": "初選卷二刷 #8", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
+    {"id": 10208, "lesson": "初選歷屆", "topic": "初選 2018 二刷", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -4245,7 +4245,7 @@
    "date": "2027-09-12",
    "weekday": "日",
    "items": [
-    {"id": 10258, "lesson": "初選歷屆", "topic": "初選卷二刷 #8 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10258, "lesson": "初選歷屆", "topic": "初選 2018 二刷 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13136, "lesson": "進階題", "topic": "進階題組", "q": "#136（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -4319,7 +4319,7 @@
    "date": "2027-09-18",
    "weekday": "六",
    "items": [
-    {"id": 10209, "lesson": "初選歷屆", "topic": "初選卷二刷 #9", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
+    {"id": 10209, "lesson": "初選歷屆", "topic": "初選 2019 二刷", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -4331,7 +4331,7 @@
    "date": "2027-09-19",
    "weekday": "日",
    "items": [
-    {"id": 10259, "lesson": "初選歷屆", "topic": "初選卷二刷 #9 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10259, "lesson": "初選歷屆", "topic": "初選 2019 二刷 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13143, "lesson": "進階題", "topic": "進階題組", "q": "#143（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -4404,7 +4404,7 @@
    "date": "2027-09-25",
    "weekday": "六",
    "items": [
-    {"id": 10210, "lesson": "初選歷屆", "topic": "初選卷二刷 #10", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
+    {"id": 10210, "lesson": "初選歷屆", "topic": "初選 2020 二刷", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -4416,7 +4416,7 @@
    "date": "2027-09-26",
    "weekday": "日",
    "items": [
-    {"id": 10260, "lesson": "初選歷屆", "topic": "初選卷二刷 #10 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10260, "lesson": "初選歷屆", "topic": "初選 2020 二刷 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13149, "lesson": "進階題", "topic": "進階題組", "q": "#149（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -4490,7 +4490,7 @@
    "date": "2027-10-02",
    "weekday": "六",
    "items": [
-    {"id": 10211, "lesson": "初選歷屆", "topic": "初選卷二刷 #11", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
+    {"id": 10211, "lesson": "初選歷屆", "topic": "初選 2021 二刷", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -4502,7 +4502,7 @@
    "date": "2027-10-03",
    "weekday": "日",
    "items": [
-    {"id": 10261, "lesson": "初選歷屆", "topic": "初選卷二刷 #11 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
+    {"id": 10261, "lesson": "初選歷屆", "topic": "初選 2021 二刷 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -4574,7 +4574,7 @@
    "date": "2027-10-09",
    "weekday": "六",
    "items": [
-    {"id": 10212, "lesson": "初選歷屆", "topic": "初選卷二刷 #12", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
+    {"id": 10212, "lesson": "初選歷屆", "topic": "初選 2022 二刷", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -4586,7 +4586,7 @@
    "date": "2027-10-10",
    "weekday": "日",
    "items": [
-    {"id": 10262, "lesson": "初選歷屆", "topic": "初選卷二刷 #12 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10262, "lesson": "初選歷屆", "topic": "初選 2022 二刷 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13161, "lesson": "進階題", "topic": "進階題組", "q": "#161（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -4660,7 +4660,7 @@
    "date": "2027-10-16",
    "weekday": "六",
    "items": [
-    {"id": 10213, "lesson": "初選歷屆", "topic": "初選卷二刷 #13", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
+    {"id": 10213, "lesson": "初選歷屆", "topic": "初選 2023 二刷", "q": "重寫錯題", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "把之前錯過的題重寫一次，不看解答"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -4672,7 +4672,7 @@
    "date": "2027-10-17",
    "weekday": "日",
    "items": [
-    {"id": 10263, "lesson": "初選歷屆", "topic": "初選卷二刷 #13 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
+    {"id": 10263, "lesson": "初選歷屆", "topic": "初選 2023 二刷 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"},
     {"id": 13168, "lesson": "進階題", "topic": "進階題組", "q": "#168（3 題）", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈"}
    ],
    "plan": {
@@ -4745,7 +4745,7 @@
    "date": "2027-10-23",
    "weekday": "六",
    "items": [
-    {"id": 12001, "lesson": "模擬考", "topic": "全卷模擬 #1", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "用最新的初選卷，完全照考試時間與規則"}
+    {"id": 12001, "lesson": "模擬考", "topic": "全卷模擬：初選 2024", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "用最新的初選卷，完全照考試時間與規則"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -4757,7 +4757,7 @@
    "date": "2027-10-24",
    "weekday": "日",
    "items": [
-    {"id": 12101, "lesson": "模擬考", "topic": "全卷模擬 #1 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
+    {"id": 12101, "lesson": "模擬考", "topic": "全卷模擬：初選 2024 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -4793,7 +4793,7 @@
    "date": "2027-10-27",
    "weekday": "三",
    "items": [
-    {"id": 12002, "lesson": "模擬考", "topic": "全卷模擬 #2", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "用最新的初選卷，完全照考試時間與規則"}
+    {"id": 12002, "lesson": "模擬考", "topic": "全卷模擬：初選 2025", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "用最新的初選卷，完全照考試時間與規則"}
    ],
    "plan": {
     "學校": "秘笈輪讀：每天一堂，看到→反射默念一遍",
@@ -4805,7 +4805,7 @@
    "date": "2027-10-28",
    "weekday": "四",
    "items": [
-    {"id": 12102, "lesson": "模擬考", "topic": "全卷模擬 #2 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
+    {"id": 12102, "lesson": "模擬考", "topic": "全卷模擬：初選 2025 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
    ],
    "plan": {
     "學校": "秘笈輪讀：每天一堂，看到→反射默念一遍",
@@ -4829,7 +4829,7 @@
    "date": "2027-10-30",
    "weekday": "六",
    "items": [
-    {"id": 12003, "lesson": "模擬考", "topic": "全卷模擬 #3", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "用最新的初選卷，完全照考試時間與規則"}
+    {"id": 12003, "lesson": "模擬考", "topic": "全卷模擬：初選 2026", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "用最新的初選卷，完全照考試時間與規則"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -4841,7 +4841,7 @@
    "date": "2027-10-31",
    "weekday": "日",
    "items": [
-    {"id": 12103, "lesson": "模擬考", "topic": "全卷模擬 #3 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
+    {"id": 12103, "lesson": "模擬考", "topic": "全卷模擬：初選 2026 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -4877,7 +4877,7 @@
    "date": "2027-11-03",
    "weekday": "三",
    "items": [
-    {"id": 12004, "lesson": "模擬考", "topic": "全卷模擬 #4", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "用最新的初選卷，完全照考試時間與規則"}
+    {"id": 12004, "lesson": "模擬考", "topic": "全卷模擬：初選 2027", "q": "計時作答", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "用最新的初選卷，完全照考試時間與規則"}
    ],
    "plan": {
     "學校": "秘笈輪讀：每天一堂，看到→反射默念一遍",
@@ -4889,7 +4889,7 @@
    "date": "2027-11-04",
    "weekday": "四",
    "items": [
-    {"id": 12104, "lesson": "模擬考", "topic": "全卷模擬 #4 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
+    {"id": 12104, "lesson": "模擬考", "topic": "全卷模擬：初選 2027 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到秘笈那一招"}
    ],
    "plan": {
     "學校": "秘笈輪讀：每天一堂，看到→反射默念一遍",
