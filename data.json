@@ -113,7 +113,7 @@
    "weekday": "二",
    "items": [
     {"id": 4001, "lesson": "LEC01", "topic": "舊課秘笈＋加練", "q": "秘笈 p.4–7", "diff": "", "done": true, "doneAt": "2026-11-18", "slot": "學校"},
-    {"id": 4002, "lesson": "LEC02", "topic": "舊課秘笈＋加練", "q": "秘笈 p.7–10", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "秘笈已讀完，加練（習題）正在寫"}
+    {"id": 4002, "lesson": "LEC02", "topic": "舊課秘笈", "q": "秘笈 p.7–10", "diff": "", "done": true, "doneAt": "2026-11-19", "slot": "學校", "note": "秘笈讀完；加練跳過，有空再寫"}
    ],
    "plan": {
     "學校": "舊課秘笈 LEC01、LEC02（p.4–7、p.7–10）整堂讀完＋加練",
@@ -126,8 +126,8 @@
    "date": "2026-11-18",
    "weekday": "三",
    "items": [
-    {"id": 4003, "lesson": "LEC03", "topic": "舊課秘笈＋加練", "q": "秘笈 p.10–13", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
-    {"id": 4004, "lesson": "LEC04", "topic": "舊課秘笈＋加練", "q": "秘笈 p.13–17", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4003, "lesson": "LEC03", "topic": "舊課秘笈", "q": "秘笈 p.10–13", "diff": "", "done": true, "doneAt": "2026-11-19", "slot": "學校", "note": "秘笈讀完；加練跳過，有空再寫"},
+    {"id": 4004, "lesson": "LEC04", "topic": "舊課秘笈", "q": "秘笈 p.13–17", "diff": "", "done": true, "doneAt": "2026-11-19", "slot": "學校", "note": "秘笈讀完；加練跳過，有空再寫"},
     {"id": 907, "lesson": "二期影片", "topic": "複雜的彈性問題", "q": "LEC30", "diff": "", "done": true, "doneAt": "2026-11-18", "slot": "圖書館", "note": "Slinky 題 A.2 之後還要用文字帶解補完"},
     {"id": 5030, "lesson": "LEC30", "topic": "新課秘笈", "q": "秘笈 p.93–96", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
@@ -141,8 +141,8 @@
    "date": "2026-11-19",
    "weekday": "四",
    "items": [
-    {"id": 4005, "lesson": "LEC05", "topic": "舊課秘笈＋加練", "q": "秘笈 p.17–20", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
-    {"id": 4006, "lesson": "LEC06", "topic": "舊課秘笈＋加練", "q": "秘笈 p.20–23", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4005, "lesson": "LEC05", "topic": "舊課秘笈", "q": "秘笈 p.17–20", "diff": "", "done": true, "doneAt": "2026-11-19", "slot": "學校", "note": "秘笈讀完；加練跳過，有空再寫"},
+    {"id": 4006, "lesson": "LEC06", "topic": "舊課秘笈", "q": "秘笈 p.20–23", "diff": "", "done": true, "doneAt": "2026-11-19", "slot": "學校", "note": "秘笈讀完；加練跳過，有空再寫"},
     {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 5031, "lesson": "LEC31", "topic": "新課秘笈", "q": "秘笈 p.96–100", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
@@ -156,8 +156,8 @@
    "date": "2026-11-20",
    "weekday": "五",
    "items": [
-    {"id": 4007, "lesson": "LEC07", "topic": "舊課秘笈＋加練", "q": "秘笈 p.23–27", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
-    {"id": 4008, "lesson": "LEC08", "topic": "舊課秘笈＋加練", "q": "秘笈 p.27–31", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4007, "lesson": "LEC07", "topic": "舊課秘笈", "q": "秘笈 p.23–27", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
+    {"id": 4008, "lesson": "LEC08", "topic": "舊課秘笈", "q": "秘笈 p.27–31", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 5032, "lesson": "LEC32", "topic": "新課秘笈", "q": "秘笈 p.100–103", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
@@ -174,7 +174,7 @@
     {"id": 910, "lesson": "二期影片", "topic": "水星軌道進動", "q": "LEC33", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 911, "lesson": "二期影片", "topic": "同步衛星", "q": "LEC34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 4009, "lesson": "LEC09", "topic": "舊課秘笈＋加練", "q": "秘笈 p.31–34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4009, "lesson": "LEC09", "topic": "舊課秘笈", "q": "秘笈 p.31–34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 5033, "lesson": "LEC33", "topic": "新課秘笈", "q": "秘笈 p.103–106", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
     {"id": 5034, "lesson": "LEC34", "topic": "新課秘笈", "q": "秘笈 p.106–110", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
     {"id": 5035, "lesson": "LEC35", "topic": "新課秘笈", "q": "秘笈 p.110–113", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
@@ -192,7 +192,7 @@
     {"id": 913, "lesson": "二期影片", "topic": "大氣相關問題", "q": "LEC35-2", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 4010, "lesson": "LEC10", "topic": "舊課秘笈＋加練", "q": "秘笈 p.34–37", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4010, "lesson": "LEC10", "topic": "舊課秘笈", "q": "秘笈 p.34–37", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 5036, "lesson": "LEC36", "topic": "新課秘笈", "q": "秘笈 p.113–117", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
     {"id": 5037, "lesson": "LEC37", "topic": "新課秘笈", "q": "秘笈 p.117–120", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
@@ -206,8 +206,8 @@
    "date": "2026-11-23",
    "weekday": "一",
    "items": [
-    {"id": 4011, "lesson": "LEC11", "topic": "舊課秘笈＋加練", "q": "秘笈 p.37–40", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
-    {"id": 4012, "lesson": "LEC12", "topic": "舊課秘笈＋加練", "q": "秘笈 p.40–44", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4011, "lesson": "LEC11", "topic": "舊課秘笈", "q": "秘笈 p.37–40", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
+    {"id": 4012, "lesson": "LEC12", "topic": "舊課秘笈", "q": "秘笈 p.40–44", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 5038, "lesson": "LEC38", "topic": "新課秘笈", "q": "秘笈 p.120–123", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
@@ -221,8 +221,8 @@
    "date": "2026-11-24",
    "weekday": "二",
    "items": [
-    {"id": 4013, "lesson": "LEC13", "topic": "舊課秘笈＋加練", "q": "秘笈 p.44–47", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
-    {"id": 4014, "lesson": "LEC14", "topic": "舊課秘笈＋加練", "q": "秘笈 p.47–49", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4013, "lesson": "LEC13", "topic": "舊課秘笈", "q": "秘笈 p.44–47", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
+    {"id": 4014, "lesson": "LEC14", "topic": "舊課秘笈", "q": "秘笈 p.47–49", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 5039, "lesson": "LEC39", "topic": "新課秘笈", "q": "秘笈 p.123–127", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
@@ -236,7 +236,7 @@
    "date": "2026-11-25",
    "weekday": "三",
    "items": [
-    {"id": 4015, "lesson": "LEC15", "topic": "舊課秘笈＋加練", "q": "秘笈 p.49–52", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4015, "lesson": "LEC15", "topic": "舊課秘笈", "q": "秘笈 p.49–52", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 5040, "lesson": "LEC40", "topic": "新課秘笈", "q": "秘笈 p.127–130", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
@@ -250,7 +250,7 @@
    "date": "2026-11-26",
    "weekday": "四",
    "items": [
-    {"id": 4016, "lesson": "LEC16", "topic": "舊課秘笈＋加練", "q": "秘笈 p.52–55", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4016, "lesson": "LEC16", "topic": "舊課秘笈", "q": "秘笈 p.52–55", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 5041, "lesson": "LEC41", "topic": "新課秘笈", "q": "秘笈 p.130–133", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
@@ -264,7 +264,7 @@
    "date": "2026-11-27",
    "weekday": "五",
    "items": [
-    {"id": 4017, "lesson": "LEC17", "topic": "舊課秘笈＋加練", "q": "秘笈 p.55–58", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4017, "lesson": "LEC17", "topic": "舊課秘笈", "q": "秘笈 p.55–58", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 5042, "lesson": "LEC42", "topic": "新課秘笈", "q": "秘笈 p.133–137", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
@@ -283,7 +283,7 @@
     {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 4018, "lesson": "LEC18", "topic": "舊課秘笈＋加練", "q": "秘笈 p.58–61", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4018, "lesson": "LEC18", "topic": "舊課秘笈", "q": "秘笈 p.58–61", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 5044, "lesson": "LEC44", "topic": "新課秘笈", "q": "秘笈 p.140–143", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
     {"id": 5045, "lesson": "LEC45", "topic": "新課秘笈", "q": "秘笈 p.143–147", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
     {"id": 5046, "lesson": "LEC46", "topic": "新課秘笈", "q": "秘笈 p.147–151", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
@@ -300,7 +300,7 @@
    "date": "2026-11-29",
    "weekday": "日",
    "items": [
-    {"id": 4019, "lesson": "LEC19", "topic": "舊課秘笈＋加練", "q": "秘笈 p.61–64", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4019, "lesson": "LEC19", "topic": "舊課秘笈", "q": "秘笈 p.61–64", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 1, "lesson": "L05", "topic": "拋體運動", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 2, "lesson": "L05", "topic": "拋體運動", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 3, "lesson": "L05", "topic": "拋體運動", "q": "Q10", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -318,7 +318,7 @@
    "date": "2026-11-30",
    "weekday": "一",
    "items": [
-    {"id": 4020, "lesson": "LEC20", "topic": "舊課秘笈＋加練", "q": "秘笈 p.64–67", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4020, "lesson": "LEC20", "topic": "舊課秘笈", "q": "秘笈 p.64–67", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7, "lesson": "L06", "topic": "衝動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 8, "lesson": "L06", "topic": "衝動量", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9, "lesson": "L06", "topic": "衝動量", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -334,7 +334,7 @@
    "date": "2026-12-01",
    "weekday": "二",
    "items": [
-    {"id": 4021, "lesson": "LEC21", "topic": "舊課秘笈＋加練", "q": "秘笈 p.67–69", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4021, "lesson": "LEC21", "topic": "舊課秘笈", "q": "秘笈 p.67–69", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 11, "lesson": "L06", "topic": "力的分解與合成", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 12, "lesson": "L06", "topic": "終端速度", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 13, "lesson": "L06", "topic": "空氣阻力", "q": "Q1", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -350,7 +350,7 @@
    "date": "2026-12-02",
    "weekday": "三",
    "items": [
-    {"id": 4022, "lesson": "LEC22", "topic": "舊課秘笈＋加練", "q": "秘笈 p.69–72", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4022, "lesson": "LEC22", "topic": "舊課秘笈", "q": "秘笈 p.69–72", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 15, "lesson": "L06", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 16, "lesson": "L06", "topic": "摩擦力", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 17, "lesson": "L06", "topic": "摩擦力", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -366,7 +366,7 @@
    "date": "2026-12-03",
    "weekday": "四",
    "items": [
-    {"id": 4023, "lesson": "LEC23", "topic": "舊課秘笈＋加練", "q": "秘笈 p.72–75", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4023, "lesson": "LEC23", "topic": "舊課秘笈", "q": "秘笈 p.72–75", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 19, "lesson": "L07", "topic": "相對運動", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 20, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 21, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -382,7 +382,7 @@
    "date": "2026-12-04",
    "weekday": "五",
    "items": [
-    {"id": 4024, "lesson": "LEC24", "topic": "舊課秘笈＋加練", "q": "秘笈 p.75–78", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4024, "lesson": "LEC24", "topic": "舊課秘笈", "q": "秘笈 p.75–78", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 23, "lesson": "L07", "topic": "摩擦力範圍", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 24, "lesson": "L07", "topic": "靜力平衡", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 25, "lesson": "L07", "topic": "靜力平衡", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -398,7 +398,7 @@
    "date": "2026-12-05",
    "weekday": "六",
    "items": [
-    {"id": 4025, "lesson": "LEC25", "topic": "舊課秘笈＋加練", "q": "秘笈 p.78–80", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4025, "lesson": "LEC25", "topic": "舊課秘笈", "q": "秘笈 p.78–80", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 27, "lesson": "L07", "topic": "靜力平衡", "q": "Q9", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 28, "lesson": "L07", "topic": "靜力平衡", "q": "Q10", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 29, "lesson": "L07", "topic": "靜力平衡", "q": "Q11", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -428,7 +428,7 @@
    "date": "2026-12-07",
    "weekday": "一",
    "items": [
-    {"id": 4026, "lesson": "LEC26", "topic": "舊課秘笈＋加練", "q": "秘笈 p.80–84", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4026, "lesson": "LEC26", "topic": "舊課秘笈", "q": "秘笈 p.80–84", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 35, "lesson": "L10", "topic": "功率", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 36, "lesson": "L10", "topic": "功率", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 37, "lesson": "L10", "topic": "功率", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -444,7 +444,7 @@
    "date": "2026-12-08",
    "weekday": "二",
    "items": [
-    {"id": 4027, "lesson": "LEC27", "topic": "舊課秘笈＋加練", "q": "秘笈 p.84–87", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4027, "lesson": "LEC27", "topic": "舊課秘笈", "q": "秘笈 p.84–87", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 39, "lesson": "L10", "topic": "擺跟釘子", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 40, "lesson": "L10", "topic": "擺跟釘子", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 41, "lesson": "L11", "topic": "Rope", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -460,7 +460,7 @@
    "date": "2026-12-09",
    "weekday": "三",
    "items": [
-    {"id": 4028, "lesson": "LEC28", "topic": "舊課秘笈＋加練", "q": "秘笈 p.87–90", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4028, "lesson": "LEC28", "topic": "舊課秘笈", "q": "秘笈 p.87–90", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 43, "lesson": "L11", "topic": "正向力", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 44, "lesson": "L11", "topic": "正向力", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 45, "lesson": "L11", "topic": "穩定性", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -476,7 +476,7 @@
    "date": "2026-12-10",
    "weekday": "四",
    "items": [
-    {"id": 4029, "lesson": "LEC29", "topic": "舊課秘笈＋加練", "q": "秘笈 p.90–93", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4029, "lesson": "LEC29", "topic": "舊課秘笈", "q": "秘笈 p.90–93", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 47, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 48, "lesson": "L11", "topic": "彈性體", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 49, "lesson": "L11", "topic": "彈簧", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -492,7 +492,7 @@
    "date": "2026-12-11",
    "weekday": "五",
    "items": [
-    {"id": 4030, "lesson": "LEC30", "topic": "舊課秘笈＋加練", "q": "秘笈 p.93–96", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4030, "lesson": "LEC30", "topic": "舊課秘笈", "q": "秘笈 p.93–96", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 51, "lesson": "L12", "topic": "相對滑動", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 52, "lesson": "L12", "topic": "子彈問題", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 53, "lesson": "L12", "topic": "碰撞", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -508,7 +508,7 @@
    "date": "2026-12-12",
    "weekday": "六",
    "items": [
-    {"id": 4031, "lesson": "LEC31", "topic": "舊課秘笈＋加練", "q": "秘笈 p.96–100", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4031, "lesson": "LEC31", "topic": "舊課秘笈", "q": "秘笈 p.96–100", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 55, "lesson": "L12", "topic": "碰撞", "q": "Q7", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 56, "lesson": "L12", "topic": "碰撞", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 57, "lesson": "L12", "topic": "多體碰撞", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -528,7 +528,7 @@
    "date": "2026-12-13",
    "weekday": "日",
    "items": [
-    {"id": 4032, "lesson": "LEC32", "topic": "舊課秘笈＋加練", "q": "秘笈 p.100–103", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4032, "lesson": "LEC32", "topic": "舊課秘笈", "q": "秘笈 p.100–103", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 104, "lesson": "L17", "topic": "熱機", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 106, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 107, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -546,7 +546,7 @@
    "date": "2026-12-14",
    "weekday": "一",
    "items": [
-    {"id": 4033, "lesson": "LEC33", "topic": "舊課秘笈＋加練", "q": "秘笈 p.103–106", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4033, "lesson": "LEC33", "topic": "舊課秘笈", "q": "秘笈 p.103–106", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 111, "lesson": "L18", "topic": "熵", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 112, "lesson": "L18", "topic": "熵", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 113, "lesson": "L18", "topic": "熵", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -562,7 +562,7 @@
    "date": "2026-12-15",
    "weekday": "二",
    "items": [
-    {"id": 4034, "lesson": "LEC34", "topic": "舊課秘笈＋加練", "q": "秘笈 p.106–110", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4034, "lesson": "LEC34", "topic": "舊課秘笈", "q": "秘笈 p.106–110", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 115, "lesson": "L18", "topic": "熵", "q": "Q8", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 116, "lesson": "L18", "topic": "綜合問題", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 117, "lesson": "L19", "topic": "角動量", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -578,7 +578,7 @@
    "date": "2026-12-16",
    "weekday": "三",
    "items": [
-    {"id": 4035, "lesson": "LEC35", "topic": "舊課秘笈＋加練", "q": "秘笈 p.110–113", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4035, "lesson": "LEC35", "topic": "舊課秘笈", "q": "秘笈 p.110–113", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 119, "lesson": "L19", "topic": "滑輪", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 120, "lesson": "L19", "topic": "滑輪", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 121, "lesson": "L19", "topic": "滑輪", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -594,7 +594,7 @@
    "date": "2026-12-17",
    "weekday": "四",
    "items": [
-    {"id": 4036, "lesson": "LEC36", "topic": "舊課秘笈＋加練", "q": "秘笈 p.113–117", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4036, "lesson": "LEC36", "topic": "舊課秘笈", "q": "秘笈 p.113–117", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 123, "lesson": "L19", "topic": "滑輪", "q": "Q10", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 124, "lesson": "L19", "topic": "Capstan equation", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 125, "lesson": "L19", "topic": "Capstan equation", "q": "Q3", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -610,7 +610,7 @@
    "date": "2026-12-18",
    "weekday": "五",
    "items": [
-    {"id": 4037, "lesson": "LEC37", "topic": "舊課秘笈＋加練", "q": "秘笈 p.117–120", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4037, "lesson": "LEC37", "topic": "舊課秘笈", "q": "秘笈 p.117–120", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 127, "lesson": "L20", "topic": "SHM 基礎", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 128, "lesson": "L20", "topic": "SHM 基礎", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 129, "lesson": "L20", "topic": "鉛直SHM", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -626,7 +626,7 @@
    "date": "2026-12-19",
    "weekday": "六",
    "items": [
-    {"id": 4038, "lesson": "LEC38", "topic": "舊課秘笈＋加練", "q": "秘笈 p.120–123", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4038, "lesson": "LEC38", "topic": "舊課秘笈", "q": "秘笈 p.120–123", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 131, "lesson": "L20", "topic": "拉格朗日", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 132, "lesson": "L20", "topic": "拉格朗日", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 133, "lesson": "L20", "topic": "熱力+SHM", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -646,7 +646,7 @@
    "date": "2026-12-20",
    "weekday": "日",
    "items": [
-    {"id": 4039, "lesson": "LEC39", "topic": "舊課秘笈＋加練", "q": "秘笈 p.123–127", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4039, "lesson": "LEC39", "topic": "舊課秘笈", "q": "秘笈 p.123–127", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 139, "lesson": "L20", "topic": "綜合問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 140, "lesson": "L20", "topic": "綜合問題", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 141, "lesson": "L20", "topic": "綜合問題", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -664,7 +664,7 @@
    "date": "2026-12-21",
    "weekday": "一",
    "items": [
-    {"id": 4040, "lesson": "LEC40", "topic": "舊課秘笈＋加練", "q": "秘笈 p.127–130", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4040, "lesson": "LEC40", "topic": "舊課秘笈", "q": "秘笈 p.127–130", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 145, "lesson": "L21", "topic": "平移非慣性系", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 146, "lesson": "L21", "topic": "平移非慣性系", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 147, "lesson": "L21", "topic": "平移非慣性系", "q": "Q6", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -680,7 +680,7 @@
    "date": "2026-12-22",
    "weekday": "二",
    "items": [
-    {"id": 4041, "lesson": "LEC41", "topic": "舊課秘笈＋加練", "q": "秘笈 p.130–133", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4041, "lesson": "LEC41", "topic": "舊課秘笈", "q": "秘笈 p.130–133", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 149, "lesson": "L21", "topic": "雙振子", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 150, "lesson": "L21", "topic": "雙振子", "q": "Q6", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 151, "lesson": "L21", "topic": "雙振子", "q": "Q7", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -696,7 +696,7 @@
    "date": "2026-12-23",
    "weekday": "三",
    "items": [
-    {"id": 4042, "lesson": "LEC42", "topic": "舊課秘笈＋加練", "q": "秘笈 p.133–137", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4042, "lesson": "LEC42", "topic": "舊課秘笈", "q": "秘笈 p.133–137", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 153, "lesson": "L21", "topic": "雙振子", "q": "Q9", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 154, "lesson": "L21", "topic": "雙振子", "q": "Q10", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 155, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -712,7 +712,7 @@
    "date": "2026-12-24",
    "weekday": "四",
    "items": [
-    {"id": 4043, "lesson": "LEC43", "topic": "舊課秘笈＋加練", "q": "秘笈 p.137–140", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4043, "lesson": "LEC43", "topic": "舊課秘笈", "q": "秘笈 p.137–140", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 157, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 158, "lesson": "L22", "topic": "相對滑動", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 159, "lesson": "L22", "topic": "相對滑動", "q": "Q3", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -728,7 +728,7 @@
    "date": "2026-12-25",
    "weekday": "五",
    "items": [
-    {"id": 4044, "lesson": "LEC44", "topic": "舊課秘笈＋加練", "q": "秘笈 p.140–143", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4044, "lesson": "LEC44", "topic": "舊課秘笈", "q": "秘笈 p.140–143", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 161, "lesson": "L22", "topic": "妙用慣性系", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 162, "lesson": "L22", "topic": "妙用慣性系", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 163, "lesson": "L22", "topic": "妙用慣性系", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -748,7 +748,7 @@
    "date": "2026-12-26",
    "weekday": "六",
    "items": [
-    {"id": 4045, "lesson": "LEC45", "topic": "舊課秘笈＋加練", "q": "秘笈 p.143–147", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4045, "lesson": "LEC45", "topic": "舊課秘笈", "q": "秘笈 p.143–147", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 1001, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
     {"id": 1002, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
     {"id": 1003, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
@@ -768,7 +768,7 @@
    "date": "2026-12-27",
    "weekday": "日",
    "items": [
-    {"id": 4046, "lesson": "LEC46", "topic": "舊課秘笈＋加練", "q": "秘笈 p.147–151", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完（每一招的看到→反射），寫加練並對答案；接話進度沒到也要讀完"},
+    {"id": 4046, "lesson": "LEC46", "topic": "舊課秘笈", "q": "秘笈 p.147–151", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 1009, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
     {"id": 1010, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
     {"id": 1011, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
@@ -1279,7 +1279,7 @@
    "date": "2027-01-30",
    "weekday": "六",
    "items": [
-    {"id": 4101, "lesson": "三期第1部", "topic": "舊課秘笈＋加練", "q": "三期第1部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4101, "lesson": "三期第1部", "topic": "舊課秘笈", "q": "三期第1部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7001, "lesson": "三期第1部", "topic": "第三期第一題", "q": "三期習題 #1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7002, "lesson": "三期第1部", "topic": "第三期第二題", "q": "三期習題 #2", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7003, "lesson": "三期第1部", "topic": "第三期第三題", "q": "三期習題 #3", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1296,7 +1296,7 @@
    "date": "2027-01-31",
    "weekday": "日",
    "items": [
-    {"id": 4102, "lesson": "三期第2部", "topic": "舊課秘笈＋加練", "q": "三期第2部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4102, "lesson": "三期第2部", "topic": "舊課秘笈", "q": "三期第2部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7006, "lesson": "三期第2部", "topic": "第三期第六題", "q": "三期習題 #6", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7007, "lesson": "三期第2部", "topic": "第三期第七題", "q": "三期習題 #7", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7008, "lesson": "三期第2部", "topic": "第三期第八題", "q": "三期習題 #8", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1313,7 +1313,7 @@
    "date": "2027-02-01",
    "weekday": "一",
    "items": [
-    {"id": 4103, "lesson": "三期第3部", "topic": "舊課秘笈＋加練", "q": "三期第3部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4103, "lesson": "三期第3部", "topic": "舊課秘笈", "q": "三期第3部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7011, "lesson": "三期第3部", "topic": "第三期第十一題", "q": "三期習題 #11", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7012, "lesson": "三期第3部", "topic": "第三期第十二題", "q": "三期習題 #12", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7013, "lesson": "三期第3部", "topic": "第三期第十三題", "q": "三期習題 #13", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1330,7 +1330,7 @@
    "date": "2027-02-02",
    "weekday": "二",
    "items": [
-    {"id": 4104, "lesson": "三期第4部", "topic": "舊課秘笈＋加練", "q": "三期第4部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4104, "lesson": "三期第4部", "topic": "舊課秘笈", "q": "三期第4部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7016, "lesson": "三期第4部", "topic": "第三期第十六題", "q": "三期習題 #16", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7017, "lesson": "三期第4部", "topic": "第三期第十七題", "q": "三期習題 #17", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7018, "lesson": "三期第4部", "topic": "第三期第十八題", "q": "三期習題 #18", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1347,7 +1347,7 @@
    "date": "2027-02-03",
    "weekday": "三",
    "items": [
-    {"id": 4105, "lesson": "三期第5部", "topic": "舊課秘笈＋加練", "q": "三期第5部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4105, "lesson": "三期第5部", "topic": "舊課秘笈", "q": "三期第5部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7021, "lesson": "三期第5部", "topic": "第三期第二十一題", "q": "三期習題 #21", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7022, "lesson": "三期第5部", "topic": "第三期第二十二題", "q": "三期習題 #22", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7023, "lesson": "三期第5部", "topic": "第三期第二十三題", "q": "三期習題 #23", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1363,7 +1363,7 @@
    "date": "2027-02-04",
    "weekday": "四",
    "items": [
-    {"id": 4106, "lesson": "三期第6部", "topic": "舊課秘笈＋加練", "q": "三期第6部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4106, "lesson": "三期第6部", "topic": "舊課秘笈", "q": "三期第6部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7025, "lesson": "三期第6部", "topic": "第三期第二十五題", "q": "三期習題 #25", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7026, "lesson": "三期第6部", "topic": "第三期第二十六題", "q": "三期習題 #26", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7027, "lesson": "三期第6部", "topic": "第三期第二十七題", "q": "三期習題 #27", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1405,7 +1405,7 @@
    "date": "2027-02-08",
    "weekday": "一",
    "items": [
-    {"id": 4107, "lesson": "三期第7部", "topic": "舊課秘笈＋加練", "q": "三期第7部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4107, "lesson": "三期第7部", "topic": "舊課秘笈", "q": "三期第7部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7029, "lesson": "三期第7部", "topic": "第三期第二十九題", "q": "三期習題 #29", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7030, "lesson": "三期第7部", "topic": "第三期第三十題", "q": "三期習題 #30", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7031, "lesson": "三期第7部", "topic": "第三期第三十一題", "q": "三期習題 #31", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1421,7 +1421,7 @@
    "date": "2027-02-09",
    "weekday": "二",
    "items": [
-    {"id": 4108, "lesson": "三期第8部", "topic": "舊課秘笈＋加練", "q": "三期第8部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4108, "lesson": "三期第8部", "topic": "舊課秘笈", "q": "三期第8部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7033, "lesson": "三期第8部", "topic": "第三期第三十三題", "q": "三期習題 #33", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7034, "lesson": "三期第8部", "topic": "第三期第三十四題", "q": "三期習題 #34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7035, "lesson": "三期第8部", "topic": "第三期第三十五題", "q": "三期習題 #35", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1437,7 +1437,7 @@
    "date": "2027-02-10",
    "weekday": "三",
    "items": [
-    {"id": 4109, "lesson": "三期第9部", "topic": "舊課秘笈＋加練", "q": "三期第9部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4109, "lesson": "三期第9部", "topic": "舊課秘笈", "q": "三期第9部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7037, "lesson": "三期第9部", "topic": "第三期第三十七題", "q": "三期習題 #37", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7038, "lesson": "三期第9部", "topic": "第三期第三十八題", "q": "三期習題 #38", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7039, "lesson": "三期第9部", "topic": "第三期第三十九題", "q": "三期習題 #39", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1453,7 +1453,7 @@
    "date": "2027-02-11",
    "weekday": "四",
    "items": [
-    {"id": 4110, "lesson": "三期第10部", "topic": "舊課秘笈＋加練", "q": "三期第10部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4110, "lesson": "三期第10部", "topic": "舊課秘笈", "q": "三期第10部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7041, "lesson": "三期第10部", "topic": "第三期第四十一題", "q": "三期習題 #41", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7042, "lesson": "三期第10部", "topic": "第三期第四十二題", "q": "三期習題 #42", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7043, "lesson": "三期第10部", "topic": "第三期第四十三題", "q": "三期習題 #43", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1469,7 +1469,7 @@
    "date": "2027-02-12",
    "weekday": "五",
    "items": [
-    {"id": 4111, "lesson": "三期第11部", "topic": "舊課秘笈＋加練", "q": "三期第11部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4111, "lesson": "三期第11部", "topic": "舊課秘笈", "q": "三期第11部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7045, "lesson": "三期第11部", "topic": "第三期第四十五題", "q": "三期習題 #45", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7046, "lesson": "三期第11部", "topic": "第三期第四十六題", "q": "三期習題 #46", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7047, "lesson": "三期第11部", "topic": "第三期第四十七題", "q": "三期習題 #47", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1485,7 +1485,7 @@
    "date": "2027-02-13",
    "weekday": "六",
    "items": [
-    {"id": 4112, "lesson": "三期第12部", "topic": "舊課秘笈＋加練", "q": "三期第12部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4112, "lesson": "三期第12部", "topic": "舊課秘笈", "q": "三期第12部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7049, "lesson": "三期第12部", "topic": "第三期第四十九題", "q": "三期習題 #49", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7050, "lesson": "三期第12部", "topic": "第三期第五十題", "q": "三期習題 #50", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7051, "lesson": "三期第12部", "topic": "第三期第五十一題", "q": "三期習題 #51", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1501,7 +1501,7 @@
    "date": "2027-02-14",
    "weekday": "日",
    "items": [
-    {"id": 4113, "lesson": "三期第13部", "topic": "舊課秘笈＋加練", "q": "三期第13部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4113, "lesson": "三期第13部", "topic": "舊課秘笈", "q": "三期第13部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7053, "lesson": "三期第13部", "topic": "第三期第五十三題", "q": "三期習題 #53", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7054, "lesson": "三期第13部", "topic": "第三期第五十四題", "q": "三期習題 #54", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7055, "lesson": "三期第13部", "topic": "第三期第五十五題", "q": "三期習題 #55", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1517,7 +1517,7 @@
    "date": "2027-02-15",
    "weekday": "一",
    "items": [
-    {"id": 4114, "lesson": "三期第14部", "topic": "舊課秘笈＋加練", "q": "三期第14部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4114, "lesson": "三期第14部", "topic": "舊課秘笈", "q": "三期第14部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7057, "lesson": "三期第14部", "topic": "第三期第五十七題", "q": "三期習題 #57", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7058, "lesson": "三期第14部", "topic": "第三期第五十八題", "q": "三期習題 #58", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7059, "lesson": "三期第14部", "topic": "第三期第五十九題", "q": "三期習題 #59", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1533,7 +1533,7 @@
    "date": "2027-02-16",
    "weekday": "二",
    "items": [
-    {"id": 4115, "lesson": "三期第15部", "topic": "舊課秘笈＋加練", "q": "三期第15部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4115, "lesson": "三期第15部", "topic": "舊課秘笈", "q": "三期第15部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7061, "lesson": "三期第15部", "topic": "第三期第六十一題", "q": "三期習題 #61", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7062, "lesson": "三期第15部", "topic": "第三期第六十二題", "q": "三期習題 #62", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7063, "lesson": "三期第15部", "topic": "第三期第六十三題", "q": "三期習題 #63", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1549,7 +1549,7 @@
    "date": "2027-02-17",
    "weekday": "三",
    "items": [
-    {"id": 4116, "lesson": "三期第16部", "topic": "舊課秘笈＋加練", "q": "三期第16部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4116, "lesson": "三期第16部", "topic": "舊課秘笈", "q": "三期第16部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7065, "lesson": "三期第16部", "topic": "第三期第六十五題", "q": "三期習題 #65", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7066, "lesson": "三期第16部", "topic": "第三期第六十六題", "q": "三期習題 #66", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7067, "lesson": "三期第16部", "topic": "第三期第六十七題", "q": "三期習題 #67", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1565,7 +1565,7 @@
    "date": "2027-02-18",
    "weekday": "四",
    "items": [
-    {"id": 4117, "lesson": "三期第17部", "topic": "舊課秘笈＋加練", "q": "三期第17部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4117, "lesson": "三期第17部", "topic": "舊課秘笈", "q": "三期第17部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7069, "lesson": "三期第17部", "topic": "第三期第六十九題", "q": "三期習題 #69", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7070, "lesson": "三期第17部", "topic": "第三期第七十題", "q": "三期習題 #70", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7071, "lesson": "三期第17部", "topic": "第三期第七十一題", "q": "三期習題 #71", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1581,7 +1581,7 @@
    "date": "2027-02-19",
    "weekday": "五",
    "items": [
-    {"id": 4118, "lesson": "三期第18部", "topic": "舊課秘笈＋加練", "q": "三期第18部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4118, "lesson": "三期第18部", "topic": "舊課秘笈", "q": "三期第18部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7073, "lesson": "三期第18部", "topic": "第三期第七十三題", "q": "三期習題 #73", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7074, "lesson": "三期第18部", "topic": "第三期第七十四題", "q": "三期習題 #74", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7075, "lesson": "三期第18部", "topic": "第三期第七十五題", "q": "三期習題 #75", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1597,7 +1597,7 @@
    "date": "2027-02-20",
    "weekday": "六",
    "items": [
-    {"id": 4119, "lesson": "三期第19部", "topic": "舊課秘笈＋加練", "q": "三期第19部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4119, "lesson": "三期第19部", "topic": "舊課秘笈", "q": "三期第19部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7077, "lesson": "三期第19部", "topic": "第三期第七十七題", "q": "三期習題 #77", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7078, "lesson": "三期第19部", "topic": "第三期第七十八題", "q": "三期習題 #78", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7079, "lesson": "三期第19部", "topic": "第三期第七十九題", "q": "三期習題 #79", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1613,7 +1613,7 @@
    "date": "2027-02-21",
    "weekday": "日",
    "items": [
-    {"id": 4120, "lesson": "三期第20部", "topic": "舊課秘笈＋加練", "q": "三期第20部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4120, "lesson": "三期第20部", "topic": "舊課秘笈", "q": "三期第20部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7081, "lesson": "三期第20部", "topic": "第三期第八十一題", "q": "三期習題 #81", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7082, "lesson": "三期第20部", "topic": "第三期第八十二題", "q": "三期習題 #82", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7083, "lesson": "三期第20部", "topic": "第三期第八十三題", "q": "三期習題 #83", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1629,7 +1629,7 @@
    "date": "2027-02-22",
    "weekday": "一",
    "items": [
-    {"id": 4121, "lesson": "三期第21部", "topic": "舊課秘笈＋加練", "q": "三期第21部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4121, "lesson": "三期第21部", "topic": "舊課秘笈", "q": "三期第21部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7085, "lesson": "三期第21部", "topic": "第三期第八十五題", "q": "三期習題 #85", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7086, "lesson": "三期第21部", "topic": "第三期第八十六題", "q": "三期習題 #86", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7087, "lesson": "三期第21部", "topic": "第三期第八十七題", "q": "三期習題 #87", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1645,7 +1645,7 @@
    "date": "2027-02-23",
    "weekday": "二",
    "items": [
-    {"id": 4122, "lesson": "三期第22部", "topic": "舊課秘笈＋加練", "q": "三期第22部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4122, "lesson": "三期第22部", "topic": "舊課秘笈", "q": "三期第22部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7089, "lesson": "三期第22部", "topic": "第三期第八十九題", "q": "三期習題 #89", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7090, "lesson": "三期第22部", "topic": "第三期第九十題", "q": "三期習題 #90", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7091, "lesson": "三期第22部", "topic": "第三期第九十一題", "q": "三期習題 #91", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1661,7 +1661,7 @@
    "date": "2027-02-24",
    "weekday": "三",
    "items": [
-    {"id": 4123, "lesson": "三期第23部", "topic": "舊課秘笈＋加練", "q": "三期第23部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4123, "lesson": "三期第23部", "topic": "舊課秘笈", "q": "三期第23部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7093, "lesson": "三期第23部", "topic": "第三期第九十三題", "q": "三期習題 #93", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7094, "lesson": "三期第23部", "topic": "第三期第九十四題", "q": "三期習題 #94", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7095, "lesson": "三期第23部", "topic": "第三期第九十五題", "q": "三期習題 #95", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1677,7 +1677,7 @@
    "date": "2027-02-25",
    "weekday": "四",
    "items": [
-    {"id": 4124, "lesson": "三期第24部", "topic": "舊課秘笈＋加練", "q": "三期第24部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4124, "lesson": "三期第24部", "topic": "舊課秘笈", "q": "三期第24部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 7097, "lesson": "三期第24部", "topic": "第三期第九十七題", "q": "三期習題 #97", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7098, "lesson": "三期第24部", "topic": "第三期第九十八題", "q": "三期習題 #98", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7099, "lesson": "三期第24部", "topic": "第三期第九十九題", "q": "三期習題 #99", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1927,7 +1927,7 @@
    "date": "2027-03-15",
    "weekday": "一",
    "items": [
-    {"id": 4201, "lesson": "四期第1部", "topic": "舊課秘笈＋加練", "q": "四期第1部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4201, "lesson": "四期第1部", "topic": "舊課秘笈", "q": "四期第1部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9001, "lesson": "四期第1部", "topic": "第四期第一題", "q": "四期習題 #1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9002, "lesson": "四期第1部", "topic": "第四期第二題", "q": "四期習題 #2", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9003, "lesson": "四期第1部", "topic": "第四期第三題", "q": "四期習題 #3", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1943,7 +1943,7 @@
    "date": "2027-03-16",
    "weekday": "二",
    "items": [
-    {"id": 4202, "lesson": "四期第2部", "topic": "舊課秘笈＋加練", "q": "四期第2部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4202, "lesson": "四期第2部", "topic": "舊課秘笈", "q": "四期第2部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9005, "lesson": "四期第1部", "topic": "第四期第五題", "q": "四期習題 #5", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9006, "lesson": "四期第2部", "topic": "第四期第六題", "q": "四期習題 #6", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9007, "lesson": "四期第2部", "topic": "第四期第七題", "q": "四期習題 #7", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1959,7 +1959,7 @@
    "date": "2027-03-17",
    "weekday": "三",
    "items": [
-    {"id": 4203, "lesson": "四期第3部", "topic": "舊課秘笈＋加練", "q": "四期第3部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4203, "lesson": "四期第3部", "topic": "舊課秘笈", "q": "四期第3部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9009, "lesson": "四期第2部", "topic": "第四期第九題", "q": "四期習題 #9", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9010, "lesson": "四期第2部", "topic": "第四期第十題", "q": "四期習題 #10", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9011, "lesson": "四期第3部", "topic": "第四期第十一題", "q": "四期習題 #11", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1975,7 +1975,7 @@
    "date": "2027-03-18",
    "weekday": "四",
    "items": [
-    {"id": 4204, "lesson": "四期第4部", "topic": "舊課秘笈＋加練", "q": "四期第4部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4204, "lesson": "四期第4部", "topic": "舊課秘笈", "q": "四期第4部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9013, "lesson": "四期第3部", "topic": "第四期第十三題", "q": "四期習題 #13", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9014, "lesson": "四期第3部", "topic": "第四期第十四題", "q": "四期習題 #14", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9015, "lesson": "四期第3部", "topic": "第四期第十五題", "q": "四期習題 #15", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1991,7 +1991,7 @@
    "date": "2027-03-19",
    "weekday": "五",
    "items": [
-    {"id": 4205, "lesson": "四期第5部", "topic": "舊課秘笈＋加練", "q": "四期第5部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4205, "lesson": "四期第5部", "topic": "舊課秘笈", "q": "四期第5部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9017, "lesson": "四期第4部", "topic": "第四期第十七題", "q": "四期習題 #17", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9018, "lesson": "四期第4部", "topic": "第四期第十八題", "q": "四期習題 #18", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9019, "lesson": "四期第4部", "topic": "第四期第十九題", "q": "四期習題 #19", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2007,7 +2007,7 @@
    "date": "2027-03-20",
    "weekday": "六",
    "items": [
-    {"id": 4206, "lesson": "四期第6部", "topic": "舊課秘笈＋加練", "q": "四期第6部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4206, "lesson": "四期第6部", "topic": "舊課秘笈", "q": "四期第6部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9021, "lesson": "四期第5部", "topic": "第四期第二十一題", "q": "四期習題 #21", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9022, "lesson": "四期第5部", "topic": "第四期第二十二題", "q": "四期習題 #22", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9023, "lesson": "四期第5部", "topic": "第四期第二十三題", "q": "四期習題 #23", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2027,7 +2027,7 @@
    "date": "2027-03-21",
    "weekday": "日",
    "items": [
-    {"id": 4207, "lesson": "四期第7部", "topic": "舊課秘笈＋加練", "q": "四期第7部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4207, "lesson": "四期第7部", "topic": "舊課秘笈", "q": "四期第7部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9029, "lesson": "四期第7部", "topic": "第四期第二十九題", "q": "四期習題 #29", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9030, "lesson": "四期第7部", "topic": "第四期第三十題", "q": "四期習題 #30", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9031, "lesson": "四期第7部", "topic": "第四期第三十一題", "q": "四期習題 #31", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2043,7 +2043,7 @@
    "date": "2027-03-22",
    "weekday": "一",
    "items": [
-    {"id": 4208, "lesson": "四期第8部", "topic": "舊課秘笈＋加練", "q": "四期第8部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4208, "lesson": "四期第8部", "topic": "舊課秘笈", "q": "四期第8部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9033, "lesson": "四期第8部", "topic": "第四期第三十三題", "q": "四期習題 #33", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9034, "lesson": "四期第8部", "topic": "第四期第三十四題", "q": "四期習題 #34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9035, "lesson": "四期第8部", "topic": "第四期第三十五題", "q": "四期習題 #35", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2059,7 +2059,7 @@
    "date": "2027-03-23",
    "weekday": "二",
    "items": [
-    {"id": 4209, "lesson": "四期第9部", "topic": "舊課秘笈＋加練", "q": "四期第9部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4209, "lesson": "四期第9部", "topic": "舊課秘笈", "q": "四期第9部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9037, "lesson": "四期第9部", "topic": "第四期第三十七題", "q": "四期習題 #37", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9038, "lesson": "四期第9部", "topic": "第四期第三十八題", "q": "四期習題 #38", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9039, "lesson": "四期第9部", "topic": "第四期第三十九題", "q": "四期習題 #39", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2075,7 +2075,7 @@
    "date": "2027-03-24",
    "weekday": "三",
    "items": [
-    {"id": 4210, "lesson": "四期第10部", "topic": "舊課秘笈＋加練", "q": "四期第10部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4210, "lesson": "四期第10部", "topic": "舊課秘笈", "q": "四期第10部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9041, "lesson": "四期第10部", "topic": "第四期第四十一題", "q": "四期習題 #41", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9042, "lesson": "四期第10部", "topic": "第四期第四十二題", "q": "四期習題 #42", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9043, "lesson": "四期第10部", "topic": "第四期第四十三題", "q": "四期習題 #43", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2091,7 +2091,7 @@
    "date": "2027-03-25",
    "weekday": "四",
    "items": [
-    {"id": 4211, "lesson": "四期第11部", "topic": "舊課秘笈＋加練", "q": "四期第11部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4211, "lesson": "四期第11部", "topic": "舊課秘笈", "q": "四期第11部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9045, "lesson": "四期第11部", "topic": "第四期第四十五題", "q": "四期習題 #45", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9046, "lesson": "四期第11部", "topic": "第四期第四十六題", "q": "四期習題 #46", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9047, "lesson": "四期第11部", "topic": "第四期第四十七題", "q": "四期習題 #47", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2107,7 +2107,7 @@
    "date": "2027-03-26",
    "weekday": "五",
    "items": [
-    {"id": 4212, "lesson": "四期第12部", "topic": "舊課秘笈＋加練", "q": "四期第12部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4212, "lesson": "四期第12部", "topic": "舊課秘笈", "q": "四期第12部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9049, "lesson": "四期第12部", "topic": "第四期第四十九題", "q": "四期習題 #49", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9050, "lesson": "四期第12部", "topic": "第四期第五十題", "q": "四期習題 #50", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9051, "lesson": "四期第12部", "topic": "第四期第五十一題", "q": "四期習題 #51", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2123,7 +2123,7 @@
    "date": "2027-03-27",
    "weekday": "六",
    "items": [
-    {"id": 4213, "lesson": "四期第13部", "topic": "舊課秘笈＋加練", "q": "四期第13部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4213, "lesson": "四期第13部", "topic": "舊課秘笈", "q": "四期第13部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9053, "lesson": "四期第13部", "topic": "第四期第五十三題", "q": "四期習題 #53", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9054, "lesson": "四期第13部", "topic": "第四期第五十四題", "q": "四期習題 #54", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9055, "lesson": "四期第13部", "topic": "第四期第五十五題", "q": "四期習題 #55", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2139,7 +2139,7 @@
    "date": "2027-03-28",
    "weekday": "日",
    "items": [
-    {"id": 4214, "lesson": "四期第14部", "topic": "舊課秘笈＋加練", "q": "四期第14部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4214, "lesson": "四期第14部", "topic": "舊課秘笈", "q": "四期第14部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9057, "lesson": "四期第14部", "topic": "第四期第五十七題", "q": "四期習題 #57", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9058, "lesson": "四期第14部", "topic": "第四期第五十八題", "q": "四期習題 #58", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9059, "lesson": "四期第14部", "topic": "第四期第五十九題", "q": "四期習題 #59", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2155,7 +2155,7 @@
    "date": "2027-03-29",
    "weekday": "一",
    "items": [
-    {"id": 4215, "lesson": "四期第15部", "topic": "舊課秘笈＋加練", "q": "四期第15部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4215, "lesson": "四期第15部", "topic": "舊課秘笈", "q": "四期第15部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9061, "lesson": "四期第15部", "topic": "第四期第六十一題", "q": "四期習題 #61", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9062, "lesson": "四期第15部", "topic": "第四期第六十二題", "q": "四期習題 #62", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9063, "lesson": "四期第15部", "topic": "第四期第六十三題", "q": "四期習題 #63", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2171,7 +2171,7 @@
    "date": "2027-03-30",
    "weekday": "二",
    "items": [
-    {"id": 4216, "lesson": "四期第16部", "topic": "舊課秘笈＋加練", "q": "四期第16部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4216, "lesson": "四期第16部", "topic": "舊課秘笈", "q": "四期第16部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9065, "lesson": "四期第16部", "topic": "第四期第六十五題", "q": "四期習題 #65", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9066, "lesson": "四期第16部", "topic": "第四期第六十六題", "q": "四期習題 #66", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9067, "lesson": "四期第16部", "topic": "第四期第六十七題", "q": "四期習題 #67", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2187,7 +2187,7 @@
    "date": "2027-03-31",
    "weekday": "三",
    "items": [
-    {"id": 4217, "lesson": "四期第17部", "topic": "舊課秘笈＋加練", "q": "四期第17部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4217, "lesson": "四期第17部", "topic": "舊課秘笈", "q": "四期第17部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9069, "lesson": "四期第17部", "topic": "第四期第六十九題", "q": "四期習題 #69", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9070, "lesson": "四期第17部", "topic": "第四期第七十題", "q": "四期習題 #70", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9071, "lesson": "四期第17部", "topic": "第四期第七十一題", "q": "四期習題 #71", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2203,7 +2203,7 @@
    "date": "2027-04-01",
    "weekday": "四",
    "items": [
-    {"id": 4218, "lesson": "四期第18部", "topic": "舊課秘笈＋加練", "q": "四期第18部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4218, "lesson": "四期第18部", "topic": "舊課秘笈", "q": "四期第18部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9073, "lesson": "四期第18部", "topic": "第四期第七十三題", "q": "四期習題 #73", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9074, "lesson": "四期第18部", "topic": "第四期第七十四題", "q": "四期習題 #74", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9075, "lesson": "四期第18部", "topic": "第四期第七十五題", "q": "四期習題 #75", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2219,7 +2219,7 @@
    "date": "2027-04-02",
    "weekday": "五",
    "items": [
-    {"id": 4219, "lesson": "四期第19部", "topic": "舊課秘笈＋加練", "q": "四期第19部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4219, "lesson": "四期第19部", "topic": "舊課秘笈", "q": "四期第19部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9077, "lesson": "四期第19部", "topic": "第四期第七十七題", "q": "四期習題 #77", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9078, "lesson": "四期第19部", "topic": "第四期第七十八題", "q": "四期習題 #78", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9079, "lesson": "四期第19部", "topic": "第四期第七十九題", "q": "四期習題 #79", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2235,7 +2235,7 @@
    "date": "2027-04-03",
    "weekday": "六",
    "items": [
-    {"id": 4220, "lesson": "四期第20部", "topic": "舊課秘笈＋加練", "q": "四期第20部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4220, "lesson": "四期第20部", "topic": "舊課秘笈", "q": "四期第20部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9081, "lesson": "四期第20部", "topic": "第四期第八十一題", "q": "四期習題 #81", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9082, "lesson": "四期第20部", "topic": "第四期第八十二題", "q": "四期習題 #82", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9083, "lesson": "四期第20部", "topic": "第四期第八十三題", "q": "四期習題 #83", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2261,7 +2261,7 @@
    "date": "2027-04-05",
    "weekday": "一",
    "items": [
-    {"id": 4221, "lesson": "四期第21部", "topic": "舊課秘笈＋加練", "q": "四期第21部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4221, "lesson": "四期第21部", "topic": "舊課秘笈", "q": "四期第21部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9085, "lesson": "四期第21部", "topic": "第四期第八十五題", "q": "四期習題 #85", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9086, "lesson": "四期第21部", "topic": "第四期第八十六題", "q": "四期習題 #86", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9087, "lesson": "四期第21部", "topic": "第四期第八十七題", "q": "四期習題 #87", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2277,7 +2277,7 @@
    "date": "2027-04-06",
    "weekday": "二",
    "items": [
-    {"id": 4222, "lesson": "四期第22部", "topic": "舊課秘笈＋加練", "q": "四期第22部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4222, "lesson": "四期第22部", "topic": "舊課秘笈", "q": "四期第22部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9089, "lesson": "四期第22部", "topic": "第四期第八十九題", "q": "四期習題 #89", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9090, "lesson": "四期第22部", "topic": "第四期第九十題", "q": "四期習題 #90", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9091, "lesson": "四期第22部", "topic": "第四期第九十一題", "q": "四期習題 #91", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2293,7 +2293,7 @@
    "date": "2027-04-07",
    "weekday": "三",
    "items": [
-    {"id": 4223, "lesson": "四期第23部", "topic": "舊課秘笈＋加練", "q": "四期第23部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4223, "lesson": "四期第23部", "topic": "舊課秘笈", "q": "四期第23部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9093, "lesson": "四期第23部", "topic": "第四期第九十三題", "q": "四期習題 #93", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9094, "lesson": "四期第23部", "topic": "第四期第九十四題", "q": "四期習題 #94", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9095, "lesson": "四期第23部", "topic": "第四期第九十五題", "q": "四期習題 #95", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2309,7 +2309,7 @@
    "date": "2027-04-08",
    "weekday": "四",
    "items": [
-    {"id": 4224, "lesson": "四期第24部", "topic": "舊課秘笈＋加練", "q": "四期第24部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "寫該部習題前讀完，加練寫完對答案"},
+    {"id": 4224, "lesson": "四期第24部", "topic": "舊課秘笈", "q": "四期第24部", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，確認舊課記憶還在（加練跳過，有空再寫）"},
     {"id": 9097, "lesson": "四期第24部", "topic": "第四期第九十七題", "q": "四期習題 #97", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9098, "lesson": "四期第24部", "topic": "第四期第九十八題", "q": "四期習題 #98", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9099, "lesson": "四期第24部", "topic": "第四期第九十九題", "q": "四期習題 #99", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
