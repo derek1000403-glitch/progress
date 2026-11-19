@@ -113,7 +113,7 @@
    "weekday": "二",
    "items": [
     {"id": 4001, "lesson": "LEC01", "topic": "舊課秘笈＋加練", "q": "秘笈 p.4–7", "diff": "", "done": true, "doneAt": "2026-11-18", "slot": "學校"},
-    {"id": 4002, "lesson": "LEC02", "topic": "舊課秘笈＋加練", "q": "秘笈 p.7–10", "diff": "", "done": true, "doneAt": "2026-11-19", "slot": "學校", "note": "秘笈已讀完，加練（習題）正在寫"}
+    {"id": 4002, "lesson": "LEC02", "topic": "舊課秘笈＋加練", "q": "秘笈 p.7–10", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "秘笈已讀完，加練（習題）正在寫"}
    ],
    "plan": {
     "學校": "舊課秘笈 LEC01、LEC02（p.4–7、p.7–10）整堂讀完＋加練",
