@@ -155,15 +155,11 @@
    "weekday": "五",
    "items": [
     {"id": 4007, "lesson": "LEC07", "topic": "舊課秘笈", "q": "秘笈 p.23–27", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 4008, "lesson": "LEC08", "topic": "舊課秘笈", "q": "秘笈 p.27–31", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "從約 29 分（約化質量）接著看；11/19 沒看完移過來"},
-    {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "看完 LEC31 有餘力再開始；沒看完明天接"},
-    {"id": 5031, "lesson": "LEC31", "topic": "新課秘笈", "q": "秘笈 p.96–100", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
-    {"id": 5032, "lesson": "LEC32", "topic": "新課秘笈", "q": "秘笈 p.100–103", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
+    {"id": 4008, "lesson": "LEC08", "topic": "舊課秘笈", "q": "秘笈 p.27–31", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"}
    ],
    "plan": {
     "學校": "舊課秘笈 LEC07、LEC08（p.23–27、p.27–31）整堂讀完＋寫例題（加練跳過）",
-    "圖書館": "二期影片 LEC31 從約 29 分接著看完（最低標），有餘力再看 LEC32＋停點：說「開始上課」拿回來的時間",
+    "圖書館": "社團留晚；LEC31 看到約 56 分（其餘移到 11/21）",
     "晚通勤": "新課秘笈：LEC31（秘笈 p.96–100）、LEC32（秘笈 p.100–103，看完 LEC32 才讀）整堂讀完、招式打勾"
    }
   },
@@ -171,147 +167,151 @@
    "date": "2026-11-21",
    "weekday": "六",
    "items": [
+    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "從約 56 分（等效模型之後）接著看"},
+    {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": ""},
     {"id": 910, "lesson": "二期影片", "topic": "水星軌道進動", "q": "LEC33", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 911, "lesson": "二期影片", "topic": "同步衛星", "q": "LEC34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 4009, "lesson": "LEC09", "topic": "舊課秘笈", "q": "秘笈 p.31–34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 5033, "lesson": "LEC33", "topic": "新課秘笈", "q": "秘笈 p.103–106", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
-    {"id": 5034, "lesson": "LEC34", "topic": "新課秘笈", "q": "秘笈 p.106–110", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
-    {"id": 5035, "lesson": "LEC35", "topic": "新課秘笈", "q": "秘笈 p.110–113", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
+    {"id": 5031, "lesson": "LEC31", "topic": "新課秘笈", "q": "秘笈 p.96–100", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
+    {"id": 5032, "lesson": "LEC32", "topic": "新課秘笈", "q": "秘笈 p.100–103", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
+    {"id": 5033, "lesson": "LEC33", "topic": "新課秘笈", "q": "秘笈 p.103–106", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
    "plan": {
     "學校": "週末：這段併進圖書館",
-    "圖書館": "二期影片 LEC33、LEC34、LEC35-1＋停點：說「開始上課」拿回來的時間",
-    "晚通勤": "新課秘笈：LEC33（秘笈 p.103–106）、LEC34（秘笈 p.106–110）、LEC35（秘笈 p.110–113） 整堂讀完、招式打勾；不熟的照時間點回看"
+    "圖書館": "二期影片 LEC31、LEC32、LEC33＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "新課秘笈：LEC31、LEC32、LEC33 整堂讀完、招式打勾"
    }
   },
   {
    "date": "2026-11-22",
    "weekday": "日",
    "items": [
+    {"id": 911, "lesson": "二期影片", "topic": "同步衛星", "q": "LEC34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 913, "lesson": "二期影片", "topic": "大氣相關問題", "q": "LEC35-2", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 4010, "lesson": "LEC10", "topic": "舊課秘笈", "q": "秘笈 p.34–37", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 5036, "lesson": "LEC36", "topic": "新課秘笈", "q": "秘笈 p.113–117", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
-    {"id": 5037, "lesson": "LEC37", "topic": "新課秘笈", "q": "秘笈 p.117–120", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
+    {"id": 5034, "lesson": "LEC34", "topic": "新課秘笈", "q": "秘笈 p.106–110", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
+    {"id": 5035, "lesson": "LEC35", "topic": "新課秘笈", "q": "秘笈 p.110–113", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
    "plan": {
     "學校": "週末：這段併進圖書館",
-    "圖書館": "二期影片 LEC35-2、LEC36、LEC37＋停點：說「開始上課」拿回來的時間",
-    "晚通勤": "新課秘笈：LEC36（秘笈 p.113–117）、LEC37（秘笈 p.117–120） 整堂讀完、招式打勾；不熟的照時間點回看"
+    "圖書館": "二期影片 LEC34、LEC35-1、LEC35-2＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "新課秘笈：LEC34、LEC35 整堂讀完、招式打勾"
    }
   },
   {
    "date": "2026-11-23",
    "weekday": "一",
    "items": [
+    {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 4011, "lesson": "LEC11", "topic": "舊課秘笈", "q": "秘笈 p.37–40", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
     {"id": 4012, "lesson": "LEC12", "topic": "舊課秘笈", "q": "秘笈 p.40–44", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 5038, "lesson": "LEC38", "topic": "新課秘笈", "q": "秘笈 p.120–123", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
+    {"id": 5036, "lesson": "LEC36", "topic": "新課秘笈", "q": "秘笈 p.113–117", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
    "plan": {
     "學校": "舊課秘笈 LEC11、LEC12（p.37–40、p.40–44）整堂讀完＋加練",
-    "圖書館": "二期影片 LEC38＋停點：說「開始上課」拿回來的時間",
-    "晚通勤": "新課秘笈：LEC38（秘笈 p.120–123） 整堂讀完、招式打勾；不熟的照時間點回看"
+    "圖書館": "二期影片 LEC36＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "新課秘笈：LEC36 整堂讀完、招式打勾"
    }
   },
   {
    "date": "2026-11-24",
    "weekday": "二",
    "items": [
+    {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 4013, "lesson": "LEC13", "topic": "舊課秘笈", "q": "秘笈 p.44–47", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
     {"id": 4014, "lesson": "LEC14", "topic": "舊課秘笈", "q": "秘笈 p.47–49", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 5039, "lesson": "LEC39", "topic": "新課秘笈", "q": "秘笈 p.123–127", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
+    {"id": 5037, "lesson": "LEC37", "topic": "新課秘笈", "q": "秘笈 p.117–120", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
    "plan": {
     "學校": "舊課秘笈 LEC13、LEC14（p.44–47、p.47–49）整堂讀完＋加練",
-    "圖書館": "二期影片 LEC39＋停點：說「開始上課」拿回來的時間",
-    "晚通勤": "新課秘笈：LEC39（秘笈 p.123–127） 整堂讀完、招式打勾；不熟的照時間點回看"
+    "圖書館": "二期影片 LEC37＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "新課秘笈：LEC37 整堂讀完、招式打勾"
    }
   },
   {
    "date": "2026-11-25",
    "weekday": "三",
    "items": [
+    {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 4015, "lesson": "LEC15", "topic": "舊課秘笈", "q": "秘笈 p.49–52", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 5040, "lesson": "LEC40", "topic": "新課秘笈", "q": "秘笈 p.127–130", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
+    {"id": 5038, "lesson": "LEC38", "topic": "新課秘笈", "q": "秘笈 p.120–123", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
    "plan": {
     "學校": "舊課秘笈 LEC15（p.49–52）整堂讀完＋加練",
-    "圖書館": "二期影片 LEC40＋停點：說「開始上課」拿回來的時間",
-    "晚通勤": "新課秘笈：LEC40（秘笈 p.127–130） 整堂讀完、招式打勾；不熟的照時間點回看"
+    "圖書館": "二期影片 LEC38＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "新課秘笈：LEC38 整堂讀完、招式打勾"
    }
   },
   {
    "date": "2026-11-26",
    "weekday": "四",
    "items": [
+    {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 4016, "lesson": "LEC16", "topic": "舊課秘笈", "q": "秘笈 p.52–55", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 5041, "lesson": "LEC41", "topic": "新課秘笈", "q": "秘笈 p.130–133", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
+    {"id": 5039, "lesson": "LEC39", "topic": "新課秘笈", "q": "秘笈 p.123–127", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
    "plan": {
     "學校": "舊課秘笈 LEC16（p.52–55）整堂讀完＋加練",
-    "圖書館": "二期影片 LEC41＋停點：說「開始上課」拿回來的時間",
-    "晚通勤": "新課秘笈：LEC41（秘笈 p.130–133） 整堂讀完、招式打勾；不熟的照時間點回看"
+    "圖書館": "二期影片 LEC39＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "新課秘笈：LEC39 整堂讀完、招式打勾"
    }
   },
   {
    "date": "2026-11-27",
    "weekday": "五",
    "items": [
+    {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 4017, "lesson": "LEC17", "topic": "舊課秘笈", "q": "秘笈 p.55–58", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 5042, "lesson": "LEC42", "topic": "新課秘笈", "q": "秘笈 p.133–137", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
-    {"id": 5043, "lesson": "LEC43", "topic": "新課秘笈", "q": "秘笈 p.137–140", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
+    {"id": 5040, "lesson": "LEC40", "topic": "新課秘笈", "q": "秘笈 p.127–130", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
+    {"id": 5041, "lesson": "LEC41", "topic": "新課秘笈", "q": "秘笈 p.130–133", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
    "plan": {
     "學校": "舊課秘笈 LEC17（p.55–58）整堂讀完＋加練",
-    "圖書館": "二期影片 LEC42、LEC43＋停點：說「開始上課」拿回來的時間",
-    "晚通勤": "新課秘笈：LEC42（秘笈 p.133–137）、LEC43（秘笈 p.137–140） 整堂讀完、招式打勾；不熟的照時間點回看"
+    "圖書館": "二期影片 LEC40、LEC41＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "新課秘笈：LEC40、LEC41 整堂讀完、招式打勾"
    }
   },
   {
    "date": "2026-11-28",
    "weekday": "六",
    "items": [
+    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 4018, "lesson": "LEC18", "topic": "舊課秘笈", "q": "秘笈 p.58–61", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 5044, "lesson": "LEC44", "topic": "新課秘笈", "q": "秘笈 p.140–143", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
-    {"id": 5045, "lesson": "LEC45", "topic": "新課秘笈", "q": "秘笈 p.143–147", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
-    {"id": 5046, "lesson": "LEC46", "topic": "新課秘笈", "q": "秘笈 p.147–151", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
     {"id": 103, "lesson": "L17", "topic": "熱機", "q": "Q4", "diff": "M", "done": true, "doneAt": "2026-11-08", "note": "(A)(B)(C) 已完成，從 (D) 接續", "slot": "圖書館"},
-    {"id": 105, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q1", "diff": "E", "done": true, "doneAt": "2026-11-08", "note": "停在兩式相除", "slot": "圖書館"}
+    {"id": 105, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q1", "diff": "E", "done": true, "doneAt": "2026-11-08", "note": "停在兩式相除", "slot": "圖書館"},
+    {"id": 5042, "lesson": "LEC42", "topic": "新課秘笈", "q": "秘笈 p.133–137", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
+    {"id": 5043, "lesson": "LEC43", "topic": "新課秘笈", "q": "秘笈 p.137–140", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
+    {"id": 5044, "lesson": "LEC44", "topic": "新課秘笈", "q": "秘笈 p.140–143", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
    "plan": {
     "學校": "週末：這段併進圖書館",
-    "圖書館": "二期影片 LEC44、LEC45、LEC46＋停點：說「開始上課」拿回來的時間",
-    "晚通勤": "新課秘笈：LEC44（秘笈 p.140–143）、LEC45（秘笈 p.143–147）、LEC46（秘笈 p.147–151） 整堂讀完、招式打勾；不熟的照時間點回看"
+    "圖書館": "二期影片 LEC42、LEC43、LEC44＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "新課秘笈：LEC42、LEC43、LEC44 整堂讀完、招式打勾"
    }
   },
   {
    "date": "2026-11-29",
    "weekday": "日",
    "items": [
+    {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 4019, "lesson": "LEC19", "topic": "舊課秘笈", "q": "秘笈 p.61–64", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
     {"id": 1, "lesson": "L05", "topic": "拋體運動", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 2, "lesson": "L05", "topic": "拋體運動", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 3, "lesson": "L05", "topic": "拋體運動", "q": "Q10", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 4, "lesson": "L06", "topic": "質心", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 5, "lesson": "L06", "topic": "質心", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 6, "lesson": "L06", "topic": "質心", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 6, "lesson": "L06", "topic": "質心", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 5045, "lesson": "LEC45", "topic": "新課秘笈", "q": "秘笈 p.143–147", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
+    {"id": 5046, "lesson": "LEC46", "topic": "新課秘笈", "q": "秘笈 p.147–151", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
    "plan": {
     "學校": "舊課秘笈＋加練：LEC19（寫該課習題前讀完）",
-    "圖書館": "刷題 6 題：圈條件→查秘笈的「看到」→動手→卡住問 Claude",
-    "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
+    "圖書館": "二期影片 LEC45、LEC46＋停點：說「開始上課」拿回來的時間",
+    "晚通勤": "新課秘笈：LEC45、LEC46 整堂讀完、招式打勾"
    }
   },
   {
