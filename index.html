@@ -59,7 +59,11 @@ button{font:inherit;color:inherit}
 .nav{display:flex;gap:6px;align-items:center;margin-left:8px}
 .nav button{border:1px solid var(--rule);background:var(--paper);border-radius:6px;height:30px;min-width:30px;padding:0 9px;cursor:pointer;font-size:13px}
 .nav button:disabled{opacity:.35;cursor:default}
-.nav .tabs{display:flex;gap:4px}
+.nav{min-width:0}
+.nav button{white-space:nowrap;flex:none}
+.nav .tabs{display:flex;gap:4px;overflow-x:auto;min-width:0;max-width:520px;scrollbar-width:none;-webkit-overflow-scrolling:touch;scroll-behavior:smooth}
+.nav .tabs::-webkit-scrollbar{display:none}
+.nav .tabs button small{font-size:10px;opacity:.7;margin-right:2px}
 .nav .tabs button.on{background:var(--band);border-color:var(--band);color:var(--band-ink);font-weight:700}
 
 /* PLAN / DATE 追蹤表 */
@@ -227,7 +231,11 @@ table.track{border-collapse:collapse;width:100%;min-width:760px;table-layout:fix
   .cal{--rowh:136px;grid-template-columns:repeat(7,minmax(0,1fr)) minmax(0,.8fr)}
   .items li{font-size:11px}
   .lu{display:none}
+  .mhead{flex-wrap:wrap}
+  .nav{width:100%;margin:0}
+  .nav .tabs{flex:1;max-width:none}
 }
+.mname,.year{white-space:nowrap}
 /* 手機：每格固定高度，只放日期、影片縮圖或進度 */
 @media (max-width:640px){
   .wrap{padding:14px 10px 40px}
@@ -237,9 +245,17 @@ table.track{border-collapse:collapse;width:100%;min-width:760px;table-layout:fix
   .mname{font-size:28px}
   .year{font-size:22px}
   .nav{width:100%;margin:0}
-  .nav .tabs{flex:1;justify-content:center}
-  .cal{--rowh:92px;grid-template-columns:repeat(7,minmax(0,1fr))}
-  .cal .hd.wkh,.wk{display:none}
+  .nav .tabs{flex:1;max-width:none}
+  .mhead .sp{display:none}
+  .mname{flex:1}
+  .cal{--rowh:92px;grid-template-columns:repeat(7,minmax(0,1fr));grid-auto-rows:auto}
+  .cell{height:var(--rowh)}
+  .cal .hd.wkh{display:none}
+  .wk{grid-column:1/-1;flex-direction:row;align-items:center;gap:10px;padding:5px 8px;background:var(--fill2);font-size:11.5px;white-space:nowrap}
+  .wk:empty{display:none}
+  .wk .t{font-size:11px}
+  .wk b{font-size:14px}
+  .wk .bar{flex:1;min-width:30px}
   .cal .hd{font-size:12px;flex-direction:column;gap:0;height:38px;line-height:1.15}
   .cal .hd small{font-size:11px}
   .cell{padding:4px 3px;gap:3px}
@@ -421,7 +437,9 @@ function render(){
   const k = VIEW, [Y, M] = k.split("-").map(Number), nd = daysInMonth(k);
   $("#mname").innerHTML = `${MON_EN[M-1]}<small>${M} 月</small>`;
   $("#year").textContent = Y;
-  $("#tabs").innerHTML = IX.months.map(m => `<button data-month="${m}" class="${m===k?"on":""}">${+m.split("-")[1]}月</button>`).join("");
+  $("#tabs").innerHTML = IX.months.map((m, j) => { const [yy, mm] = m.split("-").map(Number);
+    return `<button data-month="${m}" class="${m===k?"on":""}">${mm === 1 || j === 0 ? `<small>${String(yy).slice(2)}'</small>` : ""}${mm}月</button>`; }).join("");
+  { const t = $("#tabs"), on = t.querySelector(".on"); if (on) t.scrollLeft = on.offsetLeft - t.offsetLeft - (t.clientWidth - on.offsetWidth) / 2; }
   $("#prev").disabled = k <= IX.months[0];
   $("#next").disabled = k >= IX.months.at(-1);
 
