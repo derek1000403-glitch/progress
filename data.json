@@ -1,6 +1,6 @@
 {
  "title": "物奧進度",
- "updated": "2026-11-20",
+ "updated": "2026-11-22",
  "days": [
   {
    "date": "2026-11-02",
@@ -164,7 +164,7 @@
    "date": "2026-11-21",
    "weekday": "六",
    "items": [
-    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "從約 56 分（等效模型之後）接著看"},
+    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": true, "doneAt": "2026-11-21", "slot": "圖書館"},
     {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": ""}
    ],
    "plan": {
