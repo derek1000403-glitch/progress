@@ -164,12 +164,11 @@
    "date": "2026-11-21",
    "weekday": "六",
    "items": [
-    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": true, "doneAt": "2026-11-21", "slot": "圖書館"},
-    {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": ""}
+    {"id": 908, "lesson": "二期影片", "topic": "地球繞太陽", "q": "LEC31", "diff": "", "done": true, "doneAt": "2026-11-21", "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末：這段併進圖書館",
-    "圖書館": "二期影片 LEC31、LEC32＋停點：說「開始上課」拿回來的時間（LEC31 新觀念多，今天只看兩部）",
+    "圖書館": "看 LEC31",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -177,12 +176,12 @@
    "date": "2026-11-22",
    "weekday": "日",
    "items": [
-    {"id": 910, "lesson": "二期影片", "topic": "水星軌道進動", "q": "LEC33", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": ""},
     {"id": 1, "lesson": "L05", "topic": "拋體運動", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末：這段併進圖書館",
-    "圖書館": "二期影片 LEC33＋停點：說「開始上課」拿回來的時間（新觀念多，看懂為主）；刷題 1 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "看 LEC32＋1 題",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -190,12 +189,12 @@
    "date": "2026-11-23",
    "weekday": "一",
    "items": [
-    {"id": 911, "lesson": "二期影片", "topic": "同步衛星", "q": "LEC34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 910, "lesson": "二期影片", "topic": "水星軌道進動", "q": "LEC33", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 2, "lesson": "L05", "topic": "拋體運動", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻秘笈（當字典用）",
-    "圖書館": "二期影片 LEC34＋停點：說「開始上課」拿回來的時間；刷題 1 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "看 LEC33＋1 題",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -203,14 +202,14 @@
    "date": "2026-11-24",
    "weekday": "二",
    "items": [
-    {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 911, "lesson": "二期影片", "topic": "同步衛星", "q": "LEC34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 3, "lesson": "L05", "topic": "拋體運動", "q": "Q10", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 4, "lesson": "L06", "topic": "質心", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 5, "lesson": "L06", "topic": "質心", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻秘笈（當字典用）",
-    "圖書館": "二期影片 LEC35-1＋停點：說「開始上課」拿回來的時間；刷題 3 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "看 LEC34＋3 題",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -218,14 +217,14 @@
    "date": "2026-11-25",
    "weekday": "三",
    "items": [
-    {"id": 913, "lesson": "二期影片", "topic": "大氣相關問題", "q": "LEC35-2", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 6, "lesson": "L06", "topic": "質心", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7, "lesson": "L06", "topic": "衝動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 8, "lesson": "L06", "topic": "衝動量", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻秘笈（當字典用）",
-    "圖書館": "二期影片 LEC35-2＋停點：說「開始上課」拿回來的時間；刷題 3 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "看 LEC35-1＋3 題",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -233,14 +232,14 @@
    "date": "2026-11-26",
    "weekday": "四",
    "items": [
-    {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 913, "lesson": "二期影片", "topic": "大氣相關問題", "q": "LEC35-2", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9, "lesson": "L06", "topic": "衝動量", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 10, "lesson": "L06", "topic": "衝動量", "q": "Q8", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 11, "lesson": "L06", "topic": "力的分解與合成", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻秘笈（當字典用）",
-    "圖書館": "二期影片 LEC36＋停點：說「開始上課」拿回來的時間；刷題 3 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "看 LEC35-2＋3 題",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -248,14 +247,14 @@
    "date": "2026-11-27",
    "weekday": "五",
    "items": [
-    {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 12, "lesson": "L06", "topic": "終端速度", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 13, "lesson": "L06", "topic": "空氣阻力", "q": "Q1", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 14, "lesson": "L06", "topic": "空氣阻力", "q": "Q2", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻秘笈（當字典用）",
-    "圖書館": "二期影片 LEC37＋停點：說「開始上課」拿回來的時間；刷題 3 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "看 LEC36＋3 題",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -263,16 +262,16 @@
    "date": "2026-11-28",
    "weekday": "六",
    "items": [
+    {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 103, "lesson": "L17", "topic": "熱機", "q": "Q4", "diff": "M", "done": true, "doneAt": "2026-11-08", "note": "(A)(B)(C) 已完成，從 (D) 接續", "slot": "圖書館"},
     {"id": 105, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q1", "diff": "E", "done": true, "doneAt": "2026-11-08", "note": "停在兩式相除", "slot": "圖書館"},
-    {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 15, "lesson": "L06", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 16, "lesson": "L06", "topic": "摩擦力", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 17, "lesson": "L06", "topic": "摩擦力", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末：這段併進圖書館",
-    "圖書館": "二期影片 LEC38＋停點：說「開始上課」拿回來的時間（新觀念多，看懂為主）；刷題 3 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "看 LEC37＋5 題",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -280,12 +279,12 @@
    "date": "2026-11-29",
    "weekday": "日",
    "items": [
-    {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 18, "lesson": "L06", "topic": "摩擦力", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末：這段併進圖書館",
-    "圖書館": "二期影片 LEC39＋停點：說「開始上課」拿回來的時間（新觀念多，看懂為主）；刷題 1 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "看 LEC38＋1 題",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -293,12 +292,12 @@
    "date": "2026-11-30",
    "weekday": "一",
    "items": [
-    {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 19, "lesson": "L07", "topic": "相對運動", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻秘笈（當字典用）",
-    "圖書館": "二期影片 LEC40＋停點：說「開始上課」拿回來的時間；刷題 1 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "看 LEC39＋1 題",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -306,12 +305,12 @@
    "date": "2026-12-01",
    "weekday": "二",
    "items": [
-    {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 20, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻秘笈（當字典用）",
-    "圖書館": "二期影片 LEC41＋停點：說「開始上課」拿回來的時間；刷題 1 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "看 LEC40＋1 題",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -319,11 +318,11 @@
    "date": "2026-12-02",
    "weekday": "三",
    "items": [
-    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻秘笈（當字典用）",
-    "圖書館": "二期影片 LEC42＋停點：說「開始上課」拿回來的時間（新觀念多，看懂為主）",
+    "圖書館": "看 LEC41",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -331,11 +330,11 @@
    "date": "2026-12-03",
    "weekday": "四",
    "items": [
-    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻秘笈（當字典用）",
-    "圖書館": "二期影片 LEC43＋停點：說「開始上課」拿回來的時間（新觀念多，看懂為主）",
+    "圖書館": "看 LEC42",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -343,12 +342,12 @@
    "date": "2026-12-04",
    "weekday": "五",
    "items": [
-    {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 21, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻秘笈（當字典用）",
-    "圖書館": "二期影片 LEC44＋停點：說「開始上課」拿回來的時間；刷題 1 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "看 LEC43＋1 題",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -356,7 +355,7 @@
    "date": "2026-12-05",
    "weekday": "六",
    "items": [
-    {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 22, "lesson": "L07", "topic": "向心力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 23, "lesson": "L07", "topic": "摩擦力範圍", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 24, "lesson": "L07", "topic": "靜力平衡", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -366,7 +365,7 @@
    ],
    "plan": {
     "學校": "週末：這段併進圖書館",
-    "圖書館": "二期影片 LEC45＋停點：說「開始上課」拿回來的時間；刷題 6 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "看 LEC44＋6 題",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -374,7 +373,7 @@
    "date": "2026-12-06",
    "weekday": "日",
    "items": [
-    {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 28, "lesson": "L07", "topic": "靜力平衡", "q": "Q10", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 29, "lesson": "L07", "topic": "靜力平衡", "q": "Q11", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 30, "lesson": "L10", "topic": "能量基礎", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -382,7 +381,7 @@
    ],
    "plan": {
     "學校": "週末：這段併進圖書館",
-    "圖書館": "二期影片 LEC46＋停點：說「開始上課」拿回來的時間；刷題 4 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "看 LEC45＋4 題",
     "晚通勤": "通勤：今天影片不熟的地方翻秘笈查一下（當字典用）"
    }
   },
@@ -390,14 +389,13 @@
    "date": "2026-12-07",
    "weekday": "一",
    "items": [
+    {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 32, "lesson": "L10", "topic": "能量基礎", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 33, "lesson": "L10", "topic": "能量基礎", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 34, "lesson": "L10", "topic": "功率", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 35, "lesson": "L10", "topic": "功率", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 33, "lesson": "L10", "topic": "能量基礎", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻秘笈（當字典用）",
-    "圖書館": "刷題 4 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "看 LEC46＋2 題",
     "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
    }
   },
@@ -412,7 +410,7 @@
    ],
    "plan": {
     "學校": "學校課業；有空翻秘笈（當字典用）",
-    "圖書館": "刷題 4 題：圈條件→查秘笈的「看到」→動手→卡住先翻秘笈，陌生的記下來拿出來討論",
+    "圖書館": "寫題目4 題",
     "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
    }
   },
@@ -827,7 +825,9 @@
    "items": [
     {"id": 1043, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
     {"id": 1044, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P05", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1045, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P07", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+    {"id": 1045, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P07", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 34, "lesson": "L10", "topic": "功率", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 35, "lesson": "L10", "topic": "功率", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末：這段併進圖書館",
