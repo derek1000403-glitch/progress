@@ -4,13 +4,13 @@ import json
 P=json.load(open(sys.argv[-1]))
 W,H=700,210; FPS=30000/1001; DUR=P["dur"]; IV=P["interval"]
 nfr=int(DUR*FPS)+2
-start=P["start"]
+start=P.get("start")
 fs="/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc"
 fr="/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"
 Fbig=ImageFont.truetype(fs,74,index=2); Fsm=ImageFont.truetype(fr,26,index=2); Fnote=ImageFont.truetype(fs,27,index=2)
 SS=2
 def frame(i):
-    t=i/FPS; clock=start+i*IV
+    t=i/FPS; el=i*IV; clock=el if start is None else start+i*IV
     img=Image.new("RGBA",(W*SS,H*SS),(0,0,0,0)); d=ImageDraw.Draw(img)
     d.rounded_rectangle([0,0,W*SS-1,H*SS-1],radius=26*SS,fill=(12,16,24,185))
     cx,cy,R=105*SS,105*SS,78*SS
@@ -25,9 +25,14 @@ def frame(i):
     hh=int(clock//3600)%24; mm=int(clock//60)%60
     x0=210*SS
     d.text((x0,4*SS),P["date"],font=Fsm.font_variant(size=26*SS),fill=(200,206,216,255))
-    d.text((x0,30*SS),f"{hh:02d}:{mm:02d}",font=Fbig.font_variant(size=74*SS),fill=(255,255,255,255))
-    el=i*IV; eh=int(el//3600); em=int(el//60)%60
-    d.text((x0+215*SS,62*SS),f"已奮鬥 {eh}h{em:02d}m",font=Fsm.font_variant(size=26*SS),fill=(255,170,60,255))
+    eh=int(el//3600); em=int(el//60)%60
+    if start is None:   # 只顯示時長（已奮鬥多久），不顯示時間
+        d.text((x0,30*SS),f"{eh}h{em:02d}m",font=Fbig.font_variant(size=74*SS),fill=(255,255,255,255))
+        tw=d.textlength(f"{eh}h{em:02d}m",font=Fbig.font_variant(size=74*SS))
+        d.text((x0+tw+18*SS,62*SS),"已奮鬥",font=Fsm.font_variant(size=26*SS),fill=(255,170,60,255))
+    else:
+        d.text((x0,30*SS),f"{hh:02d}:{mm:02d}",font=Fbig.font_variant(size=74*SS),fill=(255,255,255,255))
+        d.text((x0+215*SS,62*SS),f"已奮鬥 {eh}h{em:02d}m",font=Fsm.font_variant(size=26*SS),fill=(255,170,60,255))
     d.text((x0,140*SS),P["note"],font=Fnote.font_variant(size=27*SS),fill=(255,255,255,255))
     # progress bar
     p=min(1,t/DUR); d.rounded_rectangle([x0,186*SS,x0+460*SS,192*SS],radius=3*SS,fill=(255,255,255,60))

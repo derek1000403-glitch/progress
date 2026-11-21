@@ -1,10 +1,10 @@
 #!/bin/bash
-# make.sh 原檔 日期 開始秒數 每格秒數 日期字 備註
+# make_timelapse.sh 原檔 日期 每格秒數 日期字 備註　（面板只顯示時長，不顯示時間）
 set -e
-SRC=$1; DT=$2; ST=$3; IV=$4; DS=$5; NOTE=$6
+SRC=$1; DT=$2; IV=$3; DS=$4; NOTE=$5
 cd "$(dirname "$0")"
 L=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$SRC")
-python3 -c "import json,sys;json.dump({'dur':$L,'interval':$IV,'start':$ST,'date':sys.argv[1],'note':sys.argv[2]},open('p_$DT.json','w'),ensure_ascii=False)" "$DS" "$NOTE"
+python3 -c "import json,sys;json.dump({'dur':$L,'interval':$IV,'start':None,'date':sys.argv[1],'note':sys.argv[2]},open('p_$DT.json','w'),ensure_ascii=False)" "$DS" "$NOTE"
 F=$(python3 -c "print(max(0,$L-2))")
 OUT=/home/claude/progress/videos/$DT
 python3 overlay.py raw p_$DT.json | ffmpeg -v error -y -i "$SRC" -f rawvideo -pix_fmt rgba -s 700x210 -r 30000/1001 -i - -i /home/claude/progress/assets/bgm.m4a \
