@@ -299,12 +299,6 @@
     {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 4019, "lesson": "LEC19", "topic": "舊課秘笈", "q": "秘笈 p.61–64", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 1, "lesson": "L05", "topic": "拋體運動", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 2, "lesson": "L05", "topic": "拋體運動", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 3, "lesson": "L05", "topic": "拋體運動", "q": "Q10", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 4, "lesson": "L06", "topic": "質心", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 5, "lesson": "L06", "topic": "質心", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 6, "lesson": "L06", "topic": "質心", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 5045, "lesson": "LEC45", "topic": "新課秘笈", "q": "秘笈 p.143–147", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"},
     {"id": 5046, "lesson": "LEC46", "topic": "新課秘笈", "q": "秘笈 p.147–151", "diff": "", "done": false, "doneAt": null, "slot": "晚通勤", "note": "今天看的這堂整堂讀完、招式打勾；影片沒看完也要讀完"}
    ],
@@ -319,10 +313,10 @@
    "weekday": "一",
    "items": [
     {"id": 4020, "lesson": "LEC20", "topic": "舊課秘笈", "q": "秘笈 p.64–67", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 7, "lesson": "L06", "topic": "衝動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 8, "lesson": "L06", "topic": "衝動量", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9, "lesson": "L06", "topic": "衝動量", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 10, "lesson": "L06", "topic": "衝動量", "q": "Q8", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 1, "lesson": "L05", "topic": "拋體運動", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 2, "lesson": "L05", "topic": "拋體運動", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 3, "lesson": "L05", "topic": "拋體運動", "q": "Q10", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 4, "lesson": "L06", "topic": "質心", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "舊課秘笈＋加練：LEC20（寫該課習題前讀完）",
@@ -335,10 +329,10 @@
    "weekday": "二",
    "items": [
     {"id": 4021, "lesson": "LEC21", "topic": "舊課秘笈", "q": "秘笈 p.67–69", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 11, "lesson": "L06", "topic": "力的分解與合成", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 12, "lesson": "L06", "topic": "終端速度", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 13, "lesson": "L06", "topic": "空氣阻力", "q": "Q1", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 14, "lesson": "L06", "topic": "空氣阻力", "q": "Q2", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 5, "lesson": "L06", "topic": "質心", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 6, "lesson": "L06", "topic": "質心", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7, "lesson": "L06", "topic": "衝動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 8, "lesson": "L06", "topic": "衝動量", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "舊課秘笈＋加練：LEC21（寫該課習題前讀完）",
@@ -351,10 +345,10 @@
    "weekday": "三",
    "items": [
     {"id": 4022, "lesson": "LEC22", "topic": "舊課秘笈", "q": "秘笈 p.69–72", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 15, "lesson": "L06", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 16, "lesson": "L06", "topic": "摩擦力", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 17, "lesson": "L06", "topic": "摩擦力", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 18, "lesson": "L06", "topic": "摩擦力", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9, "lesson": "L06", "topic": "衝動量", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 10, "lesson": "L06", "topic": "衝動量", "q": "Q8", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 11, "lesson": "L06", "topic": "力的分解與合成", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 12, "lesson": "L06", "topic": "終端速度", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "舊課秘笈＋加練：LEC22（寫該課習題前讀完）",
@@ -367,10 +361,10 @@
    "weekday": "四",
    "items": [
     {"id": 4023, "lesson": "LEC23", "topic": "舊課秘笈", "q": "秘笈 p.72–75", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 19, "lesson": "L07", "topic": "相對運動", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 20, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 21, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 22, "lesson": "L07", "topic": "向心力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 13, "lesson": "L06", "topic": "空氣阻力", "q": "Q1", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 14, "lesson": "L06", "topic": "空氣阻力", "q": "Q2", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 15, "lesson": "L06", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 16, "lesson": "L06", "topic": "摩擦力", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "舊課秘笈＋加練：LEC23（寫該課習題前讀完）",
@@ -383,10 +377,10 @@
    "weekday": "五",
    "items": [
     {"id": 4024, "lesson": "LEC24", "topic": "舊課秘笈", "q": "秘笈 p.75–78", "diff": "", "done": false, "doneAt": null, "slot": "學校", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
-    {"id": 23, "lesson": "L07", "topic": "摩擦力範圍", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 24, "lesson": "L07", "topic": "靜力平衡", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 25, "lesson": "L07", "topic": "靜力平衡", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 26, "lesson": "L07", "topic": "靜力平衡", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 17, "lesson": "L06", "topic": "摩擦力", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 18, "lesson": "L06", "topic": "摩擦力", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 19, "lesson": "L07", "topic": "相對運動", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 20, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "舊課秘笈＋加練：LEC24（寫該課習題前讀完）",
@@ -399,14 +393,14 @@
    "weekday": "六",
    "items": [
     {"id": 4025, "lesson": "LEC25", "topic": "舊課秘笈", "q": "秘笈 p.78–80", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "整堂讀完，寫例題確認觀念還在（加練跳過）"},
+    {"id": 21, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 22, "lesson": "L07", "topic": "向心力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 23, "lesson": "L07", "topic": "摩擦力範圍", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 24, "lesson": "L07", "topic": "靜力平衡", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 25, "lesson": "L07", "topic": "靜力平衡", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 26, "lesson": "L07", "topic": "靜力平衡", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 27, "lesson": "L07", "topic": "靜力平衡", "q": "Q9", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 28, "lesson": "L07", "topic": "靜力平衡", "q": "Q10", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 29, "lesson": "L07", "topic": "靜力平衡", "q": "Q11", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 30, "lesson": "L10", "topic": "能量基礎", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 31, "lesson": "L10", "topic": "能量基礎", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 32, "lesson": "L10", "topic": "能量基礎", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 33, "lesson": "L10", "topic": "能量基礎", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 34, "lesson": "L10", "topic": "功率", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 28, "lesson": "L07", "topic": "靜力平衡", "q": "Q10", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "舊課秘笈＋加練：LEC25（寫該課習題前讀完）",
@@ -417,10 +411,17 @@
   {
    "date": "2026-12-06",
    "weekday": "日",
-   "items": [],
+   "items": [
+    {"id": 29, "lesson": "L07", "topic": "靜力平衡", "q": "Q11", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 30, "lesson": "L10", "topic": "能量基礎", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 31, "lesson": "L10", "topic": "能量基礎", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 32, "lesson": "L10", "topic": "能量基礎", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 33, "lesson": "L10", "topic": "能量基礎", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 34, "lesson": "L10", "topic": "功率", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
-    "圖書館": "緩衝日：補前面落後的項目；沒落後就休息",
+    "圖書館": "原本的緩衝日：二期影片晚了一天，用來補一期習題",
     "晚通勤": "錯題回寫：在秘笈那一招旁寫錯因"
    }
   },
