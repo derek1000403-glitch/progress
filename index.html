@@ -147,9 +147,6 @@ table.track{border-collapse:collapse;width:100%;min-width:760px;table-layout:fix
 .wkpage section{border:1.3px solid var(--band);border-radius:12px;padding:10px 14px;margin-top:10px}
 .wkpage section h4{margin:0 0 4px;font-size:13px;color:var(--band-ink)}
 .wkpage section p{margin:0;font-size:14px;line-height:1.6}
-.wklist{display:none}
-.wklist .wk .wn p{-webkit-line-clamp:unset}
-.wklist .wk{display:flex;border:1px solid var(--grid);border-radius:8px;margin-top:8px}
 
 /* 單元進度（筆記頁） */
 .notes{margin-top:22px}
@@ -257,7 +254,6 @@ table.track{border-collapse:collapse;width:100%;min-width:760px;table-layout:fix
   .mname{font-size:28px}
   .year{font-size:22px}
   .nav{width:100%;margin:0}
-<<<<<<< HEAD
   .nav .tabs{flex:1;max-width:none}
   .mhead .sp{display:none}
   .mname{flex:1}
@@ -269,12 +265,8 @@ table.track{border-collapse:collapse;width:100%;min-width:760px;table-layout:fix
   .wk .t{font-size:11px}
   .wk b{font-size:14px}
   .wk .bar{flex:1;min-width:30px}
-=======
-  .nav .tabs{flex:1;justify-content:center}
-  .cal{--rowh:92px;grid-template-columns:repeat(7,minmax(0,1fr))}
-  .cal .hd.wkh,.cal .wk{display:none}
-  .wklist{display:block;margin-top:12px}
->>>>>>> 01effdf (Weekly Notes：每週心得、值得讚賞、可以改善)
+  .wk .wn{flex-direction:row;border-top:0;padding-top:0;margin-left:auto}
+  .wk .wn p{display:none}
   .cal .hd{font-size:12px;flex-direction:column;gap:0;height:38px;line-height:1.15}
   .cal .hd small{font-size:11px}
   .cell{padding:4px 3px;gap:3px}
@@ -327,7 +319,6 @@ table.track{border-collapse:collapse;width:100%;min-width:760px;table-layout:fix
     <div class="trackwrap"><table class="track" id="track"></table></div>
 
     <div class="cal" id="cal"></div>
-    <div class="wklist" id="wklist"></div>
 
     <div class="notes">
       <h3>NOTES<small>各單元進度</small></h3>
@@ -483,7 +474,6 @@ function render(){
     + `<div class="hd wkh">Weekly Notes</div>`;
   const start = addDays(dates[0], -((dow(dates[0])+6)%7));
   const end = addDays(dates.at(-1), (7 - dow(dates.at(-1))) % 7);
-  let wkList = "";
   for (let ws = start; ws <= end; ws = addDays(ws, 7)) {
     let col = 0, s = ws, wkItems = [], wkVid = 0;
     while (col < 7) {
@@ -520,10 +510,8 @@ function render(){
       ? `<div class="wk"><span class="t">WEEK ${md(ws)}</span>${wkItems.length || wkVid ? (note ? `<div><b>${wn}</b>/${wkItems.length} 題・🎬${wkVid}</div>` : `<div><b>${wn}</b> / ${wkItems.length} 題</div><div class="bar"><i style="width:${wkItems.length?wn/wkItems.length*100:0}%"></i></div><div>🎬 縮時 ${wkVid} 部</div>`) : ""}${noteHTML}</div>`
       : `<div class="wk"></div>`;
     html += wkHTML;
-    if (note) wkList += wkHTML;
   }
   $("#cal").innerHTML = html;
-  $("#wklist").innerHTML = wkList ? `<div class="hd">Weekly Notes</div>${wkList}` : "";
 
   const by = {};
   all.forEach(i => { (by[i.lesson] ||= {n:0,d:0}); by[i.lesson].n++; if (ok(i)) by[i.lesson].d++; });
