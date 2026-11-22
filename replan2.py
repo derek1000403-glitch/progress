@@ -81,13 +81,13 @@ cnt = {'c': 0, 'c2': 0, 'f': 0, 'adv': 0}
 C_MAX, F_MAX = 18, 12   # 初選 2026→2009、複選 2026→2015（老師：古題一律從近年往前寫、每次都計時）
 def paper_c():
     if cnt['c'] < C_MAX:
-        cnt['c'] += 1; return mk(10000 + cnt['c'], '初選歷屆', f'初選 {2027 - cnt["c"]}', '計時作答', '從近年往前寫；照考試時間計時、不看秘笈')
+        cnt['c'] += 1; return mk(10000 + cnt['c'], '初選歷屆', f'初選 {2027 - cnt["c"]}', '計時作答', '從近年往前寫；照考試時間計時、不看講義')
     cnt['c2'] += 1; return mk(10200 + cnt['c2'], '初選歷屆', f'初選卷二刷 #{cnt["c2"]}', '重寫錯題', '把之前錯過的題重寫一次，不看解答')
 def paper_f():
     cnt['f'] += 1; return mk(11000 + cnt['f'], '複選歷屆', f'複選 {2027 - cnt["f"]}', '計時作答', '從近年往前寫；照複選時間計時，不會的先標起來，檢討時再查')
 def review(it):
     off = 50 if 10200 < it['id'] < 10300 else 100
-    return mk(it['id'] + off, it['lesson'], it['topic'] + ' 檢討', '檢討', '每題寫錯因，回寫到秘笈那一招')
+    return mk(it['id'] + off, it['lesson'], it['topic'] + ' 檢討', '檢討', '每題寫錯因，回寫到講義那一招')
 # 灰二十（老師給的 20 份例題彙編）：全部上完後才寫；每份分 6 段，照課程順序。題數未知，寫完一份可提早進下一份
 GRAY = ['質點力學例題彙編 (一)', '質點力學例題彙編 (二)', '剛體力學例題彙編', '流體、振動和波例題彙編',
         '理想氣體例題彙編', '氣體動力論例題彙編', '熱力過程例題彙編', '物態變化 熱膨脹 熱傳導 例題彙編', '熱輻射例題彙編', '大氣例題彙編',
@@ -115,15 +115,15 @@ for day in days:
     if x in MOCK:
         n = MOCK[x]; it.append(mk(12000 + n, '模擬考', f'全卷模擬：重寫初選 {2027 - n}', '計時作答', '最近四年的卷子第二次完整重寫，照考試時間與規則')); continue
     if x in MOCKR:
-        n = MOCKR[x]; it.append(mk(12100 + n, '模擬考', f'全卷模擬：初選 {2027 - n} 檢討', '檢討', '每題寫錯因，回寫到秘笈那一招')); continue
+        n = MOCKR[x]; it.append(mk(12100 + n, '模擬考', f'全卷模擬：初選 {2027 - n} 檢討', '檢討', '每題寫錯因，回寫到講義那一招')); continue
     if x >= D(2027, 11, 5):
-        day['plan']['圖書館'] = '只看錯題本與秘笈速覽，不做新題' + ('；今晚早睡' if x == D(2027, 11, 6) else ''); continue
+        day['plan']['圖書館'] = '只看錯題本與講義速覽，不做新題' + ('；今晚早睡' if x == D(2027, 11, 6) else ''); continue
     if x >= D(2027, 10, 23):
         it.append(adv()); continue
     if stage == 'digest':
         n = DIGEST.index(x) + 1
         it.append(mk(14000 + n, 'LEC31', '天體消化', ['比奈公式自己推一遍', '軌道方程（圓錐曲線）自己推一遍'][n - 1],
-                     '照老師的推法，不看筆記從頭推；卡住先翻秘笈，再拿來問'))
+                     '照老師的推法，不看筆記從頭推；卡住先翻講義，再拿來問'))
         if x == DIGEST[-1]: stage = 'v2'
         continue
     if buffer_day(x) and stage in ('v2', 'p12', 't3'):
@@ -198,7 +198,7 @@ for day in days:
     dig = [i for i in its if 14000 < i['id'] < 15000]
     if k == 'final': P['學校'] = '期末考週（日期為假設，請以學校行事曆為準）：先顧考試'
     elif weekend: P['學校'] = ('寒假' if WINTER[0] <= x <= WINTER[1] else '暑假' if SUMMER[0] <= x <= SUMMER[1] else '週末／假日') + '：這段併進圖書館'
-    else: P['學校'] = '學校課業；有空翻秘笈（當字典用）'
+    else: P['學校'] = '學校課業；有空翻講義（當字典用）'
     parts = []
     if dig: parts.append('天體消化：' + dig[0]['q'])
     if vids: parts.append('看 ' + '、'.join(i['q'] for i in vids))
@@ -208,7 +208,7 @@ for day in days:
     if advs: parts.append('、'.join(('灰二十 ' + i['topic'].replace('例題彙編', '').strip() + ' ' + i['q']) if i['lesson'] == '灰二十' else '錯題重寫' for i in advs))
     if parts: P['圖書館'] = '＋'.join(parts)
     elif day['plan'].get('圖書館'): P['圖書館'] = day['plan']['圖書館']
-    P['晚通勤'] = '通勤：今天不熟的地方翻秘笈查一下（當字典用）'
+    P['晚通勤'] = '通勤：今天不熟的地方翻講義查一下（當字典用）'
     day['plan'] = P
 for day in days:
     for kk in [k for k in day if k.startswith('_')]: day.pop(kk)
