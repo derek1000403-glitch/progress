@@ -177,9 +177,7 @@
    "weekday": "日",
    "items": [
     {"id": 103, "lesson": "L17", "topic": "熱機", "q": "Q4", "diff": "M", "done": true, "doneAt": "2026-11-08", "note": "(A)(B)(C) 已完成，從 (D) 接續", "slot": "圖書館"},
-    {"id": 105, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q1", "diff": "E", "done": true, "doneAt": "2026-11-08", "note": "停在兩式相除", "slot": "圖書館"},
-    {"id": 14001, "lesson": "LEC31", "topic": "天體消化", "q": "比奈公式自己推一遍", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "今天推完"},
-    {"id": 14002, "lesson": "LEC31", "topic": "天體消化", "q": "軌道方程（圓錐曲線）自己推一遍", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "照老師的推法，不看筆記從頭推；卡住先翻講義，再拿來問"}
+    {"id": 105, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q1", "diff": "E", "done": true, "doneAt": "2026-11-08", "note": "停在兩式相除", "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末：這段併進圖書館",
@@ -192,6 +190,8 @@
    "date": "2026-11-23",
    "weekday": "一",
    "items": [
+    {"id": 14002, "lesson": "LEC31", "topic": "天體消化", "q": "軌道方程（圓錐曲線）自己推一遍", "diff": "", "done": false, "doneAt": null, "slot": "早通勤", "note": "11/22 推到兩體問題（位能已完成）；早上接著推，先於 LEC32"},
+    {"id": 14001, "lesson": "LEC31", "topic": "天體消化", "q": "比奈公式自己推一遍", "diff": "", "done": false, "doneAt": null, "slot": "早通勤", "note": "11/22 推到兩體問題（位能已完成）；早上接著推，先於 LEC32"},
     {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": ""},
     {"id": 1, "lesson": "L05", "topic": "拋體運動", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 2, "lesson": "L05", "topic": "拋體運動", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
@@ -199,7 +199,8 @@
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
     "圖書館": "看 LEC32＋2 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）",
+    "早通勤": "LEC31 推導收尾：兩體問題→角動量→比奈公式→軌道方程"
    }
   },
   {
