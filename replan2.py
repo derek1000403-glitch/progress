@@ -78,18 +78,33 @@ isvid = lambda i: 900 < i['id'] < 1000 or 6000 < i['id'] < 7000 or 8000 < i['id'
 
 # ---------- 歷屆卷 ----------
 cnt = {'c': 0, 'c2': 0, 'f': 0, 'adv': 0}
-C_MAX, F_MAX = 15, 12
+C_MAX, F_MAX = 18, 12   # 初選 2026→2009、複選 2026→2015（老師：古題一律從近年往前寫、每次都計時）
 def paper_c():
     if cnt['c'] < C_MAX:
-        cnt['c'] += 1; return mk(10000 + cnt['c'], '初選歷屆', f'初選歷屆卷 #{cnt["c"]}', '計時作答', '從最早的年份開始，照考試時間、不看秘笈')
+        cnt['c'] += 1; return mk(10000 + cnt['c'], '初選歷屆', f'初選 {2027 - cnt["c"]}', '計時作答', '從近年往前寫；照考試時間計時、不看秘笈')
     cnt['c2'] += 1; return mk(10200 + cnt['c2'], '初選歷屆', f'初選卷二刷 #{cnt["c2"]}', '重寫錯題', '把之前錯過的題重寫一次，不看解答')
 def paper_f():
-    cnt['f'] += 1; return mk(11000 + cnt['f'], '複選歷屆', f'複選歷屆卷 #{cnt["f"]}', '計時作答', '照複選時間作答；不會的先標起來，檢討時再查')
+    cnt['f'] += 1; return mk(11000 + cnt['f'], '複選歷屆', f'複選 {2027 - cnt["f"]}', '計時作答', '從近年往前寫；照複選時間計時，不會的先標起來，檢討時再查')
 def review(it):
     off = 50 if 10200 < it['id'] < 10300 else 100
     return mk(it['id'] + off, it['lesson'], it['topic'] + ' 檢討', '檢討', '每題寫錯因，回寫到秘笈那一招')
+# 難題集萃（增訂本）：每章只寫單號題，一次 2 題；先力學、熱學，再電磁、光學、近代（三、四期上完後）
+NANTI = [('力學', '運動學', 15), ('力學', '牛頓運動定律', 20), ('力學', '功、能和動量', 39), ('力學', '角動量、有心運動', 14),
+         ('力學', '靜力平衡', 12), ('力學', '剛體動力學', 27), ('力學', '振動與波動', 43),
+         ('熱學', '平衡態、理想氣體', 16), ('熱學', '熱力學第一、二定律', 25), ('熱學', '氣體動理論', 30), ('熱學', '凡德瓦氣體、液體、固體、相變', 17),
+         ('電磁學', '靜電場、導體與介質', 46), ('電磁學', '磁場、磁介質', 27), ('電磁學', '電磁感應', 23), ('電磁學', '電流、直流電路', 35), ('電磁學', '交流電路、暫態過程', 20),
+         ('光學', '幾何光學', 42), ('光學', '光的干涉', 27), ('光學', '光的繞射', 22), ('光學', '光的偏振', 35), ('光學', '色散、散射和吸收', 11),
+         ('近代物理', '近代物理', 39)]
+NQ = []
+for part, ch, n in NANTI:
+    odd = list(range(1, n + 1, 2))
+    for j in range(0, len(odd), 2): NQ.append((part, ch, odd[j:j + 2]))
 def adv():
-    cnt['adv'] += 1; return mk(13000 + cnt['adv'], '進階題', '進階題組', f'#{cnt["adv"]}（3 題）', '各期講義的 M／H 題或複選程度題，照順序做；卡住先查秘笈')
+    cnt['adv'] += 1
+    if NQ:
+        part, ch, qs = NQ.pop(0)
+        return mk(13000 + cnt['adv'], '難題集萃', f'{part}｜{ch}', '第 ' + '、'.join(map(str, qs)) + ' 題', '只寫單號題；照老師教的方法，官方解答常有錯，以老師的為準')
+    return mk(13000 + cnt['adv'], '錯題重寫', '錯題重寫', f'#{cnt["adv"]}', '挑之前寫錯的題（歷屆卷、難題集萃）重寫，不看解答')
 
 # ---------- 排程 ----------
 stage = 'digest'          # digest → v2 → p12 → t3 → t4 → free
@@ -102,9 +117,9 @@ for day in days:
         it.append(mk(3002, '初選', '2027 物奧初選', '考試日', '提早到考場；帶身分證、准考證、文具、計算機')); continue
     if k == 'rest': continue
     if x in MOCK:
-        n = MOCK[x]; it.append(mk(12000 + n, '模擬考', f'全卷模擬 #{n}', '計時作答', '用最新的初選卷，完全照考試時間與規則')); continue
+        n = MOCK[x]; it.append(mk(12000 + n, '模擬考', f'全卷模擬：重寫初選 {2027 - n}', '計時作答', '最近四年的卷子第二次完整重寫，照考試時間與規則')); continue
     if x in MOCKR:
-        n = MOCKR[x]; it.append(mk(12100 + n, '模擬考', f'全卷模擬 #{n} 檢討', '檢討', '每題寫錯因，回寫到秘笈那一招')); continue
+        n = MOCKR[x]; it.append(mk(12100 + n, '模擬考', f'全卷模擬：初選 {2027 - n} 檢討', '檢討', '每題寫錯因，回寫到秘笈那一招')); continue
     if x >= D(2027, 11, 5):
         day['plan']['圖書館'] = '只看錯題本與秘笈速覽，不做新題' + ('；今晚早睡' if x == D(2027, 11, 6) else ''); continue
     if x >= D(2027, 10, 23):
@@ -154,7 +169,7 @@ for day in days:
     if stage in ('t3', 't4'):
         seq = seq3 if stage == 't3' else seq4
         if k == 'final': continue
-        if stage == 't4' and x.weekday() == 6: it.append(adv()); continue
+        if stage == 't4' and x.weekday() == 6: continue   # 難題集萃等全部上完才寫
         if stage == 't3': budget = 3 if rev_today else 8 if vac else 4
         else: budget = 2 if rev_today else 6 if vac else 3     # 第四期放慢
         used = 0
@@ -194,7 +209,7 @@ for day in days:
     if probs: parts.append(f'{len(probs)} 題')
     for p in past:
         parts.append(('計時作答：' + p['topic']) if p['q'] in ('計時作答', '重寫錯題') else ('檢討' + p['topic'].replace(' 檢討', '')))
-    if advs: parts.append('進階題組 ' + '、'.join(i['q'] for i in advs))
+    if advs: parts.append('、'.join((i['topic'].split('｜')[-1] + ' ' + i['q']) if i['lesson'] == '難題集萃' else '錯題重寫' for i in advs))
     if parts: P['圖書館'] = '＋'.join(parts)
     elif day['plan'].get('圖書館'): P['圖書館'] = day['plan']['圖書館']
     P['晚通勤'] = '通勤：今天不熟的地方翻秘笈查一下（當字典用）'
