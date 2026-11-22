@@ -178,11 +178,12 @@
    "items": [
     {"id": 103, "lesson": "L17", "topic": "熱機", "q": "Q4", "diff": "M", "done": true, "doneAt": "2026-11-08", "note": "(A)(B)(C) 已完成，從 (D) 接續", "slot": "圖書館"},
     {"id": 105, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q1", "diff": "E", "done": true, "doneAt": "2026-11-08", "note": "停在兩式相除", "slot": "圖書館"},
-    {"id": 14001, "lesson": "LEC31", "topic": "天體消化", "q": "比奈公式自己推一遍", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "11/22 開始推，還沒推完；明天先把它推完"}
+    {"id": 14001, "lesson": "LEC31", "topic": "天體消化", "q": "比奈公式自己推一遍", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "今天推完"},
+    {"id": 14002, "lesson": "LEC31", "topic": "天體消化", "q": "軌道方程（圓錐曲線）自己推一遍", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "照老師的推法，不看筆記從頭推；卡住先翻講義，再拿來問"}
    ],
    "plan": {
     "學校": "週末：這段併進圖書館",
-    "圖書館": "題本整理＋天體消化：比奈公式推導（還沒推完）",
+    "圖書館": "題本整理＋天體消化：比奈公式、軌道方程今天推完",
     "晚通勤": "通勤：今天影片不熟的地方翻講義查一下（當字典用）"
    },
    "summary": "題本整理、比奈公式推導（還沒完成）"
@@ -190,28 +191,6 @@
   {
    "date": "2026-11-23",
    "weekday": "一",
-   "items": [
-    {"id": 14002, "lesson": "LEC31", "topic": "天體消化", "q": "軌道方程（圓錐曲線）自己推一遍", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "照老師的推法，不看筆記從頭推；卡住先翻講義，再拿來問"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "天體消化：先把比奈公式推完，再推軌道方程（圓錐曲線）",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2026-11-24",
-   "weekday": "二",
-   "items": [],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "緩衝：天體推導沒推完的補完；推完就先看 LEC32",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2026-11-25",
-   "weekday": "三",
    "items": [
     {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": ""},
     {"id": 1, "lesson": "L05", "topic": "拋體運動", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -224,8 +203,8 @@
    }
   },
   {
-   "date": "2026-11-26",
-   "weekday": "四",
+   "date": "2026-11-24",
+   "weekday": "二",
    "items": [
     {"id": 910, "lesson": "二期影片", "topic": "水星軌道進動", "q": "LEC33", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 3, "lesson": "L05", "topic": "拋體運動", "q": "Q10", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -238,8 +217,8 @@
    }
   },
   {
-   "date": "2026-11-27",
-   "weekday": "五",
+   "date": "2026-11-25",
+   "weekday": "三",
    "items": [
     {"id": 911, "lesson": "二期影片", "topic": "同步衛星", "q": "LEC34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 5, "lesson": "L06", "topic": "質心", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -252,18 +231,46 @@
    }
   },
   {
+   "date": "2026-11-26",
+   "weekday": "四",
+   "items": [
+    {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7, "lesson": "L06", "topic": "衝動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 8, "lesson": "L06", "topic": "衝動量", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "看 LEC35-1＋2 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2026-11-27",
+   "weekday": "五",
+   "items": [
+    {"id": 913, "lesson": "二期影片", "topic": "大氣相關問題", "q": "LEC35-2", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9, "lesson": "L06", "topic": "衝動量", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 10, "lesson": "L06", "topic": "衝動量", "q": "Q8", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "看 LEC35-2＋2 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
    "date": "2026-11-28",
    "weekday": "六",
    "items": [
-    {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 913, "lesson": "二期影片", "topic": "大氣相關問題", "q": "LEC35-2", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7, "lesson": "L06", "topic": "衝動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 8, "lesson": "L06", "topic": "衝動量", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9, "lesson": "L06", "topic": "衝動量", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 11, "lesson": "L06", "topic": "力的分解與合成", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 12, "lesson": "L06", "topic": "終端速度", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 13, "lesson": "L06", "topic": "空氣阻力", "q": "Q1", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
-    "圖書館": "看 LEC35-1、LEC35-2＋3 題",
+    "圖書館": "看 LEC36、LEC37＋3 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -271,48 +278,20 @@
    "date": "2026-11-29",
    "weekday": "日",
    "items": [
-    {"id": 914, "lesson": "二期影片", "topic": "海水漲潮", "q": "LEC36", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 10, "lesson": "L06", "topic": "衝動量", "q": "Q8", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 11, "lesson": "L06", "topic": "力的分解與合成", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 12, "lesson": "L06", "topic": "終端速度", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 14, "lesson": "L06", "topic": "空氣阻力", "q": "Q2", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 15, "lesson": "L06", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 16, "lesson": "L06", "topic": "摩擦力", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
-    "圖書館": "看 LEC36＋3 題",
+    "圖書館": "看 LEC38＋3 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
   {
    "date": "2026-11-30",
    "weekday": "一",
-   "items": [
-    {"id": 915, "lesson": "二期影片", "topic": "表面張力", "q": "LEC37", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 13, "lesson": "L06", "topic": "空氣阻力", "q": "Q1", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 14, "lesson": "L06", "topic": "空氣阻力", "q": "Q2", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 LEC37＋2 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2026-12-01",
-   "weekday": "二",
-   "items": [
-    {"id": 916, "lesson": "二期影片", "topic": "站在水上", "q": "LEC38", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 15, "lesson": "L06", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 16, "lesson": "L06", "topic": "摩擦力", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 LEC38＋2 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2026-12-02",
-   "weekday": "三",
    "items": [
     {"id": 917, "lesson": "二期影片", "topic": "設計風車", "q": "LEC39", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 17, "lesson": "L06", "topic": "摩擦力", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -325,8 +304,8 @@
    }
   },
   {
-   "date": "2026-12-03",
-   "weekday": "四",
+   "date": "2026-12-01",
+   "weekday": "二",
    "items": [
     {"id": 918, "lesson": "二期影片", "topic": "心臟和血管", "q": "LEC40", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 19, "lesson": "L07", "topic": "相對運動", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -339,8 +318,8 @@
    }
   },
   {
-   "date": "2026-12-04",
-   "weekday": "五",
+   "date": "2026-12-02",
+   "weekday": "三",
    "items": [
     {"id": 919, "lesson": "二期影片", "topic": "為甚麼會感到熱", "q": "LEC41", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 21, "lesson": "L07", "topic": "木塊傾倒問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -353,18 +332,46 @@
    }
   },
   {
+   "date": "2026-12-03",
+   "weekday": "四",
+   "items": [
+    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 23, "lesson": "L07", "topic": "摩擦力範圍", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 24, "lesson": "L07", "topic": "靜力平衡", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "看 LEC42＋2 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2026-12-04",
+   "weekday": "五",
+   "items": [
+    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 25, "lesson": "L07", "topic": "靜力平衡", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 26, "lesson": "L07", "topic": "靜力平衡", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "看 LEC43＋2 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
    "date": "2026-12-05",
    "weekday": "六",
    "items": [
-    {"id": 920, "lesson": "二期影片", "topic": "耦合系統", "q": "LEC42", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 921, "lesson": "二期影片", "topic": "簡正模", "q": "LEC43", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 23, "lesson": "L07", "topic": "摩擦力範圍", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 24, "lesson": "L07", "topic": "靜力平衡", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 25, "lesson": "L07", "topic": "靜力平衡", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 27, "lesson": "L07", "topic": "靜力平衡", "q": "Q9", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 28, "lesson": "L07", "topic": "靜力平衡", "q": "Q10", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 29, "lesson": "L07", "topic": "靜力平衡", "q": "Q11", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
-    "圖書館": "看 LEC42、LEC43＋3 題",
+    "圖書館": "看 LEC44、LEC45＋3 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -382,34 +389,6 @@
    "date": "2026-12-07",
    "weekday": "一",
    "items": [
-    {"id": 922, "lesson": "二期影片", "topic": "甚麼是波", "q": "LEC44", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 26, "lesson": "L07", "topic": "靜力平衡", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 27, "lesson": "L07", "topic": "靜力平衡", "q": "Q9", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 LEC44＋2 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2026-12-08",
-   "weekday": "二",
-   "items": [
-    {"id": 923, "lesson": "二期影片", "topic": "縱波、聲波、扭波", "q": "LEC45", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 28, "lesson": "L07", "topic": "靜力平衡", "q": "Q10", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 29, "lesson": "L07", "topic": "靜力平衡", "q": "Q11", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 LEC45＋2 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2026-12-09",
-   "weekday": "三",
-   "items": [
     {"id": 924, "lesson": "二期影片", "topic": "海嘯", "q": "LEC46", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 30, "lesson": "L10", "topic": "能量基礎", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 31, "lesson": "L10", "topic": "能量基礎", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
@@ -421,8 +400,8 @@
    }
   },
   {
-   "date": "2026-12-10",
-   "weekday": "四",
+   "date": "2026-12-08",
+   "weekday": "二",
    "items": [
     {"id": 32, "lesson": "L10", "topic": "能量基礎", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 33, "lesson": "L10", "topic": "能量基礎", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -436,13 +415,43 @@
    }
   },
   {
-   "date": "2026-12-11",
-   "weekday": "五",
+   "date": "2026-12-09",
+   "weekday": "三",
    "items": [
     {"id": 36, "lesson": "L10", "topic": "功率", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 37, "lesson": "L10", "topic": "功率", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 38, "lesson": "L10", "topic": "摩擦力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 39, "lesson": "L10", "topic": "擺跟釘子", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2026-12-10",
+   "weekday": "四",
+   "items": [
+    {"id": 40, "lesson": "L10", "topic": "擺跟釘子", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 41, "lesson": "L11", "topic": "Rope", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 42, "lesson": "L11", "topic": "正向力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 43, "lesson": "L11", "topic": "正向力", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2026-12-11",
+   "weekday": "五",
+   "items": [
+    {"id": 44, "lesson": "L11", "topic": "正向力", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 45, "lesson": "L11", "topic": "穩定性", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 46, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 47, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
@@ -467,9 +476,9 @@
    "weekday": "日",
    "items": [
     {"id": 10101, "lesson": "初選歷屆", "topic": "初選 2026 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 40, "lesson": "L10", "topic": "擺跟釘子", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 41, "lesson": "L11", "topic": "Rope", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 42, "lesson": "L11", "topic": "正向力", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 48, "lesson": "L11", "topic": "彈性體", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 49, "lesson": "L11", "topic": "彈簧", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 50, "lesson": "L12", "topic": "正向力做功嗎", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -480,36 +489,6 @@
   {
    "date": "2026-12-14",
    "weekday": "一",
-   "items": [
-    {"id": 43, "lesson": "L11", "topic": "正向力", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 44, "lesson": "L11", "topic": "正向力", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 45, "lesson": "L11", "topic": "穩定性", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 46, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2026-12-15",
-   "weekday": "二",
-   "items": [
-    {"id": 47, "lesson": "L11", "topic": "動量+能量守恆問題", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 48, "lesson": "L11", "topic": "彈性體", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 49, "lesson": "L11", "topic": "彈簧", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 50, "lesson": "L12", "topic": "正向力做功嗎", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2026-12-16",
-   "weekday": "三",
    "items": [
     {"id": 51, "lesson": "L12", "topic": "相對滑動", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 52, "lesson": "L12", "topic": "子彈問題", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -523,8 +502,8 @@
    }
   },
   {
-   "date": "2026-12-17",
-   "weekday": "四",
+   "date": "2026-12-15",
+   "weekday": "二",
    "items": [
     {"id": 55, "lesson": "L12", "topic": "碰撞", "q": "Q7", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 56, "lesson": "L12", "topic": "碰撞", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -538,13 +517,43 @@
    }
   },
   {
-   "date": "2026-12-18",
-   "weekday": "五",
+   "date": "2026-12-16",
+   "weekday": "三",
    "items": [
     {"id": 59, "lesson": "L12", "topic": "多體碰撞", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 60, "lesson": "L12", "topic": "多體碰撞", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 61, "lesson": "L12", "topic": "恢復係數", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 62, "lesson": "L12", "topic": "恢復係數", "q": "Q2", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2026-12-17",
+   "weekday": "四",
+   "items": [
+    {"id": 104, "lesson": "L17", "topic": "熱機", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 106, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 107, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 108, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2026-12-18",
+   "weekday": "五",
+   "items": [
+    {"id": 109, "lesson": "L18", "topic": "熵", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 110, "lesson": "L18", "topic": "熵", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 111, "lesson": "L18", "topic": "熵", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 112, "lesson": "L18", "topic": "熵", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
@@ -569,9 +578,9 @@
    "weekday": "日",
    "items": [
     {"id": 10102, "lesson": "初選歷屆", "topic": "初選 2025 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 104, "lesson": "L17", "topic": "熱機", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 106, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 107, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 113, "lesson": "L18", "topic": "熵", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 114, "lesson": "L18", "topic": "熵", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 115, "lesson": "L18", "topic": "熵", "q": "Q8", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -582,36 +591,6 @@
   {
    "date": "2026-12-21",
    "weekday": "一",
-   "items": [
-    {"id": 108, "lesson": "L17", "topic": "相變/飽和蒸汽壓", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 109, "lesson": "L18", "topic": "熵", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 110, "lesson": "L18", "topic": "熵", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 111, "lesson": "L18", "topic": "熵", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2026-12-22",
-   "weekday": "二",
-   "items": [
-    {"id": 112, "lesson": "L18", "topic": "熵", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 113, "lesson": "L18", "topic": "熵", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 114, "lesson": "L18", "topic": "熵", "q": "Q7", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 115, "lesson": "L18", "topic": "熵", "q": "Q8", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2026-12-23",
-   "weekday": "三",
    "items": [
     {"id": 116, "lesson": "L18", "topic": "綜合問題", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 117, "lesson": "L19", "topic": "角動量", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -625,8 +604,8 @@
    }
   },
   {
-   "date": "2026-12-24",
-   "weekday": "四",
+   "date": "2026-12-22",
+   "weekday": "二",
    "items": [
     {"id": 120, "lesson": "L19", "topic": "滑輪", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 121, "lesson": "L19", "topic": "滑輪", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -640,17 +619,47 @@
    }
   },
   {
-   "date": "2026-12-25",
-   "weekday": "五",
+   "date": "2026-12-23",
+   "weekday": "三",
    "items": [
     {"id": 124, "lesson": "L19", "topic": "Capstan equation", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 125, "lesson": "L19", "topic": "Capstan equation", "q": "Q3", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 126, "lesson": "L20", "topic": "SHM 基礎", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 127, "lesson": "L20", "topic": "SHM 基礎", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 127, "lesson": "L20", "topic": "SHM 基礎", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2026-12-24",
+   "weekday": "四",
+   "items": [
     {"id": 128, "lesson": "L20", "topic": "SHM 基礎", "q": "Q6", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 129, "lesson": "L20", "topic": "鉛直SHM", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 130, "lesson": "L20", "topic": "鉛直SHM", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 131, "lesson": "L20", "topic": "拉格朗日", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2026-12-25",
+   "weekday": "五",
+   "items": [
+    {"id": 132, "lesson": "L20", "topic": "拉格朗日", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 133, "lesson": "L20", "topic": "熱力+SHM", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 134, "lesson": "L20", "topic": "熱力+SHM", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 135, "lesson": "L20", "topic": "熱力+SHM", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 136, "lesson": "L20", "topic": "熱力+SHM", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 137, "lesson": "L20", "topic": "液體震動", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 138, "lesson": "L20", "topic": "綜合問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 139, "lesson": "L20", "topic": "綜合問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -675,9 +684,9 @@
    "weekday": "日",
    "items": [
     {"id": 10103, "lesson": "初選歷屆", "topic": "初選 2024 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 132, "lesson": "L20", "topic": "拉格朗日", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 133, "lesson": "L20", "topic": "熱力+SHM", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 134, "lesson": "L20", "topic": "熱力+SHM", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 140, "lesson": "L20", "topic": "綜合問題", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 141, "lesson": "L20", "topic": "綜合問題", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 142, "lesson": "L20", "topic": "綜合問題", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -688,36 +697,6 @@
   {
    "date": "2026-12-28",
    "weekday": "一",
-   "items": [
-    {"id": 135, "lesson": "L20", "topic": "熱力+SHM", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 136, "lesson": "L20", "topic": "熱力+SHM", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 137, "lesson": "L20", "topic": "液體震動", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 138, "lesson": "L20", "topic": "綜合問題", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2026-12-29",
-   "weekday": "二",
-   "items": [
-    {"id": 139, "lesson": "L20", "topic": "綜合問題", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 140, "lesson": "L20", "topic": "綜合問題", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 141, "lesson": "L20", "topic": "綜合問題", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 142, "lesson": "L20", "topic": "綜合問題", "q": "Q5", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2026-12-30",
-   "weekday": "三",
    "items": [
     {"id": 143, "lesson": "L20", "topic": "綜合問題", "q": "Q7", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 144, "lesson": "L21", "topic": "平移非慣性系", "q": "Q1", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -731,8 +710,8 @@
    }
   },
   {
-   "date": "2026-12-31",
-   "weekday": "四",
+   "date": "2026-12-29",
+   "weekday": "二",
    "items": [
     {"id": 147, "lesson": "L21", "topic": "平移非慣性系", "q": "Q6", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 148, "lesson": "L21", "topic": "平移非慣性系", "q": "Q7", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -746,17 +725,47 @@
    }
   },
   {
-   "date": "2027-01-01",
-   "weekday": "五",
+   "date": "2026-12-30",
+   "weekday": "三",
    "items": [
     {"id": 151, "lesson": "L21", "topic": "雙振子", "q": "Q7", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 152, "lesson": "L21", "topic": "雙振子", "q": "Q8", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 153, "lesson": "L21", "topic": "雙振子", "q": "Q9", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 154, "lesson": "L21", "topic": "雙振子", "q": "Q10", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 154, "lesson": "L21", "topic": "雙振子", "q": "Q10", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2026-12-31",
+   "weekday": "四",
+   "items": [
     {"id": 155, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 156, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 157, "lesson": "L22", "topic": "摩擦力+彈簧", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 158, "lesson": "L22", "topic": "相對滑動", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-01-01",
+   "weekday": "五",
+   "items": [
+    {"id": 159, "lesson": "L22", "topic": "相對滑動", "q": "Q3", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 160, "lesson": "L22", "topic": "相對滑動", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 161, "lesson": "L22", "topic": "妙用慣性系", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 162, "lesson": "L22", "topic": "妙用慣性系", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 163, "lesson": "L22", "topic": "妙用慣性系", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 164, "lesson": "L22", "topic": "妙用慣性系", "q": "Q5", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 165, "lesson": "L22", "topic": "離心力", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 166, "lesson": "L22", "topic": "科氏力", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -790,36 +799,6 @@
    "date": "2027-01-04",
    "weekday": "一",
    "items": [
-    {"id": 159, "lesson": "L22", "topic": "相對滑動", "q": "Q3", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 160, "lesson": "L22", "topic": "相對滑動", "q": "Q4", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 161, "lesson": "L22", "topic": "妙用慣性系", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 162, "lesson": "L22", "topic": "妙用慣性系", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-01-05",
-   "weekday": "二",
-   "items": [
-    {"id": 163, "lesson": "L22", "topic": "妙用慣性系", "q": "Q4", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 164, "lesson": "L22", "topic": "妙用慣性系", "q": "Q5", "diff": "H", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 165, "lesson": "L22", "topic": "離心力", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 166, "lesson": "L22", "topic": "科氏力", "q": "Q3", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-01-06",
-   "weekday": "三",
-   "items": [
     {"id": 167, "lesson": "L22", "topic": "離心位能", "q": "Q1", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 168, "lesson": "L23", "topic": "強迫振盪", "q": "Q2", "diff": "M", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 1001, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
@@ -832,8 +811,8 @@
    }
   },
   {
-   "date": "2027-01-07",
-   "weekday": "四",
+   "date": "2027-01-05",
+   "weekday": "二",
    "items": [
     {"id": 1003, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
     {"id": 1004, "lesson": "二期LEC23", "topic": "剛體的動能", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
@@ -847,13 +826,43 @@
    }
   },
   {
-   "date": "2027-01-08",
-   "weekday": "五",
+   "date": "2027-01-06",
+   "weekday": "三",
    "items": [
     {"id": 1007, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
     {"id": 1008, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
     {"id": 1009, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
     {"id": 1010, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-01-07",
+   "weekday": "四",
+   "items": [
+    {"id": 1011, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1012, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1013, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1014, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-01-08",
+   "weekday": "五",
+   "items": [
+    {"id": 1015, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P04", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1016, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1017, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1018, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
@@ -879,9 +888,9 @@
    "items": [
     {"id": 10104, "lesson": "初選歷屆", "topic": "初選 2023 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
     {"id": 10105, "lesson": "初選歷屆", "topic": "初選 2022 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 1011, "lesson": "二期LEC24", "topic": "剛體「力學」", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
-    {"id": 1012, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1013, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+    {"id": 1019, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1020, "lesson": "二期LEC26", "topic": "純滾動", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1021, "lesson": "二期LEC26", "topic": "純滾動", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -892,36 +901,6 @@
   {
    "date": "2027-01-11",
    "weekday": "一",
-   "items": [
-    {"id": 1014, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1015, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P04", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1016, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1017, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-01-12",
-   "weekday": "二",
-   "items": [
-    {"id": 1018, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1019, "lesson": "二期LEC25", "topic": "固定軸問題", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1020, "lesson": "二期LEC26", "topic": "純滾動", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
-    {"id": 1021, "lesson": "二期LEC26", "topic": "純滾動", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-01-13",
-   "weekday": "三",
    "items": [
     {"id": 1022, "lesson": "二期LEC26", "topic": "純滾動", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
     {"id": 1023, "lesson": "二期LEC26", "topic": "純滾動", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
@@ -935,8 +914,8 @@
    }
   },
   {
-   "date": "2027-01-14",
-   "weekday": "四",
+   "date": "2027-01-12",
+   "weekday": "二",
    "items": [
     {"id": 1100, "lesson": "二期LEC26", "topic": "純滾動", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "建議（放在「剛體問題」節）", "slot": "圖書館"},
     {"id": 1026, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
@@ -950,13 +929,43 @@
    }
   },
   {
-   "date": "2027-01-15",
-   "weekday": "五",
+   "date": "2027-01-13",
+   "weekday": "三",
    "items": [
     {"id": 1029, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
     {"id": 1030, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
     {"id": 1031, "lesson": "二期LEC27", "topic": "籃球落地往哪裡跑", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
     {"id": 1032, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-01-14",
+   "weekday": "四",
+   "items": [
+    {"id": 1033, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1034, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1035, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1036, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P06", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-01-15",
+   "weekday": "五",
+   "items": [
+    {"id": 1037, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P07", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1038, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1039, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1040, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P01", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
@@ -981,9 +990,9 @@
    "weekday": "日",
    "items": [
     {"id": 10106, "lesson": "初選歷屆", "topic": "初選 2021 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 1033, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
-    {"id": 1034, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
-    {"id": 1035, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"}
+    {"id": 1041, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1042, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1043, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -995,8 +1004,8 @@
    "date": "2027-01-18",
    "weekday": "一",
    "items": [
-    {"id": 1036, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P06", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1037, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P07", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+    {"id": 1044, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P05", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1045, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P07", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
    ],
    "plan": {
     "學校": "期末考週（日期為假設，請以學校行事曆為準）：先顧考試",
@@ -1008,8 +1017,8 @@
    "date": "2027-01-19",
    "weekday": "二",
    "items": [
-    {"id": 1038, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1039, "lesson": "二期LEC34", "topic": "流體（第五個月）", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+    {"id": 1046, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1047, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
    ],
    "plan": {
     "學校": "期末考週（日期為假設，請以學校行事曆為準）：先顧考試",
@@ -1021,8 +1030,8 @@
    "date": "2027-01-20",
    "weekday": "三",
    "items": [
-    {"id": 1040, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P01", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1041, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+    {"id": 1048, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1049, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
    ],
    "plan": {
     "學校": "期末考週（日期為假設，請以學校行事曆為準）：先顧考試",
@@ -1034,14 +1043,14 @@
    "date": "2027-01-21",
    "weekday": "四",
    "items": [
-    {"id": 1042, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1043, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
-    {"id": 1044, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P05", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1045, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P07", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1046, "lesson": "二期LEC35", "topic": "表面張力（第五個月）", "q": "P08", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1047, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1048, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1049, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+    {"id": 1050, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1051, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1052, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1053, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1054, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1055, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1056, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1057, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
    ],
    "plan": {
     "學校": "寒假：這段併進圖書館",
@@ -1053,14 +1062,14 @@
    "date": "2027-01-22",
    "weekday": "五",
    "items": [
-    {"id": 1050, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1051, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1052, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1053, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1054, "lesson": "二期LEC35", "topic": "能不能站在水上", "q": "P09", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1055, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P01", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1056, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1057, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+    {"id": 1058, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1059, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
+    {"id": 1060, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1061, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1062, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1063, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1064, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P10", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1065, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P11", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
    ],
    "plan": {
     "學校": "寒假：這段併進圖書館",
@@ -1085,9 +1094,9 @@
    "weekday": "日",
    "items": [
     {"id": 10107, "lesson": "初選歷屆", "topic": "初選 2020 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 1058, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1059, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P05", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
-    {"id": 1060, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P06", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
+    {"id": 1066, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P12", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1067, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P14", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
+    {"id": 1068, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
    ],
    "plan": {
     "學校": "寒假：這段併進圖書館",
@@ -1098,25 +1107,6 @@
   {
    "date": "2027-01-25",
    "weekday": "一",
-   "items": [
-    {"id": 1061, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1062, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1063, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P09", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1064, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P10", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1065, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P11", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1066, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P12", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1067, "lesson": "二期LEC36", "topic": "如何設計一台風車", "q": "P14", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
-    {"id": 1068, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P02", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "寒假：這段併進圖書館",
-    "圖書館": "8 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-01-26",
-   "weekday": "二",
    "items": [
     {"id": 1069, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P03", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
     {"id": 1070, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P04", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
@@ -1134,8 +1124,8 @@
    }
   },
   {
-   "date": "2027-01-27",
-   "weekday": "三",
+   "date": "2027-01-26",
+   "weekday": "二",
    "items": [
     {"id": 1077, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P11", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
     {"id": 1078, "lesson": "二期LEC37", "topic": "血壓和心臟", "q": "P12", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
@@ -1153,8 +1143,8 @@
    }
   },
   {
-   "date": "2027-01-28",
-   "weekday": "四",
+   "date": "2027-01-27",
+   "weekday": "三",
    "items": [
     {"id": 1085, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P07", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
     {"id": 1086, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P08", "diff": "E", "done": false, "doneAt": null, "note": "建議（Easy）", "slot": "圖書館"},
@@ -1172,8 +1162,8 @@
    }
   },
   {
-   "date": "2027-01-29",
-   "weekday": "五",
+   "date": "2027-01-28",
+   "weekday": "四",
    "items": [
     {"id": 1093, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P20", "diff": "M", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
     {"id": 1094, "lesson": "二期LEC38", "topic": "如何製造液態氮氣", "q": "P21", "diff": "E", "done": false, "doneAt": null, "note": "必做", "slot": "圖書館"},
@@ -1186,6 +1176,22 @@
    "plan": {
     "學校": "寒假：這段併進圖書館",
     "圖書館": "7 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-01-29",
+   "weekday": "五",
+   "items": [
+    {"id": 6001, "lesson": "三期影片", "topic": "第三期第一部", "q": "三期第1部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7001, "lesson": "三期第1部", "topic": "第三期第一題", "q": "三期習題 #1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7002, "lesson": "三期第1部", "topic": "第三期第二題", "q": "三期習題 #2", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7003, "lesson": "三期第1部", "topic": "第三期第三題", "q": "三期習題 #3", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7004, "lesson": "三期第1部", "topic": "第三期第四題", "q": "三期習題 #4", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "寒假：這段併進圖書館",
+    "圖書館": "看 三期第1部＋4 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -1206,33 +1212,17 @@
    "weekday": "日",
    "items": [
     {"id": 10108, "lesson": "初選歷屆", "topic": "初選 2019 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 6001, "lesson": "三期影片", "topic": "第三期第一部", "q": "三期第1部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 7005, "lesson": "三期第1部", "topic": "第三期第五題", "q": "三期習題 #5", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "寒假：這段併進圖書館",
-    "圖書館": "看 三期第1部＋檢討初選 2019",
+    "圖書館": "1 題＋檢討初選 2019",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
   {
    "date": "2027-02-01",
    "weekday": "一",
-   "items": [
-    {"id": 7001, "lesson": "三期第1部", "topic": "第三期第一題", "q": "三期習題 #1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7002, "lesson": "三期第1部", "topic": "第三期第二題", "q": "三期習題 #2", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7003, "lesson": "三期第1部", "topic": "第三期第三題", "q": "三期習題 #3", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7004, "lesson": "三期第1部", "topic": "第三期第四題", "q": "三期習題 #4", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7005, "lesson": "三期第1部", "topic": "第三期第五題", "q": "三期習題 #5", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "寒假：這段併進圖書館",
-    "圖書館": "5 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-02-02",
-   "weekday": "二",
    "items": [
     {"id": 6002, "lesson": "三期影片", "topic": "第三期第二部", "q": "三期第2部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7006, "lesson": "三期第2部", "topic": "第三期第六題", "q": "三期習題 #6", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1247,8 +1237,8 @@
    }
   },
   {
-   "date": "2027-02-03",
-   "weekday": "三",
+   "date": "2027-02-02",
+   "weekday": "二",
    "items": [
     {"id": 7010, "lesson": "三期第2部", "topic": "第三期第十題", "q": "三期習題 #10", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 6003, "lesson": "三期影片", "topic": "第三期第三部", "q": "三期第3部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1263,8 +1253,8 @@
    }
   },
   {
-   "date": "2027-02-04",
-   "weekday": "四",
+   "date": "2027-02-03",
+   "weekday": "三",
    "items": [
     {"id": 7014, "lesson": "三期第3部", "topic": "第三期第十四題", "q": "三期習題 #14", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7015, "lesson": "三期第3部", "topic": "第三期第十五題", "q": "三期習題 #15", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1275,6 +1265,22 @@
    "plan": {
     "學校": "寒假：這段併進圖書館",
     "圖書館": "看 三期第4部＋4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-02-04",
+   "weekday": "四",
+   "items": [
+    {"id": 7018, "lesson": "三期第4部", "topic": "第三期第十八題", "q": "三期習題 #18", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7019, "lesson": "三期第4部", "topic": "第三期第十九題", "q": "三期習題 #19", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7020, "lesson": "三期第4部", "topic": "第三期第二十題", "q": "三期習題 #20", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 6005, "lesson": "三期影片", "topic": "第三期第五部", "q": "三期第5部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7021, "lesson": "三期第5部", "topic": "第三期第二十一題", "q": "三期習題 #21", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "寒假：這段併進圖書館",
+    "圖書館": "看 三期第5部＋4 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -1308,22 +1314,6 @@
    "date": "2027-02-08",
    "weekday": "一",
    "items": [
-    {"id": 7018, "lesson": "三期第4部", "topic": "第三期第十八題", "q": "三期習題 #18", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7019, "lesson": "三期第4部", "topic": "第三期第十九題", "q": "三期習題 #19", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7020, "lesson": "三期第4部", "topic": "第三期第二十題", "q": "三期習題 #20", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 6005, "lesson": "三期影片", "topic": "第三期第五部", "q": "三期第5部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7021, "lesson": "三期第5部", "topic": "第三期第二十一題", "q": "三期習題 #21", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "寒假：這段併進圖書館",
-    "圖書館": "看 三期第5部＋4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-02-09",
-   "weekday": "二",
-   "items": [
     {"id": 7022, "lesson": "三期第5部", "topic": "第三期第二十二題", "q": "三期習題 #22", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7023, "lesson": "三期第5部", "topic": "第三期第二十三題", "q": "三期習題 #23", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7024, "lesson": "三期第5部", "topic": "第三期第二十四題", "q": "三期習題 #24", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1337,8 +1327,8 @@
    }
   },
   {
-   "date": "2027-02-10",
-   "weekday": "三",
+   "date": "2027-02-09",
+   "weekday": "二",
    "items": [
     {"id": 7026, "lesson": "三期第6部", "topic": "第三期第二十六題", "q": "三期習題 #26", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7027, "lesson": "三期第6部", "topic": "第三期第二十七題", "q": "三期習題 #27", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1353,8 +1343,8 @@
    }
   },
   {
-   "date": "2027-02-11",
-   "weekday": "四",
+   "date": "2027-02-10",
+   "weekday": "三",
    "items": [
     {"id": 7030, "lesson": "三期第7部", "topic": "第三期第三十題", "q": "三期習題 #30", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7031, "lesson": "三期第7部", "topic": "第三期第三十一題", "q": "三期習題 #31", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1369,8 +1359,8 @@
    }
   },
   {
-   "date": "2027-02-12",
-   "weekday": "五",
+   "date": "2027-02-11",
+   "weekday": "四",
    "items": [
     {"id": 7034, "lesson": "三期第8部", "topic": "第三期第三十四題", "q": "三期習題 #34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7035, "lesson": "三期第8部", "topic": "第三期第三十五題", "q": "三期習題 #35", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1381,6 +1371,22 @@
    "plan": {
     "學校": "寒假：這段併進圖書館",
     "圖書館": "看 三期第9部＋4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-02-12",
+   "weekday": "五",
+   "items": [
+    {"id": 7038, "lesson": "三期第9部", "topic": "第三期第三十八題", "q": "三期習題 #38", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7039, "lesson": "三期第9部", "topic": "第三期第三十九題", "q": "三期習題 #39", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7040, "lesson": "三期第9部", "topic": "第三期第四十題", "q": "三期習題 #40", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 6010, "lesson": "三期影片", "topic": "第三期第十部", "q": "三期第10部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7041, "lesson": "三期第10部", "topic": "第三期第四十一題", "q": "三期習題 #41", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "寒假：這段併進圖書館",
+    "圖書館": "看 三期第10部＋4 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -1401,9 +1407,9 @@
    "weekday": "日",
    "items": [
     {"id": 10109, "lesson": "初選歷屆", "topic": "初選 2018 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 7038, "lesson": "三期第9部", "topic": "第三期第三十八題", "q": "三期習題 #38", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7039, "lesson": "三期第9部", "topic": "第三期第三十九題", "q": "三期習題 #39", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7040, "lesson": "三期第9部", "topic": "第三期第四十題", "q": "三期習題 #40", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 7042, "lesson": "三期第10部", "topic": "第三期第四十二題", "q": "三期習題 #42", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7043, "lesson": "三期第10部", "topic": "第三期第四十三題", "q": "三期習題 #43", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7044, "lesson": "三期第10部", "topic": "第三期第四十四題", "q": "三期習題 #44", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "寒假：這段併進圖書館",
@@ -1415,33 +1421,6 @@
    "date": "2027-02-15",
    "weekday": "一",
    "items": [
-    {"id": 6010, "lesson": "三期影片", "topic": "第三期第十部", "q": "三期第10部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 三期第10部",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-02-16",
-   "weekday": "二",
-   "items": [
-    {"id": 7041, "lesson": "三期第10部", "topic": "第三期第四十一題", "q": "三期習題 #41", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7042, "lesson": "三期第10部", "topic": "第三期第四十二題", "q": "三期習題 #42", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7043, "lesson": "三期第10部", "topic": "第三期第四十三題", "q": "三期習題 #43", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7044, "lesson": "三期第10部", "topic": "第三期第四十四題", "q": "三期習題 #44", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-02-17",
-   "weekday": "三",
-   "items": [
     {"id": 6011, "lesson": "三期影片", "topic": "第三期第十一部", "q": "三期第11部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
@@ -1451,8 +1430,8 @@
    }
   },
   {
-   "date": "2027-02-18",
-   "weekday": "四",
+   "date": "2027-02-16",
+   "weekday": "二",
    "items": [
     {"id": 7045, "lesson": "三期第11部", "topic": "第三期第四十五題", "q": "三期習題 #45", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7046, "lesson": "三期第11部", "topic": "第三期第四十六題", "q": "三期習題 #46", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1466,14 +1445,41 @@
    }
   },
   {
-   "date": "2027-02-19",
-   "weekday": "五",
+   "date": "2027-02-17",
+   "weekday": "三",
    "items": [
     {"id": 6012, "lesson": "三期影片", "topic": "第三期第十二部", "q": "三期第12部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
     "圖書館": "看 三期第12部",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-02-18",
+   "weekday": "四",
+   "items": [
+    {"id": 7049, "lesson": "三期第12部", "topic": "第三期第四十九題", "q": "三期習題 #49", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7050, "lesson": "三期第12部", "topic": "第三期第五十題", "q": "三期習題 #50", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7051, "lesson": "三期第12部", "topic": "第三期第五十一題", "q": "三期習題 #51", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7052, "lesson": "三期第12部", "topic": "第三期第五十二題", "q": "三期習題 #52", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-02-19",
+   "weekday": "五",
+   "items": [
+    {"id": 6013, "lesson": "三期影片", "topic": "第三期第十三部", "q": "三期第13部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "看 三期第13部",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -1494,9 +1500,9 @@
    "weekday": "日",
    "items": [
     {"id": 10110, "lesson": "初選歷屆", "topic": "初選 2017 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 7049, "lesson": "三期第12部", "topic": "第三期第四十九題", "q": "三期習題 #49", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7050, "lesson": "三期第12部", "topic": "第三期第五十題", "q": "三期習題 #50", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7051, "lesson": "三期第12部", "topic": "第三期第五十一題", "q": "三期習題 #51", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 7053, "lesson": "三期第13部", "topic": "第三期第五十三題", "q": "三期習題 #53", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7054, "lesson": "三期第13部", "topic": "第三期第五十四題", "q": "三期習題 #54", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7055, "lesson": "三期第13部", "topic": "第三期第五十五題", "q": "三期習題 #55", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -1508,7 +1514,7 @@
    "date": "2027-02-22",
    "weekday": "一",
    "items": [
-    {"id": 7052, "lesson": "三期第12部", "topic": "第三期第五十二題", "q": "三期習題 #52", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 7056, "lesson": "三期第13部", "topic": "第三期第五十六題", "q": "三期習題 #56", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
@@ -1520,11 +1526,11 @@
    "date": "2027-02-23",
    "weekday": "二",
    "items": [
-    {"id": 6013, "lesson": "三期影片", "topic": "第三期第十三部", "q": "三期第13部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 6014, "lesson": "三期影片", "topic": "第三期第十四部", "q": "三期第14部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 三期第13部",
+    "圖書館": "看 三期第14部",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -1532,10 +1538,10 @@
    "date": "2027-02-24",
    "weekday": "三",
    "items": [
-    {"id": 7053, "lesson": "三期第13部", "topic": "第三期第五十三題", "q": "三期習題 #53", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7054, "lesson": "三期第13部", "topic": "第三期第五十四題", "q": "三期習題 #54", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7055, "lesson": "三期第13部", "topic": "第三期第五十五題", "q": "三期習題 #55", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7056, "lesson": "三期第13部", "topic": "第三期第五十六題", "q": "三期習題 #56", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 7057, "lesson": "三期第14部", "topic": "第三期第五十七題", "q": "三期習題 #57", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7058, "lesson": "三期第14部", "topic": "第三期第五十八題", "q": "三期習題 #58", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7059, "lesson": "三期第14部", "topic": "第三期第五十九題", "q": "三期習題 #59", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7060, "lesson": "三期第14部", "topic": "第三期第六十題", "q": "三期習題 #60", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
@@ -1547,11 +1553,11 @@
    "date": "2027-02-25",
    "weekday": "四",
    "items": [
-    {"id": 6014, "lesson": "三期影片", "topic": "第三期第十四部", "q": "三期第14部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 6015, "lesson": "三期影片", "topic": "第三期第十五部", "q": "三期第15部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 三期第14部",
+    "圖書館": "看 三期第15部",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -1559,10 +1565,10 @@
    "date": "2027-02-26",
    "weekday": "五",
    "items": [
-    {"id": 7057, "lesson": "三期第14部", "topic": "第三期第五十七題", "q": "三期習題 #57", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7058, "lesson": "三期第14部", "topic": "第三期第五十八題", "q": "三期習題 #58", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7059, "lesson": "三期第14部", "topic": "第三期第五十九題", "q": "三期習題 #59", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7060, "lesson": "三期第14部", "topic": "第三期第六十題", "q": "三期習題 #60", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 7061, "lesson": "三期第15部", "topic": "第三期第六十一題", "q": "三期習題 #61", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7062, "lesson": "三期第15部", "topic": "第三期第六十二題", "q": "三期習題 #62", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7063, "lesson": "三期第15部", "topic": "第三期第六十三題", "q": "三期習題 #63", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7064, "lesson": "三期第15部", "topic": "第三期第六十四題", "q": "三期習題 #64", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
@@ -1587,11 +1593,11 @@
    "weekday": "日",
    "items": [
     {"id": 10111, "lesson": "初選歷屆", "topic": "初選 2016 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 6015, "lesson": "三期影片", "topic": "第三期第十五部", "q": "三期第15部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 6016, "lesson": "三期影片", "topic": "第三期第十六部", "q": "三期第16部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
-    "圖書館": "看 三期第15部＋檢討初選 2016",
+    "圖書館": "看 三期第16部＋檢討初選 2016",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -1599,48 +1605,21 @@
    "date": "2027-03-01",
    "weekday": "一",
    "items": [
-    {"id": 7061, "lesson": "三期第15部", "topic": "第三期第六十一題", "q": "三期習題 #61", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7062, "lesson": "三期第15部", "topic": "第三期第六十二題", "q": "三期習題 #62", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7063, "lesson": "三期第15部", "topic": "第三期第六十三題", "q": "三期習題 #63", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7064, "lesson": "三期第15部", "topic": "第三期第六十四題", "q": "三期習題 #64", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 6016, "lesson": "三期影片", "topic": "第三期第十六部", "q": "三期第16部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 7065, "lesson": "三期第16部", "topic": "第三期第六十五題", "q": "三期習題 #65", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7066, "lesson": "三期第16部", "topic": "第三期第六十六題", "q": "三期習題 #66", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7067, "lesson": "三期第16部", "topic": "第三期第六十七題", "q": "三期習題 #67", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7068, "lesson": "三期第16部", "topic": "第三期第六十八題", "q": "三期習題 #68", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 6017, "lesson": "三期影片", "topic": "第三期第十七部", "q": "三期第17部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
-    "圖書館": "看 三期第16部＋4 題",
+    "圖書館": "看 三期第17部＋4 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
   {
    "date": "2027-03-02",
    "weekday": "二",
-   "items": [
-    {"id": 7065, "lesson": "三期第16部", "topic": "第三期第六十五題", "q": "三期習題 #65", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7066, "lesson": "三期第16部", "topic": "第三期第六十六題", "q": "三期習題 #66", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7067, "lesson": "三期第16部", "topic": "第三期第六十七題", "q": "三期習題 #67", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7068, "lesson": "三期第16部", "topic": "第三期第六十八題", "q": "三期習題 #68", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-03-03",
-   "weekday": "三",
-   "items": [
-    {"id": 6017, "lesson": "三期影片", "topic": "第三期第十七部", "q": "三期第17部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 三期第17部",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-03-04",
-   "weekday": "四",
    "items": [
     {"id": 7069, "lesson": "三期第17部", "topic": "第三期第六十九題", "q": "三期習題 #69", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7070, "lesson": "三期第17部", "topic": "第三期第七十題", "q": "三期習題 #70", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1654,14 +1633,41 @@
    }
   },
   {
-   "date": "2027-03-05",
-   "weekday": "五",
+   "date": "2027-03-03",
+   "weekday": "三",
    "items": [
     {"id": 6018, "lesson": "三期影片", "topic": "第三期第十八部", "q": "三期第18部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
     "圖書館": "看 三期第18部",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-03-04",
+   "weekday": "四",
+   "items": [
+    {"id": 7073, "lesson": "三期第18部", "topic": "第三期第七十三題", "q": "三期習題 #73", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7074, "lesson": "三期第18部", "topic": "第三期第七十四題", "q": "三期習題 #74", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7075, "lesson": "三期第18部", "topic": "第三期第七十五題", "q": "三期習題 #75", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7076, "lesson": "三期第18部", "topic": "第三期第七十六題", "q": "三期習題 #76", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-03-05",
+   "weekday": "五",
+   "items": [
+    {"id": 6019, "lesson": "三期影片", "topic": "第三期第十九部", "q": "三期第19部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "看 三期第19部",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -1691,33 +1697,6 @@
    "date": "2027-03-08",
    "weekday": "一",
    "items": [
-    {"id": 7073, "lesson": "三期第18部", "topic": "第三期第七十三題", "q": "三期習題 #73", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7074, "lesson": "三期第18部", "topic": "第三期第七十四題", "q": "三期習題 #74", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7075, "lesson": "三期第18部", "topic": "第三期第七十五題", "q": "三期習題 #75", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7076, "lesson": "三期第18部", "topic": "第三期第七十六題", "q": "三期習題 #76", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-03-09",
-   "weekday": "二",
-   "items": [
-    {"id": 6019, "lesson": "三期影片", "topic": "第三期第十九部", "q": "三期第19部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 三期第19部",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-03-10",
-   "weekday": "三",
-   "items": [
     {"id": 7077, "lesson": "三期第19部", "topic": "第三期第七十七題", "q": "三期習題 #77", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7078, "lesson": "三期第19部", "topic": "第三期第七十八題", "q": "三期習題 #78", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7079, "lesson": "三期第19部", "topic": "第三期第七十九題", "q": "三期習題 #79", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1730,8 +1709,8 @@
    }
   },
   {
-   "date": "2027-03-11",
-   "weekday": "四",
+   "date": "2027-03-09",
+   "weekday": "二",
    "items": [
     {"id": 6020, "lesson": "三期影片", "topic": "第三期第二十部", "q": "三期第20部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
@@ -1742,13 +1721,40 @@
    }
   },
   {
-   "date": "2027-03-12",
-   "weekday": "五",
+   "date": "2027-03-10",
+   "weekday": "三",
    "items": [
     {"id": 7081, "lesson": "三期第20部", "topic": "第三期第八十一題", "q": "三期習題 #81", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7082, "lesson": "三期第20部", "topic": "第三期第八十二題", "q": "三期習題 #82", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7083, "lesson": "三期第20部", "topic": "第三期第八十三題", "q": "三期習題 #83", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7084, "lesson": "三期第20部", "topic": "第三期第八十四題", "q": "三期習題 #84", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-03-11",
+   "weekday": "四",
+   "items": [
+    {"id": 6021, "lesson": "三期影片", "topic": "第三期第二十一部", "q": "三期第21部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "看 三期第21部",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-03-12",
+   "weekday": "五",
+   "items": [
+    {"id": 7085, "lesson": "三期第21部", "topic": "第三期第八十五題", "q": "三期習題 #85", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7086, "lesson": "三期第21部", "topic": "第三期第八十六題", "q": "三期習題 #86", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7087, "lesson": "三期第21部", "topic": "第三期第八十七題", "q": "三期習題 #87", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7088, "lesson": "三期第21部", "topic": "第三期第八十八題", "q": "三期習題 #88", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
@@ -1774,44 +1780,17 @@
    "items": [
     {"id": 10112, "lesson": "初選歷屆", "topic": "初選 2015 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
     {"id": 10113, "lesson": "初選歷屆", "topic": "初選 2014 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 6021, "lesson": "三期影片", "topic": "第三期第二十一部", "q": "三期第21部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 6022, "lesson": "三期影片", "topic": "第三期第二十二部", "q": "三期第22部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
-    "圖書館": "看 三期第21部＋檢討初選 2015＋檢討初選 2014",
+    "圖書館": "看 三期第22部＋檢討初選 2015＋檢討初選 2014",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
   {
    "date": "2027-03-15",
    "weekday": "一",
-   "items": [
-    {"id": 7085, "lesson": "三期第21部", "topic": "第三期第八十五題", "q": "三期習題 #85", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7086, "lesson": "三期第21部", "topic": "第三期第八十六題", "q": "三期習題 #86", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7087, "lesson": "三期第21部", "topic": "第三期第八十七題", "q": "三期習題 #87", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7088, "lesson": "三期第21部", "topic": "第三期第八十八題", "q": "三期習題 #88", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-03-16",
-   "weekday": "二",
-   "items": [
-    {"id": 6022, "lesson": "三期影片", "topic": "第三期第二十二部", "q": "三期第22部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 三期第22部",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-03-17",
-   "weekday": "三",
    "items": [
     {"id": 7089, "lesson": "三期第22部", "topic": "第三期第八十九題", "q": "三期習題 #89", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7090, "lesson": "三期第22部", "topic": "第三期第九十題", "q": "三期習題 #90", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -1825,8 +1804,8 @@
    }
   },
   {
-   "date": "2027-03-18",
-   "weekday": "四",
+   "date": "2027-03-16",
+   "weekday": "二",
    "items": [
     {"id": 6023, "lesson": "三期影片", "topic": "第三期第二十三部", "q": "三期第23部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
@@ -1837,13 +1816,40 @@
    }
   },
   {
-   "date": "2027-03-19",
-   "weekday": "五",
+   "date": "2027-03-17",
+   "weekday": "三",
    "items": [
     {"id": 7093, "lesson": "三期第23部", "topic": "第三期第九十三題", "q": "三期習題 #93", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7094, "lesson": "三期第23部", "topic": "第三期第九十四題", "q": "三期習題 #94", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7095, "lesson": "三期第23部", "topic": "第三期第九十五題", "q": "三期習題 #95", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 7096, "lesson": "三期第23部", "topic": "第三期第九十六題", "q": "三期習題 #96", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "4 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-03-18",
+   "weekday": "四",
+   "items": [
+    {"id": 6024, "lesson": "三期影片", "topic": "第三期第二十四部", "q": "三期第24部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "看 三期第24部",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-03-19",
+   "weekday": "五",
+   "items": [
+    {"id": 7097, "lesson": "三期第24部", "topic": "第三期第九十七題", "q": "三期習題 #97", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7098, "lesson": "三期第24部", "topic": "第三期第九十八題", "q": "三期習題 #98", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7099, "lesson": "三期第24部", "topic": "第三期第九十九題", "q": "三期習題 #99", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 7100, "lesson": "三期第24部", "topic": "第三期第十十題", "q": "三期習題 #100", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
@@ -1867,12 +1873,11 @@
    "date": "2027-03-21",
    "weekday": "日",
    "items": [
-    {"id": 10114, "lesson": "初選歷屆", "topic": "初選 2013 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 6024, "lesson": "三期影片", "topic": "第三期第二十四部", "q": "三期第24部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 10114, "lesson": "初選歷屆", "topic": "初選 2013 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
-    "圖書館": "看 三期第24部＋檢討初選 2013",
+    "圖書館": "檢討初選 2013",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -1880,14 +1885,11 @@
    "date": "2027-03-22",
    "weekday": "一",
    "items": [
-    {"id": 7097, "lesson": "三期第24部", "topic": "第三期第九十七題", "q": "三期習題 #97", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7098, "lesson": "三期第24部", "topic": "第三期第九十八題", "q": "三期習題 #98", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7099, "lesson": "三期第24部", "topic": "第三期第九十九題", "q": "三期習題 #99", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 7100, "lesson": "三期第24部", "topic": "第三期第十十題", "q": "三期習題 #100", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 8001, "lesson": "四期影片", "topic": "第四期第一部", "q": "四期第1部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "4 題",
+    "圖書館": "看 四期第1部",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -1895,11 +1897,13 @@
    "date": "2027-03-23",
    "weekday": "二",
    "items": [
-    {"id": 8001, "lesson": "四期影片", "topic": "第四期第一部", "q": "四期第1部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9001, "lesson": "四期第1部", "topic": "第四期第一題", "q": "四期習題 #1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9002, "lesson": "四期第1部", "topic": "第四期第二題", "q": "四期習題 #2", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9003, "lesson": "四期第1部", "topic": "第四期第三題", "q": "四期習題 #3", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 四期第1部",
+    "圖書館": "3 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -1920,8 +1924,8 @@
    "weekday": "四",
    "items": [
     {"id": 11101, "lesson": "複選歷屆", "topic": "複選 2026 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 9001, "lesson": "四期第1部", "topic": "第四期第一題", "q": "四期習題 #1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9002, "lesson": "四期第1部", "topic": "第四期第二題", "q": "四期習題 #2", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9004, "lesson": "四期第1部", "topic": "第四期第四題", "q": "四期習題 #4", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9005, "lesson": "四期第1部", "topic": "第四期第五題", "q": "四期習題 #5", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
@@ -1933,13 +1937,11 @@
    "date": "2027-03-26",
    "weekday": "五",
    "items": [
-    {"id": 9003, "lesson": "四期第1部", "topic": "第四期第三題", "q": "四期習題 #3", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9004, "lesson": "四期第1部", "topic": "第四期第四題", "q": "四期習題 #4", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9005, "lesson": "四期第1部", "topic": "第四期第五題", "q": "四期習題 #5", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 8002, "lesson": "四期影片", "topic": "第四期第二部", "q": "四期第2部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "3 題",
+    "圖書館": "看 四期第2部",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -1971,18 +1973,6 @@
    "date": "2027-03-29",
    "weekday": "一",
    "items": [
-    {"id": 8002, "lesson": "四期影片", "topic": "第四期第二部", "q": "四期第2部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 四期第2部",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-03-30",
-   "weekday": "二",
-   "items": [
     {"id": 9006, "lesson": "四期第2部", "topic": "第四期第六題", "q": "四期習題 #6", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9007, "lesson": "四期第2部", "topic": "第四期第七題", "q": "四期習題 #7", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9008, "lesson": "四期第2部", "topic": "第四期第八題", "q": "四期習題 #8", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
@@ -1994,8 +1984,8 @@
    }
   },
   {
-   "date": "2027-03-31",
-   "weekday": "三",
+   "date": "2027-03-30",
+   "weekday": "二",
    "items": [
     {"id": 9009, "lesson": "四期第2部", "topic": "第四期第九題", "q": "四期習題 #9", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9010, "lesson": "四期第2部", "topic": "第四期第十題", "q": "四期習題 #10", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
@@ -2007,8 +1997,8 @@
    }
   },
   {
-   "date": "2027-04-01",
-   "weekday": "四",
+   "date": "2027-03-31",
+   "weekday": "三",
    "items": [
     {"id": 8003, "lesson": "四期影片", "topic": "第四期第三部", "q": "四期第3部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
@@ -2019,8 +2009,8 @@
    }
   },
   {
-   "date": "2027-04-02",
-   "weekday": "五",
+   "date": "2027-04-01",
+   "weekday": "四",
    "items": [
     {"id": 9011, "lesson": "四期第3部", "topic": "第四期第十一題", "q": "四期習題 #11", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9012, "lesson": "四期第3部", "topic": "第四期第十二題", "q": "四期習題 #12", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2029,6 +2019,19 @@
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
     "圖書館": "3 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-04-02",
+   "weekday": "五",
+   "items": [
+    {"id": 9014, "lesson": "四期第3部", "topic": "第四期第十四題", "q": "四期習題 #14", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9015, "lesson": "四期第3部", "topic": "第四期第十五題", "q": "四期習題 #15", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "2 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2060,10 +2063,10 @@
    "date": "2027-04-05",
    "weekday": "一",
    "items": [
-    {"id": 9014, "lesson": "四期第3部", "topic": "第四期第十四題", "q": "四期習題 #14", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9015, "lesson": "四期第3部", "topic": "第四期第十五題", "q": "四期習題 #15", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 8004, "lesson": "四期影片", "topic": "第四期第四部", "q": "四期第4部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9016, "lesson": "四期第4部", "topic": "第四期第十六題", "q": "四期習題 #16", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9016, "lesson": "四期第4部", "topic": "第四期第十六題", "q": "四期習題 #16", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9017, "lesson": "四期第4部", "topic": "第四期第十七題", "q": "四期習題 #17", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9018, "lesson": "四期第4部", "topic": "第四期第十八題", "q": "四期習題 #18", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
@@ -2075,13 +2078,12 @@
    "date": "2027-04-06",
    "weekday": "二",
    "items": [
-    {"id": 9017, "lesson": "四期第4部", "topic": "第四期第十七題", "q": "四期習題 #17", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9018, "lesson": "四期第4部", "topic": "第四期第十八題", "q": "四期習題 #18", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9019, "lesson": "四期第4部", "topic": "第四期第十九題", "q": "四期習題 #19", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9019, "lesson": "四期第4部", "topic": "第四期第十九題", "q": "四期習題 #19", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9020, "lesson": "四期第4部", "topic": "第四期第二十題", "q": "四期習題 #20", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "3 題",
+    "圖書館": "2 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2102,11 +2104,11 @@
    "weekday": "四",
    "items": [
     {"id": 11102, "lesson": "複選歷屆", "topic": "複選 2025 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 9020, "lesson": "四期第4部", "topic": "第四期第二十題", "q": "四期習題 #20", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 8005, "lesson": "四期影片", "topic": "第四期第五部", "q": "四期第5部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "1 題＋檢討複選 2025",
+    "圖書館": "看 四期第5部＋檢討複選 2025",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2114,11 +2116,13 @@
    "date": "2027-04-09",
    "weekday": "五",
    "items": [
-    {"id": 8005, "lesson": "四期影片", "topic": "第四期第五部", "q": "四期第5部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9021, "lesson": "四期第5部", "topic": "第四期第二十一題", "q": "四期習題 #21", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9022, "lesson": "四期第5部", "topic": "第四期第二十二題", "q": "四期習題 #22", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9023, "lesson": "四期第5部", "topic": "第四期第二十三題", "q": "四期習題 #23", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 四期第5部",
+    "圖書館": "3 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2150,20 +2154,6 @@
    "date": "2027-04-12",
    "weekday": "一",
    "items": [
-    {"id": 9021, "lesson": "四期第5部", "topic": "第四期第二十一題", "q": "四期習題 #21", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9022, "lesson": "四期第5部", "topic": "第四期第二十二題", "q": "四期習題 #22", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9023, "lesson": "四期第5部", "topic": "第四期第二十三題", "q": "四期習題 #23", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "3 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-04-13",
-   "weekday": "二",
-   "items": [
     {"id": 9024, "lesson": "四期第5部", "topic": "第四期第二十四題", "q": "四期習題 #24", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
@@ -2173,8 +2163,8 @@
    }
   },
   {
-   "date": "2027-04-14",
-   "weekday": "三",
+   "date": "2027-04-13",
+   "weekday": "二",
    "items": [
     {"id": 8006, "lesson": "四期影片", "topic": "第四期第六部", "q": "四期第6部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
@@ -2185,8 +2175,8 @@
    }
   },
   {
-   "date": "2027-04-15",
-   "weekday": "四",
+   "date": "2027-04-14",
+   "weekday": "三",
    "items": [
     {"id": 9025, "lesson": "四期第6部", "topic": "第四期第二十五題", "q": "四期習題 #25", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9026, "lesson": "四期第6部", "topic": "第四期第二十六題", "q": "四期習題 #26", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2199,14 +2189,26 @@
    }
   },
   {
-   "date": "2027-04-16",
-   "weekday": "五",
+   "date": "2027-04-15",
+   "weekday": "四",
    "items": [
     {"id": 9028, "lesson": "四期第6部", "topic": "第四期第二十八題", "q": "四期習題 #28", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
     "圖書館": "1 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-04-16",
+   "weekday": "五",
+   "items": [
+    {"id": 8007, "lesson": "四期影片", "topic": "第四期第七部", "q": "四期第7部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "看 四期第7部",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2238,18 +2240,6 @@
    "date": "2027-04-19",
    "weekday": "一",
    "items": [
-    {"id": 8007, "lesson": "四期影片", "topic": "第四期第七部", "q": "四期第7部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 四期第7部",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-04-20",
-   "weekday": "二",
-   "items": [
     {"id": 9029, "lesson": "四期第7部", "topic": "第四期第二十九題", "q": "四期習題 #29", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9030, "lesson": "四期第7部", "topic": "第四期第三十題", "q": "四期習題 #30", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9031, "lesson": "四期第7部", "topic": "第四期第三十一題", "q": "四期習題 #31", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
@@ -2257,6 +2247,18 @@
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
     "圖書館": "3 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-04-20",
+   "weekday": "二",
+   "items": [
+    {"id": 9032, "lesson": "四期第7部", "topic": "第四期第三十二題", "q": "四期習題 #32", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "1 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2277,11 +2279,11 @@
    "weekday": "四",
    "items": [
     {"id": 11103, "lesson": "複選歷屆", "topic": "複選 2024 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 9032, "lesson": "四期第7部", "topic": "第四期第三十二題", "q": "四期習題 #32", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 8008, "lesson": "四期影片", "topic": "第四期第八部", "q": "四期第8部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "1 題＋檢討複選 2024",
+    "圖書館": "看 四期第8部＋檢討複選 2024",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2289,11 +2291,13 @@
    "date": "2027-04-23",
    "weekday": "五",
    "items": [
-    {"id": 8008, "lesson": "四期影片", "topic": "第四期第八部", "q": "四期第8部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9033, "lesson": "四期第8部", "topic": "第四期第三十三題", "q": "四期習題 #33", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9034, "lesson": "四期第8部", "topic": "第四期第三十四題", "q": "四期習題 #34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9035, "lesson": "四期第8部", "topic": "第四期第三十五題", "q": "四期習題 #35", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 四期第8部",
+    "圖書館": "3 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2325,20 +2329,6 @@
    "date": "2027-04-26",
    "weekday": "一",
    "items": [
-    {"id": 9033, "lesson": "四期第8部", "topic": "第四期第三十三題", "q": "四期習題 #33", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9034, "lesson": "四期第8部", "topic": "第四期第三十四題", "q": "四期習題 #34", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9035, "lesson": "四期第8部", "topic": "第四期第三十五題", "q": "四期習題 #35", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "3 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-04-27",
-   "weekday": "二",
-   "items": [
     {"id": 9036, "lesson": "四期第8部", "topic": "第四期第三十六題", "q": "四期習題 #36", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
@@ -2348,8 +2338,8 @@
    }
   },
   {
-   "date": "2027-04-28",
-   "weekday": "三",
+   "date": "2027-04-27",
+   "weekday": "二",
    "items": [
     {"id": 8009, "lesson": "四期影片", "topic": "第四期第九部", "q": "四期第9部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
@@ -2360,8 +2350,8 @@
    }
   },
   {
-   "date": "2027-04-29",
-   "weekday": "四",
+   "date": "2027-04-28",
+   "weekday": "三",
    "items": [
     {"id": 9037, "lesson": "四期第9部", "topic": "第四期第三十七題", "q": "四期習題 #37", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9038, "lesson": "四期第9部", "topic": "第四期第三十八題", "q": "四期習題 #38", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2374,14 +2364,26 @@
    }
   },
   {
-   "date": "2027-04-30",
-   "weekday": "五",
+   "date": "2027-04-29",
+   "weekday": "四",
    "items": [
     {"id": 9040, "lesson": "四期第9部", "topic": "第四期第四十題", "q": "四期習題 #40", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
     "圖書館": "1 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-04-30",
+   "weekday": "五",
+   "items": [
+    {"id": 8010, "lesson": "四期影片", "topic": "第四期第十部", "q": "四期第10部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "看 四期第10部",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2413,18 +2415,6 @@
    "date": "2027-05-03",
    "weekday": "一",
    "items": [
-    {"id": 8010, "lesson": "四期影片", "topic": "第四期第十部", "q": "四期第10部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 四期第10部",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-05-04",
-   "weekday": "二",
-   "items": [
     {"id": 9041, "lesson": "四期第10部", "topic": "第四期第四十一題", "q": "四期習題 #41", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9042, "lesson": "四期第10部", "topic": "第四期第四十二題", "q": "四期習題 #42", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9043, "lesson": "四期第10部", "topic": "第四期第四十三題", "q": "四期習題 #43", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
@@ -2432,6 +2422,18 @@
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
     "圖書館": "3 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-05-04",
+   "weekday": "二",
+   "items": [
+    {"id": 9044, "lesson": "四期第10部", "topic": "第四期第四十四題", "q": "四期習題 #44", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "1 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2452,11 +2454,11 @@
    "weekday": "四",
    "items": [
     {"id": 11104, "lesson": "複選歷屆", "topic": "複選 2023 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 9044, "lesson": "四期第10部", "topic": "第四期第四十四題", "q": "四期習題 #44", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 8011, "lesson": "四期影片", "topic": "第四期第十一部", "q": "四期第11部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "1 題＋檢討複選 2023",
+    "圖書館": "看 四期第11部＋檢討複選 2023",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2464,11 +2466,13 @@
    "date": "2027-05-07",
    "weekday": "五",
    "items": [
-    {"id": 8011, "lesson": "四期影片", "topic": "第四期第十一部", "q": "四期第11部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9045, "lesson": "四期第11部", "topic": "第四期第四十五題", "q": "四期習題 #45", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9046, "lesson": "四期第11部", "topic": "第四期第四十六題", "q": "四期習題 #46", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9047, "lesson": "四期第11部", "topic": "第四期第四十七題", "q": "四期習題 #47", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 四期第11部",
+    "圖書館": "3 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2500,20 +2504,6 @@
    "date": "2027-05-10",
    "weekday": "一",
    "items": [
-    {"id": 9045, "lesson": "四期第11部", "topic": "第四期第四十五題", "q": "四期習題 #45", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9046, "lesson": "四期第11部", "topic": "第四期第四十六題", "q": "四期習題 #46", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9047, "lesson": "四期第11部", "topic": "第四期第四十七題", "q": "四期習題 #47", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "3 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-05-11",
-   "weekday": "二",
-   "items": [
     {"id": 9048, "lesson": "四期第11部", "topic": "第四期第四十八題", "q": "四期習題 #48", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
@@ -2523,8 +2513,8 @@
    }
   },
   {
-   "date": "2027-05-12",
-   "weekday": "三",
+   "date": "2027-05-11",
+   "weekday": "二",
    "items": [
     {"id": 8012, "lesson": "四期影片", "topic": "第四期第十二部", "q": "四期第12部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
@@ -2535,8 +2525,8 @@
    }
   },
   {
-   "date": "2027-05-13",
-   "weekday": "四",
+   "date": "2027-05-12",
+   "weekday": "三",
    "items": [
     {"id": 9049, "lesson": "四期第12部", "topic": "第四期第四十九題", "q": "四期習題 #49", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9050, "lesson": "四期第12部", "topic": "第四期第五十題", "q": "四期習題 #50", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2549,14 +2539,26 @@
    }
   },
   {
-   "date": "2027-05-14",
-   "weekday": "五",
+   "date": "2027-05-13",
+   "weekday": "四",
    "items": [
     {"id": 9052, "lesson": "四期第12部", "topic": "第四期第五十二題", "q": "四期習題 #52", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
     "圖書館": "1 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-05-14",
+   "weekday": "五",
+   "items": [
+    {"id": 8013, "lesson": "四期影片", "topic": "第四期第十三部", "q": "四期第13部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "看 四期第13部",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2588,18 +2590,6 @@
    "date": "2027-05-17",
    "weekday": "一",
    "items": [
-    {"id": 8013, "lesson": "四期影片", "topic": "第四期第十三部", "q": "四期第13部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 四期第13部",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-05-18",
-   "weekday": "二",
-   "items": [
     {"id": 9053, "lesson": "四期第13部", "topic": "第四期第五十三題", "q": "四期習題 #53", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9054, "lesson": "四期第13部", "topic": "第四期第五十四題", "q": "四期習題 #54", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9055, "lesson": "四期第13部", "topic": "第四期第五十五題", "q": "四期習題 #55", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
@@ -2607,6 +2597,18 @@
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
     "圖書館": "3 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-05-18",
+   "weekday": "二",
+   "items": [
+    {"id": 9056, "lesson": "四期第13部", "topic": "第四期第五十六題", "q": "四期習題 #56", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "1 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2627,11 +2629,11 @@
    "weekday": "四",
    "items": [
     {"id": 11105, "lesson": "複選歷屆", "topic": "複選 2022 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 9056, "lesson": "四期第13部", "topic": "第四期第五十六題", "q": "四期習題 #56", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 8014, "lesson": "四期影片", "topic": "第四期第十四部", "q": "四期第14部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "1 題＋檢討複選 2022",
+    "圖書館": "看 四期第14部＋檢討複選 2022",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2639,11 +2641,13 @@
    "date": "2027-05-21",
    "weekday": "五",
    "items": [
-    {"id": 8014, "lesson": "四期影片", "topic": "第四期第十四部", "q": "四期第14部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9057, "lesson": "四期第14部", "topic": "第四期第五十七題", "q": "四期習題 #57", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9058, "lesson": "四期第14部", "topic": "第四期第五十八題", "q": "四期習題 #58", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9059, "lesson": "四期第14部", "topic": "第四期第五十九題", "q": "四期習題 #59", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 四期第14部",
+    "圖書館": "3 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2675,20 +2679,6 @@
    "date": "2027-05-24",
    "weekday": "一",
    "items": [
-    {"id": 9057, "lesson": "四期第14部", "topic": "第四期第五十七題", "q": "四期習題 #57", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9058, "lesson": "四期第14部", "topic": "第四期第五十八題", "q": "四期習題 #58", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9059, "lesson": "四期第14部", "topic": "第四期第五十九題", "q": "四期習題 #59", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "3 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-05-25",
-   "weekday": "二",
-   "items": [
     {"id": 9060, "lesson": "四期第14部", "topic": "第四期第六十題", "q": "四期習題 #60", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
@@ -2698,8 +2688,8 @@
    }
   },
   {
-   "date": "2027-05-26",
-   "weekday": "三",
+   "date": "2027-05-25",
+   "weekday": "二",
    "items": [
     {"id": 8015, "lesson": "四期影片", "topic": "第四期第十五部", "q": "四期第15部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
@@ -2710,8 +2700,8 @@
    }
   },
   {
-   "date": "2027-05-27",
-   "weekday": "四",
+   "date": "2027-05-26",
+   "weekday": "三",
    "items": [
     {"id": 9061, "lesson": "四期第15部", "topic": "第四期第六十一題", "q": "四期習題 #61", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9062, "lesson": "四期第15部", "topic": "第四期第六十二題", "q": "四期習題 #62", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -2724,14 +2714,26 @@
    }
   },
   {
-   "date": "2027-05-28",
-   "weekday": "五",
+   "date": "2027-05-27",
+   "weekday": "四",
    "items": [
     {"id": 9064, "lesson": "四期第15部", "topic": "第四期第六十四題", "q": "四期習題 #64", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
     "圖書館": "1 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-05-28",
+   "weekday": "五",
+   "items": [
+    {"id": 8016, "lesson": "四期影片", "topic": "第四期第十六部", "q": "四期第16部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "看 四期第16部",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2763,18 +2765,6 @@
    "date": "2027-05-31",
    "weekday": "一",
    "items": [
-    {"id": 8016, "lesson": "四期影片", "topic": "第四期第十六部", "q": "四期第16部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 四期第16部",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-06-01",
-   "weekday": "二",
-   "items": [
     {"id": 9065, "lesson": "四期第16部", "topic": "第四期第六十五題", "q": "四期習題 #65", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9066, "lesson": "四期第16部", "topic": "第四期第六十六題", "q": "四期習題 #66", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9067, "lesson": "四期第16部", "topic": "第四期第六十七題", "q": "四期習題 #67", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
@@ -2782,6 +2772,18 @@
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
     "圖書館": "3 題",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-06-01",
+   "weekday": "二",
+   "items": [
+    {"id": 9068, "lesson": "四期第16部", "topic": "第四期第六十八題", "q": "四期習題 #68", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "1 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2802,11 +2804,11 @@
    "weekday": "四",
    "items": [
     {"id": 11106, "lesson": "複選歷屆", "topic": "複選 2021 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 9068, "lesson": "四期第16部", "topic": "第四期第六十八題", "q": "四期習題 #68", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 8017, "lesson": "四期影片", "topic": "第四期第十七部", "q": "四期第17部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "1 題＋檢討複選 2021",
+    "圖書館": "看 四期第17部＋檢討複選 2021",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2814,11 +2816,13 @@
    "date": "2027-06-04",
    "weekday": "五",
    "items": [
-    {"id": 8017, "lesson": "四期影片", "topic": "第四期第十七部", "q": "四期第17部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9069, "lesson": "四期第17部", "topic": "第四期第六十九題", "q": "四期習題 #69", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9070, "lesson": "四期第17部", "topic": "第四期第七十題", "q": "四期習題 #70", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9071, "lesson": "四期第17部", "topic": "第四期第七十一題", "q": "四期習題 #71", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 四期第17部",
+    "圖書館": "3 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2850,20 +2854,6 @@
    "date": "2027-06-07",
    "weekday": "一",
    "items": [
-    {"id": 9069, "lesson": "四期第17部", "topic": "第四期第六十九題", "q": "四期習題 #69", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9070, "lesson": "四期第17部", "topic": "第四期第七十題", "q": "四期習題 #70", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9071, "lesson": "四期第17部", "topic": "第四期第七十一題", "q": "四期習題 #71", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "3 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-06-08",
-   "weekday": "二",
-   "items": [
     {"id": 9072, "lesson": "四期第17部", "topic": "第四期第七十二題", "q": "四期習題 #72", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
@@ -2873,17 +2863,29 @@
    }
   },
   {
+   "date": "2027-06-08",
+   "weekday": "二",
+   "items": [
+    {"id": 8018, "lesson": "四期影片", "topic": "第四期第十八部", "q": "四期第18部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "看 四期第18部",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
    "date": "2027-06-09",
    "weekday": "三",
    "items": [
-    {"id": 8018, "lesson": "四期影片", "topic": "第四期第十八部", "q": "四期第18部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9073, "lesson": "四期第18部", "topic": "第四期第七十三題", "q": "四期習題 #73", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9074, "lesson": "四期第18部", "topic": "第四期第七十四題", "q": "四期習題 #74", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9075, "lesson": "四期第18部", "topic": "第四期第七十五題", "q": "四期習題 #75", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9075, "lesson": "四期第18部", "topic": "第四期第七十五題", "q": "四期習題 #75", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9076, "lesson": "四期第18部", "topic": "第四期第七十六題", "q": "四期習題 #76", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "週末／假日：這段併進圖書館",
-    "圖書館": "看 四期第18部＋3 題",
+    "圖書館": "4 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2891,11 +2893,11 @@
    "date": "2027-06-10",
    "weekday": "四",
    "items": [
-    {"id": 9076, "lesson": "四期第18部", "topic": "第四期第七十六題", "q": "四期習題 #76", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 8019, "lesson": "四期影片", "topic": "第四期第十九部", "q": "四期第19部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "1 題",
+    "圖書館": "看 四期第19部",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2903,11 +2905,13 @@
    "date": "2027-06-11",
    "weekday": "五",
    "items": [
-    {"id": 8019, "lesson": "四期影片", "topic": "第四期第十九部", "q": "四期第19部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9077, "lesson": "四期第19部", "topic": "第四期第七十七題", "q": "四期習題 #77", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9078, "lesson": "四期第19部", "topic": "第四期第七十八題", "q": "四期習題 #78", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9079, "lesson": "四期第19部", "topic": "第四期第七十九題", "q": "四期習題 #79", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 四期第19部",
+    "圖書館": "3 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2939,13 +2943,11 @@
    "date": "2027-06-14",
    "weekday": "一",
    "items": [
-    {"id": 9077, "lesson": "四期第19部", "topic": "第四期第七十七題", "q": "四期習題 #77", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9078, "lesson": "四期第19部", "topic": "第四期第七十八題", "q": "四期習題 #78", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9079, "lesson": "四期第19部", "topic": "第四期第七十九題", "q": "四期習題 #79", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9080, "lesson": "四期第19部", "topic": "第四期第八十題", "q": "四期習題 #80", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "3 題",
+    "圖書館": "1 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2953,11 +2955,11 @@
    "date": "2027-06-15",
    "weekday": "二",
    "items": [
-    {"id": 9080, "lesson": "四期第19部", "topic": "第四期第八十題", "q": "四期習題 #80", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 8020, "lesson": "四期影片", "topic": "第四期第二十部", "q": "四期第20部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "1 題",
+    "圖書館": "看 四期第20部",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2978,11 +2980,12 @@
    "weekday": "四",
    "items": [
     {"id": 11107, "lesson": "複選歷屆", "topic": "複選 2020 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 8020, "lesson": "四期影片", "topic": "第四期第二十部", "q": "四期第20部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9081, "lesson": "四期第20部", "topic": "第四期第八十一題", "q": "四期習題 #81", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9082, "lesson": "四期第20部", "topic": "第四期第八十二題", "q": "四期習題 #82", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "看 四期第20部＋檢討複選 2020",
+    "圖書館": "2 題＋檢討複選 2020",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -2990,13 +2993,12 @@
    "date": "2027-06-18",
    "weekday": "五",
    "items": [
-    {"id": 9081, "lesson": "四期第20部", "topic": "第四期第八十一題", "q": "四期習題 #81", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9082, "lesson": "四期第20部", "topic": "第四期第八十二題", "q": "四期習題 #82", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9083, "lesson": "四期第20部", "topic": "第四期第八十三題", "q": "四期習題 #83", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9083, "lesson": "四期第20部", "topic": "第四期第八十三題", "q": "四期習題 #83", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9084, "lesson": "四期第20部", "topic": "第四期第八十四題", "q": "四期習題 #84", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "3 題",
+    "圖書館": "2 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -3028,18 +3030,6 @@
    "date": "2027-06-21",
    "weekday": "一",
    "items": [
-    {"id": 9084, "lesson": "四期第20部", "topic": "第四期第八十四題", "q": "四期習題 #84", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
-   ],
-   "plan": {
-    "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "1 題",
-    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
-   }
-  },
-  {
-   "date": "2027-06-22",
-   "weekday": "二",
-   "items": [
     {"id": 8021, "lesson": "四期影片", "topic": "第四期第二十一部", "q": "四期第21部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
@@ -3049,8 +3039,8 @@
    }
   },
   {
-   "date": "2027-06-23",
-   "weekday": "三",
+   "date": "2027-06-22",
+   "weekday": "二",
    "items": [
     {"id": 9085, "lesson": "四期第21部", "topic": "第四期第八十五題", "q": "四期習題 #85", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9086, "lesson": "四期第21部", "topic": "第四期第八十六題", "q": "四期習題 #86", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
@@ -3063,8 +3053,8 @@
    }
   },
   {
-   "date": "2027-06-24",
-   "weekday": "四",
+   "date": "2027-06-23",
+   "weekday": "三",
    "items": [
     {"id": 9088, "lesson": "四期第21部", "topic": "第四期第八十八題", "q": "四期習題 #88", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
@@ -3075,14 +3065,28 @@
    }
   },
   {
-   "date": "2027-06-25",
-   "weekday": "五",
+   "date": "2027-06-24",
+   "weekday": "四",
    "items": [
     {"id": 8022, "lesson": "四期影片", "topic": "第四期第二十二部", "q": "四期第22部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
     "圖書館": "看 四期第22部",
+    "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
+   }
+  },
+  {
+   "date": "2027-06-25",
+   "weekday": "五",
+   "items": [
+    {"id": 9089, "lesson": "四期第22部", "topic": "第四期第八十九題", "q": "四期習題 #89", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9090, "lesson": "四期第22部", "topic": "第四期第九十題", "q": "四期習題 #90", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9091, "lesson": "四期第22部", "topic": "第四期第九十一題", "q": "四期習題 #91", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+   ],
+   "plan": {
+    "學校": "學校課業；有空翻講義（當字典用）",
+    "圖書館": "3 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -3114,13 +3118,11 @@
    "date": "2027-06-28",
    "weekday": "一",
    "items": [
-    {"id": 9089, "lesson": "四期第22部", "topic": "第四期第八十九題", "q": "四期習題 #89", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9090, "lesson": "四期第22部", "topic": "第四期第九十題", "q": "四期習題 #90", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9091, "lesson": "四期第22部", "topic": "第四期第九十一題", "q": "四期習題 #91", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9092, "lesson": "四期第22部", "topic": "第四期第九十二題", "q": "四期習題 #92", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "3 題",
+    "圖書館": "1 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -3128,11 +3130,11 @@
    "date": "2027-06-29",
    "weekday": "二",
    "items": [
-    {"id": 9092, "lesson": "四期第22部", "topic": "第四期第九十二題", "q": "四期習題 #92", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 8023, "lesson": "四期影片", "topic": "第四期第二十三部", "q": "四期第23部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "學校課業；有空翻講義（當字典用）",
-    "圖書館": "1 題",
+    "圖書館": "看 四期第23部",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -3153,11 +3155,12 @@
    "weekday": "四",
    "items": [
     {"id": 11108, "lesson": "複選歷屆", "topic": "複選 2019 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 8023, "lesson": "四期影片", "topic": "第四期第二十三部", "q": "四期第23部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9093, "lesson": "四期第23部", "topic": "第四期第九十三題", "q": "四期習題 #93", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9094, "lesson": "四期第23部", "topic": "第四期第九十四題", "q": "四期習題 #94", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
-    "圖書館": "看 四期第23部＋檢討複選 2019",
+    "圖書館": "2 題＋檢討複選 2019",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -3165,14 +3168,14 @@
    "date": "2027-07-02",
    "weekday": "五",
    "items": [
-    {"id": 9093, "lesson": "四期第23部", "topic": "第四期第九十三題", "q": "四期習題 #93", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9094, "lesson": "四期第23部", "topic": "第四期第九十四題", "q": "四期習題 #94", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9095, "lesson": "四期第23部", "topic": "第四期第九十五題", "q": "四期習題 #95", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9096, "lesson": "四期第23部", "topic": "第四期第九十六題", "q": "四期習題 #96", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9096, "lesson": "四期第23部", "topic": "第四期第九十六題", "q": "四期習題 #96", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 8024, "lesson": "四期影片", "topic": "第四期第二十四部", "q": "四期第24部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9097, "lesson": "四期第24部", "topic": "第四期第九十七題", "q": "四期習題 #97", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
-    "圖書館": "4 題",
+    "圖書館": "看 四期第24部＋3 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -3217,11 +3220,12 @@
    "weekday": "二",
    "items": [
     {"id": 11109, "lesson": "複選歷屆", "topic": "複選 2018 檢討", "q": "檢討", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": "每題寫錯因，回寫到講義那一招"},
-    {"id": 8024, "lesson": "四期影片", "topic": "第四期第二十四部", "q": "四期第24部", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
+    {"id": 9098, "lesson": "四期第24部", "topic": "第四期第九十八題", "q": "四期習題 #98", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 9099, "lesson": "四期第24部", "topic": "第四期第九十九題", "q": "四期習題 #99", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
-    "圖書館": "看 四期第24部＋檢討複選 2018",
+    "圖書館": "2 題＋檢討複選 2018",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },
@@ -3229,14 +3233,11 @@
    "date": "2027-07-07",
    "weekday": "三",
    "items": [
-    {"id": 9097, "lesson": "四期第24部", "topic": "第四期第九十七題", "q": "四期習題 #97", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9098, "lesson": "四期第24部", "topic": "第四期第九十八題", "q": "四期習題 #98", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
-    {"id": 9099, "lesson": "四期第24部", "topic": "第四期第九十九題", "q": "四期習題 #99", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 9100, "lesson": "四期第24部", "topic": "第四期第十十題", "q": "四期習題 #100", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
    "plan": {
     "學校": "暑假：這段併進圖書館",
-    "圖書館": "4 題",
+    "圖書館": "1 題",
     "晚通勤": "通勤：今天不熟的地方翻講義查一下（當字典用）"
    }
   },

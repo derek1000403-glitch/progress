@@ -108,7 +108,7 @@ def adv():
     return mk(13000 + cnt['adv'], '錯題重寫', '錯題重寫', f'#{cnt["adv"]}', '挑之前寫錯的題（歷屆卷、難題集萃）重寫，不看解答')
 
 # ---------- 排程 ----------
-stage = 'digest'          # digest → v2 → p12 → t3 → t4 → free
+stage = 'v2'              # 11/22 決定 LEC31 當天推完，11/23 直接看 LEC32；原本： digest → v2 → p12 → t3 → t4 → free
 papers_on = False; f_on = False; f_toggle = False
 pending = []
 endinfo = {}
