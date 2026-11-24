@@ -1,6 +1,6 @@
 {
  "title": "物奧進度",
- "updated": "2026-11-22",
+ "updated": "2026-11-24",
  "days": [
   {
    "date": "2026-11-02",
@@ -192,7 +192,7 @@
    "items": [
     {"id": 14002, "lesson": "LEC31", "topic": "天體消化", "q": "軌道方程（圓錐曲線）自己推一遍", "diff": "", "done": false, "doneAt": null, "slot": "早通勤", "note": "11/22 推到兩體問題（位能已完成）；早上接著推，先於 LEC32"},
     {"id": 14001, "lesson": "LEC31", "topic": "天體消化", "q": "比奈公式自己推一遍", "diff": "", "done": false, "doneAt": null, "slot": "早通勤", "note": "11/22 推到兩體問題（位能已完成）；早上接著推，先於 LEC32"},
-    {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": false, "doneAt": null, "slot": "圖書館", "note": ""},
+    {"id": 909, "lesson": "二期影片", "topic": "判斷軌道形狀", "q": "LEC32", "diff": "", "done": true, "doneAt": "2026-11-24", "slot": "圖書館"},
     {"id": 1, "lesson": "L05", "topic": "拋體運動", "q": "Q5", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 2, "lesson": "L05", "topic": "拋體運動", "q": "Q8", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
