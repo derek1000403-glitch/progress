@@ -1,6 +1,6 @@
 {
  "title": "物奧進度",
- "updated": "2026-11-24",
+ "updated": "2026-11-28",
  "days": [
   {
    "date": "2026-11-02",
@@ -235,7 +235,7 @@
    "date": "2026-11-26",
    "weekday": "四",
    "items": [
-    {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": false, "doneAt": null, "slot": "圖書館"},
+    {"id": 912, "lesson": "二期影片", "topic": "甚麼是流體", "q": "LEC35-1", "diff": "", "done": true, "doneAt": "2026-11-28", "slot": "圖書館"},
     {"id": 7, "lesson": "L06", "topic": "衝動量", "q": "Q2", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"},
     {"id": 8, "lesson": "L06", "topic": "衝動量", "q": "Q3", "diff": "E", "done": false, "doneAt": null, "slot": "圖書館"}
    ],
